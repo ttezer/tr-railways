@@ -1,0 +1,2536 @@
+{
+  "generated_at": "2026-07-28T14:01:34.984Z",
+  "status": "ready",
+  "nodes": [
+    {
+      "station_id": "st-ankara-gar",
+      "name": "Ankara Gar",
+      "route_ids": [
+        "route-yht-ankara-istanbul",
+        "route-yht-konya",
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-eryaman-yht",
+      "name": "Eryaman YHT",
+      "route_ids": [
+        "route-yht-ankara-istanbul",
+        "route-yht-konya"
+      ]
+    },
+    {
+      "station_id": "st-polatli-yht",
+      "name": "Polatlı YHT",
+      "route_ids": [
+        "route-yht-ankara-istanbul",
+        "route-yht-konya"
+      ]
+    },
+    {
+      "station_id": "st-eskisehir",
+      "name": "Eskişehir",
+      "route_ids": [
+        "route-yht-ankara-istanbul",
+        "route-yht-konya"
+      ]
+    },
+    {
+      "station_id": "st-bozuyuk-yht",
+      "name": "Bozüyük YHT",
+      "route_ids": [
+        "route-yht-ankara-istanbul",
+        "route-yht-konya"
+      ]
+    },
+    {
+      "station_id": "st-bilecik-yht",
+      "name": "Bilecik YHT",
+      "route_ids": [
+        "route-yht-ankara-istanbul",
+        "route-yht-konya"
+      ]
+    },
+    {
+      "station_id": "st-pamukova-yht",
+      "name": "Pamukova YHT",
+      "route_ids": [
+        "route-yht-ankara-istanbul",
+        "route-yht-konya"
+      ]
+    },
+    {
+      "station_id": "st-arifiye",
+      "name": "Arifiye",
+      "route_ids": [
+        "route-yht-ankara-istanbul",
+        "route-yht-konya"
+      ]
+    },
+    {
+      "station_id": "st-izmit-yht",
+      "name": "İzmit YHT",
+      "route_ids": [
+        "route-yht-ankara-istanbul",
+        "route-yht-konya"
+      ]
+    },
+    {
+      "station_id": "st-gebze",
+      "name": "Gebze",
+      "route_ids": [
+        "route-yht-ankara-istanbul",
+        "route-yht-konya"
+      ]
+    },
+    {
+      "station_id": "st-istanbul-pendik",
+      "name": "İstanbul (Pendik)",
+      "route_ids": [
+        "route-yht-ankara-istanbul",
+        "route-yht-konya"
+      ]
+    },
+    {
+      "station_id": "st-istanbul-bostanci",
+      "name": "İstanbul (Bostancı)",
+      "route_ids": [
+        "route-yht-ankara-istanbul",
+        "route-yht-konya"
+      ]
+    },
+    {
+      "station_id": "st-istanbul-sogutlucesme",
+      "name": "İstanbul (Söğütlüçeşme)",
+      "route_ids": [
+        "route-yht-ankara-istanbul",
+        "route-yht-konya"
+      ]
+    },
+    {
+      "station_id": "st-istanbul-bakirkoy",
+      "name": "İstanbul (Bakırköy)",
+      "route_ids": [
+        "route-yht-ankara-istanbul",
+        "route-yht-konya"
+      ]
+    },
+    {
+      "station_id": "st-istanbul-halkali",
+      "name": "İstanbul (Halkalı)",
+      "route_ids": [
+        "route-yht-ankara-istanbul",
+        "route-yht-konya"
+      ]
+    },
+    {
+      "station_id": "st-selcuklu-yht",
+      "name": "Selçuklu YHT (Konya)",
+      "route_ids": [
+        "route-yht-konya"
+      ]
+    },
+    {
+      "station_id": "st-konya",
+      "name": "Konya",
+      "route_ids": [
+        "route-yht-konya"
+      ]
+    },
+    {
+      "station_id": "st-cumra",
+      "name": "Çumra",
+      "route_ids": [
+        "route-yht-konya"
+      ]
+    },
+    {
+      "station_id": "st-karaman",
+      "name": "Karaman",
+      "route_ids": [
+        "route-yht-konya"
+      ]
+    },
+    {
+      "station_id": "st-kayas",
+      "name": "Kayaş",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-elmadag",
+      "name": "Elmadağ",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-irmak",
+      "name": "Irmak",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-kirikkale",
+      "name": "Kırıkkale",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-cerikli",
+      "name": "Çerikli",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-yerkoy",
+      "name": "Yerköy",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-sefaatli",
+      "name": "Şefaatli",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-sarikent",
+      "name": "Sarıkent",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-yenifakili",
+      "name": "Yenifakılı",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-bogazkopru",
+      "name": "Boğazköprü",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-kayseri",
+      "name": "Kayseri",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-yenicubuk",
+      "name": "Yeniçubuk",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-ihsanli",
+      "name": "İhsanlı",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-sarkisla",
+      "name": "Şarkışla",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-hanli",
+      "name": "Hanlı",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-kalin",
+      "name": "Kalın",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-sivas",
+      "name": "Sivas",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-bostankaya",
+      "name": "Bostankaya",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-yenikangal",
+      "name": "Yenikangal",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-cetinkaya",
+      "name": "Çetinkaya",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-avsar",
+      "name": "Avşar",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-gunes",
+      "name": "Güneş",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-gocentasi",
+      "name": "Göçentaşı",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-curek",
+      "name": "Cürek",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-demirdag",
+      "name": "Demirdağ",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-divrigi",
+      "name": "Divriği",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-kemaliye-calti",
+      "name": "Kemaliye Çaltı",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-adatepe",
+      "name": "Adatepe",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-bagistas",
+      "name": "Bağıştaş",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-ilic",
+      "name": "İliç",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-gullubag",
+      "name": "Güllübağ",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-yahsiler",
+      "name": "Yahşiler",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-eric",
+      "name": "Eriç",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-kemah",
+      "name": "Kemah",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-erzincan",
+      "name": "Erzincan",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-tanyeri",
+      "name": "Tanyeri",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-mercan",
+      "name": "Mercan",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-cadirkaya",
+      "name": "Çadırkaya",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-erbas",
+      "name": "Erbaş",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-karasu",
+      "name": "Karasu",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-askale",
+      "name": "Aşkale",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-kandilli",
+      "name": "Kandilli",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-ilica",
+      "name": "Ilıca",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-palandoken",
+      "name": "Palandöken",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-erzurum",
+      "name": "Erzurum",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-hasankale",
+      "name": "Hasankale",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-koprukoy",
+      "name": "Köprüköy",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-horasan",
+      "name": "Horasan",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-sungutasi",
+      "name": "Süngütaşı",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-karaurgan",
+      "name": "Karaurgan",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-topdagi",
+      "name": "Topdağı",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-sarikamis",
+      "name": "Sarıkamış",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-kars",
+      "name": "Kars",
+      "route_ids": [
+        "route-dogu-ekspresi"
+      ]
+    }
+  ],
+  "ride_edges": [
+    {
+      "id": "pattern-yht-ankara-halkali:1",
+      "from_station_id": "st-ankara-gar",
+      "to_station_id": "st-eryaman-yht",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-ankara-halkali",
+      "direction": "forward",
+      "sequence": 1
+    },
+    {
+      "id": "pattern-yht-ankara-halkali:2",
+      "from_station_id": "st-eryaman-yht",
+      "to_station_id": "st-polatli-yht",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-ankara-halkali",
+      "direction": "forward",
+      "sequence": 2
+    },
+    {
+      "id": "pattern-yht-ankara-halkali:3",
+      "from_station_id": "st-polatli-yht",
+      "to_station_id": "st-eskisehir",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-ankara-halkali",
+      "direction": "forward",
+      "sequence": 3
+    },
+    {
+      "id": "pattern-yht-ankara-halkali:4",
+      "from_station_id": "st-eskisehir",
+      "to_station_id": "st-bozuyuk-yht",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-ankara-halkali",
+      "direction": "forward",
+      "sequence": 4
+    },
+    {
+      "id": "pattern-yht-ankara-halkali:5",
+      "from_station_id": "st-bozuyuk-yht",
+      "to_station_id": "st-bilecik-yht",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-ankara-halkali",
+      "direction": "forward",
+      "sequence": 5
+    },
+    {
+      "id": "pattern-yht-ankara-halkali:6",
+      "from_station_id": "st-bilecik-yht",
+      "to_station_id": "st-pamukova-yht",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-ankara-halkali",
+      "direction": "forward",
+      "sequence": 6
+    },
+    {
+      "id": "pattern-yht-ankara-halkali:7",
+      "from_station_id": "st-pamukova-yht",
+      "to_station_id": "st-arifiye",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-ankara-halkali",
+      "direction": "forward",
+      "sequence": 7
+    },
+    {
+      "id": "pattern-yht-ankara-halkali:8",
+      "from_station_id": "st-arifiye",
+      "to_station_id": "st-izmit-yht",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-ankara-halkali",
+      "direction": "forward",
+      "sequence": 8
+    },
+    {
+      "id": "pattern-yht-ankara-halkali:9",
+      "from_station_id": "st-izmit-yht",
+      "to_station_id": "st-gebze",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-ankara-halkali",
+      "direction": "forward",
+      "sequence": 9
+    },
+    {
+      "id": "pattern-yht-ankara-halkali:10",
+      "from_station_id": "st-gebze",
+      "to_station_id": "st-istanbul-pendik",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-ankara-halkali",
+      "direction": "forward",
+      "sequence": 10
+    },
+    {
+      "id": "pattern-yht-ankara-halkali:11",
+      "from_station_id": "st-istanbul-pendik",
+      "to_station_id": "st-istanbul-bostanci",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-ankara-halkali",
+      "direction": "forward",
+      "sequence": 11
+    },
+    {
+      "id": "pattern-yht-ankara-halkali:12",
+      "from_station_id": "st-istanbul-bostanci",
+      "to_station_id": "st-istanbul-sogutlucesme",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-ankara-halkali",
+      "direction": "forward",
+      "sequence": 12
+    },
+    {
+      "id": "pattern-yht-ankara-halkali:13",
+      "from_station_id": "st-istanbul-sogutlucesme",
+      "to_station_id": "st-istanbul-bakirkoy",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-ankara-halkali",
+      "direction": "forward",
+      "sequence": 13
+    },
+    {
+      "id": "pattern-yht-ankara-halkali:14",
+      "from_station_id": "st-istanbul-bakirkoy",
+      "to_station_id": "st-istanbul-halkali",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-ankara-halkali",
+      "direction": "forward",
+      "sequence": 14
+    },
+    {
+      "id": "pattern-yht-halkali-ankara:1",
+      "from_station_id": "st-istanbul-halkali",
+      "to_station_id": "st-istanbul-bakirkoy",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-halkali-ankara",
+      "direction": "reverse",
+      "sequence": 1
+    },
+    {
+      "id": "pattern-yht-halkali-ankara:2",
+      "from_station_id": "st-istanbul-bakirkoy",
+      "to_station_id": "st-istanbul-sogutlucesme",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-halkali-ankara",
+      "direction": "reverse",
+      "sequence": 2
+    },
+    {
+      "id": "pattern-yht-halkali-ankara:3",
+      "from_station_id": "st-istanbul-sogutlucesme",
+      "to_station_id": "st-istanbul-bostanci",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-halkali-ankara",
+      "direction": "reverse",
+      "sequence": 3
+    },
+    {
+      "id": "pattern-yht-halkali-ankara:4",
+      "from_station_id": "st-istanbul-bostanci",
+      "to_station_id": "st-istanbul-pendik",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-halkali-ankara",
+      "direction": "reverse",
+      "sequence": 4
+    },
+    {
+      "id": "pattern-yht-halkali-ankara:5",
+      "from_station_id": "st-istanbul-pendik",
+      "to_station_id": "st-gebze",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-halkali-ankara",
+      "direction": "reverse",
+      "sequence": 5
+    },
+    {
+      "id": "pattern-yht-halkali-ankara:6",
+      "from_station_id": "st-gebze",
+      "to_station_id": "st-izmit-yht",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-halkali-ankara",
+      "direction": "reverse",
+      "sequence": 6
+    },
+    {
+      "id": "pattern-yht-halkali-ankara:7",
+      "from_station_id": "st-izmit-yht",
+      "to_station_id": "st-arifiye",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-halkali-ankara",
+      "direction": "reverse",
+      "sequence": 7
+    },
+    {
+      "id": "pattern-yht-halkali-ankara:8",
+      "from_station_id": "st-arifiye",
+      "to_station_id": "st-pamukova-yht",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-halkali-ankara",
+      "direction": "reverse",
+      "sequence": 8
+    },
+    {
+      "id": "pattern-yht-halkali-ankara:9",
+      "from_station_id": "st-pamukova-yht",
+      "to_station_id": "st-bilecik-yht",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-halkali-ankara",
+      "direction": "reverse",
+      "sequence": 9
+    },
+    {
+      "id": "pattern-yht-halkali-ankara:10",
+      "from_station_id": "st-bilecik-yht",
+      "to_station_id": "st-bozuyuk-yht",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-halkali-ankara",
+      "direction": "reverse",
+      "sequence": 10
+    },
+    {
+      "id": "pattern-yht-halkali-ankara:11",
+      "from_station_id": "st-bozuyuk-yht",
+      "to_station_id": "st-eskisehir",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-halkali-ankara",
+      "direction": "reverse",
+      "sequence": 11
+    },
+    {
+      "id": "pattern-yht-halkali-ankara:12",
+      "from_station_id": "st-eskisehir",
+      "to_station_id": "st-polatli-yht",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-halkali-ankara",
+      "direction": "reverse",
+      "sequence": 12
+    },
+    {
+      "id": "pattern-yht-halkali-ankara:13",
+      "from_station_id": "st-polatli-yht",
+      "to_station_id": "st-eryaman-yht",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-halkali-ankara",
+      "direction": "reverse",
+      "sequence": 13
+    },
+    {
+      "id": "pattern-yht-halkali-ankara:14",
+      "from_station_id": "st-eryaman-yht",
+      "to_station_id": "st-ankara-gar",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-halkali-ankara",
+      "direction": "reverse",
+      "sequence": 14
+    },
+    {
+      "id": "pattern-yht-ankara-sogutlucesme:1",
+      "from_station_id": "st-ankara-gar",
+      "to_station_id": "st-eryaman-yht",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-ankara-sogutlucesme",
+      "direction": "forward",
+      "sequence": 1
+    },
+    {
+      "id": "pattern-yht-ankara-sogutlucesme:2",
+      "from_station_id": "st-eryaman-yht",
+      "to_station_id": "st-polatli-yht",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-ankara-sogutlucesme",
+      "direction": "forward",
+      "sequence": 2
+    },
+    {
+      "id": "pattern-yht-ankara-sogutlucesme:3",
+      "from_station_id": "st-polatli-yht",
+      "to_station_id": "st-eskisehir",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-ankara-sogutlucesme",
+      "direction": "forward",
+      "sequence": 3
+    },
+    {
+      "id": "pattern-yht-ankara-sogutlucesme:4",
+      "from_station_id": "st-eskisehir",
+      "to_station_id": "st-bozuyuk-yht",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-ankara-sogutlucesme",
+      "direction": "forward",
+      "sequence": 4
+    },
+    {
+      "id": "pattern-yht-ankara-sogutlucesme:5",
+      "from_station_id": "st-bozuyuk-yht",
+      "to_station_id": "st-bilecik-yht",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-ankara-sogutlucesme",
+      "direction": "forward",
+      "sequence": 5
+    },
+    {
+      "id": "pattern-yht-ankara-sogutlucesme:6",
+      "from_station_id": "st-bilecik-yht",
+      "to_station_id": "st-pamukova-yht",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-ankara-sogutlucesme",
+      "direction": "forward",
+      "sequence": 6
+    },
+    {
+      "id": "pattern-yht-ankara-sogutlucesme:7",
+      "from_station_id": "st-pamukova-yht",
+      "to_station_id": "st-arifiye",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-ankara-sogutlucesme",
+      "direction": "forward",
+      "sequence": 7
+    },
+    {
+      "id": "pattern-yht-ankara-sogutlucesme:8",
+      "from_station_id": "st-arifiye",
+      "to_station_id": "st-izmit-yht",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-ankara-sogutlucesme",
+      "direction": "forward",
+      "sequence": 8
+    },
+    {
+      "id": "pattern-yht-ankara-sogutlucesme:9",
+      "from_station_id": "st-izmit-yht",
+      "to_station_id": "st-gebze",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-ankara-sogutlucesme",
+      "direction": "forward",
+      "sequence": 9
+    },
+    {
+      "id": "pattern-yht-ankara-sogutlucesme:10",
+      "from_station_id": "st-gebze",
+      "to_station_id": "st-istanbul-pendik",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-ankara-sogutlucesme",
+      "direction": "forward",
+      "sequence": 10
+    },
+    {
+      "id": "pattern-yht-ankara-sogutlucesme:11",
+      "from_station_id": "st-istanbul-pendik",
+      "to_station_id": "st-istanbul-bostanci",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-ankara-sogutlucesme",
+      "direction": "forward",
+      "sequence": 11
+    },
+    {
+      "id": "pattern-yht-ankara-sogutlucesme:12",
+      "from_station_id": "st-istanbul-bostanci",
+      "to_station_id": "st-istanbul-sogutlucesme",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-ankara-sogutlucesme",
+      "direction": "forward",
+      "sequence": 12
+    },
+    {
+      "id": "pattern-yht-sogutlucesme-ankara:1",
+      "from_station_id": "st-istanbul-sogutlucesme",
+      "to_station_id": "st-istanbul-bostanci",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-sogutlucesme-ankara",
+      "direction": "reverse",
+      "sequence": 1
+    },
+    {
+      "id": "pattern-yht-sogutlucesme-ankara:2",
+      "from_station_id": "st-istanbul-bostanci",
+      "to_station_id": "st-istanbul-pendik",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-sogutlucesme-ankara",
+      "direction": "reverse",
+      "sequence": 2
+    },
+    {
+      "id": "pattern-yht-sogutlucesme-ankara:3",
+      "from_station_id": "st-istanbul-pendik",
+      "to_station_id": "st-gebze",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-sogutlucesme-ankara",
+      "direction": "reverse",
+      "sequence": 3
+    },
+    {
+      "id": "pattern-yht-sogutlucesme-ankara:4",
+      "from_station_id": "st-gebze",
+      "to_station_id": "st-izmit-yht",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-sogutlucesme-ankara",
+      "direction": "reverse",
+      "sequence": 4
+    },
+    {
+      "id": "pattern-yht-sogutlucesme-ankara:5",
+      "from_station_id": "st-izmit-yht",
+      "to_station_id": "st-arifiye",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-sogutlucesme-ankara",
+      "direction": "reverse",
+      "sequence": 5
+    },
+    {
+      "id": "pattern-yht-sogutlucesme-ankara:6",
+      "from_station_id": "st-arifiye",
+      "to_station_id": "st-pamukova-yht",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-sogutlucesme-ankara",
+      "direction": "reverse",
+      "sequence": 6
+    },
+    {
+      "id": "pattern-yht-sogutlucesme-ankara:7",
+      "from_station_id": "st-pamukova-yht",
+      "to_station_id": "st-bilecik-yht",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-sogutlucesme-ankara",
+      "direction": "reverse",
+      "sequence": 7
+    },
+    {
+      "id": "pattern-yht-sogutlucesme-ankara:8",
+      "from_station_id": "st-bilecik-yht",
+      "to_station_id": "st-bozuyuk-yht",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-sogutlucesme-ankara",
+      "direction": "reverse",
+      "sequence": 8
+    },
+    {
+      "id": "pattern-yht-sogutlucesme-ankara:9",
+      "from_station_id": "st-bozuyuk-yht",
+      "to_station_id": "st-eskisehir",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-sogutlucesme-ankara",
+      "direction": "reverse",
+      "sequence": 9
+    },
+    {
+      "id": "pattern-yht-sogutlucesme-ankara:10",
+      "from_station_id": "st-eskisehir",
+      "to_station_id": "st-polatli-yht",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-sogutlucesme-ankara",
+      "direction": "reverse",
+      "sequence": 10
+    },
+    {
+      "id": "pattern-yht-sogutlucesme-ankara:11",
+      "from_station_id": "st-polatli-yht",
+      "to_station_id": "st-eryaman-yht",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-sogutlucesme-ankara",
+      "direction": "reverse",
+      "sequence": 11
+    },
+    {
+      "id": "pattern-yht-sogutlucesme-ankara:12",
+      "from_station_id": "st-eryaman-yht",
+      "to_station_id": "st-ankara-gar",
+      "route_id": "route-yht-ankara-istanbul",
+      "pattern_id": "pattern-yht-sogutlucesme-ankara",
+      "direction": "reverse",
+      "sequence": 12
+    },
+    {
+      "id": "pattern-yht-ankara-karaman:1",
+      "from_station_id": "st-ankara-gar",
+      "to_station_id": "st-eryaman-yht",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-ankara-karaman",
+      "direction": "forward",
+      "sequence": 1
+    },
+    {
+      "id": "pattern-yht-ankara-karaman:2",
+      "from_station_id": "st-eryaman-yht",
+      "to_station_id": "st-polatli-yht",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-ankara-karaman",
+      "direction": "forward",
+      "sequence": 2
+    },
+    {
+      "id": "pattern-yht-ankara-karaman:3",
+      "from_station_id": "st-polatli-yht",
+      "to_station_id": "st-selcuklu-yht",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-ankara-karaman",
+      "direction": "forward",
+      "sequence": 3
+    },
+    {
+      "id": "pattern-yht-ankara-karaman:4",
+      "from_station_id": "st-selcuklu-yht",
+      "to_station_id": "st-konya",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-ankara-karaman",
+      "direction": "forward",
+      "sequence": 4
+    },
+    {
+      "id": "pattern-yht-ankara-karaman:5",
+      "from_station_id": "st-konya",
+      "to_station_id": "st-cumra",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-ankara-karaman",
+      "direction": "forward",
+      "sequence": 5
+    },
+    {
+      "id": "pattern-yht-ankara-karaman:6",
+      "from_station_id": "st-cumra",
+      "to_station_id": "st-karaman",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-ankara-karaman",
+      "direction": "forward",
+      "sequence": 6
+    },
+    {
+      "id": "pattern-yht-karaman-ankara:1",
+      "from_station_id": "st-karaman",
+      "to_station_id": "st-cumra",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-karaman-ankara",
+      "direction": "reverse",
+      "sequence": 1
+    },
+    {
+      "id": "pattern-yht-karaman-ankara:2",
+      "from_station_id": "st-cumra",
+      "to_station_id": "st-konya",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-karaman-ankara",
+      "direction": "reverse",
+      "sequence": 2
+    },
+    {
+      "id": "pattern-yht-karaman-ankara:3",
+      "from_station_id": "st-konya",
+      "to_station_id": "st-selcuklu-yht",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-karaman-ankara",
+      "direction": "reverse",
+      "sequence": 3
+    },
+    {
+      "id": "pattern-yht-karaman-ankara:4",
+      "from_station_id": "st-selcuklu-yht",
+      "to_station_id": "st-polatli-yht",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-karaman-ankara",
+      "direction": "reverse",
+      "sequence": 4
+    },
+    {
+      "id": "pattern-yht-karaman-ankara:5",
+      "from_station_id": "st-polatli-yht",
+      "to_station_id": "st-eryaman-yht",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-karaman-ankara",
+      "direction": "reverse",
+      "sequence": 5
+    },
+    {
+      "id": "pattern-yht-karaman-ankara:6",
+      "from_station_id": "st-eryaman-yht",
+      "to_station_id": "st-ankara-gar",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-karaman-ankara",
+      "direction": "reverse",
+      "sequence": 6
+    },
+    {
+      "id": "pattern-yht-halkali-karaman:1",
+      "from_station_id": "st-istanbul-halkali",
+      "to_station_id": "st-istanbul-bakirkoy",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-halkali-karaman",
+      "direction": "forward",
+      "sequence": 1
+    },
+    {
+      "id": "pattern-yht-halkali-karaman:2",
+      "from_station_id": "st-istanbul-bakirkoy",
+      "to_station_id": "st-istanbul-sogutlucesme",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-halkali-karaman",
+      "direction": "forward",
+      "sequence": 2
+    },
+    {
+      "id": "pattern-yht-halkali-karaman:3",
+      "from_station_id": "st-istanbul-sogutlucesme",
+      "to_station_id": "st-istanbul-bostanci",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-halkali-karaman",
+      "direction": "forward",
+      "sequence": 3
+    },
+    {
+      "id": "pattern-yht-halkali-karaman:4",
+      "from_station_id": "st-istanbul-bostanci",
+      "to_station_id": "st-istanbul-pendik",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-halkali-karaman",
+      "direction": "forward",
+      "sequence": 4
+    },
+    {
+      "id": "pattern-yht-halkali-karaman:5",
+      "from_station_id": "st-istanbul-pendik",
+      "to_station_id": "st-gebze",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-halkali-karaman",
+      "direction": "forward",
+      "sequence": 5
+    },
+    {
+      "id": "pattern-yht-halkali-karaman:6",
+      "from_station_id": "st-gebze",
+      "to_station_id": "st-izmit-yht",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-halkali-karaman",
+      "direction": "forward",
+      "sequence": 6
+    },
+    {
+      "id": "pattern-yht-halkali-karaman:7",
+      "from_station_id": "st-izmit-yht",
+      "to_station_id": "st-arifiye",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-halkali-karaman",
+      "direction": "forward",
+      "sequence": 7
+    },
+    {
+      "id": "pattern-yht-halkali-karaman:8",
+      "from_station_id": "st-arifiye",
+      "to_station_id": "st-bilecik-yht",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-halkali-karaman",
+      "direction": "forward",
+      "sequence": 8
+    },
+    {
+      "id": "pattern-yht-halkali-karaman:9",
+      "from_station_id": "st-bilecik-yht",
+      "to_station_id": "st-bozuyuk-yht",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-halkali-karaman",
+      "direction": "forward",
+      "sequence": 9
+    },
+    {
+      "id": "pattern-yht-halkali-karaman:10",
+      "from_station_id": "st-bozuyuk-yht",
+      "to_station_id": "st-eskisehir",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-halkali-karaman",
+      "direction": "forward",
+      "sequence": 10
+    },
+    {
+      "id": "pattern-yht-halkali-karaman:11",
+      "from_station_id": "st-eskisehir",
+      "to_station_id": "st-selcuklu-yht",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-halkali-karaman",
+      "direction": "forward",
+      "sequence": 11
+    },
+    {
+      "id": "pattern-yht-halkali-karaman:12",
+      "from_station_id": "st-selcuklu-yht",
+      "to_station_id": "st-konya",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-halkali-karaman",
+      "direction": "forward",
+      "sequence": 12
+    },
+    {
+      "id": "pattern-yht-halkali-karaman:13",
+      "from_station_id": "st-konya",
+      "to_station_id": "st-cumra",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-halkali-karaman",
+      "direction": "forward",
+      "sequence": 13
+    },
+    {
+      "id": "pattern-yht-halkali-karaman:14",
+      "from_station_id": "st-cumra",
+      "to_station_id": "st-karaman",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-halkali-karaman",
+      "direction": "forward",
+      "sequence": 14
+    },
+    {
+      "id": "pattern-yht-karaman-halkali:1",
+      "from_station_id": "st-karaman",
+      "to_station_id": "st-cumra",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-karaman-halkali",
+      "direction": "reverse",
+      "sequence": 1
+    },
+    {
+      "id": "pattern-yht-karaman-halkali:2",
+      "from_station_id": "st-cumra",
+      "to_station_id": "st-konya",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-karaman-halkali",
+      "direction": "reverse",
+      "sequence": 2
+    },
+    {
+      "id": "pattern-yht-karaman-halkali:3",
+      "from_station_id": "st-konya",
+      "to_station_id": "st-selcuklu-yht",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-karaman-halkali",
+      "direction": "reverse",
+      "sequence": 3
+    },
+    {
+      "id": "pattern-yht-karaman-halkali:4",
+      "from_station_id": "st-selcuklu-yht",
+      "to_station_id": "st-eskisehir",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-karaman-halkali",
+      "direction": "reverse",
+      "sequence": 4
+    },
+    {
+      "id": "pattern-yht-karaman-halkali:5",
+      "from_station_id": "st-eskisehir",
+      "to_station_id": "st-bozuyuk-yht",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-karaman-halkali",
+      "direction": "reverse",
+      "sequence": 5
+    },
+    {
+      "id": "pattern-yht-karaman-halkali:6",
+      "from_station_id": "st-bozuyuk-yht",
+      "to_station_id": "st-bilecik-yht",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-karaman-halkali",
+      "direction": "reverse",
+      "sequence": 6
+    },
+    {
+      "id": "pattern-yht-karaman-halkali:7",
+      "from_station_id": "st-bilecik-yht",
+      "to_station_id": "st-arifiye",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-karaman-halkali",
+      "direction": "reverse",
+      "sequence": 7
+    },
+    {
+      "id": "pattern-yht-karaman-halkali:8",
+      "from_station_id": "st-arifiye",
+      "to_station_id": "st-izmit-yht",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-karaman-halkali",
+      "direction": "reverse",
+      "sequence": 8
+    },
+    {
+      "id": "pattern-yht-karaman-halkali:9",
+      "from_station_id": "st-izmit-yht",
+      "to_station_id": "st-gebze",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-karaman-halkali",
+      "direction": "reverse",
+      "sequence": 9
+    },
+    {
+      "id": "pattern-yht-karaman-halkali:10",
+      "from_station_id": "st-gebze",
+      "to_station_id": "st-istanbul-pendik",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-karaman-halkali",
+      "direction": "reverse",
+      "sequence": 10
+    },
+    {
+      "id": "pattern-yht-karaman-halkali:11",
+      "from_station_id": "st-istanbul-pendik",
+      "to_station_id": "st-istanbul-bostanci",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-karaman-halkali",
+      "direction": "reverse",
+      "sequence": 11
+    },
+    {
+      "id": "pattern-yht-karaman-halkali:12",
+      "from_station_id": "st-istanbul-bostanci",
+      "to_station_id": "st-istanbul-sogutlucesme",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-karaman-halkali",
+      "direction": "reverse",
+      "sequence": 12
+    },
+    {
+      "id": "pattern-yht-karaman-halkali:13",
+      "from_station_id": "st-istanbul-sogutlucesme",
+      "to_station_id": "st-istanbul-bakirkoy",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-karaman-halkali",
+      "direction": "reverse",
+      "sequence": 13
+    },
+    {
+      "id": "pattern-yht-karaman-halkali:14",
+      "from_station_id": "st-istanbul-bakirkoy",
+      "to_station_id": "st-istanbul-halkali",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-karaman-halkali",
+      "direction": "reverse",
+      "sequence": 14
+    },
+    {
+      "id": "pattern-yht-sogutlucesme-konya:1",
+      "from_station_id": "st-istanbul-sogutlucesme",
+      "to_station_id": "st-istanbul-bostanci",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-sogutlucesme-konya",
+      "direction": "forward",
+      "sequence": 1
+    },
+    {
+      "id": "pattern-yht-sogutlucesme-konya:2",
+      "from_station_id": "st-istanbul-bostanci",
+      "to_station_id": "st-istanbul-pendik",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-sogutlucesme-konya",
+      "direction": "forward",
+      "sequence": 2
+    },
+    {
+      "id": "pattern-yht-sogutlucesme-konya:3",
+      "from_station_id": "st-istanbul-pendik",
+      "to_station_id": "st-gebze",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-sogutlucesme-konya",
+      "direction": "forward",
+      "sequence": 3
+    },
+    {
+      "id": "pattern-yht-sogutlucesme-konya:4",
+      "from_station_id": "st-gebze",
+      "to_station_id": "st-izmit-yht",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-sogutlucesme-konya",
+      "direction": "forward",
+      "sequence": 4
+    },
+    {
+      "id": "pattern-yht-sogutlucesme-konya:5",
+      "from_station_id": "st-izmit-yht",
+      "to_station_id": "st-arifiye",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-sogutlucesme-konya",
+      "direction": "forward",
+      "sequence": 5
+    },
+    {
+      "id": "pattern-yht-sogutlucesme-konya:6",
+      "from_station_id": "st-arifiye",
+      "to_station_id": "st-pamukova-yht",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-sogutlucesme-konya",
+      "direction": "forward",
+      "sequence": 6
+    },
+    {
+      "id": "pattern-yht-sogutlucesme-konya:7",
+      "from_station_id": "st-pamukova-yht",
+      "to_station_id": "st-bilecik-yht",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-sogutlucesme-konya",
+      "direction": "forward",
+      "sequence": 7
+    },
+    {
+      "id": "pattern-yht-sogutlucesme-konya:8",
+      "from_station_id": "st-bilecik-yht",
+      "to_station_id": "st-bozuyuk-yht",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-sogutlucesme-konya",
+      "direction": "forward",
+      "sequence": 8
+    },
+    {
+      "id": "pattern-yht-sogutlucesme-konya:9",
+      "from_station_id": "st-bozuyuk-yht",
+      "to_station_id": "st-eskisehir",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-sogutlucesme-konya",
+      "direction": "forward",
+      "sequence": 9
+    },
+    {
+      "id": "pattern-yht-sogutlucesme-konya:10",
+      "from_station_id": "st-eskisehir",
+      "to_station_id": "st-selcuklu-yht",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-sogutlucesme-konya",
+      "direction": "forward",
+      "sequence": 10
+    },
+    {
+      "id": "pattern-yht-sogutlucesme-konya:11",
+      "from_station_id": "st-selcuklu-yht",
+      "to_station_id": "st-konya",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-sogutlucesme-konya",
+      "direction": "forward",
+      "sequence": 11
+    },
+    {
+      "id": "pattern-yht-konya-sogutlucesme:1",
+      "from_station_id": "st-konya",
+      "to_station_id": "st-selcuklu-yht",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-konya-sogutlucesme",
+      "direction": "reverse",
+      "sequence": 1
+    },
+    {
+      "id": "pattern-yht-konya-sogutlucesme:2",
+      "from_station_id": "st-selcuklu-yht",
+      "to_station_id": "st-eskisehir",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-konya-sogutlucesme",
+      "direction": "reverse",
+      "sequence": 2
+    },
+    {
+      "id": "pattern-yht-konya-sogutlucesme:3",
+      "from_station_id": "st-eskisehir",
+      "to_station_id": "st-bozuyuk-yht",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-konya-sogutlucesme",
+      "direction": "reverse",
+      "sequence": 3
+    },
+    {
+      "id": "pattern-yht-konya-sogutlucesme:4",
+      "from_station_id": "st-bozuyuk-yht",
+      "to_station_id": "st-bilecik-yht",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-konya-sogutlucesme",
+      "direction": "reverse",
+      "sequence": 4
+    },
+    {
+      "id": "pattern-yht-konya-sogutlucesme:5",
+      "from_station_id": "st-bilecik-yht",
+      "to_station_id": "st-pamukova-yht",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-konya-sogutlucesme",
+      "direction": "reverse",
+      "sequence": 5
+    },
+    {
+      "id": "pattern-yht-konya-sogutlucesme:6",
+      "from_station_id": "st-pamukova-yht",
+      "to_station_id": "st-arifiye",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-konya-sogutlucesme",
+      "direction": "reverse",
+      "sequence": 6
+    },
+    {
+      "id": "pattern-yht-konya-sogutlucesme:7",
+      "from_station_id": "st-arifiye",
+      "to_station_id": "st-izmit-yht",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-konya-sogutlucesme",
+      "direction": "reverse",
+      "sequence": 7
+    },
+    {
+      "id": "pattern-yht-konya-sogutlucesme:8",
+      "from_station_id": "st-izmit-yht",
+      "to_station_id": "st-gebze",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-konya-sogutlucesme",
+      "direction": "reverse",
+      "sequence": 8
+    },
+    {
+      "id": "pattern-yht-konya-sogutlucesme:9",
+      "from_station_id": "st-gebze",
+      "to_station_id": "st-istanbul-pendik",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-konya-sogutlucesme",
+      "direction": "reverse",
+      "sequence": 9
+    },
+    {
+      "id": "pattern-yht-konya-sogutlucesme:10",
+      "from_station_id": "st-istanbul-pendik",
+      "to_station_id": "st-istanbul-bostanci",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-konya-sogutlucesme",
+      "direction": "reverse",
+      "sequence": 10
+    },
+    {
+      "id": "pattern-yht-konya-sogutlucesme:11",
+      "from_station_id": "st-istanbul-bostanci",
+      "to_station_id": "st-istanbul-sogutlucesme",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-konya-sogutlucesme",
+      "direction": "reverse",
+      "sequence": 11
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:1",
+      "from_station_id": "st-ankara-gar",
+      "to_station_id": "st-kayas",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 1
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:2",
+      "from_station_id": "st-kayas",
+      "to_station_id": "st-elmadag",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 2
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:3",
+      "from_station_id": "st-elmadag",
+      "to_station_id": "st-irmak",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 3
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:4",
+      "from_station_id": "st-irmak",
+      "to_station_id": "st-kirikkale",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 4
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:5",
+      "from_station_id": "st-kirikkale",
+      "to_station_id": "st-cerikli",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 5
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:6",
+      "from_station_id": "st-cerikli",
+      "to_station_id": "st-yerkoy",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 6
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:7",
+      "from_station_id": "st-yerkoy",
+      "to_station_id": "st-sefaatli",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 7
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:8",
+      "from_station_id": "st-sefaatli",
+      "to_station_id": "st-sarikent",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 8
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:9",
+      "from_station_id": "st-sarikent",
+      "to_station_id": "st-yenifakili",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 9
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:10",
+      "from_station_id": "st-yenifakili",
+      "to_station_id": "st-bogazkopru",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 10
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:11",
+      "from_station_id": "st-bogazkopru",
+      "to_station_id": "st-kayseri",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 11
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:12",
+      "from_station_id": "st-kayseri",
+      "to_station_id": "st-yenicubuk",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 12
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:13",
+      "from_station_id": "st-yenicubuk",
+      "to_station_id": "st-ihsanli",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 13
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:14",
+      "from_station_id": "st-ihsanli",
+      "to_station_id": "st-sarkisla",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 14
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:15",
+      "from_station_id": "st-sarkisla",
+      "to_station_id": "st-hanli",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 15
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:16",
+      "from_station_id": "st-hanli",
+      "to_station_id": "st-kalin",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 16
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:17",
+      "from_station_id": "st-kalin",
+      "to_station_id": "st-sivas",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 17
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:18",
+      "from_station_id": "st-sivas",
+      "to_station_id": "st-bostankaya",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 18
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:19",
+      "from_station_id": "st-bostankaya",
+      "to_station_id": "st-yenikangal",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 19
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:20",
+      "from_station_id": "st-yenikangal",
+      "to_station_id": "st-cetinkaya",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 20
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:21",
+      "from_station_id": "st-cetinkaya",
+      "to_station_id": "st-avsar",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 21
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:22",
+      "from_station_id": "st-avsar",
+      "to_station_id": "st-gunes",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 22
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:23",
+      "from_station_id": "st-gunes",
+      "to_station_id": "st-gocentasi",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 23
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:24",
+      "from_station_id": "st-gocentasi",
+      "to_station_id": "st-curek",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 24
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:25",
+      "from_station_id": "st-curek",
+      "to_station_id": "st-demirdag",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 25
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:26",
+      "from_station_id": "st-demirdag",
+      "to_station_id": "st-divrigi",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 26
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:27",
+      "from_station_id": "st-divrigi",
+      "to_station_id": "st-kemaliye-calti",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 27
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:28",
+      "from_station_id": "st-kemaliye-calti",
+      "to_station_id": "st-adatepe",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 28
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:29",
+      "from_station_id": "st-adatepe",
+      "to_station_id": "st-bagistas",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 29
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:30",
+      "from_station_id": "st-bagistas",
+      "to_station_id": "st-ilic",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 30
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:31",
+      "from_station_id": "st-ilic",
+      "to_station_id": "st-gullubag",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 31
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:32",
+      "from_station_id": "st-gullubag",
+      "to_station_id": "st-yahsiler",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 32
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:33",
+      "from_station_id": "st-yahsiler",
+      "to_station_id": "st-eric",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 33
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:34",
+      "from_station_id": "st-eric",
+      "to_station_id": "st-kemah",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 34
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:35",
+      "from_station_id": "st-kemah",
+      "to_station_id": "st-erzincan",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 35
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:36",
+      "from_station_id": "st-erzincan",
+      "to_station_id": "st-tanyeri",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 36
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:37",
+      "from_station_id": "st-tanyeri",
+      "to_station_id": "st-mercan",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 37
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:38",
+      "from_station_id": "st-mercan",
+      "to_station_id": "st-cadirkaya",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 38
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:39",
+      "from_station_id": "st-cadirkaya",
+      "to_station_id": "st-erbas",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 39
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:40",
+      "from_station_id": "st-erbas",
+      "to_station_id": "st-karasu",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 40
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:41",
+      "from_station_id": "st-karasu",
+      "to_station_id": "st-askale",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 41
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:42",
+      "from_station_id": "st-askale",
+      "to_station_id": "st-kandilli",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 42
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:43",
+      "from_station_id": "st-kandilli",
+      "to_station_id": "st-ilica",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 43
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:44",
+      "from_station_id": "st-ilica",
+      "to_station_id": "st-palandoken",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 44
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:45",
+      "from_station_id": "st-palandoken",
+      "to_station_id": "st-erzurum",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 45
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:46",
+      "from_station_id": "st-erzurum",
+      "to_station_id": "st-hasankale",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 46
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:47",
+      "from_station_id": "st-hasankale",
+      "to_station_id": "st-koprukoy",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 47
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:48",
+      "from_station_id": "st-koprukoy",
+      "to_station_id": "st-horasan",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 48
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:49",
+      "from_station_id": "st-horasan",
+      "to_station_id": "st-sungutasi",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 49
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:50",
+      "from_station_id": "st-sungutasi",
+      "to_station_id": "st-karaurgan",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 50
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:51",
+      "from_station_id": "st-karaurgan",
+      "to_station_id": "st-topdagi",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 51
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:52",
+      "from_station_id": "st-topdagi",
+      "to_station_id": "st-sarikamis",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 52
+    },
+    {
+      "id": "pattern-dogu-ankara-kars:53",
+      "from_station_id": "st-sarikamis",
+      "to_station_id": "st-kars",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-ankara-kars",
+      "direction": "forward",
+      "sequence": 53
+    },
+    {
+      "id": "pattern-dogu-kars-ankara:1",
+      "from_station_id": "st-kars",
+      "to_station_id": "st-sarikamis",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-kars-ankara",
+      "direction": "reverse",
+      "sequence": 1
+    },
+    {
+      "id": "pattern-dogu-kars-ankara:2",
+      "from_station_id": "st-sarikamis",
+      "to_station_id": "st-topdagi",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-kars-ankara",
+      "direction": "reverse",
+      "sequence": 2
+    },
+    {
+      "id": "pattern-dogu-kars-ankara:3",
+      "from_station_id": "st-topdagi",
+      "to_station_id": "st-karaurgan",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-kars-ankara",
+      "direction": "reverse",
+      "sequence": 3
+    },
+    {
+      "id": "pattern-dogu-kars-ankara:4",
+      "from_station_id": "st-karaurgan",
+      "to_station_id": "st-sungutasi",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-kars-ankara",
+      "direction": "reverse",
+      "sequence": 4
+    },
+    {
+      "id": "pattern-dogu-kars-ankara:5",
+      "from_station_id": "st-sungutasi",
+      "to_station_id": "st-horasan",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-kars-ankara",
+      "direction": "reverse",
+      "sequence": 5
+    },
+    {
+      "id": "pattern-dogu-kars-ankara:6",
+      "from_station_id": "st-horasan",
+      "to_station_id": "st-koprukoy",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-kars-ankara",
+      "direction": "reverse",
+      "sequence": 6
+    },
+    {
+      "id": "pattern-dogu-kars-ankara:7",
+      "from_station_id": "st-koprukoy",
+      "to_station_id": "st-hasankale",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-kars-ankara",
+      "direction": "reverse",
+      "sequence": 7
+    },
+    {
+      "id": "pattern-dogu-kars-ankara:8",
+      "from_station_id": "st-hasankale",
+      "to_station_id": "st-erzurum",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-kars-ankara",
+      "direction": "reverse",
+      "sequence": 8
+    },
+    {
+      "id": "pattern-dogu-kars-ankara:9",
+      "from_station_id": "st-erzurum",
+      "to_station_id": "st-ilica",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-kars-ankara",
+      "direction": "reverse",
+      "sequence": 9
+    },
+    {
+      "id": "pattern-dogu-kars-ankara:10",
+      "from_station_id": "st-ilica",
+      "to_station_id": "st-kandilli",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-kars-ankara",
+      "direction": "reverse",
+      "sequence": 10
+    },
+    {
+      "id": "pattern-dogu-kars-ankara:11",
+      "from_station_id": "st-kandilli",
+      "to_station_id": "st-askale",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-kars-ankara",
+      "direction": "reverse",
+      "sequence": 11
+    },
+    {
+      "id": "pattern-dogu-kars-ankara:12",
+      "from_station_id": "st-askale",
+      "to_station_id": "st-karasu",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-kars-ankara",
+      "direction": "reverse",
+      "sequence": 12
+    },
+    {
+      "id": "pattern-dogu-kars-ankara:13",
+      "from_station_id": "st-karasu",
+      "to_station_id": "st-erbas",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-kars-ankara",
+      "direction": "reverse",
+      "sequence": 13
+    },
+    {
+      "id": "pattern-dogu-kars-ankara:14",
+      "from_station_id": "st-erbas",
+      "to_station_id": "st-cadirkaya",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-kars-ankara",
+      "direction": "reverse",
+      "sequence": 14
+    },
+    {
+      "id": "pattern-dogu-kars-ankara:15",
+      "from_station_id": "st-cadirkaya",
+      "to_station_id": "st-mercan",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-kars-ankara",
+      "direction": "reverse",
+      "sequence": 15
+    },
+    {
+      "id": "pattern-dogu-kars-ankara:16",
+      "from_station_id": "st-mercan",
+      "to_station_id": "st-erzincan",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-kars-ankara",
+      "direction": "reverse",
+      "sequence": 16
+    },
+    {
+      "id": "pattern-dogu-kars-ankara:17",
+      "from_station_id": "st-erzincan",
+      "to_station_id": "st-kemah",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-kars-ankara",
+      "direction": "reverse",
+      "sequence": 17
+    },
+    {
+      "id": "pattern-dogu-kars-ankara:18",
+      "from_station_id": "st-kemah",
+      "to_station_id": "st-eric",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-kars-ankara",
+      "direction": "reverse",
+      "sequence": 18
+    },
+    {
+      "id": "pattern-dogu-kars-ankara:19",
+      "from_station_id": "st-eric",
+      "to_station_id": "st-yahsiler",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-kars-ankara",
+      "direction": "reverse",
+      "sequence": 19
+    },
+    {
+      "id": "pattern-dogu-kars-ankara:20",
+      "from_station_id": "st-yahsiler",
+      "to_station_id": "st-gullubag",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-kars-ankara",
+      "direction": "reverse",
+      "sequence": 20
+    },
+    {
+      "id": "pattern-dogu-kars-ankara:21",
+      "from_station_id": "st-gullubag",
+      "to_station_id": "st-ilic",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-kars-ankara",
+      "direction": "reverse",
+      "sequence": 21
+    },
+    {
+      "id": "pattern-dogu-kars-ankara:22",
+      "from_station_id": "st-ilic",
+      "to_station_id": "st-bagistas",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-kars-ankara",
+      "direction": "reverse",
+      "sequence": 22
+    },
+    {
+      "id": "pattern-dogu-kars-ankara:23",
+      "from_station_id": "st-bagistas",
+      "to_station_id": "st-adatepe",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-kars-ankara",
+      "direction": "reverse",
+      "sequence": 23
+    },
+    {
+      "id": "pattern-dogu-kars-ankara:24",
+      "from_station_id": "st-adatepe",
+      "to_station_id": "st-kemaliye-calti",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-kars-ankara",
+      "direction": "reverse",
+      "sequence": 24
+    },
+    {
+      "id": "pattern-dogu-kars-ankara:25",
+      "from_station_id": "st-kemaliye-calti",
+      "to_station_id": "st-divrigi",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-kars-ankara",
+      "direction": "reverse",
+      "sequence": 25
+    },
+    {
+      "id": "pattern-dogu-kars-ankara:26",
+      "from_station_id": "st-divrigi",
+      "to_station_id": "st-demirdag",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-kars-ankara",
+      "direction": "reverse",
+      "sequence": 26
+    },
+    {
+      "id": "pattern-dogu-kars-ankara:27",
+      "from_station_id": "st-demirdag",
+      "to_station_id": "st-curek",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-kars-ankara",
+      "direction": "reverse",
+      "sequence": 27
+    },
+    {
+      "id": "pattern-dogu-kars-ankara:28",
+      "from_station_id": "st-curek",
+      "to_station_id": "st-gocentasi",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-kars-ankara",
+      "direction": "reverse",
+      "sequence": 28
+    },
+    {
+      "id": "pattern-dogu-kars-ankara:29",
+      "from_station_id": "st-gocentasi",
+      "to_station_id": "st-gunes",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-kars-ankara",
+      "direction": "reverse",
+      "sequence": 29
+    },
+    {
+      "id": "pattern-dogu-kars-ankara:30",
+      "from_station_id": "st-gunes",
+      "to_station_id": "st-avsar",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-kars-ankara",
+      "direction": "reverse",
+      "sequence": 30
+    },
+    {
+      "id": "pattern-dogu-kars-ankara:31",
+      "from_station_id": "st-avsar",
+      "to_station_id": "st-cetinkaya",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-kars-ankara",
+      "direction": "reverse",
+      "sequence": 31
+    },
+    {
+      "id": "pattern-dogu-kars-ankara:32",
+      "from_station_id": "st-cetinkaya",
+      "to_station_id": "st-yenikangal",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-kars-ankara",
+      "direction": "reverse",
+      "sequence": 32
+    },
+    {
+      "id": "pattern-dogu-kars-ankara:33",
+      "from_station_id": "st-yenikangal",
+      "to_station_id": "st-bostankaya",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-kars-ankara",
+      "direction": "reverse",
+      "sequence": 33
+    },
+    {
+      "id": "pattern-dogu-kars-ankara:34",
+      "from_station_id": "st-bostankaya",
+      "to_station_id": "st-sivas",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-kars-ankara",
+      "direction": "reverse",
+      "sequence": 34
+    },
+    {
+      "id": "pattern-dogu-kars-ankara:35",
+      "from_station_id": "st-sivas",
+      "to_station_id": "st-sarkisla",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-kars-ankara",
+      "direction": "reverse",
+      "sequence": 35
+    },
+    {
+      "id": "pattern-dogu-kars-ankara:36",
+      "from_station_id": "st-sarkisla",
+      "to_station_id": "st-yenicubuk",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-kars-ankara",
+      "direction": "reverse",
+      "sequence": 36
+    },
+    {
+      "id": "pattern-dogu-kars-ankara:37",
+      "from_station_id": "st-yenicubuk",
+      "to_station_id": "st-kayseri",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-kars-ankara",
+      "direction": "reverse",
+      "sequence": 37
+    },
+    {
+      "id": "pattern-dogu-kars-ankara:38",
+      "from_station_id": "st-kayseri",
+      "to_station_id": "st-bogazkopru",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-kars-ankara",
+      "direction": "reverse",
+      "sequence": 38
+    },
+    {
+      "id": "pattern-dogu-kars-ankara:39",
+      "from_station_id": "st-bogazkopru",
+      "to_station_id": "st-yenifakili",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-kars-ankara",
+      "direction": "reverse",
+      "sequence": 39
+    },
+    {
+      "id": "pattern-dogu-kars-ankara:40",
+      "from_station_id": "st-yenifakili",
+      "to_station_id": "st-sarikent",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-kars-ankara",
+      "direction": "reverse",
+      "sequence": 40
+    },
+    {
+      "id": "pattern-dogu-kars-ankara:41",
+      "from_station_id": "st-sarikent",
+      "to_station_id": "st-sefaatli",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-kars-ankara",
+      "direction": "reverse",
+      "sequence": 41
+    },
+    {
+      "id": "pattern-dogu-kars-ankara:42",
+      "from_station_id": "st-sefaatli",
+      "to_station_id": "st-yerkoy",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-kars-ankara",
+      "direction": "reverse",
+      "sequence": 42
+    },
+    {
+      "id": "pattern-dogu-kars-ankara:43",
+      "from_station_id": "st-yerkoy",
+      "to_station_id": "st-cerikli",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-kars-ankara",
+      "direction": "reverse",
+      "sequence": 43
+    },
+    {
+      "id": "pattern-dogu-kars-ankara:44",
+      "from_station_id": "st-cerikli",
+      "to_station_id": "st-kirikkale",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-kars-ankara",
+      "direction": "reverse",
+      "sequence": 44
+    },
+    {
+      "id": "pattern-dogu-kars-ankara:45",
+      "from_station_id": "st-kirikkale",
+      "to_station_id": "st-irmak",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-kars-ankara",
+      "direction": "reverse",
+      "sequence": 45
+    },
+    {
+      "id": "pattern-dogu-kars-ankara:46",
+      "from_station_id": "st-irmak",
+      "to_station_id": "st-elmadag",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-kars-ankara",
+      "direction": "reverse",
+      "sequence": 46
+    },
+    {
+      "id": "pattern-dogu-kars-ankara:47",
+      "from_station_id": "st-elmadag",
+      "to_station_id": "st-kayas",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-kars-ankara",
+      "direction": "reverse",
+      "sequence": 47
+    },
+    {
+      "id": "pattern-dogu-kars-ankara:48",
+      "from_station_id": "st-kayas",
+      "to_station_id": "st-ankara-gar",
+      "route_id": "route-dogu-ekspresi",
+      "pattern_id": "pattern-dogu-kars-ankara",
+      "direction": "reverse",
+      "sequence": 48
+    },
+    {
+      "id": "pattern-yht-ankara-konya:1",
+      "from_station_id": "st-ankara-gar",
+      "to_station_id": "st-eryaman-yht",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-ankara-konya",
+      "direction": "forward",
+      "sequence": 1
+    },
+    {
+      "id": "pattern-yht-ankara-konya:2",
+      "from_station_id": "st-eryaman-yht",
+      "to_station_id": "st-polatli-yht",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-ankara-konya",
+      "direction": "forward",
+      "sequence": 2
+    },
+    {
+      "id": "pattern-yht-ankara-konya:3",
+      "from_station_id": "st-polatli-yht",
+      "to_station_id": "st-selcuklu-yht",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-ankara-konya",
+      "direction": "forward",
+      "sequence": 3
+    },
+    {
+      "id": "pattern-yht-ankara-konya:4",
+      "from_station_id": "st-selcuklu-yht",
+      "to_station_id": "st-konya",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-ankara-konya",
+      "direction": "forward",
+      "sequence": 4
+    },
+    {
+      "id": "pattern-yht-konya-ankara:1",
+      "from_station_id": "st-konya",
+      "to_station_id": "st-selcuklu-yht",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-konya-ankara",
+      "direction": "reverse",
+      "sequence": 1
+    },
+    {
+      "id": "pattern-yht-konya-ankara:2",
+      "from_station_id": "st-selcuklu-yht",
+      "to_station_id": "st-polatli-yht",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-konya-ankara",
+      "direction": "reverse",
+      "sequence": 2
+    },
+    {
+      "id": "pattern-yht-konya-ankara:3",
+      "from_station_id": "st-polatli-yht",
+      "to_station_id": "st-eryaman-yht",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-konya-ankara",
+      "direction": "reverse",
+      "sequence": 3
+    },
+    {
+      "id": "pattern-yht-konya-ankara:4",
+      "from_station_id": "st-eryaman-yht",
+      "to_station_id": "st-ankara-gar",
+      "route_id": "route-yht-konya",
+      "pattern_id": "pattern-yht-konya-ankara",
+      "direction": "reverse",
+      "sequence": 4
+    }
+  ],
+  "transfer_edges": []
+}

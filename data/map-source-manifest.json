@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-07-28T14:01:34.509Z",
+  "source": {
+    "repository": "https://github.com/ttezer/turkiye-harita-verisi",
+    "commit": "83eeb7a1e0a476dde81ada1a62f803231cf16e61",
+    "path": "dist/topojson/provinces.topojson",
+    "sha256": "e1fcb8a2b632e2752e79d51b7dd727bdcbdce5dc0f3469412fe9ccfd36942f31",
+    "license": "Source-specific; see repository DATA-LICENSE.md",
+    "url": "https://raw.githubusercontent.com/ttezer/turkiye-harita-verisi/83eeb7a1e0a476dde81ada1a62f803231cf16e61/dist/topojson/provinces.topojson"
+  },
+  "feature_count": 81,
+  "output_format": "GeoJSON",
+  "output_purpose": "Simplified geographic context for the railway atlas"
+}
