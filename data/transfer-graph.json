@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T14:01:34.984Z",
+  "generated_at": "2026-07-28T15:58:13.562Z",
   "status": "ready",
   "nodes": [
     {
@@ -8,7 +8,8 @@
       "route_ids": [
         "route-yht-ankara-istanbul",
         "route-yht-konya",
-        "route-dogu-ekspresi"
+        "route-dogu-ekspresi",
+        "route-izmir-mavi"
       ]
     },
     {
@@ -32,7 +33,8 @@
       "name": "Eskişehir",
       "route_ids": [
         "route-yht-ankara-istanbul",
-        "route-yht-konya"
+        "route-yht-konya",
+        "route-izmir-mavi"
       ]
     },
     {
@@ -520,6 +522,174 @@
       "name": "Kars",
       "route_ids": [
         "route-dogu-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-sincan",
+      "name": "Sincan",
+      "route_ids": [
+        "route-izmir-mavi"
+      ]
+    },
+    {
+      "station_id": "st-polatli",
+      "name": "Polatlı",
+      "route_ids": [
+        "route-izmir-mavi"
+      ]
+    },
+    {
+      "station_id": "st-beylikkopru",
+      "name": "Beylikköprü",
+      "route_ids": [
+        "route-izmir-mavi"
+      ]
+    },
+    {
+      "station_id": "st-bicer",
+      "name": "Biçer",
+      "route_ids": [
+        "route-izmir-mavi"
+      ]
+    },
+    {
+      "station_id": "st-yunusemre",
+      "name": "Yunusemre",
+      "route_ids": [
+        "route-izmir-mavi"
+      ]
+    },
+    {
+      "station_id": "st-beylikova",
+      "name": "Beylikova",
+      "route_ids": [
+        "route-izmir-mavi"
+      ]
+    },
+    {
+      "station_id": "st-alpu",
+      "name": "Alpu",
+      "route_ids": [
+        "route-izmir-mavi"
+      ]
+    },
+    {
+      "station_id": "st-alayunt",
+      "name": "Alayunt",
+      "route_ids": [
+        "route-izmir-mavi"
+      ]
+    },
+    {
+      "station_id": "st-kutahya",
+      "name": "Kütahya",
+      "route_ids": [
+        "route-izmir-mavi"
+      ]
+    },
+    {
+      "station_id": "st-tavsanli",
+      "name": "Tavşanlı",
+      "route_ids": [
+        "route-izmir-mavi"
+      ]
+    },
+    {
+      "station_id": "st-balikoy",
+      "name": "Balıköy",
+      "route_ids": [
+        "route-izmir-mavi"
+      ]
+    },
+    {
+      "station_id": "st-dursunbey",
+      "name": "Dursunbey",
+      "route_ids": [
+        "route-izmir-mavi"
+      ]
+    },
+    {
+      "station_id": "st-balikesir",
+      "name": "Balıkesir",
+      "route_ids": [
+        "route-izmir-mavi"
+      ]
+    },
+    {
+      "station_id": "st-savastepe",
+      "name": "Savaştepe",
+      "route_ids": [
+        "route-izmir-mavi"
+      ]
+    },
+    {
+      "station_id": "st-soma",
+      "name": "Soma",
+      "route_ids": [
+        "route-izmir-mavi"
+      ]
+    },
+    {
+      "station_id": "st-kirkagac",
+      "name": "Kırkağaç",
+      "route_ids": [
+        "route-izmir-mavi"
+      ]
+    },
+    {
+      "station_id": "st-akhisar",
+      "name": "Akhisar",
+      "route_ids": [
+        "route-izmir-mavi"
+      ]
+    },
+    {
+      "station_id": "st-saruhanli",
+      "name": "Saruhanlı",
+      "route_ids": [
+        "route-izmir-mavi"
+      ]
+    },
+    {
+      "station_id": "st-manisa",
+      "name": "Manisa",
+      "route_ids": [
+        "route-izmir-mavi"
+      ]
+    },
+    {
+      "station_id": "st-muradiye",
+      "name": "Muradiye",
+      "route_ids": [
+        "route-izmir-mavi"
+      ]
+    },
+    {
+      "station_id": "st-emiralem",
+      "name": "Emiralem",
+      "route_ids": [
+        "route-izmir-mavi"
+      ]
+    },
+    {
+      "station_id": "st-menemen",
+      "name": "Menemen",
+      "route_ids": [
+        "route-izmir-mavi"
+      ]
+    },
+    {
+      "station_id": "st-cigli",
+      "name": "Çiğli",
+      "route_ids": [
+        "route-izmir-mavi"
+      ]
+    },
+    {
+      "station_id": "st-izmir-basmane",
+      "name": "İzmir (Basmane)",
+      "route_ids": [
+        "route-izmir-mavi"
       ]
     }
   ],
@@ -2530,6 +2700,249 @@
       "pattern_id": "pattern-yht-konya-ankara",
       "direction": "reverse",
       "sequence": 4
+    },
+    {
+      "id": "pattern-izmir-mavi-ankara-basmane:1",
+      "from_station_id": "st-ankara-gar",
+      "to_station_id": "st-sincan",
+      "route_id": "route-izmir-mavi",
+      "pattern_id": "pattern-izmir-mavi-ankara-basmane",
+      "direction": "forward",
+      "sequence": 1
+    },
+    {
+      "id": "pattern-izmir-mavi-ankara-basmane:2",
+      "from_station_id": "st-sincan",
+      "to_station_id": "st-polatli",
+      "route_id": "route-izmir-mavi",
+      "pattern_id": "pattern-izmir-mavi-ankara-basmane",
+      "direction": "forward",
+      "sequence": 2
+    },
+    {
+      "id": "pattern-izmir-mavi-ankara-basmane:3",
+      "from_station_id": "st-polatli",
+      "to_station_id": "st-beylikkopru",
+      "route_id": "route-izmir-mavi",
+      "pattern_id": "pattern-izmir-mavi-ankara-basmane",
+      "direction": "forward",
+      "sequence": 3
+    },
+    {
+      "id": "pattern-izmir-mavi-ankara-basmane:4",
+      "from_station_id": "st-beylikkopru",
+      "to_station_id": "st-bicer",
+      "route_id": "route-izmir-mavi",
+      "pattern_id": "pattern-izmir-mavi-ankara-basmane",
+      "direction": "forward",
+      "sequence": 4
+    },
+    {
+      "id": "pattern-izmir-mavi-ankara-basmane:5",
+      "from_station_id": "st-bicer",
+      "to_station_id": "st-yunusemre",
+      "route_id": "route-izmir-mavi",
+      "pattern_id": "pattern-izmir-mavi-ankara-basmane",
+      "direction": "forward",
+      "sequence": 5
+    },
+    {
+      "id": "pattern-izmir-mavi-ankara-basmane:6",
+      "from_station_id": "st-yunusemre",
+      "to_station_id": "st-beylikova",
+      "route_id": "route-izmir-mavi",
+      "pattern_id": "pattern-izmir-mavi-ankara-basmane",
+      "direction": "forward",
+      "sequence": 6
+    },
+    {
+      "id": "pattern-izmir-mavi-ankara-basmane:7",
+      "from_station_id": "st-beylikova",
+      "to_station_id": "st-alpu",
+      "route_id": "route-izmir-mavi",
+      "pattern_id": "pattern-izmir-mavi-ankara-basmane",
+      "direction": "forward",
+      "sequence": 7
+    },
+    {
+      "id": "pattern-izmir-mavi-ankara-basmane:8",
+      "from_station_id": "st-alpu",
+      "to_station_id": "st-eskisehir",
+      "route_id": "route-izmir-mavi",
+      "pattern_id": "pattern-izmir-mavi-ankara-basmane",
+      "direction": "forward",
+      "sequence": 8
+    },
+    {
+      "id": "pattern-izmir-mavi-ankara-basmane:9",
+      "from_station_id": "st-eskisehir",
+      "to_station_id": "st-alayunt",
+      "route_id": "route-izmir-mavi",
+      "pattern_id": "pattern-izmir-mavi-ankara-basmane",
+      "direction": "forward",
+      "sequence": 9
+    },
+    {
+      "id": "pattern-izmir-mavi-ankara-basmane:10",
+      "from_station_id": "st-alayunt",
+      "to_station_id": "st-kutahya",
+      "route_id": "route-izmir-mavi",
+      "pattern_id": "pattern-izmir-mavi-ankara-basmane",
+      "direction": "forward",
+      "sequence": 10
+    },
+    {
+      "id": "pattern-izmir-mavi-ankara-basmane:11",
+      "from_station_id": "st-kutahya",
+      "to_station_id": "st-tavsanli",
+      "route_id": "route-izmir-mavi",
+      "pattern_id": "pattern-izmir-mavi-ankara-basmane",
+      "direction": "forward",
+      "sequence": 11
+    },
+    {
+      "id": "pattern-izmir-mavi-ankara-basmane:12",
+      "from_station_id": "st-tavsanli",
+      "to_station_id": "st-balikoy",
+      "route_id": "route-izmir-mavi",
+      "pattern_id": "pattern-izmir-mavi-ankara-basmane",
+      "direction": "forward",
+      "sequence": 12
+    },
+    {
+      "id": "pattern-izmir-mavi-ankara-basmane:13",
+      "from_station_id": "st-balikoy",
+      "to_station_id": "st-izmir-basmane",
+      "route_id": "route-izmir-mavi",
+      "pattern_id": "pattern-izmir-mavi-ankara-basmane",
+      "direction": "forward",
+      "sequence": 13
+    },
+    {
+      "id": "pattern-izmir-mavi-basmane-ankara:1",
+      "from_station_id": "st-izmir-basmane",
+      "to_station_id": "st-cigli",
+      "route_id": "route-izmir-mavi",
+      "pattern_id": "pattern-izmir-mavi-basmane-ankara",
+      "direction": "reverse",
+      "sequence": 1
+    },
+    {
+      "id": "pattern-izmir-mavi-basmane-ankara:2",
+      "from_station_id": "st-cigli",
+      "to_station_id": "st-menemen",
+      "route_id": "route-izmir-mavi",
+      "pattern_id": "pattern-izmir-mavi-basmane-ankara",
+      "direction": "reverse",
+      "sequence": 2
+    },
+    {
+      "id": "pattern-izmir-mavi-basmane-ankara:3",
+      "from_station_id": "st-menemen",
+      "to_station_id": "st-emiralem",
+      "route_id": "route-izmir-mavi",
+      "pattern_id": "pattern-izmir-mavi-basmane-ankara",
+      "direction": "reverse",
+      "sequence": 3
+    },
+    {
+      "id": "pattern-izmir-mavi-basmane-ankara:4",
+      "from_station_id": "st-emiralem",
+      "to_station_id": "st-muradiye",
+      "route_id": "route-izmir-mavi",
+      "pattern_id": "pattern-izmir-mavi-basmane-ankara",
+      "direction": "reverse",
+      "sequence": 4
+    },
+    {
+      "id": "pattern-izmir-mavi-basmane-ankara:5",
+      "from_station_id": "st-muradiye",
+      "to_station_id": "st-manisa",
+      "route_id": "route-izmir-mavi",
+      "pattern_id": "pattern-izmir-mavi-basmane-ankara",
+      "direction": "reverse",
+      "sequence": 5
+    },
+    {
+      "id": "pattern-izmir-mavi-basmane-ankara:6",
+      "from_station_id": "st-manisa",
+      "to_station_id": "st-saruhanli",
+      "route_id": "route-izmir-mavi",
+      "pattern_id": "pattern-izmir-mavi-basmane-ankara",
+      "direction": "reverse",
+      "sequence": 6
+    },
+    {
+      "id": "pattern-izmir-mavi-basmane-ankara:7",
+      "from_station_id": "st-saruhanli",
+      "to_station_id": "st-akhisar",
+      "route_id": "route-izmir-mavi",
+      "pattern_id": "pattern-izmir-mavi-basmane-ankara",
+      "direction": "reverse",
+      "sequence": 7
+    },
+    {
+      "id": "pattern-izmir-mavi-basmane-ankara:8",
+      "from_station_id": "st-akhisar",
+      "to_station_id": "st-kirkagac",
+      "route_id": "route-izmir-mavi",
+      "pattern_id": "pattern-izmir-mavi-basmane-ankara",
+      "direction": "reverse",
+      "sequence": 8
+    },
+    {
+      "id": "pattern-izmir-mavi-basmane-ankara:9",
+      "from_station_id": "st-kirkagac",
+      "to_station_id": "st-soma",
+      "route_id": "route-izmir-mavi",
+      "pattern_id": "pattern-izmir-mavi-basmane-ankara",
+      "direction": "reverse",
+      "sequence": 9
+    },
+    {
+      "id": "pattern-izmir-mavi-basmane-ankara:10",
+      "from_station_id": "st-soma",
+      "to_station_id": "st-savastepe",
+      "route_id": "route-izmir-mavi",
+      "pattern_id": "pattern-izmir-mavi-basmane-ankara",
+      "direction": "reverse",
+      "sequence": 10
+    },
+    {
+      "id": "pattern-izmir-mavi-basmane-ankara:11",
+      "from_station_id": "st-savastepe",
+      "to_station_id": "st-balikesir",
+      "route_id": "route-izmir-mavi",
+      "pattern_id": "pattern-izmir-mavi-basmane-ankara",
+      "direction": "reverse",
+      "sequence": 11
+    },
+    {
+      "id": "pattern-izmir-mavi-basmane-ankara:12",
+      "from_station_id": "st-balikesir",
+      "to_station_id": "st-dursunbey",
+      "route_id": "route-izmir-mavi",
+      "pattern_id": "pattern-izmir-mavi-basmane-ankara",
+      "direction": "reverse",
+      "sequence": 12
+    },
+    {
+      "id": "pattern-izmir-mavi-basmane-ankara:13",
+      "from_station_id": "st-dursunbey",
+      "to_station_id": "st-balikoy",
+      "route_id": "route-izmir-mavi",
+      "pattern_id": "pattern-izmir-mavi-basmane-ankara",
+      "direction": "reverse",
+      "sequence": 13
+    },
+    {
+      "id": "pattern-izmir-mavi-basmane-ankara:14",
+      "from_station_id": "st-balikoy",
+      "to_station_id": "st-ankara-gar",
+      "route_id": "route-izmir-mavi",
+      "pattern_id": "pattern-izmir-mavi-basmane-ankara",
+      "direction": "reverse",
+      "sequence": 14
     }
   ],
   "transfer_edges": []

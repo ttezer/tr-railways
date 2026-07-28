@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T14:01:34.984Z",
+  "generated_at": "2026-07-28T15:58:13.562Z",
   "publication_status": "independent_open_project",
   "sources": [
     {
@@ -12,21 +12,21 @@
       "status": "odbl",
       "input": "ray_shape.geojson",
       "output": "output/route-shapes.geojson",
-      "shape_count": 4
+      "shape_count": 5
     },
     {
       "id": "station-catalog",
       "status": "catalog_or_derived",
       "input": "data/input/stations.csv",
-      "total_records": 72
+      "total_records": 96
     },
     {
       "id": "timetable",
       "status": "official_published",
       "calendar_strategy": "explicit_service_dates",
-      "source_count": 2,
-      "trip_count": 768,
-      "stop_time_count": 8033,
+      "source_count": 3,
+      "trip_count": 798,
+      "stop_time_count": 8468,
       "valid_from": "2026-07-28",
       "valid_until": "2026-08-11"
     },
@@ -34,8 +34,8 @@
       "id": "transfer-graph",
       "status": "generated",
       "input": "data/input/transfers.csv",
-      "node_count": 72,
-      "ride_edge_count": 223,
+      "node_count": 96,
+      "ride_edge_count": 250,
       "transfer_edge_count": 0
     }
   ]
