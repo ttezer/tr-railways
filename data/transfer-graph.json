@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T10:55:25.751Z",
+  "generated_at": "2026-07-29T17:49:43.459Z",
   "status": "ready",
   "nodes": [
     {
@@ -36,7 +36,8 @@
       "route_ids": [
         "route-yht-ankara-istanbul",
         "route-yht-konya",
-        "route-izmir-mavi"
+        "route-izmir-mavi",
+        "route-pamukkale-ekspresi"
       ]
     },
     {
@@ -617,14 +618,16 @@
       "station_id": "st-alayunt",
       "name": "Alayunt",
       "route_ids": [
-        "route-izmir-mavi"
+        "route-izmir-mavi",
+        "route-pamukkale-ekspresi"
       ]
     },
     {
       "station_id": "st-kutahya",
       "name": "Kütahya",
       "route_ids": [
-        "route-izmir-mavi"
+        "route-izmir-mavi",
+        "route-pamukkale-ekspresi"
       ]
     },
     {
@@ -1202,6 +1205,153 @@
       "name": "Uluova",
       "route_ids": [
         "route-guney-kurtalan-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-sabuncupinar",
+      "name": "Sabuncupınar",
+      "route_ids": [
+        "route-pamukkale-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-cogurler",
+      "name": "Çöğürler",
+      "route_ids": [
+        "route-pamukkale-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-degirmenozu",
+      "name": "Değirmenözü",
+      "route_ids": [
+        "route-pamukkale-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-doger",
+      "name": "Döğer",
+      "route_ids": [
+        "route-pamukkale-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-ihsaniye",
+      "name": "İhsaniye",
+      "route_ids": [
+        "route-pamukkale-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-gazligol",
+      "name": "Gazlıgöl",
+      "route_ids": [
+        "route-pamukkale-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-afyon-ali-cetinkaya",
+      "name": "Afyon A. Çetinkaya",
+      "route_ids": [
+        "route-pamukkale-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-tinaztepe",
+      "name": "Tınaztepe",
+      "route_ids": [
+        "route-pamukkale-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-sandikli",
+      "name": "Sandıklı",
+      "route_ids": [
+        "route-pamukkale-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-ekinova",
+      "name": "Ekinova",
+      "route_ids": [
+        "route-pamukkale-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-karakuyu",
+      "name": "Karakuyu",
+      "route_ids": [
+        "route-pamukkale-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-dinar",
+      "name": "Dinar",
+      "route_ids": [
+        "route-pamukkale-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-sutlac",
+      "name": "Sütlaç",
+      "route_ids": [
+        "route-pamukkale-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-barakli",
+      "name": "Baraklı",
+      "route_ids": [
+        "route-pamukkale-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-evciler",
+      "name": "Evciler",
+      "route_ids": [
+        "route-pamukkale-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-dazkiri",
+      "name": "Dazkırı",
+      "route_ids": [
+        "route-pamukkale-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-cardak",
+      "name": "Çardak",
+      "route_ids": [
+        "route-pamukkale-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-bozkurt",
+      "name": "Bozkurt",
+      "route_ids": [
+        "route-pamukkale-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-kaklik",
+      "name": "Kaklık",
+      "route_ids": [
+        "route-pamukkale-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-goncali",
+      "name": "Goncalı",
+      "route_ids": [
+        "route-pamukkale-ekspresi"
+      ]
+    },
+    {
+      "station_id": "st-denizli",
+      "name": "Denizli",
+      "route_ids": [
+        "route-pamukkale-ekspresi"
       ]
     }
   ],
@@ -4841,6 +4991,411 @@
       "pattern_id": "pattern-guney-kurtalan-kurtalan-ankara",
       "direction": "reverse",
       "sequence": 42
+    },
+    {
+      "id": "pattern-pamukkale-eskisehir-denizli:1",
+      "from_station_id": "st-eskisehir",
+      "to_station_id": "st-sabuncupinar",
+      "route_id": "route-pamukkale-ekspresi",
+      "pattern_id": "pattern-pamukkale-eskisehir-denizli",
+      "direction": "forward",
+      "sequence": 1
+    },
+    {
+      "id": "pattern-pamukkale-eskisehir-denizli:2",
+      "from_station_id": "st-sabuncupinar",
+      "to_station_id": "st-alayunt",
+      "route_id": "route-pamukkale-ekspresi",
+      "pattern_id": "pattern-pamukkale-eskisehir-denizli",
+      "direction": "forward",
+      "sequence": 2
+    },
+    {
+      "id": "pattern-pamukkale-eskisehir-denizli:3",
+      "from_station_id": "st-alayunt",
+      "to_station_id": "st-kutahya",
+      "route_id": "route-pamukkale-ekspresi",
+      "pattern_id": "pattern-pamukkale-eskisehir-denizli",
+      "direction": "forward",
+      "sequence": 3
+    },
+    {
+      "id": "pattern-pamukkale-eskisehir-denizli:4",
+      "from_station_id": "st-kutahya",
+      "to_station_id": "st-cogurler",
+      "route_id": "route-pamukkale-ekspresi",
+      "pattern_id": "pattern-pamukkale-eskisehir-denizli",
+      "direction": "forward",
+      "sequence": 4
+    },
+    {
+      "id": "pattern-pamukkale-eskisehir-denizli:5",
+      "from_station_id": "st-cogurler",
+      "to_station_id": "st-degirmenozu",
+      "route_id": "route-pamukkale-ekspresi",
+      "pattern_id": "pattern-pamukkale-eskisehir-denizli",
+      "direction": "forward",
+      "sequence": 5
+    },
+    {
+      "id": "pattern-pamukkale-eskisehir-denizli:6",
+      "from_station_id": "st-degirmenozu",
+      "to_station_id": "st-doger",
+      "route_id": "route-pamukkale-ekspresi",
+      "pattern_id": "pattern-pamukkale-eskisehir-denizli",
+      "direction": "forward",
+      "sequence": 6
+    },
+    {
+      "id": "pattern-pamukkale-eskisehir-denizli:7",
+      "from_station_id": "st-doger",
+      "to_station_id": "st-ihsaniye",
+      "route_id": "route-pamukkale-ekspresi",
+      "pattern_id": "pattern-pamukkale-eskisehir-denizli",
+      "direction": "forward",
+      "sequence": 7
+    },
+    {
+      "id": "pattern-pamukkale-eskisehir-denizli:8",
+      "from_station_id": "st-ihsaniye",
+      "to_station_id": "st-gazligol",
+      "route_id": "route-pamukkale-ekspresi",
+      "pattern_id": "pattern-pamukkale-eskisehir-denizli",
+      "direction": "forward",
+      "sequence": 8
+    },
+    {
+      "id": "pattern-pamukkale-eskisehir-denizli:9",
+      "from_station_id": "st-gazligol",
+      "to_station_id": "st-afyon-ali-cetinkaya",
+      "route_id": "route-pamukkale-ekspresi",
+      "pattern_id": "pattern-pamukkale-eskisehir-denizli",
+      "direction": "forward",
+      "sequence": 9
+    },
+    {
+      "id": "pattern-pamukkale-eskisehir-denizli:10",
+      "from_station_id": "st-afyon-ali-cetinkaya",
+      "to_station_id": "st-tinaztepe",
+      "route_id": "route-pamukkale-ekspresi",
+      "pattern_id": "pattern-pamukkale-eskisehir-denizli",
+      "direction": "forward",
+      "sequence": 10
+    },
+    {
+      "id": "pattern-pamukkale-eskisehir-denizli:11",
+      "from_station_id": "st-tinaztepe",
+      "to_station_id": "st-sandikli",
+      "route_id": "route-pamukkale-ekspresi",
+      "pattern_id": "pattern-pamukkale-eskisehir-denizli",
+      "direction": "forward",
+      "sequence": 11
+    },
+    {
+      "id": "pattern-pamukkale-eskisehir-denizli:12",
+      "from_station_id": "st-sandikli",
+      "to_station_id": "st-ekinova",
+      "route_id": "route-pamukkale-ekspresi",
+      "pattern_id": "pattern-pamukkale-eskisehir-denizli",
+      "direction": "forward",
+      "sequence": 12
+    },
+    {
+      "id": "pattern-pamukkale-eskisehir-denizli:13",
+      "from_station_id": "st-ekinova",
+      "to_station_id": "st-karakuyu",
+      "route_id": "route-pamukkale-ekspresi",
+      "pattern_id": "pattern-pamukkale-eskisehir-denizli",
+      "direction": "forward",
+      "sequence": 13
+    },
+    {
+      "id": "pattern-pamukkale-eskisehir-denizli:14",
+      "from_station_id": "st-karakuyu",
+      "to_station_id": "st-dinar",
+      "route_id": "route-pamukkale-ekspresi",
+      "pattern_id": "pattern-pamukkale-eskisehir-denizli",
+      "direction": "forward",
+      "sequence": 14
+    },
+    {
+      "id": "pattern-pamukkale-eskisehir-denizli:15",
+      "from_station_id": "st-dinar",
+      "to_station_id": "st-sutlac",
+      "route_id": "route-pamukkale-ekspresi",
+      "pattern_id": "pattern-pamukkale-eskisehir-denizli",
+      "direction": "forward",
+      "sequence": 15
+    },
+    {
+      "id": "pattern-pamukkale-eskisehir-denizli:16",
+      "from_station_id": "st-sutlac",
+      "to_station_id": "st-barakli",
+      "route_id": "route-pamukkale-ekspresi",
+      "pattern_id": "pattern-pamukkale-eskisehir-denizli",
+      "direction": "forward",
+      "sequence": 16
+    },
+    {
+      "id": "pattern-pamukkale-eskisehir-denizli:17",
+      "from_station_id": "st-barakli",
+      "to_station_id": "st-evciler",
+      "route_id": "route-pamukkale-ekspresi",
+      "pattern_id": "pattern-pamukkale-eskisehir-denizli",
+      "direction": "forward",
+      "sequence": 17
+    },
+    {
+      "id": "pattern-pamukkale-eskisehir-denizli:18",
+      "from_station_id": "st-evciler",
+      "to_station_id": "st-dazkiri",
+      "route_id": "route-pamukkale-ekspresi",
+      "pattern_id": "pattern-pamukkale-eskisehir-denizli",
+      "direction": "forward",
+      "sequence": 18
+    },
+    {
+      "id": "pattern-pamukkale-eskisehir-denizli:19",
+      "from_station_id": "st-dazkiri",
+      "to_station_id": "st-cardak",
+      "route_id": "route-pamukkale-ekspresi",
+      "pattern_id": "pattern-pamukkale-eskisehir-denizli",
+      "direction": "forward",
+      "sequence": 19
+    },
+    {
+      "id": "pattern-pamukkale-eskisehir-denizli:20",
+      "from_station_id": "st-cardak",
+      "to_station_id": "st-bozkurt",
+      "route_id": "route-pamukkale-ekspresi",
+      "pattern_id": "pattern-pamukkale-eskisehir-denizli",
+      "direction": "forward",
+      "sequence": 20
+    },
+    {
+      "id": "pattern-pamukkale-eskisehir-denizli:21",
+      "from_station_id": "st-bozkurt",
+      "to_station_id": "st-kaklik",
+      "route_id": "route-pamukkale-ekspresi",
+      "pattern_id": "pattern-pamukkale-eskisehir-denizli",
+      "direction": "forward",
+      "sequence": 21
+    },
+    {
+      "id": "pattern-pamukkale-eskisehir-denizli:22",
+      "from_station_id": "st-kaklik",
+      "to_station_id": "st-goncali",
+      "route_id": "route-pamukkale-ekspresi",
+      "pattern_id": "pattern-pamukkale-eskisehir-denizli",
+      "direction": "forward",
+      "sequence": 22
+    },
+    {
+      "id": "pattern-pamukkale-eskisehir-denizli:23",
+      "from_station_id": "st-goncali",
+      "to_station_id": "st-denizli",
+      "route_id": "route-pamukkale-ekspresi",
+      "pattern_id": "pattern-pamukkale-eskisehir-denizli",
+      "direction": "forward",
+      "sequence": 23
+    },
+    {
+      "id": "pattern-pamukkale-denizli-eskisehir:1",
+      "from_station_id": "st-denizli",
+      "to_station_id": "st-kaklik",
+      "route_id": "route-pamukkale-ekspresi",
+      "pattern_id": "pattern-pamukkale-denizli-eskisehir",
+      "direction": "reverse",
+      "sequence": 1
+    },
+    {
+      "id": "pattern-pamukkale-denizli-eskisehir:2",
+      "from_station_id": "st-kaklik",
+      "to_station_id": "st-bozkurt",
+      "route_id": "route-pamukkale-ekspresi",
+      "pattern_id": "pattern-pamukkale-denizli-eskisehir",
+      "direction": "reverse",
+      "sequence": 2
+    },
+    {
+      "id": "pattern-pamukkale-denizli-eskisehir:3",
+      "from_station_id": "st-bozkurt",
+      "to_station_id": "st-cardak",
+      "route_id": "route-pamukkale-ekspresi",
+      "pattern_id": "pattern-pamukkale-denizli-eskisehir",
+      "direction": "reverse",
+      "sequence": 3
+    },
+    {
+      "id": "pattern-pamukkale-denizli-eskisehir:4",
+      "from_station_id": "st-cardak",
+      "to_station_id": "st-dazkiri",
+      "route_id": "route-pamukkale-ekspresi",
+      "pattern_id": "pattern-pamukkale-denizli-eskisehir",
+      "direction": "reverse",
+      "sequence": 4
+    },
+    {
+      "id": "pattern-pamukkale-denizli-eskisehir:5",
+      "from_station_id": "st-dazkiri",
+      "to_station_id": "st-evciler",
+      "route_id": "route-pamukkale-ekspresi",
+      "pattern_id": "pattern-pamukkale-denizli-eskisehir",
+      "direction": "reverse",
+      "sequence": 5
+    },
+    {
+      "id": "pattern-pamukkale-denizli-eskisehir:6",
+      "from_station_id": "st-evciler",
+      "to_station_id": "st-barakli",
+      "route_id": "route-pamukkale-ekspresi",
+      "pattern_id": "pattern-pamukkale-denizli-eskisehir",
+      "direction": "reverse",
+      "sequence": 6
+    },
+    {
+      "id": "pattern-pamukkale-denizli-eskisehir:7",
+      "from_station_id": "st-barakli",
+      "to_station_id": "st-sutlac",
+      "route_id": "route-pamukkale-ekspresi",
+      "pattern_id": "pattern-pamukkale-denizli-eskisehir",
+      "direction": "reverse",
+      "sequence": 7
+    },
+    {
+      "id": "pattern-pamukkale-denizli-eskisehir:8",
+      "from_station_id": "st-sutlac",
+      "to_station_id": "st-dinar",
+      "route_id": "route-pamukkale-ekspresi",
+      "pattern_id": "pattern-pamukkale-denizli-eskisehir",
+      "direction": "reverse",
+      "sequence": 8
+    },
+    {
+      "id": "pattern-pamukkale-denizli-eskisehir:9",
+      "from_station_id": "st-dinar",
+      "to_station_id": "st-karakuyu",
+      "route_id": "route-pamukkale-ekspresi",
+      "pattern_id": "pattern-pamukkale-denizli-eskisehir",
+      "direction": "reverse",
+      "sequence": 9
+    },
+    {
+      "id": "pattern-pamukkale-denizli-eskisehir:10",
+      "from_station_id": "st-karakuyu",
+      "to_station_id": "st-ekinova",
+      "route_id": "route-pamukkale-ekspresi",
+      "pattern_id": "pattern-pamukkale-denizli-eskisehir",
+      "direction": "reverse",
+      "sequence": 10
+    },
+    {
+      "id": "pattern-pamukkale-denizli-eskisehir:11",
+      "from_station_id": "st-ekinova",
+      "to_station_id": "st-sandikli",
+      "route_id": "route-pamukkale-ekspresi",
+      "pattern_id": "pattern-pamukkale-denizli-eskisehir",
+      "direction": "reverse",
+      "sequence": 11
+    },
+    {
+      "id": "pattern-pamukkale-denizli-eskisehir:12",
+      "from_station_id": "st-sandikli",
+      "to_station_id": "st-tinaztepe",
+      "route_id": "route-pamukkale-ekspresi",
+      "pattern_id": "pattern-pamukkale-denizli-eskisehir",
+      "direction": "reverse",
+      "sequence": 12
+    },
+    {
+      "id": "pattern-pamukkale-denizli-eskisehir:13",
+      "from_station_id": "st-tinaztepe",
+      "to_station_id": "st-afyon-ali-cetinkaya",
+      "route_id": "route-pamukkale-ekspresi",
+      "pattern_id": "pattern-pamukkale-denizli-eskisehir",
+      "direction": "reverse",
+      "sequence": 13
+    },
+    {
+      "id": "pattern-pamukkale-denizli-eskisehir:14",
+      "from_station_id": "st-afyon-ali-cetinkaya",
+      "to_station_id": "st-gazligol",
+      "route_id": "route-pamukkale-ekspresi",
+      "pattern_id": "pattern-pamukkale-denizli-eskisehir",
+      "direction": "reverse",
+      "sequence": 14
+    },
+    {
+      "id": "pattern-pamukkale-denizli-eskisehir:15",
+      "from_station_id": "st-gazligol",
+      "to_station_id": "st-ihsaniye",
+      "route_id": "route-pamukkale-ekspresi",
+      "pattern_id": "pattern-pamukkale-denizli-eskisehir",
+      "direction": "reverse",
+      "sequence": 15
+    },
+    {
+      "id": "pattern-pamukkale-denizli-eskisehir:16",
+      "from_station_id": "st-ihsaniye",
+      "to_station_id": "st-doger",
+      "route_id": "route-pamukkale-ekspresi",
+      "pattern_id": "pattern-pamukkale-denizli-eskisehir",
+      "direction": "reverse",
+      "sequence": 16
+    },
+    {
+      "id": "pattern-pamukkale-denizli-eskisehir:17",
+      "from_station_id": "st-doger",
+      "to_station_id": "st-degirmenozu",
+      "route_id": "route-pamukkale-ekspresi",
+      "pattern_id": "pattern-pamukkale-denizli-eskisehir",
+      "direction": "reverse",
+      "sequence": 17
+    },
+    {
+      "id": "pattern-pamukkale-denizli-eskisehir:18",
+      "from_station_id": "st-degirmenozu",
+      "to_station_id": "st-cogurler",
+      "route_id": "route-pamukkale-ekspresi",
+      "pattern_id": "pattern-pamukkale-denizli-eskisehir",
+      "direction": "reverse",
+      "sequence": 18
+    },
+    {
+      "id": "pattern-pamukkale-denizli-eskisehir:19",
+      "from_station_id": "st-cogurler",
+      "to_station_id": "st-kutahya",
+      "route_id": "route-pamukkale-ekspresi",
+      "pattern_id": "pattern-pamukkale-denizli-eskisehir",
+      "direction": "reverse",
+      "sequence": 19
+    },
+    {
+      "id": "pattern-pamukkale-denizli-eskisehir:20",
+      "from_station_id": "st-kutahya",
+      "to_station_id": "st-alayunt",
+      "route_id": "route-pamukkale-ekspresi",
+      "pattern_id": "pattern-pamukkale-denizli-eskisehir",
+      "direction": "reverse",
+      "sequence": 20
+    },
+    {
+      "id": "pattern-pamukkale-denizli-eskisehir:21",
+      "from_station_id": "st-alayunt",
+      "to_station_id": "st-sabuncupinar",
+      "route_id": "route-pamukkale-ekspresi",
+      "pattern_id": "pattern-pamukkale-denizli-eskisehir",
+      "direction": "reverse",
+      "sequence": 21
+    },
+    {
+      "id": "pattern-pamukkale-denizli-eskisehir:22",
+      "from_station_id": "st-sabuncupinar",
+      "to_station_id": "st-eskisehir",
+      "route_id": "route-pamukkale-ekspresi",
+      "pattern_id": "pattern-pamukkale-denizli-eskisehir",
+      "direction": "reverse",
+      "sequence": 22
     }
   ],
   "transfer_edges": []
