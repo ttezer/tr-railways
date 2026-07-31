@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T21:06:29.698Z",
+  "generated_at": "2026-07-31T11:20:06.407Z",
   "publication_status": "independent_open_project",
   "routes": [
     {
@@ -7,7 +7,7 @@
       "name": "Ankara–İstanbul YHT",
       "mode": "yht",
       "status": "active",
-      "length_km": 606.9,
+      "length_km": 606.7,
       "shape_ids": [
         "shape-ankara-halkali"
       ],
@@ -19,7 +19,7 @@
       "name": "Konya YHT",
       "mode": "yht",
       "status": "active",
-      "length_km": 814.7,
+      "length_km": 814.6,
       "shape_ids": [
         "shape-ankara-karaman",
         "shape-halkali-karaman"
@@ -32,7 +32,7 @@
       "name": "Doğu Ekspresi",
       "mode": "mainline",
       "status": "active",
-      "length_km": 1362,
+      "length_km": 1361.2,
       "shape_ids": [
         "shape-ankara-kars"
       ],
@@ -44,7 +44,7 @@
       "name": "İzmir Mavi Treni",
       "mode": "mainline",
       "status": "active",
-      "length_km": 822.8,
+      "length_km": 822.5,
       "shape_ids": [
         "shape-ankara-basmane"
       ],
@@ -56,7 +56,7 @@
       "name": "Vangölü Ekspresi",
       "mode": "mainline",
       "status": "active",
-      "length_km": 1291.9,
+      "length_km": 1316.2,
       "shape_ids": [
         "shape-ankara-tatvan"
       ],
@@ -68,7 +68,7 @@
       "name": "Güney Kurtalan Ekspresi",
       "mode": "mainline",
       "status": "active",
-      "length_km": 1241.4,
+      "length_km": 1265.7,
       "shape_ids": [
         "shape-ankara-kurtalan"
       ],
@@ -80,7 +80,7 @@
       "name": "Pamukkale Ekspresi",
       "mode": "mainline",
       "status": "active",
-      "length_km": 445.7,
+      "length_km": 445.6,
       "shape_ids": [
         "shape-eskisehir-denizli"
       ],
@@ -92,7 +92,7 @@
       "name": "Sivas YHT",
       "mode": "yht",
       "status": "active",
-      "length_km": 938.8,
+      "length_km": 938.5,
       "shape_ids": [
         "shape-ankara-sivas-yht",
         "shape-sogutlucesme-sivas-yht"
@@ -105,7 +105,7 @@
       "name": "Turistik Doğu Ekspresi",
       "mode": "mainline",
       "status": "active",
-      "length_km": 1362,
+      "length_km": 1361.2,
       "shape_ids": [
         "shape-turistik-ankara-kars"
       ],
@@ -117,7 +117,7 @@
       "name": "Ankara Ekspresi",
       "mode": "mainline",
       "status": "active",
-      "length_km": 642.8,
+      "length_km": 642.6,
       "shape_ids": [
         "shape-ankara-halkali-conventional"
       ],
@@ -129,7 +129,7 @@
       "name": "4 Eylül Mavi",
       "mode": "mainline",
       "status": "active",
-      "length_km": 854,
+      "length_km": 853.5,
       "shape_ids": [
         "shape-ankara-malatya"
       ],
@@ -1186,9 +1186,9 @@
           "derived": false
         },
         "shape-sogutlucesme-sivas-yht": {
-          "index": 1874,
+          "index": 1244,
           "offset_m": 204,
-          "distance_km": 533.583,
+          "distance_km": 533.521,
           "derived": false
         },
         "shape-turistik-ankara-kars": {
@@ -1483,20 +1483,20 @@
       "latitude": 39.95575,
       "longitude": 32.63023,
       "coordinate_status": "verified",
-      "shape_index": 78,
+      "shape_index": 47,
       "shape_offset_m": 72,
-      "shape_distance_km": 19.984,
+      "shape_distance_km": 19.98,
       "shape_positions": {
         "shape-ankara-halkali": {
-          "index": 78,
+          "index": 47,
           "offset_m": 72,
-          "distance_km": 19.984,
+          "distance_km": 19.98,
           "derived": false
         },
         "shape-ankara-karaman": {
-          "index": 76,
+          "index": 49,
           "offset_m": 72,
-          "distance_km": 19.984,
+          "distance_km": 19.98,
           "derived": false
         }
       },
@@ -1590,23 +1590,23 @@
       "name": "Polatlı YHT",
       "city": "Ankara",
       "district": "Polatlı",
-      "latitude": 39.671388888889,
-      "longitude": 32.230833333334,
-      "coordinate_status": "needs_review",
-      "shape_index": 230,
-      "shape_offset_m": 750,
-      "shape_distance_km": 76.376,
+      "latitude": 39.6748831,
+      "longitude": 32.2268917,
+      "coordinate_status": "derived",
+      "shape_index": 152,
+      "shape_offset_m": 546,
+      "shape_distance_km": 76.369,
       "shape_positions": {
         "shape-ankara-halkali": {
-          "index": 230,
-          "offset_m": 750,
-          "distance_km": 76.376,
+          "index": 152,
+          "offset_m": 546,
+          "distance_km": 76.369,
           "derived": false
         },
         "shape-ankara-karaman": {
-          "index": 230,
-          "offset_m": 750,
-          "distance_km": 76.376,
+          "index": 154,
+          "offset_m": 546,
+          "distance_km": 76.369,
           "derived": false
         }
       },
@@ -1703,26 +1703,26 @@
       "latitude": 39.778888888889,
       "longitude": 30.500833333333,
       "coordinate_status": "verified",
-      "shape_index": 702,
+      "shape_index": 485,
       "shape_offset_m": 33,
-      "shape_distance_km": 250.381,
+      "shape_distance_km": 250.365,
       "shape_positions": {
         "shape-ankara-halkali": {
-          "index": 702,
+          "index": 485,
           "offset_m": 33,
-          "distance_km": 250.381,
+          "distance_km": 250.365,
           "derived": false
         },
         "shape-halkali-karaman": {
-          "index": 1778,
+          "index": 1137,
           "offset_m": 33,
-          "distance_km": 356.522,
+          "distance_km": 356.372,
           "derived": false
         },
         "shape-ankara-basmane": {
-          "index": 1062,
+          "index": 736,
           "offset_m": 33,
-          "distance_km": 256.563,
+          "distance_km": 256.519,
           "derived": false
         },
         "shape-eskisehir-denizli": {
@@ -1732,15 +1732,15 @@
           "derived": false
         },
         "shape-sogutlucesme-sivas-yht": {
-          "index": 1187,
+          "index": 767,
           "offset_m": 33,
-          "distance_km": 287.929,
+          "distance_km": 287.881,
           "derived": false
         },
         "shape-ankara-halkali-conventional": {
-          "index": 1062,
+          "index": 736,
           "offset_m": 33,
-          "distance_km": 256.563,
+          "distance_km": 256.519,
           "derived": false
         }
       },
@@ -1897,20 +1897,20 @@
       "latitude": 39.880555555556,
       "longitude": 30.043611111111,
       "coordinate_status": "verified",
-      "shape_index": 778,
-      "shape_offset_m": 486,
-      "shape_distance_km": 292.8,
+      "shape_index": 537,
+      "shape_offset_m": 1004,
+      "shape_distance_km": 293.302,
       "shape_positions": {
         "shape-ankara-halkali": {
-          "index": 778,
-          "offset_m": 486,
-          "distance_km": 292.8,
+          "index": 537,
+          "offset_m": 1004,
+          "distance_km": 293.302,
           "derived": false
         },
         "shape-halkali-karaman": {
-          "index": 1702,
+          "index": 1085,
           "offset_m": 891,
-          "distance_km": 313.696,
+          "distance_km": 313.547,
           "derived": false
         }
       },
@@ -2007,20 +2007,20 @@
       "latitude": 40.13568,
       "longitude": 30.00954,
       "coordinate_status": "verified",
-      "shape_index": 1013,
+      "shape_index": 685,
       "shape_offset_m": 60,
-      "shape_distance_km": 326.757,
+      "shape_distance_km": 326.726,
       "shape_positions": {
         "shape-ankara-halkali": {
-          "index": 1013,
+          "index": 685,
           "offset_m": 60,
-          "distance_km": 326.757,
+          "distance_km": 326.726,
           "derived": false
         },
         "shape-halkali-karaman": {
-          "index": 1468,
+          "index": 936,
           "offset_m": 60,
-          "distance_km": 280.146,
+          "distance_km": 280.01,
           "derived": false
         }
       },
@@ -2117,20 +2117,20 @@
       "latitude": 40.499761474293,
       "longitude": 30.19756809546,
       "coordinate_status": "verified",
-      "shape_index": 1391,
+      "shape_index": 934,
       "shape_offset_m": 711,
-      "shape_distance_km": 410.889,
+      "shape_distance_km": 410.843,
       "shape_positions": {
         "shape-ankara-halkali": {
-          "index": 1391,
+          "index": 934,
           "offset_m": 711,
-          "distance_km": 410.889,
+          "distance_km": 410.843,
           "derived": false
         },
         "shape-halkali-karaman": {
-          "index": 1090,
+          "index": 687,
           "offset_m": 711,
-          "distance_km": 196.014,
+          "distance_km": 195.893,
           "derived": false
         }
       },
@@ -2207,32 +2207,32 @@
       "latitude": 40.713333333333,
       "longitude": 30.356111111111,
       "coordinate_status": "verified",
-      "shape_index": 1540,
+      "shape_index": 1022,
       "shape_offset_m": 116,
-      "shape_distance_km": 443.223,
+      "shape_distance_km": 443.169,
       "shape_positions": {
         "shape-ankara-halkali": {
-          "index": 1540,
+          "index": 1022,
           "offset_m": 116,
-          "distance_km": 443.223,
+          "distance_km": 443.169,
           "derived": false
         },
         "shape-halkali-karaman": {
-          "index": 941,
+          "index": 599,
           "offset_m": 116,
-          "distance_km": 163.68,
+          "distance_km": 163.567,
           "derived": false
         },
         "shape-sogutlucesme-sivas-yht": {
-          "index": 688,
+          "index": 440,
           "offset_m": 116,
-          "distance_km": 128.229,
+          "distance_km": 128.197,
           "derived": false
         },
         "shape-ankara-halkali-conventional": {
-          "index": 2099,
+          "index": 1399,
           "offset_m": 116,
-          "distance_km": 480.486,
+          "distance_km": 480.288,
           "derived": false
         }
       },
@@ -2359,32 +2359,32 @@
       "latitude": 40.761944444444,
       "longitude": 29.9175,
       "coordinate_status": "verified",
-      "shape_index": 1681,
+      "shape_index": 1113,
       "shape_offset_m": 208,
-      "shape_distance_km": 483.369,
+      "shape_distance_km": 483.311,
       "shape_positions": {
         "shape-ankara-halkali": {
-          "index": 1681,
+          "index": 1113,
           "offset_m": 208,
-          "distance_km": 483.369,
+          "distance_km": 483.311,
           "derived": false
         },
         "shape-halkali-karaman": {
-          "index": 800,
+          "index": 508,
           "offset_m": 208,
-          "distance_km": 123.534,
+          "distance_km": 123.426,
           "derived": false
         },
         "shape-sogutlucesme-sivas-yht": {
-          "index": 547,
+          "index": 349,
           "offset_m": 208,
-          "distance_km": 88.082,
+          "distance_km": 88.055,
           "derived": false
         },
         "shape-ankara-halkali-conventional": {
-          "index": 2240,
+          "index": 1490,
           "offset_m": 213,
-          "distance_km": 520.22,
+          "distance_km": 520.017,
           "derived": false
         }
       },
@@ -2511,26 +2511,26 @@
       "latitude": 40.786388888889,
       "longitude": 29.405555555556,
       "coordinate_status": "verified",
-      "shape_index": 1955,
+      "shape_index": 1297,
       "shape_offset_m": 91,
-      "shape_distance_km": 530.385,
+      "shape_distance_km": 530.314,
       "shape_positions": {
         "shape-ankara-halkali": {
-          "index": 1955,
+          "index": 1297,
           "offset_m": 91,
-          "distance_km": 530.385,
+          "distance_km": 530.314,
           "derived": false
         },
         "shape-halkali-karaman": {
-          "index": 526,
+          "index": 324,
           "offset_m": 91,
-          "distance_km": 76.519,
+          "distance_km": 76.423,
           "derived": false
         },
         "shape-ankara-halkali-conventional": {
-          "index": 2512,
+          "index": 1675,
           "offset_m": 91,
-          "distance_km": 567.646,
+          "distance_km": 567.431,
           "derived": false
         }
       },
@@ -2637,32 +2637,32 @@
       "latitude": 40.879722222223,
       "longitude": 29.230833333334,
       "coordinate_status": "verified",
-      "shape_index": 2055,
+      "shape_index": 1356,
       "shape_offset_m": 56,
-      "shape_distance_km": 549.312,
+      "shape_distance_km": 549.171,
       "shape_positions": {
         "shape-ankara-halkali": {
-          "index": 2055,
+          "index": 1356,
           "offset_m": 56,
-          "distance_km": 549.312,
+          "distance_km": 549.171,
           "derived": false
         },
         "shape-halkali-karaman": {
-          "index": 426,
+          "index": 265,
           "offset_m": 56,
-          "distance_km": 57.591,
+          "distance_km": 57.566,
           "derived": false
         },
         "shape-sogutlucesme-sivas-yht": {
-          "index": 178,
+          "index": 108,
           "offset_m": 56,
-          "distance_km": 22.606,
+          "distance_km": 22.595,
           "derived": false
         },
         "shape-ankara-halkali-conventional": {
-          "index": 2608,
+          "index": 1736,
           "offset_m": 60,
-          "distance_km": 586.511,
+          "distance_km": 586.292,
           "derived": false
         }
       },
@@ -2789,26 +2789,26 @@
       "latitude": 40.9541746,
       "longitude": 29.0941199,
       "coordinate_status": "verified",
-      "shape_index": 2175,
+      "shape_index": 1427,
       "shape_offset_m": 115,
-      "shape_distance_km": 564.844,
+      "shape_distance_km": 564.695,
       "shape_positions": {
         "shape-ankara-halkali": {
-          "index": 2175,
+          "index": 1427,
           "offset_m": 115,
-          "distance_km": 564.844,
+          "distance_km": 564.695,
           "derived": false
         },
         "shape-halkali-karaman": {
-          "index": 306,
+          "index": 194,
           "offset_m": 115,
-          "distance_km": 42.059,
+          "distance_km": 42.042,
           "derived": false
         },
         "shape-ankara-halkali-conventional": {
-          "index": 2730,
+          "index": 1809,
           "offset_m": 115,
-          "distance_km": 602.038,
+          "distance_km": 601.811,
           "derived": false
         }
       },
@@ -2915,20 +2915,20 @@
       "latitude": 40.9906464,
       "longitude": 29.0379088,
       "coordinate_status": "verified",
-      "shape_index": 2232,
+      "shape_index": 1465,
       "shape_offset_m": 64,
-      "shape_distance_km": 571.981,
+      "shape_distance_km": 571.828,
       "shape_positions": {
         "shape-ankara-halkali": {
-          "index": 2232,
+          "index": 1465,
           "offset_m": 64,
-          "distance_km": 571.981,
+          "distance_km": 571.828,
           "derived": false
         },
         "shape-halkali-karaman": {
-          "index": 249,
+          "index": 156,
           "offset_m": 64,
-          "distance_km": 34.922,
+          "distance_km": 34.909,
           "derived": false
         },
         "shape-sogutlucesme-sivas-yht": {
@@ -2938,9 +2938,9 @@
           "derived": false
         },
         "shape-ankara-halkali-conventional": {
-          "index": 2787,
+          "index": 1847,
           "offset_m": 64,
-          "distance_km": 609.175,
+          "distance_km": 608.945,
           "derived": false
         }
       },
@@ -3067,26 +3067,26 @@
       "latitude": 40.992777777777,
       "longitude": 28.913888888889,
       "coordinate_status": "verified",
-      "shape_index": 2333,
+      "shape_index": 1532,
       "shape_offset_m": 17,
-      "shape_distance_km": 587.935,
+      "shape_distance_km": 587.777,
       "shape_positions": {
         "shape-ankara-halkali": {
-          "index": 2333,
+          "index": 1532,
           "offset_m": 17,
-          "distance_km": 587.935,
+          "distance_km": 587.777,
           "derived": false
         },
         "shape-halkali-karaman": {
-          "index": 148,
+          "index": 89,
           "offset_m": 17,
-          "distance_km": 18.968,
+          "distance_km": 18.959,
           "derived": false
         },
         "shape-ankara-halkali-conventional": {
-          "index": 2872,
-          "offset_m": 23,
-          "distance_km": 623.8,
+          "index": 1904,
+          "offset_m": 42,
+          "distance_km": 623.626,
           "derived": false
         }
       },
@@ -3153,14 +3153,14 @@
       "latitude": 41.018611111111,
       "longitude": 28.766666666667,
       "coordinate_status": "verified",
-      "shape_index": 2481,
+      "shape_index": 1621,
       "shape_offset_m": 19,
-      "shape_distance_km": 606.903,
+      "shape_distance_km": 606.737,
       "shape_positions": {
         "shape-ankara-halkali": {
-          "index": 2481,
+          "index": 1621,
           "offset_m": 19,
-          "distance_km": 606.903,
+          "distance_km": 606.737,
           "derived": false
         },
         "shape-halkali-karaman": {
@@ -3170,9 +3170,9 @@
           "derived": false
         },
         "shape-ankara-halkali-conventional": {
-          "index": 3023,
+          "index": 1995,
           "offset_m": 19,
-          "distance_km": 642.809,
+          "distance_km": 642.566,
           "derived": false
         }
       },
@@ -3249,20 +3249,20 @@
       "latitude": 37.89798,
       "longitude": 32.498,
       "coordinate_status": "verified",
-      "shape_index": 573,
+      "shape_index": 435,
       "shape_offset_m": 192,
-      "shape_distance_km": 309.866,
+      "shape_distance_km": 309.855,
       "shape_positions": {
         "shape-ankara-karaman": {
-          "index": 573,
+          "index": 435,
           "offset_m": 192,
-          "distance_km": 309.866,
+          "distance_km": 309.855,
           "derived": false
         },
         "shape-halkali-karaman": {
-          "index": 2435,
+          "index": 1628,
           "offset_m": 192,
-          "distance_km": 708.809,
+          "distance_km": 708.649,
           "derived": false
         }
       },
@@ -3356,23 +3356,23 @@
       "name": "Konya",
       "city": "Konya",
       "district": "Meram",
-      "latitude": 37.854722222222,
-      "longitude": 32.488333333333,
-      "coordinate_status": "verified",
-      "shape_index": 599,
-      "shape_offset_m": 958,
-      "shape_distance_km": 315.574,
+      "latitude": 37.8509865,
+      "longitude": 32.4785099,
+      "coordinate_status": "derived",
+      "shape_index": 451,
+      "shape_offset_m": 47,
+      "shape_distance_km": 315.563,
       "shape_positions": {
         "shape-ankara-karaman": {
-          "index": 599,
-          "offset_m": 958,
-          "distance_km": 315.574,
+          "index": 451,
+          "offset_m": 47,
+          "distance_km": 315.563,
           "derived": false
         },
         "shape-halkali-karaman": {
-          "index": 2459,
-          "offset_m": 958,
-          "distance_km": 714.518,
+          "index": 1644,
+          "offset_m": 47,
+          "distance_km": 714.357,
           "derived": false
         }
       },
@@ -3466,23 +3466,23 @@
       "name": "Çumra",
       "city": "Konya",
       "district": "Çumra",
-      "latitude": 37.571388888889,
-      "longitude": 32.7775,
-      "coordinate_status": "verified",
-      "shape_index": 627,
-      "shape_offset_m": 914,
-      "shape_distance_km": 358.339,
+      "latitude": 37.5745458,
+      "longitude": 32.7812211,
+      "coordinate_status": "derived",
+      "shape_index": 475,
+      "shape_offset_m": 777,
+      "shape_distance_km": 358.327,
       "shape_positions": {
         "shape-ankara-karaman": {
-          "index": 627,
-          "offset_m": 914,
-          "distance_km": 358.339,
+          "index": 475,
+          "offset_m": 777,
+          "distance_km": 358.327,
           "derived": false
         },
         "shape-halkali-karaman": {
-          "index": 2487,
-          "offset_m": 914,
-          "distance_km": 757.283,
+          "index": 1668,
+          "offset_m": 777,
+          "distance_km": 757.121,
           "derived": false
         }
       },
@@ -3536,23 +3536,23 @@
       "name": "Karaman",
       "city": "Karaman",
       "district": "Merkez",
-      "latitude": 37.181944444444,
-      "longitude": 33.215833333334,
-      "coordinate_status": "verified",
-      "shape_index": 677,
-      "shape_offset_m": 1290,
-      "shape_distance_km": 415.779,
+      "latitude": 37.1935423,
+      "longitude": 33.2156158,
+      "coordinate_status": "derived",
+      "shape_index": 515,
+      "shape_offset_m": 0,
+      "shape_distance_km": 415.767,
       "shape_positions": {
         "shape-ankara-karaman": {
-          "index": 677,
-          "offset_m": 1290,
-          "distance_km": 415.779,
+          "index": 515,
+          "offset_m": 0,
+          "distance_km": 415.767,
           "derived": false
         },
         "shape-halkali-karaman": {
-          "index": 2537,
-          "offset_m": 1290,
-          "distance_km": 814.723,
+          "index": 1708,
+          "offset_m": 0,
+          "distance_km": 814.561,
           "derived": false
         }
       },
@@ -3609,32 +3609,32 @@
       "latitude": 39.914444444444,
       "longitude": 32.963611111111,
       "coordinate_status": "verified",
-      "shape_index": 108,
+      "shape_index": 73,
       "shape_offset_m": 82,
-      "shape_distance_km": 13.286,
+      "shape_distance_km": 13.156,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 108,
+          "index": 73,
           "offset_m": 82,
-          "distance_km": 13.286,
+          "distance_km": 13.156,
           "derived": false
         },
         "shape-ankara-tatvan": {
-          "index": 103,
-          "offset_m": 154,
-          "distance_km": 11.931,
+          "index": 73,
+          "offset_m": 82,
+          "distance_km": 13.156,
           "derived": false
         },
         "shape-ankara-kurtalan": {
-          "index": 103,
-          "offset_m": 154,
-          "distance_km": 11.931,
+          "index": 73,
+          "offset_m": 82,
+          "distance_km": 13.156,
           "derived": false
         },
         "shape-ankara-malatya": {
-          "index": 108,
+          "index": 73,
           "offset_m": 82,
-          "distance_km": 13.286,
+          "distance_km": 13.156,
           "derived": false
         }
       },
@@ -3701,32 +3701,32 @@
       "latitude": 39.924166666667,
       "longitude": 33.228055555556,
       "coordinate_status": "verified",
-      "shape_index": 388,
+      "shape_index": 263,
       "shape_offset_m": 184,
-      "shape_distance_km": 47.548,
+      "shape_distance_km": 47.279,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 388,
+          "index": 263,
           "offset_m": 184,
-          "distance_km": 47.548,
+          "distance_km": 47.279,
           "derived": false
         },
         "shape-ankara-tatvan": {
-          "index": 174,
-          "offset_m": 1056,
-          "distance_km": 38.217,
+          "index": 263,
+          "offset_m": 184,
+          "distance_km": 47.279,
           "derived": false
         },
         "shape-ankara-kurtalan": {
-          "index": 174,
-          "offset_m": 1056,
-          "distance_km": 38.217,
+          "index": 263,
+          "offset_m": 184,
+          "distance_km": 47.279,
           "derived": false
         },
         "shape-ankara-malatya": {
-          "index": 388,
+          "index": 263,
           "offset_m": 184,
-          "distance_km": 47.548,
+          "distance_km": 47.279,
           "derived": false
         }
       },
@@ -3793,32 +3793,32 @@
       "latitude": 39.932222222223,
       "longitude": 33.390277777777,
       "coordinate_status": "verified",
-      "shape_index": 731,
+      "shape_index": 476,
       "shape_offset_m": 10,
-      "shape_distance_km": 73.057,
+      "shape_distance_km": 72.759,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 731,
+          "index": 476,
           "offset_m": 10,
-          "distance_km": 73.057,
+          "distance_km": 72.759,
           "derived": false
         },
         "shape-ankara-tatvan": {
-          "index": 235,
-          "offset_m": 7331,
-          "distance_km": 63.829,
+          "index": 476,
+          "offset_m": 10,
+          "distance_km": 72.759,
           "derived": false
         },
         "shape-ankara-kurtalan": {
-          "index": 235,
-          "offset_m": 7331,
-          "distance_km": 63.829,
+          "index": 476,
+          "offset_m": 10,
+          "distance_km": 72.759,
           "derived": false
         },
         "shape-ankara-malatya": {
-          "index": 731,
+          "index": 476,
           "offset_m": 10,
-          "distance_km": 73.057,
+          "distance_km": 72.759,
           "derived": false
         }
       },
@@ -3885,32 +3885,32 @@
       "latitude": 39.837777777777,
       "longitude": 33.503055555556,
       "coordinate_status": "verified",
-      "shape_index": 907,
+      "shape_index": 597,
       "shape_offset_m": 251,
-      "shape_distance_km": 95.969,
+      "shape_distance_km": 95.661,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 907,
+          "index": 597,
           "offset_m": 251,
-          "distance_km": 95.969,
+          "distance_km": 95.661,
           "derived": false
         },
         "shape-ankara-tatvan": {
-          "index": 261,
-          "offset_m": 2938,
-          "distance_km": 72.808,
+          "index": 597,
+          "offset_m": 251,
+          "distance_km": 95.661,
           "derived": false
         },
         "shape-ankara-kurtalan": {
-          "index": 261,
-          "offset_m": 2938,
-          "distance_km": 72.808,
+          "index": 597,
+          "offset_m": 251,
+          "distance_km": 95.661,
           "derived": false
         },
         "shape-ankara-malatya": {
-          "index": 907,
+          "index": 597,
           "offset_m": 251,
-          "distance_km": 95.969,
+          "distance_km": 95.661,
           "derived": false
         }
       },
@@ -3977,32 +3977,32 @@
       "latitude": 39.891944444444,
       "longitude": 34.001388888889,
       "coordinate_status": "verified",
-      "shape_index": 1340,
+      "shape_index": 870,
       "shape_offset_m": 461,
-      "shape_distance_km": 149.819,
+      "shape_distance_km": 149.478,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 1340,
+          "index": 870,
           "offset_m": 461,
-          "distance_km": 149.819,
+          "distance_km": 149.478,
           "derived": false
         },
         "shape-ankara-tatvan": {
-          "index": 607,
+          "index": 870,
           "offset_m": 461,
-          "distance_km": 125.056,
+          "distance_km": 149.478,
           "derived": false
         },
         "shape-ankara-kurtalan": {
-          "index": 607,
+          "index": 870,
           "offset_m": 461,
-          "distance_km": 125.056,
+          "distance_km": 149.478,
           "derived": false
         },
         "shape-ankara-malatya": {
-          "index": 1340,
+          "index": 870,
           "offset_m": 461,
-          "distance_km": 149.819,
+          "distance_km": 149.478,
           "derived": false
         }
       },
@@ -4069,32 +4069,32 @@
       "latitude": 39.638333333333,
       "longitude": 34.47,
       "coordinate_status": "verified",
-      "shape_index": 1523,
+      "shape_index": 1006,
       "shape_offset_m": 419,
-      "shape_distance_km": 207.155,
+      "shape_distance_km": 206.807,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 1523,
+          "index": 1006,
           "offset_m": 419,
-          "distance_km": 207.155,
+          "distance_km": 206.807,
           "derived": false
         },
         "shape-ankara-tatvan": {
-          "index": 790,
+          "index": 1006,
           "offset_m": 419,
-          "distance_km": 182.391,
+          "distance_km": 206.807,
           "derived": false
         },
         "shape-ankara-kurtalan": {
-          "index": 790,
+          "index": 1006,
           "offset_m": 419,
-          "distance_km": 182.391,
+          "distance_km": 206.807,
           "derived": false
         },
         "shape-ankara-malatya": {
-          "index": 1523,
+          "index": 1006,
           "offset_m": 419,
-          "distance_km": 207.155,
+          "distance_km": 206.807,
           "derived": false
         }
       },
@@ -4161,32 +4161,32 @@
       "latitude": 39.498055555555,
       "longitude": 34.750833333333,
       "coordinate_status": "verified",
-      "shape_index": 1875,
+      "shape_index": 1269,
       "shape_offset_m": 239,
-      "shape_distance_km": 242.748,
+      "shape_distance_km": 242.381,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 1875,
+          "index": 1269,
           "offset_m": 239,
-          "distance_km": 242.748,
+          "distance_km": 242.381,
           "derived": false
         },
         "shape-ankara-tatvan": {
-          "index": 1142,
+          "index": 1269,
           "offset_m": 239,
-          "distance_km": 217.984,
+          "distance_km": 242.381,
           "derived": false
         },
         "shape-ankara-kurtalan": {
-          "index": 1142,
+          "index": 1269,
           "offset_m": 239,
-          "distance_km": 217.984,
+          "distance_km": 242.381,
           "derived": false
         },
         "shape-ankara-malatya": {
-          "index": 1875,
+          "index": 1269,
           "offset_m": 239,
-          "distance_km": 242.748,
+          "distance_km": 242.381,
           "derived": false
         }
       },
@@ -4263,26 +4263,26 @@
       "latitude": 39.374722222223,
       "longitude": 34.782222222223,
       "coordinate_status": "verified",
-      "shape_index": 2013,
+      "shape_index": 1377,
       "shape_offset_m": 94,
-      "shape_distance_km": 260.561,
+      "shape_distance_km": 260.188,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 2013,
+          "index": 1377,
           "offset_m": 94,
-          "distance_km": 260.561,
+          "distance_km": 260.188,
           "derived": false
         },
         "shape-ankara-tatvan": {
-          "index": 1280,
+          "index": 1377,
           "offset_m": 94,
-          "distance_km": 235.798,
+          "distance_km": 260.188,
           "derived": false
         },
         "shape-ankara-kurtalan": {
-          "index": 1280,
+          "index": 1377,
           "offset_m": 94,
-          "distance_km": 235.798,
+          "distance_km": 260.188,
           "derived": false
         }
       },
@@ -4339,32 +4339,32 @@
       "latitude": 39.212222222222,
       "longitude": 35.0025,
       "coordinate_status": "verified",
-      "shape_index": 2189,
-      "shape_offset_m": 176,
-      "shape_distance_km": 293.484,
+      "shape_index": 1517,
+      "shape_offset_m": 306,
+      "shape_distance_km": 293.241,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 2189,
-          "offset_m": 176,
-          "distance_km": 293.484,
+          "index": 1517,
+          "offset_m": 306,
+          "distance_km": 293.241,
           "derived": false
         },
         "shape-ankara-tatvan": {
-          "index": 1456,
-          "offset_m": 176,
-          "distance_km": 268.721,
+          "index": 1517,
+          "offset_m": 306,
+          "distance_km": 293.241,
           "derived": false
         },
         "shape-ankara-kurtalan": {
-          "index": 1456,
-          "offset_m": 176,
-          "distance_km": 268.721,
+          "index": 1517,
+          "offset_m": 306,
+          "distance_km": 293.241,
           "derived": false
         },
         "shape-ankara-malatya": {
-          "index": 2189,
-          "offset_m": 176,
-          "distance_km": 293.484,
+          "index": 1517,
+          "offset_m": 306,
+          "distance_km": 293.241,
           "derived": false
         }
       },
@@ -4441,32 +4441,32 @@
       "latitude": 38.755,
       "longitude": 35.3225,
       "coordinate_status": "verified",
-      "shape_index": 2629,
+      "shape_index": 1865,
       "shape_offset_m": 250,
-      "shape_distance_km": 368.002,
+      "shape_distance_km": 367.608,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 2629,
+          "index": 1865,
           "offset_m": 250,
-          "distance_km": 368.002,
+          "distance_km": 367.608,
           "derived": false
         },
         "shape-ankara-tatvan": {
-          "index": 1895,
-          "offset_m": 457,
-          "distance_km": 343.03,
+          "index": 1865,
+          "offset_m": 250,
+          "distance_km": 367.608,
           "derived": false
         },
         "shape-ankara-kurtalan": {
-          "index": 1895,
-          "offset_m": 457,
-          "distance_km": 343.03,
+          "index": 1865,
+          "offset_m": 250,
+          "distance_km": 367.608,
           "derived": false
         },
         "shape-ankara-malatya": {
-          "index": 2629,
+          "index": 1865,
           "offset_m": 250,
-          "distance_km": 368.002,
+          "distance_km": 367.608,
           "derived": false
         }
       },
@@ -4540,35 +4540,35 @@
       "name": "Kayseri",
       "city": "",
       "district": "",
-      "latitude": 38.727222222223,
-      "longitude": 35.468611111111,
-      "coordinate_status": "verified",
-      "shape_index": 2650,
-      "shape_offset_m": 124,
-      "shape_distance_km": 382.316,
+      "latitude": 38.72834,
+      "longitude": 35.4685739,
+      "coordinate_status": "derived",
+      "shape_index": 1881,
+      "shape_offset_m": 43,
+      "shape_distance_km": 381.884,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 2650,
-          "offset_m": 124,
-          "distance_km": 382.316,
+          "index": 1881,
+          "offset_m": 43,
+          "distance_km": 381.884,
           "derived": false
         },
         "shape-ankara-tatvan": {
-          "index": 1914,
-          "offset_m": 124,
-          "distance_km": 357.552,
+          "index": 1881,
+          "offset_m": 43,
+          "distance_km": 381.884,
           "derived": false
         },
         "shape-ankara-kurtalan": {
-          "index": 1913,
-          "offset_m": 124,
-          "distance_km": 357.552,
+          "index": 1881,
+          "offset_m": 5,
+          "distance_km": 381.922,
           "derived": false
         },
         "shape-ankara-malatya": {
-          "index": 2649,
-          "offset_m": 124,
-          "distance_km": 382.316,
+          "index": 1881,
+          "offset_m": 5,
+          "distance_km": 381.922,
           "derived": false
         }
       },
@@ -4642,35 +4642,35 @@
       "name": "Yeniçubuk",
       "city": "",
       "district": "",
-      "latitude": 39.210833333333,
-      "longitude": 36.091666666666,
-      "coordinate_status": "verified",
-      "shape_index": 3092,
-      "shape_offset_m": 462,
-      "shape_distance_km": 478.369,
+      "latitude": 39.2099269,
+      "longitude": 36.0912758,
+      "coordinate_status": "derived",
+      "shape_index": 2201,
+      "shape_offset_m": 450,
+      "shape_distance_km": 477.955,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 3092,
-          "offset_m": 462,
-          "distance_km": 478.369,
+          "index": 2201,
+          "offset_m": 450,
+          "distance_km": 477.955,
           "derived": false
         },
         "shape-ankara-tatvan": {
-          "index": 2356,
-          "offset_m": 462,
-          "distance_km": 453.605,
+          "index": 2201,
+          "offset_m": 450,
+          "distance_km": 477.955,
           "derived": false
         },
         "shape-ankara-kurtalan": {
-          "index": 2355,
-          "offset_m": 462,
-          "distance_km": 453.605,
+          "index": 2200,
+          "offset_m": 450,
+          "distance_km": 477.955,
           "derived": false
         },
         "shape-ankara-malatya": {
-          "index": 3091,
-          "offset_m": 462,
-          "distance_km": 478.369,
+          "index": 2200,
+          "offset_m": 450,
+          "distance_km": 477.955,
           "derived": false
         }
       },
@@ -4737,15 +4737,15 @@
       "latitude": 39.278436,
       "longitude": 36.2182479,
       "coordinate_status": "derived",
-      "shape_index": 3163,
+      "shape_index": 2254,
       "shape_offset_m": 0,
-      "shape_distance_km": 492.184,
+      "shape_distance_km": 491.766,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 3163,
+          "index": 2254,
           "offset_m": 0,
-          "distance_km": 492.184,
-          "derived": true
+          "distance_km": 491.766,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -4768,35 +4768,35 @@
       "name": "Şarkışla",
       "city": "",
       "district": "",
-      "latitude": 39.365277777778,
-      "longitude": 36.400277777778,
-      "coordinate_status": "verified",
-      "shape_index": 3233,
-      "shape_offset_m": 653,
-      "shape_distance_km": 513.612,
+      "latitude": 39.3641318,
+      "longitude": 36.4002596,
+      "coordinate_status": "derived",
+      "shape_index": 2300,
+      "shape_offset_m": 641,
+      "shape_distance_km": 513.191,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 3233,
-          "offset_m": 653,
-          "distance_km": 513.612,
+          "index": 2300,
+          "offset_m": 641,
+          "distance_km": 513.191,
           "derived": false
         },
         "shape-ankara-tatvan": {
-          "index": 2497,
-          "offset_m": 653,
-          "distance_km": 488.848,
+          "index": 2300,
+          "offset_m": 641,
+          "distance_km": 513.191,
           "derived": false
         },
         "shape-ankara-kurtalan": {
-          "index": 2496,
-          "offset_m": 653,
-          "distance_km": 488.848,
+          "index": 2299,
+          "offset_m": 641,
+          "distance_km": 513.191,
           "derived": false
         },
         "shape-ankara-malatya": {
-          "index": 3232,
-          "offset_m": 653,
-          "distance_km": 513.611,
+          "index": 2299,
+          "offset_m": 641,
+          "distance_km": 513.191,
           "derived": false
         }
       },
@@ -4883,32 +4883,32 @@
       "latitude": 39.456388888889,
       "longitude": 36.628055555556,
       "coordinate_status": "verified",
-      "shape_index": 3320,
+      "shape_index": 2364,
       "shape_offset_m": 386,
-      "shape_distance_km": 536.553,
+      "shape_distance_km": 536.13,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 3320,
+          "index": 2364,
           "offset_m": 386,
-          "distance_km": 536.553,
+          "distance_km": 536.13,
           "derived": false
         },
         "shape-ankara-tatvan": {
-          "index": 2584,
+          "index": 2364,
           "offset_m": 386,
-          "distance_km": 511.789,
+          "distance_km": 536.13,
           "derived": false
         },
         "shape-ankara-kurtalan": {
-          "index": 2583,
+          "index": 2363,
           "offset_m": 386,
-          "distance_km": 511.789,
+          "distance_km": 536.13,
           "derived": false
         },
         "shape-ankara-malatya": {
-          "index": 3319,
+          "index": 2363,
           "offset_m": 386,
-          "distance_km": 536.553,
+          "distance_km": 536.13,
           "derived": false
         }
       },
@@ -4985,32 +4985,32 @@
       "latitude": 39.692222222222,
       "longitude": 36.760277777778,
       "coordinate_status": "verified",
-      "shape_index": 3626,
+      "shape_index": 2573,
       "shape_offset_m": 336,
-      "shape_distance_km": 581.457,
+      "shape_distance_km": 581.016,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 3626,
+          "index": 2573,
           "offset_m": 336,
-          "distance_km": 581.457,
+          "distance_km": 581.016,
           "derived": false
         },
         "shape-ankara-tatvan": {
-          "index": 2889,
-          "offset_m": 336,
-          "distance_km": 556.693,
+          "index": 2573,
+          "offset_m": 210,
+          "distance_km": 581.144,
           "derived": false
         },
         "shape-ankara-kurtalan": {
-          "index": 2888,
-          "offset_m": 336,
-          "distance_km": 556.693,
+          "index": 2572,
+          "offset_m": 210,
+          "distance_km": 581.144,
           "derived": false
         },
         "shape-ankara-malatya": {
-          "index": 3623,
+          "index": 2571,
           "offset_m": 336,
-          "distance_km": 581.457,
+          "distance_km": 581.015,
           "derived": false
         }
       },
@@ -5087,50 +5087,50 @@
       "latitude": 39.737777777777,
       "longitude": 37.004166666667,
       "coordinate_status": "verified",
-      "shape_index": 3769,
+      "shape_index": 2665,
       "shape_offset_m": 21,
-      "shape_distance_km": 604.547,
+      "shape_distance_km": 604.099,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 3769,
+          "index": 2665,
           "offset_m": 21,
-          "distance_km": 604.547,
+          "distance_km": 604.099,
           "derived": false
         },
         "shape-ankara-tatvan": {
-          "index": 3033,
+          "index": 2666,
           "offset_m": 21,
-          "distance_km": 579.784,
+          "distance_km": 604.354,
           "derived": false
         },
         "shape-ankara-kurtalan": {
-          "index": 3031,
+          "index": 2666,
           "offset_m": 21,
-          "distance_km": 579.784,
+          "distance_km": 604.354,
           "derived": false
         },
         "shape-ankara-sivas-yht": {
-          "index": 872,
+          "index": 676,
           "offset_m": 21,
-          "distance_km": 404.984,
+          "distance_km": 404.709,
           "derived": false
         },
         "shape-sogutlucesme-sivas-yht": {
-          "index": 2739,
+          "index": 1920,
           "offset_m": 21,
-          "distance_km": 938.824,
+          "distance_km": 938.487,
           "derived": false
         },
         "shape-turistik-ankara-kars": {
-          "index": 3769,
+          "index": 2665,
           "offset_m": 21,
-          "distance_km": 604.547,
+          "distance_km": 604.099,
           "derived": false
         },
         "shape-ankara-malatya": {
-          "index": 3767,
+          "index": 2664,
           "offset_m": 21,
-          "distance_km": 604.547,
+          "distance_km": 604.098,
           "derived": false
         }
       },
@@ -5267,32 +5267,32 @@
       "latitude": 39.501944444444,
       "longitude": 37.009444444444,
       "coordinate_status": "verified",
-      "shape_index": 3943,
+      "shape_index": 2787,
       "shape_offset_m": 557,
-      "shape_distance_km": 633.656,
+      "shape_distance_km": 633.198,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 3943,
+          "index": 2787,
           "offset_m": 557,
-          "distance_km": 633.656,
+          "distance_km": 633.198,
           "derived": false
         },
         "shape-ankara-tatvan": {
-          "index": 3207,
+          "index": 2788,
           "offset_m": 557,
-          "distance_km": 608.892,
+          "distance_km": 633.454,
           "derived": false
         },
         "shape-ankara-kurtalan": {
-          "index": 3205,
+          "index": 2787,
           "offset_m": 557,
-          "distance_km": 608.892,
+          "distance_km": 633.453,
           "derived": false
         },
         "shape-ankara-malatya": {
-          "index": 3941,
+          "index": 2785,
           "offset_m": 557,
-          "distance_km": 633.656,
+          "distance_km": 633.197,
           "derived": false
         }
       },
@@ -5379,33 +5379,33 @@
       "latitude": 39.3002323,
       "longitude": 37.2648275,
       "coordinate_status": "derived",
-      "shape_index": 4093,
+      "shape_index": 2903,
       "shape_offset_m": 0,
-      "shape_distance_km": 678.835,
+      "shape_distance_km": 678.373,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 4093,
+          "index": 2903,
           "offset_m": 0,
-          "distance_km": 678.835,
-          "derived": true
+          "distance_km": 678.373,
+          "derived": false
         },
         "shape-ankara-tatvan": {
-          "index": 3357,
+          "index": 2902,
           "offset_m": 0,
-          "distance_km": 654.071,
-          "derived": true
+          "distance_km": 678.628,
+          "derived": false
         },
         "shape-ankara-kurtalan": {
-          "index": 3355,
+          "index": 2901,
           "offset_m": 0,
-          "distance_km": 654.071,
-          "derived": true
+          "distance_km": 678.627,
+          "derived": false
         },
         "shape-ankara-malatya": {
-          "index": 4091,
+          "index": 2899,
           "offset_m": 0,
-          "distance_km": 678.835,
-          "derived": true
+          "distance_km": 678.371,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -5491,32 +5491,32 @@
       "latitude": 39.25,
       "longitude": 37.608611111111,
       "coordinate_status": "verified",
-      "shape_index": 4242,
-      "shape_offset_m": 112,
+      "shape_index": 3009,
+      "shape_offset_m": 371,
       "shape_distance_km": 712.967,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 4242,
-          "offset_m": 112,
+          "index": 3009,
+          "offset_m": 371,
           "distance_km": 712.967,
           "derived": false
         },
         "shape-ankara-tatvan": {
-          "index": 3506,
+          "index": 3005,
           "offset_m": 297,
-          "distance_km": 688.594,
+          "distance_km": 713.146,
           "derived": false
         },
         "shape-ankara-kurtalan": {
-          "index": 3504,
+          "index": 3004,
           "offset_m": 297,
-          "distance_km": 688.594,
+          "distance_km": 713.145,
           "derived": false
         },
         "shape-ankara-malatya": {
-          "index": 4240,
+          "index": 3002,
           "offset_m": 297,
-          "distance_km": 713.357,
+          "distance_km": 712.889,
           "derived": false
         }
       },
@@ -5603,15 +5603,15 @@
       "latitude": 39.3403395,
       "longitude": 37.7566305,
       "coordinate_status": "derived",
-      "shape_index": 4442,
+      "shape_index": 3142,
       "shape_offset_m": 0,
-      "shape_distance_km": 731.856,
+      "shape_distance_km": 731.283,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 4442,
+          "index": 3142,
           "offset_m": 0,
-          "distance_km": 731.856,
-          "derived": true
+          "distance_km": 731.283,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -5647,14 +5647,14 @@
       "latitude": 39.386944444444,
       "longitude": 37.878888888889,
       "coordinate_status": "verified",
-      "shape_index": 4642,
+      "shape_index": 3274,
       "shape_offset_m": 105,
-      "shape_distance_km": 745.736,
+      "shape_distance_km": 745.149,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 4642,
+          "index": 3274,
           "offset_m": 105,
-          "distance_km": 745.736,
+          "distance_km": 745.149,
           "derived": false
         }
       },
@@ -5688,18 +5688,18 @@
       "name": "Göçentaşı",
       "city": "",
       "district": "",
-      "latitude": 39.4164019,
-      "longitude": 37.9585722,
+      "latitude": 39.4163708,
+      "longitude": 37.9586011,
       "coordinate_status": "derived",
-      "shape_index": 4761,
-      "shape_offset_m": 0,
-      "shape_distance_km": 754.994,
+      "shape_index": 3357,
+      "shape_offset_m": 47,
+      "shape_distance_km": 754.447,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 4761,
-          "offset_m": 0,
-          "distance_km": 754.994,
-          "derived": true
+          "index": 3357,
+          "offset_m": 47,
+          "distance_km": 754.447,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -5735,14 +5735,14 @@
       "latitude": 39.441666666666,
       "longitude": 38.038055555555,
       "coordinate_status": "verified",
-      "shape_index": 4880,
+      "shape_index": 3434,
       "shape_offset_m": 94,
-      "shape_distance_km": 764.825,
+      "shape_distance_km": 764.22,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 4880,
+          "index": 3434,
           "offset_m": 94,
-          "distance_km": 764.825,
+          "distance_km": 764.22,
           "derived": false
         }
       },
@@ -5779,15 +5779,15 @@
       "latitude": 39.4340167,
       "longitude": 38.0891348,
       "coordinate_status": "derived",
-      "shape_index": 4958,
+      "shape_index": 3479,
       "shape_offset_m": 0,
-      "shape_distance_km": 770.562,
+      "shape_distance_km": 769.951,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 4958,
+          "index": 3479,
           "offset_m": 0,
-          "distance_km": 770.562,
-          "derived": true
+          "distance_km": 769.951,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -5823,20 +5823,20 @@
       "latitude": 39.386666666666,
       "longitude": 38.112222222222,
       "coordinate_status": "verified",
-      "shape_index": 5035,
-      "shape_offset_m": 53,
-      "shape_distance_km": 777.356,
+      "shape_index": 3530,
+      "shape_offset_m": 77,
+      "shape_distance_km": 776.796,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 5035,
-          "offset_m": 53,
-          "distance_km": 777.356,
+          "index": 3530,
+          "offset_m": 77,
+          "distance_km": 776.796,
           "derived": false
         },
         "shape-turistik-ankara-kars": {
-          "index": 5035,
-          "offset_m": 53,
-          "distance_km": 777.356,
+          "index": 3530,
+          "offset_m": 77,
+          "distance_km": 776.796,
           "derived": false
         }
       },
@@ -5883,14 +5883,14 @@
       "latitude": 39.3725,
       "longitude": 38.361666666667,
       "coordinate_status": "verified",
-      "shape_index": 5361,
+      "shape_index": 3736,
       "shape_offset_m": 103,
-      "shape_distance_km": 805.386,
+      "shape_distance_km": 804.746,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 5361,
+          "index": 3736,
           "offset_m": 103,
-          "distance_km": 805.386,
+          "distance_km": 804.746,
           "derived": false
         }
       },
@@ -5927,15 +5927,15 @@
       "latitude": 39.4047267,
       "longitude": 38.3928094,
       "coordinate_status": "derived",
-      "shape_index": 5445,
+      "shape_index": 3799,
       "shape_offset_m": 0,
-      "shape_distance_km": 812.665,
+      "shape_distance_km": 812.022,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 5445,
+          "index": 3799,
           "offset_m": 0,
-          "distance_km": 812.665,
-          "derived": true
+          "distance_km": 812.022,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -5971,14 +5971,14 @@
       "latitude": 39.441388888889,
       "longitude": 38.467777777778,
       "coordinate_status": "verified",
-      "shape_index": 5528,
+      "shape_index": 3853,
       "shape_offset_m": 403,
-      "shape_distance_km": 820.955,
+      "shape_distance_km": 820.306,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 5528,
+          "index": 3853,
           "offset_m": 403,
-          "distance_km": 820.955,
+          "distance_km": 820.306,
           "derived": false
         }
       },
@@ -6012,23 +6012,23 @@
       "name": "İliç",
       "city": "",
       "district": "",
-      "latitude": 39.475833333334,
-      "longitude": 38.558888888889,
-      "coordinate_status": "verified",
-      "shape_index": 5587,
-      "shape_offset_m": 284,
-      "shape_distance_km": 831.153,
+      "latitude": 39.4734157,
+      "longitude": 38.5599568,
+      "coordinate_status": "derived",
+      "shape_index": 3900,
+      "shape_offset_m": 36,
+      "shape_distance_km": 830.534,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 5587,
-          "offset_m": 284,
-          "distance_km": 831.153,
+          "index": 3900,
+          "offset_m": 36,
+          "distance_km": 830.534,
           "derived": false
         },
         "shape-turistik-ankara-kars": {
-          "index": 5587,
-          "offset_m": 284,
-          "distance_km": 831.153,
+          "index": 3900,
+          "offset_m": 36,
+          "distance_km": 830.534,
           "derived": false
         }
       },
@@ -6075,14 +6075,14 @@
       "latitude": 39.513611111111,
       "longitude": 38.744444444444,
       "coordinate_status": "verified",
-      "shape_index": 5717,
+      "shape_index": 4000,
       "shape_offset_m": 77,
-      "shape_distance_km": 850.061,
+      "shape_distance_km": 849.406,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 5717,
+          "index": 4000,
           "offset_m": 77,
-          "distance_km": 850.061,
+          "distance_km": 849.406,
           "derived": false
         }
       },
@@ -6119,15 +6119,15 @@
       "latitude": 39.5466065,
       "longitude": 38.802162,
       "coordinate_status": "derived",
-      "shape_index": 5804,
+      "shape_index": 4062,
       "shape_offset_m": 0,
-      "shape_distance_km": 858.249,
+      "shape_distance_km": 857.588,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 5804,
+          "index": 4062,
           "offset_m": 0,
-          "distance_km": 858.249,
-          "derived": true
+          "distance_km": 857.588,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -6163,14 +6163,14 @@
       "latitude": 39.571666666667,
       "longitude": 38.871388888889,
       "coordinate_status": "verified",
-      "shape_index": 5891,
+      "shape_index": 4129,
       "shape_offset_m": 79,
-      "shape_distance_km": 866.546,
+      "shape_distance_km": 865.881,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 5891,
+          "index": 4129,
           "offset_m": 79,
-          "distance_km": 866.546,
+          "distance_km": 865.881,
           "derived": false
         }
       },
@@ -6207,14 +6207,14 @@
       "latitude": 39.604444444444,
       "longitude": 39.033611111111,
       "coordinate_status": "verified",
-      "shape_index": 6071,
-      "shape_offset_m": 26,
-      "shape_distance_km": 883.436,
+      "shape_index": 4245,
+      "shape_offset_m": 36,
+      "shape_distance_km": 882.789,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 6071,
-          "offset_m": 26,
-          "distance_km": 883.436,
+          "index": 4245,
+          "offset_m": 36,
+          "distance_km": 882.789,
           "derived": false
         }
       },
@@ -6251,20 +6251,20 @@
       "latitude": 39.733611111111,
       "longitude": 39.493333333333,
       "coordinate_status": "verified",
-      "shape_index": 6429,
+      "shape_index": 4477,
       "shape_offset_m": 609,
-      "shape_distance_km": 930.745,
+      "shape_distance_km": 930.044,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 6429,
+          "index": 4477,
           "offset_m": 609,
-          "distance_km": 930.745,
+          "distance_km": 930.044,
           "derived": false
         },
         "shape-turistik-ankara-kars": {
-          "index": 6429,
+          "index": 4477,
           "offset_m": 609,
-          "distance_km": 930.745,
+          "distance_km": 930.044,
           "derived": false
         }
       },
@@ -6311,14 +6311,14 @@
       "latitude": 39.610555555556,
       "longitude": 39.828611111111,
       "coordinate_status": "verified",
-      "shape_index": 6494,
+      "shape_index": 4532,
       "shape_offset_m": 140,
-      "shape_distance_km": 964.116,
+      "shape_distance_km": 963.413,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 6494,
+          "index": 4532,
           "offset_m": 140,
-          "distance_km": 964.116,
+          "distance_km": 963.413,
           "derived": false
         }
       },
@@ -6345,14 +6345,14 @@
       "latitude": 39.749166666666,
       "longitude": 40.258333333333,
       "coordinate_status": "verified",
-      "shape_index": 6893,
+      "shape_index": 4798,
       "shape_offset_m": 291,
-      "shape_distance_km": 1018.81,
+      "shape_distance_km": 1018.085,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 6893,
+          "index": 4798,
           "offset_m": 291,
-          "distance_km": 1018.81,
+          "distance_km": 1018.085,
           "derived": false
         }
       },
@@ -6389,14 +6389,14 @@
       "latitude": 39.830277777778,
       "longitude": 40.184166666666,
       "coordinate_status": "verified",
-      "shape_index": 6948,
+      "shape_index": 4835,
       "shape_offset_m": 194,
-      "shape_distance_km": 1031.136,
+      "shape_distance_km": 1030.409,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 6948,
+          "index": 4835,
           "offset_m": 194,
-          "distance_km": 1031.136,
+          "distance_km": 1030.409,
           "derived": false
         }
       },
@@ -6433,14 +6433,14 @@
       "latitude": 39.915277777778,
       "longitude": 40.203333333333,
       "coordinate_status": "verified",
-      "shape_index": 7053,
-      "shape_offset_m": 275,
-      "shape_distance_km": 1045.23,
+      "shape_index": 4910,
+      "shape_offset_m": 334,
+      "shape_distance_km": 1043.896,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 7053,
-          "offset_m": 275,
-          "distance_km": 1045.23,
+          "index": 4910,
+          "offset_m": 334,
+          "distance_km": 1043.896,
           "derived": false
         }
       },
@@ -6477,14 +6477,14 @@
       "latitude": 39.932222222223,
       "longitude": 40.352222222222,
       "coordinate_status": "verified",
-      "shape_index": 7189,
+      "shape_index": 5005,
       "shape_offset_m": 158,
-      "shape_distance_km": 1059.175,
+      "shape_distance_km": 1058.433,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 7189,
+          "index": 5005,
           "offset_m": 158,
-          "distance_km": 1059.175,
+          "distance_km": 1058.433,
           "derived": false
         }
       },
@@ -6518,17 +6518,17 @@
       "name": "Aşkale",
       "city": "",
       "district": "",
-      "latitude": 39.9225,
-      "longitude": 40.683888888889,
-      "coordinate_status": "verified",
-      "shape_index": 7414,
-      "shape_offset_m": 114,
-      "shape_distance_km": 1090.325,
+      "latitude": 39.921553,
+      "longitude": 40.6836489,
+      "coordinate_status": "derived",
+      "shape_index": 5159,
+      "shape_offset_m": 39,
+      "shape_distance_km": 1089.569,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 7414,
-          "offset_m": 114,
-          "distance_km": 1090.325,
+          "index": 5159,
+          "offset_m": 39,
+          "distance_km": 1089.569,
           "derived": false
         }
       },
@@ -6562,17 +6562,17 @@
       "name": "Kandilli",
       "city": "",
       "district": "",
-      "latitude": 39.911944444444,
-      "longitude": 40.841111111111,
-      "coordinate_status": "verified",
-      "shape_index": 7490,
-      "shape_offset_m": 503,
-      "shape_distance_km": 1106.517,
+      "latitude": 39.9108594,
+      "longitude": 40.8412676,
+      "coordinate_status": "derived",
+      "shape_index": 5217,
+      "shape_offset_m": 488,
+      "shape_distance_km": 1105.759,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 7490,
-          "offset_m": 503,
-          "distance_km": 1106.517,
+          "index": 5217,
+          "offset_m": 488,
+          "distance_km": 1105.759,
           "derived": false
         }
       },
@@ -6609,14 +6609,14 @@
       "latitude": 39.950277777778,
       "longitude": 41.105277777778,
       "coordinate_status": "verified",
-      "shape_index": 7632,
-      "shape_offset_m": 163,
-      "shape_distance_km": 1130.941,
+      "shape_index": 5314,
+      "shape_offset_m": 186,
+      "shape_distance_km": 1130.198,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 7632,
-          "offset_m": 163,
-          "distance_km": 1130.941,
+          "index": 5314,
+          "offset_m": 186,
+          "distance_km": 1130.198,
           "derived": false
         }
       },
@@ -6650,17 +6650,17 @@
       "name": "Palandöken",
       "city": "",
       "district": "",
-      "latitude": 39.911944444444,
-      "longitude": 41.186388888889,
-      "coordinate_status": "verified",
-      "shape_index": 7638,
-      "shape_offset_m": 1956,
-      "shape_distance_km": 1139.775,
+      "latitude": 39.9259847,
+      "longitude": 41.1929334,
+      "coordinate_status": "derived",
+      "shape_index": 5319,
+      "shape_offset_m": 1060,
+      "shape_distance_km": 1139.03,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 7638,
-          "offset_m": 1956,
-          "distance_km": 1139.775,
+          "index": 5319,
+          "offset_m": 1060,
+          "distance_km": 1139.03,
           "derived": false
         }
       },
@@ -6687,20 +6687,20 @@
       "latitude": 39.917222222223,
       "longitude": 41.269444444445,
       "coordinate_status": "verified",
-      "shape_index": 7665,
-      "shape_offset_m": 88,
-      "shape_distance_km": 1145.888,
+      "shape_index": 5332,
+      "shape_offset_m": 466,
+      "shape_distance_km": 1144.622,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 7665,
-          "offset_m": 88,
-          "distance_km": 1145.888,
+          "index": 5332,
+          "offset_m": 466,
+          "distance_km": 1144.622,
           "derived": false
         },
         "shape-turistik-ankara-kars": {
-          "index": 7665,
-          "offset_m": 88,
-          "distance_km": 1145.888,
+          "index": 5332,
+          "offset_m": 466,
+          "distance_km": 1144.622,
           "derived": false
         }
       },
@@ -6747,14 +6747,14 @@
       "latitude": 39.978055555556,
       "longitude": 41.683611111111,
       "coordinate_status": "verified",
-      "shape_index": 7853,
+      "shape_index": 5466,
       "shape_offset_m": 276,
-      "shape_distance_km": 1186.318,
+      "shape_distance_km": 1185.54,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 7853,
+          "index": 5466,
           "offset_m": 276,
-          "distance_km": 1186.318,
+          "distance_km": 1185.54,
           "derived": false
         }
       },
@@ -6791,14 +6791,14 @@
       "latitude": 39.970277777778,
       "longitude": 41.872222222223,
       "coordinate_status": "verified",
-      "shape_index": 7884,
+      "shape_index": 5491,
       "shape_offset_m": 324,
-      "shape_distance_km": 1204.252,
+      "shape_distance_km": 1203.473,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 7884,
+          "index": 5491,
           "offset_m": 324,
-          "distance_km": 1204.252,
+          "distance_km": 1203.473,
           "derived": false
         }
       },
@@ -6835,14 +6835,14 @@
       "latitude": 40.040555555555,
       "longitude": 42.161111111111,
       "coordinate_status": "verified",
-      "shape_index": 7945,
+      "shape_index": 5533,
       "shape_offset_m": 381,
-      "shape_distance_km": 1231.196,
+      "shape_distance_km": 1230.415,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 7945,
+          "index": 5533,
           "offset_m": 381,
-          "distance_km": 1231.196,
+          "distance_km": 1230.415,
           "derived": false
         }
       },
@@ -6879,14 +6879,14 @@
       "latitude": 40.216111111111,
       "longitude": 42.251388888889,
       "coordinate_status": "verified",
-      "shape_index": 8153,
-      "shape_offset_m": 71,
-      "shape_distance_km": 1257.147,
+      "shape_index": 5669,
+      "shape_offset_m": 141,
+      "shape_distance_km": 1256.281,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 8153,
-          "offset_m": 71,
-          "distance_km": 1257.147,
+          "index": 5669,
+          "offset_m": 141,
+          "distance_km": 1256.281,
           "derived": false
         }
       },
@@ -6920,18 +6920,18 @@
       "name": "Karaurgan",
       "city": "",
       "district": "",
-      "latitude": 40.265646,
-      "longitude": 42.2920022,
+      "latitude": 40.2656456,
+      "longitude": 42.2919597,
       "coordinate_status": "derived",
-      "shape_index": 8229,
-      "shape_offset_m": 0,
-      "shape_distance_km": 1264.451,
+      "shape_index": 5723,
+      "shape_offset_m": 59,
+      "shape_distance_km": 1263.711,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 8229,
-          "offset_m": 0,
-          "distance_km": 1264.451,
-          "derived": true
+          "index": 5723,
+          "offset_m": 59,
+          "distance_km": 1263.711,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -6967,14 +6967,14 @@
       "latitude": 40.314166666667,
       "longitude": 42.301944444444,
       "coordinate_status": "verified",
-      "shape_index": 8304,
+      "shape_index": 5774,
       "shape_offset_m": 126,
-      "shape_distance_km": 1270.638,
+      "shape_distance_km": 1269.834,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 8304,
+          "index": 5774,
           "offset_m": 126,
-          "distance_km": 1270.638,
+          "distance_km": 1269.834,
           "derived": false
         }
       },
@@ -7011,14 +7011,14 @@
       "latitude": 40.336666666666,
       "longitude": 42.576944444445,
       "coordinate_status": "verified",
-      "shape_index": 8582,
-      "shape_offset_m": 299,
-      "shape_distance_km": 1302.144,
+      "shape_index": 5970,
+      "shape_offset_m": 585,
+      "shape_distance_km": 1302.195,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 8582,
-          "offset_m": 299,
-          "distance_km": 1302.144,
+          "index": 5970,
+          "offset_m": 585,
+          "distance_km": 1302.195,
           "derived": false
         }
       },
@@ -7055,20 +7055,20 @@
       "latitude": 40.609166666667,
       "longitude": 43.109444444444,
       "coordinate_status": "verified",
-      "shape_index": 8903,
+      "shape_index": 6196,
       "shape_offset_m": 93,
-      "shape_distance_km": 1362.04,
+      "shape_distance_km": 1361.206,
       "shape_positions": {
         "shape-ankara-kars": {
-          "index": 8903,
+          "index": 6196,
           "offset_m": 93,
-          "distance_km": 1362.04,
+          "distance_km": 1361.206,
           "derived": false
         },
         "shape-turistik-ankara-kars": {
-          "index": 8903,
+          "index": 6196,
           "offset_m": 93,
-          "distance_km": 1362.04,
+          "distance_km": 1361.206,
           "derived": false
         }
       },
@@ -7125,20 +7125,20 @@
       "latitude": 39.964444444444,
       "longitude": 32.582777777778,
       "coordinate_status": "verified",
-      "shape_index": 95,
+      "shape_index": 57,
       "shape_offset_m": 102,
-      "shape_distance_km": 24.161,
+      "shape_distance_km": 24.157,
       "shape_positions": {
         "shape-ankara-basmane": {
-          "index": 95,
+          "index": 57,
           "offset_m": 102,
-          "distance_km": 24.161,
+          "distance_km": 24.157,
           "derived": false
         },
         "shape-ankara-halkali-conventional": {
-          "index": 95,
+          "index": 57,
           "offset_m": 102,
-          "distance_km": 24.161,
+          "distance_km": 24.157,
           "derived": false
         }
       },
@@ -7175,20 +7175,20 @@
       "latitude": 39.585833333333,
       "longitude": 32.142777777777,
       "coordinate_status": "verified",
-      "shape_index": 396,
+      "shape_index": 260,
       "shape_offset_m": 231,
-      "shape_distance_km": 88.539,
+      "shape_distance_km": 88.522,
       "shape_positions": {
         "shape-ankara-basmane": {
-          "index": 396,
+          "index": 260,
           "offset_m": 231,
-          "distance_km": 88.539,
+          "distance_km": 88.522,
           "derived": false
         },
         "shape-ankara-halkali-conventional": {
-          "index": 396,
+          "index": 260,
           "offset_m": 231,
-          "distance_km": 88.539,
+          "distance_km": 88.522,
           "derived": false
         }
       },
@@ -7225,14 +7225,14 @@
       "latitude": 39.600833333333,
       "longitude": 31.958055555556,
       "coordinate_status": "verified",
-      "shape_index": 538,
+      "shape_index": 356,
       "shape_offset_m": 233,
-      "shape_distance_km": 108.374,
+      "shape_distance_km": 108.35,
       "shape_positions": {
         "shape-ankara-basmane": {
-          "index": 538,
+          "index": 356,
           "offset_m": 233,
-          "distance_km": 108.374,
+          "distance_km": 108.35,
           "derived": false
         }
       },
@@ -7259,14 +7259,14 @@
       "latitude": 39.695555555555,
       "longitude": 31.694444444444,
       "coordinate_status": "verified",
-      "shape_index": 665,
+      "shape_index": 446,
       "shape_offset_m": 64,
-      "shape_distance_km": 139.738,
+      "shape_distance_km": 139.709,
       "shape_positions": {
         "shape-ankara-basmane": {
-          "index": 665,
+          "index": 446,
           "offset_m": 64,
-          "distance_km": 139.738,
+          "distance_km": 139.709,
           "derived": false
         }
       },
@@ -7293,14 +7293,14 @@
       "latitude": 39.700555555556,
       "longitude": 31.478333333334,
       "coordinate_status": "verified",
-      "shape_index": 809,
+      "shape_index": 555,
       "shape_offset_m": 285,
-      "shape_distance_km": 165.094,
+      "shape_distance_km": 165.061,
       "shape_positions": {
         "shape-ankara-basmane": {
-          "index": 809,
+          "index": 555,
           "offset_m": 285,
-          "distance_km": 165.094,
+          "distance_km": 165.061,
           "derived": false
         }
       },
@@ -7327,14 +7327,14 @@
       "latitude": 39.705,
       "longitude": 31.189444444444,
       "coordinate_status": "verified",
-      "shape_index": 952,
-      "shape_offset_m": 360,
-      "shape_distance_km": 193.719,
+      "shape_index": 655,
+      "shape_offset_m": 593,
+      "shape_distance_km": 193.442,
       "shape_positions": {
         "shape-ankara-basmane": {
-          "index": 952,
-          "offset_m": 360,
-          "distance_km": 193.719,
+          "index": 655,
+          "offset_m": 593,
+          "distance_km": 193.442,
           "derived": false
         }
       },
@@ -7361,14 +7361,14 @@
       "latitude": 39.766944444445,
       "longitude": 30.955,
       "coordinate_status": "verified",
-      "shape_index": 1014,
+      "shape_index": 700,
       "shape_offset_m": 237,
-      "shape_distance_km": 215.706,
+      "shape_distance_km": 215.664,
       "shape_positions": {
         "shape-ankara-basmane": {
-          "index": 1014,
+          "index": 700,
           "offset_m": 237,
-          "distance_km": 215.706,
+          "distance_km": 215.664,
           "derived": false
         }
       },
@@ -7395,20 +7395,20 @@
       "latitude": 39.395833333333,
       "longitude": 30.105833333333,
       "coordinate_status": "verified",
-      "shape_index": 1496,
+      "shape_index": 1042,
       "shape_offset_m": 309,
-      "shape_distance_km": 324.489,
+      "shape_distance_km": 324.422,
       "shape_positions": {
         "shape-ankara-basmane": {
-          "index": 1496,
+          "index": 1042,
           "offset_m": 309,
-          "distance_km": 324.489,
+          "distance_km": 324.422,
           "derived": false
         },
         "shape-eskisehir-denizli": {
-          "index": 436,
+          "index": 310,
           "offset_m": 309,
-          "distance_km": 67.926,
+          "distance_km": 67.904,
           "derived": false
         }
       },
@@ -7455,20 +7455,20 @@
       "latitude": 39.421111111111,
       "longitude": 30.000277777778,
       "coordinate_status": "verified",
-      "shape_index": 1534,
+      "shape_index": 1069,
       "shape_offset_m": 83,
-      "shape_distance_km": 334.29,
+      "shape_distance_km": 334.221,
       "shape_positions": {
         "shape-ankara-basmane": {
-          "index": 1534,
+          "index": 1069,
           "offset_m": 83,
-          "distance_km": 334.29,
+          "distance_km": 334.221,
           "derived": false
         },
         "shape-eskisehir-denizli": {
-          "index": 475,
+          "index": 337,
           "offset_m": 83,
-          "distance_km": 77.728,
+          "distance_km": 77.703,
           "derived": false
         }
       },
@@ -7515,14 +7515,14 @@
       "latitude": 39.540833333333,
       "longitude": 29.486666666666,
       "coordinate_status": "verified",
-      "shape_index": 1797,
+      "shape_index": 1262,
       "shape_offset_m": 281,
-      "shape_distance_km": 384.124,
+      "shape_distance_km": 384.043,
       "shape_positions": {
         "shape-ankara-basmane": {
-          "index": 1797,
+          "index": 1262,
           "offset_m": 281,
-          "distance_km": 384.124,
+          "distance_km": 384.043,
           "derived": false
         }
       },
@@ -7549,14 +7549,14 @@
       "latitude": 39.522777777778,
       "longitude": 29.096944444444,
       "coordinate_status": "verified",
-      "shape_index": 2282,
+      "shape_index": 1579,
       "shape_offset_m": 536,
-      "shape_distance_km": 433.385,
+      "shape_distance_km": 433.268,
       "shape_positions": {
         "shape-ankara-basmane": {
-          "index": 2282,
+          "index": 1579,
           "offset_m": 536,
-          "distance_km": 433.385,
+          "distance_km": 433.268,
           "derived": false
         }
       },
@@ -7593,14 +7593,14 @@
       "latitude": 39.5570912,
       "longitude": 28.6337745,
       "coordinate_status": "needs_review",
-      "shape_index": 3038,
+      "shape_index": 2062,
       "shape_offset_m": 0,
-      "shape_distance_km": 498.96,
+      "shape_distance_km": 498.784,
       "shape_positions": {
         "shape-ankara-basmane": {
-          "index": 3038,
+          "index": 2062,
           "offset_m": 0,
-          "distance_km": 498.96,
+          "distance_km": 498.784,
           "derived": false
         }
       },
@@ -7627,14 +7627,14 @@
       "latitude": 39.64846903,
       "longitude": 27.89138174,
       "coordinate_status": "verified",
-      "shape_index": 3921,
+      "shape_index": 2625,
       "shape_offset_m": 72,
-      "shape_distance_km": 586.066,
+      "shape_distance_km": 585.824,
       "shape_positions": {
         "shape-ankara-basmane": {
-          "index": 3921,
+          "index": 2625,
           "offset_m": 72,
-          "distance_km": 586.066,
+          "distance_km": 585.824,
           "derived": false
         }
       },
@@ -7661,14 +7661,14 @@
       "latitude": 39.389722222222,
       "longitude": 27.650833333333,
       "coordinate_status": "verified",
-      "shape_index": 4387,
-      "shape_offset_m": 1421,
-      "shape_distance_km": 641.908,
+      "shape_index": 2938,
+      "shape_offset_m": 651,
+      "shape_distance_km": 639.566,
       "shape_positions": {
         "shape-ankara-basmane": {
-          "index": 4387,
-          "offset_m": 1421,
-          "distance_km": 641.908,
+          "index": 2938,
+          "offset_m": 651,
+          "distance_km": 639.566,
           "derived": false
         }
       },
@@ -7695,14 +7695,14 @@
       "latitude": 39.203333333333,
       "longitude": 27.618333333334,
       "coordinate_status": "verified",
-      "shape_index": 4571,
-      "shape_offset_m": 99,
-      "shape_distance_km": 667.957,
+      "shape_index": 3066,
+      "shape_offset_m": 718,
+      "shape_distance_km": 666.98,
       "shape_positions": {
         "shape-ankara-basmane": {
-          "index": 4571,
-          "offset_m": 99,
-          "distance_km": 667.957,
+          "index": 3066,
+          "offset_m": 718,
+          "distance_km": 666.98,
           "derived": false
         }
       },
@@ -7726,17 +7726,17 @@
       "name": "Kırkağaç",
       "city": "Manisa",
       "district": "Kırkağaç",
-      "latitude": 39.103055555556,
-      "longitude": 27.7025,
-      "coordinate_status": "verified",
-      "shape_index": 4613,
-      "shape_offset_m": 115,
-      "shape_distance_km": 682.485,
+      "latitude": 39.1022201,
+      "longitude": 27.7017176,
+      "coordinate_status": "derived",
+      "shape_index": 3098,
+      "shape_offset_m": 108,
+      "shape_distance_km": 682.307,
       "shape_positions": {
         "shape-ankara-basmane": {
-          "index": 4613,
-          "offset_m": 115,
-          "distance_km": 682.485,
+          "index": 3098,
+          "offset_m": 108,
+          "distance_km": 682.307,
           "derived": false
         }
       },
@@ -7763,14 +7763,14 @@
       "latitude": 38.9455198,
       "longitude": 27.8061672,
       "coordinate_status": "needs_review",
-      "shape_index": 4744,
+      "shape_index": 3186,
       "shape_offset_m": 0,
-      "shape_distance_km": 704.97,
+      "shape_distance_km": 704.685,
       "shape_positions": {
         "shape-ankara-basmane": {
-          "index": 4744,
+          "index": 3186,
           "offset_m": 0,
-          "distance_km": 704.97,
+          "distance_km": 704.685,
           "derived": false
         }
       },
@@ -7797,14 +7797,14 @@
       "latitude": 38.733055555556,
       "longitude": 27.577777777778,
       "coordinate_status": "verified",
-      "shape_index": 4839,
+      "shape_index": 3251,
       "shape_offset_m": 560,
-      "shape_distance_km": 737.679,
+      "shape_distance_km": 737.39,
       "shape_positions": {
         "shape-ankara-basmane": {
-          "index": 4839,
+          "index": 3251,
           "offset_m": 560,
-          "distance_km": 737.679,
+          "distance_km": 737.39,
           "derived": false
         }
       },
@@ -7828,17 +7828,17 @@
       "name": "Manisa",
       "city": "Manisa",
       "district": "Şehzadeler",
-      "latitude": 38.621666666667,
-      "longitude": 27.440833333333,
-      "coordinate_status": "verified",
-      "shape_index": 4872,
-      "shape_offset_m": 117,
-      "shape_distance_km": 756.395,
+      "latitude": 38.6207413,
+      "longitude": 27.440354,
+      "coordinate_status": "derived",
+      "shape_index": 3278,
+      "shape_offset_m": 83,
+      "shape_distance_km": 756.226,
       "shape_positions": {
         "shape-ankara-basmane": {
-          "index": 4872,
-          "offset_m": 117,
-          "distance_km": 756.395,
+          "index": 3278,
+          "offset_m": 83,
+          "distance_km": 756.226,
           "derived": false
         }
       },
@@ -7862,17 +7862,17 @@
       "name": "Muradiye",
       "city": "Manisa",
       "district": "Yunusemre",
-      "latitude": 38.652222222222,
-      "longitude": 27.329166666667,
-      "coordinate_status": "verified",
-      "shape_index": 4898,
-      "shape_offset_m": 350,
-      "shape_distance_km": 766.542,
+      "latitude": 38.651242,
+      "longitude": 27.3292654,
+      "coordinate_status": "derived",
+      "shape_index": 3294,
+      "shape_offset_m": 332,
+      "shape_distance_km": 766.252,
       "shape_positions": {
         "shape-ankara-basmane": {
-          "index": 4898,
-          "offset_m": 350,
-          "distance_km": 766.542,
+          "index": 3294,
+          "offset_m": 332,
+          "distance_km": 766.252,
           "derived": false
         }
       },
@@ -7899,14 +7899,14 @@
       "latitude": 38.625833333334,
       "longitude": 27.15,
       "coordinate_status": "verified",
-      "shape_index": 4985,
-      "shape_offset_m": 364,
-      "shape_distance_km": 783.908,
+      "shape_index": 3358,
+      "shape_offset_m": 584,
+      "shape_distance_km": 783.389,
       "shape_positions": {
         "shape-ankara-basmane": {
-          "index": 4985,
-          "offset_m": 364,
-          "distance_km": 783.908,
+          "index": 3358,
+          "offset_m": 584,
+          "distance_km": 783.389,
           "derived": false
         }
       },
@@ -7933,14 +7933,14 @@
       "latitude": 38.602777777778,
       "longitude": 27.075277777778,
       "coordinate_status": "verified",
-      "shape_index": 5002,
+      "shape_index": 3369,
       "shape_offset_m": 31,
-      "shape_distance_km": 791.525,
+      "shape_distance_km": 791.232,
       "shape_positions": {
         "shape-ankara-basmane": {
-          "index": 5002,
+          "index": 3369,
           "offset_m": 31,
-          "distance_km": 791.525,
+          "distance_km": 791.232,
           "derived": false
         }
       },
@@ -7967,14 +7967,14 @@
       "latitude": 38.491944444444,
       "longitude": 27.063055555556,
       "coordinate_status": "verified",
-      "shape_index": 5055,
-      "shape_offset_m": 77,
-      "shape_distance_km": 805.85,
+      "shape_index": 3397,
+      "shape_offset_m": 254,
+      "shape_distance_km": 805.885,
       "shape_positions": {
         "shape-ankara-basmane": {
-          "index": 5055,
-          "offset_m": 77,
-          "distance_km": 805.85,
+          "index": 3397,
+          "offset_m": 254,
+          "distance_km": 805.885,
           "derived": false
         }
       },
@@ -8001,14 +8001,14 @@
       "latitude": 38.423611111111,
       "longitude": 27.147222222222,
       "coordinate_status": "verified",
-      "shape_index": 5147,
+      "shape_index": 3453,
       "shape_offset_m": 78,
-      "shape_distance_km": 822.756,
+      "shape_distance_km": 822.457,
       "shape_positions": {
         "shape-ankara-basmane": {
-          "index": 5147,
+          "index": 3453,
           "offset_m": 78,
-          "distance_km": 822.756,
+          "distance_km": 822.457,
           "derived": false
         }
       },
@@ -8045,21 +8045,21 @@
       "latitude": 39.8997026,
       "longitude": 33.8528595,
       "coordinate_status": "derived",
-      "shape_index": 434,
+      "shape_index": 758,
       "shape_offset_m": 0,
-      "shape_distance_km": 109.019,
+      "shape_distance_km": 133.454,
       "shape_positions": {
         "shape-ankara-tatvan": {
-          "index": 434,
+          "index": 758,
           "offset_m": 0,
-          "distance_km": 109.019,
-          "derived": true
+          "distance_km": 133.454,
+          "derived": false
         },
         "shape-ankara-kurtalan": {
-          "index": 434,
+          "index": 758,
           "offset_m": 0,
-          "distance_km": 109.019,
-          "derived": true
+          "distance_km": 133.454,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -8095,21 +8095,21 @@
       "latitude": 39.7988858,
       "longitude": 34.1417185,
       "coordinate_status": "derived",
-      "shape_index": 699,
+      "shape_index": 935,
       "shape_offset_m": 0,
-      "shape_distance_km": 144.723,
+      "shape_distance_km": 169.142,
       "shape_positions": {
         "shape-ankara-tatvan": {
-          "index": 699,
+          "index": 935,
           "offset_m": 0,
-          "distance_km": 144.723,
-          "derived": true
+          "distance_km": 169.142,
+          "derived": false
         },
         "shape-ankara-kurtalan": {
-          "index": 699,
+          "index": 935,
           "offset_m": 0,
-          "distance_km": 144.723,
-          "derived": true
+          "distance_km": 169.142,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -8145,21 +8145,21 @@
       "latitude": 39.5709102,
       "longitude": 34.5975255,
       "coordinate_status": "derived",
-      "shape_index": 907,
+      "shape_index": 1093,
       "shape_offset_m": 0,
-      "shape_distance_km": 197.746,
+      "shape_distance_km": 222.156,
       "shape_positions": {
         "shape-ankara-tatvan": {
-          "index": 907,
+          "index": 1093,
           "offset_m": 0,
-          "distance_km": 197.746,
-          "derived": true
+          "distance_km": 222.156,
+          "derived": false
         },
         "shape-ankara-kurtalan": {
-          "index": 907,
+          "index": 1093,
           "offset_m": 0,
-          "distance_km": 197.746,
-          "derived": true
+          "distance_km": 222.156,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -8195,21 +8195,21 @@
       "latitude": 39.5544239,
       "longitude": 34.6851019,
       "coordinate_status": "derived",
-      "shape_index": 1025,
+      "shape_index": 1180,
       "shape_offset_m": 0,
-      "shape_distance_km": 207.316,
+      "shape_distance_km": 231.719,
       "shape_positions": {
         "shape-ankara-tatvan": {
-          "index": 1025,
+          "index": 1180,
           "offset_m": 0,
-          "distance_km": 207.316,
-          "derived": true
+          "distance_km": 231.719,
+          "derived": false
         },
         "shape-ankara-kurtalan": {
-          "index": 1025,
+          "index": 1180,
           "offset_m": 0,
-          "distance_km": 207.316,
-          "derived": true
+          "distance_km": 231.719,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -8245,21 +8245,21 @@
       "latitude": 39.2822069,
       "longitude": 34.8623555,
       "coordinate_status": "derived",
-      "shape_index": 1339,
+      "shape_index": 1424,
       "shape_offset_m": 0,
-      "shape_distance_km": 249.745,
+      "shape_distance_km": 274.134,
       "shape_positions": {
         "shape-ankara-tatvan": {
-          "index": 1339,
+          "index": 1424,
           "offset_m": 0,
-          "distance_km": 249.745,
-          "derived": true
+          "distance_km": 274.134,
+          "derived": false
         },
         "shape-ankara-kurtalan": {
-          "index": 1339,
+          "index": 1424,
           "offset_m": 0,
-          "distance_km": 249.745,
-          "derived": true
+          "distance_km": 274.134,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -8295,27 +8295,27 @@
       "latitude": 39.2607748,
       "longitude": 34.9495782,
       "coordinate_status": "derived",
-      "shape_index": 1397,
+      "shape_index": 1471,
       "shape_offset_m": 0,
-      "shape_distance_km": 259.992,
+      "shape_distance_km": 284.38,
       "shape_positions": {
         "shape-ankara-tatvan": {
-          "index": 1397,
+          "index": 1471,
           "offset_m": 0,
-          "distance_km": 259.992,
-          "derived": true
+          "distance_km": 284.38,
+          "derived": false
         },
         "shape-ankara-kurtalan": {
-          "index": 1397,
+          "index": 1471,
           "offset_m": 0,
-          "distance_km": 259.992,
-          "derived": true
+          "distance_km": 284.38,
+          "derived": false
         },
         "shape-ankara-malatya": {
-          "index": 2032,
+          "index": 1471,
           "offset_m": 0,
-          "distance_km": 265.615,
-          "derived": true
+          "distance_km": 284.38,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -8371,21 +8371,21 @@
       "latitude": 38.9454651,
       "longitude": 35.0868616,
       "coordinate_status": "derived",
-      "shape_index": 1676,
+      "shape_index": 1692,
       "shape_offset_m": 0,
-      "shape_distance_km": 303.436,
+      "shape_distance_km": 327.814,
       "shape_positions": {
         "shape-ankara-tatvan": {
-          "index": 1676,
+          "index": 1692,
           "offset_m": 0,
-          "distance_km": 303.436,
-          "derived": true
+          "distance_km": 327.814,
+          "derived": false
         },
         "shape-ankara-kurtalan": {
-          "index": 1676,
+          "index": 1692,
           "offset_m": 0,
-          "distance_km": 303.436,
-          "derived": true
+          "distance_km": 327.814,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -8421,27 +8421,27 @@
       "latitude": 38.9087761,
       "longitude": 35.7398911,
       "coordinate_status": "derived",
-      "shape_index": 2061,
+      "shape_index": 1986,
       "shape_offset_m": 0,
-      "shape_distance_km": 390.672,
+      "shape_distance_km": 415.036,
       "shape_positions": {
         "shape-ankara-tatvan": {
-          "index": 2061,
+          "index": 1986,
           "offset_m": 0,
-          "distance_km": 390.672,
-          "derived": true
+          "distance_km": 415.036,
+          "derived": false
         },
         "shape-ankara-kurtalan": {
-          "index": 2060,
+          "index": 1985,
           "offset_m": 0,
-          "distance_km": 390.672,
-          "derived": true
+          "distance_km": 415.035,
+          "derived": false
         },
         "shape-ankara-malatya": {
-          "index": 2796,
+          "index": 1985,
           "offset_m": 0,
-          "distance_km": 415.436,
-          "derived": true
+          "distance_km": 415.035,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -8487,27 +8487,27 @@
       "latitude": 39.1025936,
       "longitude": 35.975807,
       "coordinate_status": "derived",
-      "shape_index": 2209,
+      "shape_index": 2097,
       "shape_offset_m": 0,
-      "shape_distance_km": 425.551,
+      "shape_distance_km": 449.908,
       "shape_positions": {
         "shape-ankara-tatvan": {
-          "index": 2209,
+          "index": 2097,
           "offset_m": 0,
-          "distance_km": 425.551,
-          "derived": true
+          "distance_km": 449.908,
+          "derived": false
         },
         "shape-ankara-kurtalan": {
-          "index": 2208,
+          "index": 2096,
           "offset_m": 0,
-          "distance_km": 425.551,
-          "derived": true
+          "distance_km": 449.908,
+          "derived": false
         },
         "shape-ankara-malatya": {
-          "index": 2944,
+          "index": 2096,
           "offset_m": 0,
-          "distance_km": 450.314,
-          "derived": true
+          "distance_km": 449.908,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -8553,27 +8553,27 @@
       "latitude": 39.6009975,
       "longitude": 36.5999244,
       "coordinate_status": "derived",
-      "shape_index": 2737,
+      "shape_index": 2467,
       "shape_offset_m": 0,
-      "shape_distance_km": 531.506,
+      "shape_distance_km": 555.837,
       "shape_positions": {
         "shape-ankara-tatvan": {
-          "index": 2737,
+          "index": 2467,
           "offset_m": 0,
-          "distance_km": 531.506,
-          "derived": true
+          "distance_km": 555.837,
+          "derived": false
         },
         "shape-ankara-kurtalan": {
-          "index": 2736,
+          "index": 2466,
           "offset_m": 0,
-          "distance_km": 531.506,
-          "derived": true
+          "distance_km": 555.837,
+          "derived": false
         },
         "shape-ankara-malatya": {
-          "index": 3471,
+          "index": 2466,
           "offset_m": 0,
-          "distance_km": 556.087,
-          "derived": true
+          "distance_km": 555.837,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -8639,27 +8639,27 @@
       "latitude": 39.1002281,
       "longitude": 37.7348466,
       "coordinate_status": "derived",
-      "shape_index": 3706,
+      "shape_index": 3157,
       "shape_offset_m": 0,
-      "shape_distance_km": 712.126,
+      "shape_distance_km": 736.668,
       "shape_positions": {
         "shape-ankara-tatvan": {
-          "index": 3706,
+          "index": 3157,
           "offset_m": 0,
-          "distance_km": 712.126,
-          "derived": true
+          "distance_km": 736.668,
+          "derived": false
         },
         "shape-ankara-kurtalan": {
-          "index": 3703,
+          "index": 3156,
           "offset_m": 0,
-          "distance_km": 712.082,
-          "derived": true
+          "distance_km": 736.667,
+          "derived": false
         },
         "shape-ankara-malatya": {
-          "index": 4440,
+          "index": 3154,
           "offset_m": 0,
-          "distance_km": 736.889,
-          "derived": true
+          "distance_km": 736.411,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -8722,30 +8722,30 @@
       "name": "Akçamağara",
       "city": "",
       "district": "",
-      "latitude": 39.0018706,
-      "longitude": 37.7897918,
+      "latitude": 39.0018768,
+      "longitude": 37.7897712,
       "coordinate_status": "derived",
-      "shape_index": 3905,
-      "shape_offset_m": 0,
-      "shape_distance_km": 728.483,
+      "shape_index": 3281,
+      "shape_offset_m": 39,
+      "shape_distance_km": 752.97,
       "shape_positions": {
         "shape-ankara-tatvan": {
-          "index": 3905,
-          "offset_m": 0,
-          "distance_km": 728.483,
-          "derived": true
+          "index": 3281,
+          "offset_m": 39,
+          "distance_km": 752.97,
+          "derived": false
         },
         "shape-ankara-kurtalan": {
-          "index": 3903,
-          "offset_m": 0,
-          "distance_km": 728.482,
-          "derived": true
+          "index": 3280,
+          "offset_m": 39,
+          "distance_km": 752.969,
+          "derived": false
         },
         "shape-ankara-malatya": {
-          "index": 4639,
-          "offset_m": 0,
-          "distance_km": 753.246,
-          "derived": true
+          "index": 3278,
+          "offset_m": 39,
+          "distance_km": 752.712,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -8808,30 +8808,30 @@
       "name": "Akgedik",
       "city": "",
       "district": "",
-      "latitude": 38.8785403,
-      "longitude": 37.8942262,
+      "latitude": 38.8785472,
+      "longitude": 37.8942349,
       "coordinate_status": "derived",
-      "shape_index": 4105,
-      "shape_offset_m": 0,
-      "shape_distance_km": 749.041,
+      "shape_index": 3415,
+      "shape_offset_m": 56,
+      "shape_distance_km": 773.498,
       "shape_positions": {
         "shape-ankara-tatvan": {
-          "index": 4105,
-          "offset_m": 0,
-          "distance_km": 749.041,
-          "derived": true
+          "index": 3415,
+          "offset_m": 56,
+          "distance_km": 773.498,
+          "derived": false
         },
         "shape-ankara-kurtalan": {
-          "index": 4102,
-          "offset_m": 0,
-          "distance_km": 748.986,
-          "derived": true
+          "index": 3414,
+          "offset_m": 56,
+          "distance_km": 773.498,
+          "derived": false
         },
         "shape-ankara-malatya": {
-          "index": 4839,
-          "offset_m": 0,
-          "distance_km": 773.805,
-          "derived": true
+          "index": 3412,
+          "offset_m": 56,
+          "distance_km": 773.241,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -8897,27 +8897,27 @@
       "latitude": 38.7153329,
       "longitude": 38.0073676,
       "coordinate_status": "derived",
-      "shape_index": 4304,
+      "shape_index": 3558,
       "shape_offset_m": 0,
-      "shape_distance_km": 771.301,
+      "shape_distance_km": 795.803,
       "shape_positions": {
         "shape-ankara-tatvan": {
-          "index": 4304,
+          "index": 3558,
           "offset_m": 0,
-          "distance_km": 771.301,
-          "derived": true
+          "distance_km": 795.803,
+          "derived": false
         },
         "shape-ankara-kurtalan": {
-          "index": 4301,
+          "index": 3557,
           "offset_m": 0,
-          "distance_km": 771.243,
-          "derived": true
+          "distance_km": 795.802,
+          "derived": false
         },
         "shape-ankara-malatya": {
-          "index": 5039,
+          "index": 3555,
           "offset_m": 0,
-          "distance_km": 796.116,
-          "derived": true
+          "distance_km": 795.546,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -8983,27 +8983,27 @@
       "latitude": 38.6345951,
       "longitude": 38.1547271,
       "coordinate_status": "derived",
-      "shape_index": 4504,
+      "shape_index": 3697,
       "shape_offset_m": 0,
-      "shape_distance_km": 789.745,
+      "shape_distance_km": 814.235,
       "shape_positions": {
         "shape-ankara-tatvan": {
-          "index": 4504,
+          "index": 3697,
           "offset_m": 0,
-          "distance_km": 789.745,
-          "derived": true
+          "distance_km": 814.235,
+          "derived": false
         },
         "shape-ankara-kurtalan": {
-          "index": 4501,
+          "index": 3696,
           "offset_m": 0,
-          "distance_km": 789.69,
-          "derived": true
+          "distance_km": 814.234,
+          "derived": false
         },
         "shape-ankara-malatya": {
-          "index": 5238,
+          "index": 3694,
           "offset_m": 0,
-          "distance_km": 814.508,
-          "derived": true
+          "distance_km": 813.977,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -9069,14 +9069,14 @@
       "latitude": 38.5087334,
       "longitude": 42.2762907,
       "coordinate_status": "verified",
-      "shape_index": 7608,
+      "shape_index": 5853,
       "shape_offset_m": 43,
-      "shape_distance_km": 1291.871,
+      "shape_distance_km": 1316.203,
       "shape_positions": {
         "shape-ankara-tatvan": {
-          "index": 7608,
+          "index": 5853,
           "offset_m": 43,
-          "distance_km": 1291.871,
+          "distance_km": 1316.203,
           "derived": false
         }
       },
@@ -9113,15 +9113,15 @@
       "latitude": 38.5299421,
       "longitude": 42.1428045,
       "coordinate_status": "derived",
-      "shape_index": 7484,
+      "shape_index": 5762,
       "shape_offset_m": 0,
-      "shape_distance_km": 1271.206,
+      "shape_distance_km": 1295.542,
       "shape_positions": {
         "shape-ankara-tatvan": {
-          "index": 7484,
+          "index": 5762,
           "offset_m": 0,
-          "distance_km": 1271.206,
-          "derived": true
+          "distance_km": 1295.542,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -9144,18 +9144,18 @@
       "name": "Sıcaksu",
       "city": "",
       "district": "",
-      "latitude": 38.6826184,
-      "longitude": 42.0871786,
+      "latitude": 38.6826365,
+      "longitude": 42.0871892,
       "coordinate_status": "derived",
-      "shape_index": 7359,
-      "shape_offset_m": 0,
-      "shape_distance_km": 1250.471,
+      "shape_index": 5675,
+      "shape_offset_m": 46,
+      "shape_distance_km": 1274.858,
       "shape_positions": {
         "shape-ankara-tatvan": {
-          "index": 7359,
-          "offset_m": 0,
-          "distance_km": 1250.471,
-          "derived": true
+          "index": 5675,
+          "offset_m": 46,
+          "distance_km": 1274.858,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -9181,14 +9181,14 @@
       "latitude": 38.7616405,
       "longitude": 41.5110508,
       "coordinate_status": "verified",
-      "shape_index": 7235,
+      "shape_index": 5584,
       "shape_offset_m": 477,
-      "shape_distance_km": 1198.578,
+      "shape_distance_km": 1222.923,
       "shape_positions": {
         "shape-ankara-tatvan": {
-          "index": 7235,
+          "index": 5584,
           "offset_m": 477,
-          "distance_km": 1198.578,
+          "distance_km": 1222.923,
           "derived": false
         }
       },
@@ -9215,15 +9215,15 @@
       "latitude": 38.8134063,
       "longitude": 41.2073149,
       "coordinate_status": "derived",
-      "shape_index": 7133,
+      "shape_index": 5510,
       "shape_offset_m": 0,
-      "shape_distance_km": 1168.039,
+      "shape_distance_km": 1192.386,
       "shape_positions": {
         "shape-ankara-tatvan": {
-          "index": 7133,
+          "index": 5510,
           "offset_m": 0,
-          "distance_km": 1168.039,
-          "derived": true
+          "distance_km": 1192.386,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -9246,18 +9246,18 @@
       "name": "Asmakaya",
       "city": "",
       "district": "",
-      "latitude": 38.7587724,
-      "longitude": 41.1460181,
+      "latitude": 38.7587527,
+      "longitude": 41.1460076,
       "coordinate_status": "derived",
-      "shape_index": 7032,
-      "shape_offset_m": 0,
-      "shape_distance_km": 1158.085,
+      "shape_index": 5427,
+      "shape_offset_m": 147,
+      "shape_distance_km": 1182.289,
       "shape_positions": {
         "shape-ankara-tatvan": {
-          "index": 7032,
-          "offset_m": 0,
-          "distance_km": 1158.085,
-          "derived": true
+          "index": 5427,
+          "offset_m": 147,
+          "distance_km": 1182.289,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -9283,15 +9283,15 @@
       "latitude": 38.8086923,
       "longitude": 41.0581358,
       "coordinate_status": "derived",
-      "shape_index": 6930,
+      "shape_index": 5355,
       "shape_offset_m": 0,
-      "shape_distance_km": 1147.092,
+      "shape_distance_km": 1171.449,
       "shape_positions": {
         "shape-ankara-tatvan": {
-          "index": 6930,
+          "index": 5355,
           "offset_m": 0,
-          "distance_km": 1147.092,
-          "derived": true
+          "distance_km": 1171.449,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -9314,18 +9314,18 @@
       "name": "Bozkanat",
       "city": "",
       "district": "",
-      "latitude": 38.8713496,
-      "longitude": 40.9639272,
+      "latitude": 38.8713627,
+      "longitude": 40.9639609,
       "coordinate_status": "derived",
-      "shape_index": 6829,
-      "shape_offset_m": 0,
-      "shape_distance_km": 1135.201,
+      "shape_index": 5288,
+      "shape_offset_m": 200,
+      "shape_distance_km": 1159.364,
       "shape_positions": {
         "shape-ankara-tatvan": {
-          "index": 6829,
-          "offset_m": 0,
-          "distance_km": 1135.201,
-          "derived": true
+          "index": 5288,
+          "offset_m": 200,
+          "distance_km": 1159.364,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -9351,15 +9351,15 @@
       "latitude": 38.8740875,
       "longitude": 40.9012674,
       "coordinate_status": "derived",
-      "shape_index": 6727,
+      "shape_index": 5217,
       "shape_offset_m": 0,
-      "shape_distance_km": 1125.749,
+      "shape_distance_km": 1150.117,
       "shape_positions": {
         "shape-ankara-tatvan": {
-          "index": 6727,
+          "index": 5217,
           "offset_m": 0,
-          "distance_km": 1125.749,
-          "derived": true
+          "distance_km": 1150.117,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -9385,15 +9385,15 @@
       "latitude": 38.8534713,
       "longitude": 40.8065877,
       "coordinate_status": "derived",
-      "shape_index": 6625,
+      "shape_index": 5147,
       "shape_offset_m": 0,
-      "shape_distance_km": 1115.625,
+      "shape_distance_km": 1139.999,
       "shape_positions": {
         "shape-ankara-tatvan": {
-          "index": 6625,
+          "index": 5147,
           "offset_m": 0,
-          "distance_km": 1115.625,
-          "derived": true
+          "distance_km": 1139.999,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -9419,15 +9419,15 @@
       "latitude": 38.7724999,
       "longitude": 40.6007977,
       "coordinate_status": "derived",
-      "shape_index": 6524,
+      "shape_index": 5069,
       "shape_offset_m": 0,
-      "shape_distance_km": 1094.428,
+      "shape_distance_km": 1118.806,
       "shape_positions": {
         "shape-ankara-tatvan": {
-          "index": 6524,
+          "index": 5069,
           "offset_m": 0,
-          "distance_km": 1094.428,
-          "derived": true
+          "distance_km": 1118.806,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -9453,15 +9453,15 @@
       "latitude": 38.7156186,
       "longitude": 40.4330929,
       "coordinate_status": "derived",
-      "shape_index": 6422,
+      "shape_index": 5001,
       "shape_offset_m": 0,
-      "shape_distance_km": 1077.97,
+      "shape_distance_km": 1102.352,
       "shape_positions": {
         "shape-ankara-tatvan": {
-          "index": 6422,
+          "index": 5001,
           "offset_m": 0,
-          "distance_km": 1077.97,
-          "derived": true
+          "distance_km": 1102.352,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -9487,15 +9487,15 @@
       "latitude": 38.7391638,
       "longitude": 40.2550113,
       "coordinate_status": "derived",
-      "shape_index": 6320,
+      "shape_index": 4914,
       "shape_offset_m": 0,
-      "shape_distance_km": 1059.978,
+      "shape_distance_km": 1084.363,
       "shape_positions": {
         "shape-ankara-tatvan": {
-          "index": 6320,
+          "index": 4914,
           "offset_m": 0,
-          "distance_km": 1059.978,
-          "derived": true
+          "distance_km": 1084.363,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -9521,15 +9521,15 @@
       "latitude": 38.7329496,
       "longitude": 40.0986051,
       "coordinate_status": "derived",
-      "shape_index": 6219,
+      "shape_index": 4842,
       "shape_offset_m": 0,
-      "shape_distance_km": 1044.078,
+      "shape_distance_km": 1068.468,
       "shape_positions": {
         "shape-ankara-tatvan": {
-          "index": 6219,
+          "index": 4842,
           "offset_m": 0,
-          "distance_km": 1044.078,
-          "derived": true
+          "distance_km": 1068.468,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -9555,15 +9555,15 @@
       "latitude": 38.7022241,
       "longitude": 39.9680232,
       "coordinate_status": "derived",
-      "shape_index": 6117,
+      "shape_index": 4777,
       "shape_offset_m": 0,
-      "shape_distance_km": 1031.145,
+      "shape_distance_km": 1055.541,
       "shape_positions": {
         "shape-ankara-tatvan": {
-          "index": 6117,
+          "index": 4777,
           "offset_m": 0,
-          "distance_km": 1031.145,
-          "derived": true
+          "distance_km": 1055.541,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -9586,18 +9586,18 @@
       "name": "Palu",
       "city": "",
       "district": "",
-      "latitude": 38.6748162,
-      "longitude": 39.8451473,
+      "latitude": 38.674808,
+      "longitude": 39.8451806,
       "coordinate_status": "derived",
-      "shape_index": 6016,
-      "shape_offset_m": 0,
-      "shape_distance_km": 1017.963,
+      "shape_index": 4708,
+      "shape_offset_m": 52,
+      "shape_distance_km": 1042.417,
       "shape_positions": {
         "shape-ankara-tatvan": {
-          "index": 6016,
-          "offset_m": 0,
-          "distance_km": 1017.963,
-          "derived": true
+          "index": 4708,
+          "offset_m": 52,
+          "distance_km": 1042.417,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -9623,15 +9623,15 @@
       "latitude": 38.6485557,
       "longitude": 39.6970765,
       "coordinate_status": "derived",
-      "shape_index": 5914,
+      "shape_index": 4644,
       "shape_offset_m": 0,
-      "shape_distance_km": 1002.931,
+      "shape_distance_km": 1027.338,
       "shape_positions": {
         "shape-ankara-tatvan": {
-          "index": 5914,
+          "index": 4644,
           "offset_m": 0,
-          "distance_km": 1002.931,
-          "derived": true
+          "distance_km": 1027.338,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -9657,15 +9657,15 @@
       "latitude": 38.6242576,
       "longitude": 39.545231,
       "coordinate_status": "derived",
-      "shape_index": 5812,
+      "shape_index": 4575,
       "shape_offset_m": 0,
-      "shape_distance_km": 987.981,
+      "shape_distance_km": 1012.393,
       "shape_positions": {
         "shape-ankara-tatvan": {
-          "index": 5812,
+          "index": 4575,
           "offset_m": 0,
-          "distance_km": 987.981,
-          "derived": true
+          "distance_km": 1012.393,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -9691,15 +9691,15 @@
       "latitude": 38.6032017,
       "longitude": 39.3472116,
       "coordinate_status": "derived",
-      "shape_index": 5711,
+      "shape_index": 4503,
       "shape_offset_m": 0,
-      "shape_distance_km": 968.234,
+      "shape_distance_km": 992.649,
       "shape_positions": {
         "shape-ankara-tatvan": {
-          "index": 5711,
+          "index": 4503,
           "offset_m": 0,
-          "distance_km": 968.234,
-          "derived": true
+          "distance_km": 992.649,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -9725,14 +9725,14 @@
       "latitude": 38.6648383,
       "longitude": 39.2227818,
       "coordinate_status": "verified",
-      "shape_index": 5609,
+      "shape_index": 4433,
       "shape_offset_m": 246,
-      "shape_distance_km": 947.421,
+      "shape_distance_km": 971.841,
       "shape_positions": {
         "shape-ankara-tatvan": {
-          "index": 5609,
+          "index": 4433,
           "offset_m": 246,
-          "distance_km": 947.421,
+          "distance_km": 971.841,
           "derived": false
         }
       },
@@ -9759,21 +9759,21 @@
       "latitude": 38.5484399,
       "longitude": 39.0193732,
       "coordinate_status": "derived",
-      "shape_index": 5508,
+      "shape_index": 4372,
       "shape_offset_m": 0,
-      "shape_distance_km": 921.921,
+      "shape_distance_km": 946.347,
       "shape_positions": {
         "shape-ankara-tatvan": {
-          "index": 5508,
+          "index": 4372,
           "offset_m": 0,
-          "distance_km": 921.921,
-          "derived": true
+          "distance_km": 946.347,
+          "derived": false
         },
         "shape-ankara-kurtalan": {
-          "index": 5560,
+          "index": 4373,
           "offset_m": 0,
-          "distance_km": 927.731,
-          "derived": true
+          "distance_km": 946.346,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -9806,24 +9806,24 @@
       "name": "Şefkat",
       "city": "",
       "district": "",
-      "latitude": 38.5620426,
-      "longitude": 38.9506626,
+      "latitude": 38.5620655,
+      "longitude": 38.9506637,
       "coordinate_status": "derived",
-      "shape_index": 5408,
-      "shape_offset_m": 0,
-      "shape_distance_km": 914.973,
+      "shape_index": 4308,
+      "shape_offset_m": 34,
+      "shape_distance_km": 939.441,
       "shape_positions": {
         "shape-ankara-tatvan": {
-          "index": 5408,
-          "offset_m": 0,
-          "distance_km": 914.973,
-          "derived": true
+          "index": 4308,
+          "offset_m": 34,
+          "distance_km": 939.441,
+          "derived": false
         },
         "shape-ankara-kurtalan": {
-          "index": 5453,
-          "offset_m": 0,
-          "distance_km": 917.949,
-          "derived": true
+          "index": 4309,
+          "offset_m": 34,
+          "distance_km": 939.44,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -9859,21 +9859,21 @@
       "latitude": 38.5805454,
       "longitude": 38.8117259,
       "coordinate_status": "derived",
-      "shape_index": 5307,
-      "shape_offset_m": 0,
-      "shape_distance_km": 901.775,
+      "shape_index": 4243,
+      "shape_offset_m": 28,
+      "shape_distance_km": 926.188,
       "shape_positions": {
         "shape-ankara-tatvan": {
-          "index": 5307,
-          "offset_m": 0,
-          "distance_km": 901.775,
-          "derived": true
+          "index": 4243,
+          "offset_m": 28,
+          "distance_km": 926.188,
+          "derived": false
         },
         "shape-ankara-kurtalan": {
-          "index": 5345,
+          "index": 4245,
           "offset_m": 0,
-          "distance_km": 907.256,
-          "derived": true
+          "distance_km": 926.216,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -9909,21 +9909,21 @@
       "latitude": 38.5541896,
       "longitude": 38.7941894,
       "coordinate_status": "derived",
-      "shape_index": 5206,
+      "shape_index": 4179,
       "shape_offset_m": 0,
-      "shape_distance_km": 892.922,
+      "shape_distance_km": 917.372,
       "shape_positions": {
         "shape-ankara-tatvan": {
-          "index": 5206,
+          "index": 4179,
           "offset_m": 0,
-          "distance_km": 892.922,
-          "derived": true
+          "distance_km": 917.372,
+          "derived": false
         },
         "shape-ankara-kurtalan": {
-          "index": 5238,
+          "index": 4180,
           "offset_m": 0,
-          "distance_km": 895.017,
-          "derived": true
+          "distance_km": 917.372,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -9959,21 +9959,21 @@
       "latitude": 38.4935279,
       "longitude": 38.7784625,
       "coordinate_status": "derived",
-      "shape_index": 5106,
+      "shape_index": 4122,
       "shape_offset_m": 0,
-      "shape_distance_km": 885.315,
+      "shape_distance_km": 909.773,
       "shape_positions": {
         "shape-ankara-tatvan": {
-          "index": 5106,
+          "index": 4122,
           "offset_m": 0,
-          "distance_km": 885.315,
-          "derived": true
+          "distance_km": 909.773,
+          "derived": false
         },
         "shape-ankara-kurtalan": {
-          "index": 5130,
+          "index": 4123,
           "offset_m": 0,
-          "distance_km": 887.12,
-          "derived": true
+          "distance_km": 909.773,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -10009,21 +10009,21 @@
       "latitude": 38.4583068,
       "longitude": 38.7498292,
       "coordinate_status": "derived",
-      "shape_index": 5005,
+      "shape_index": 4059,
       "shape_offset_m": 0,
-      "shape_distance_km": 878.722,
+      "shape_distance_km": 903.188,
       "shape_positions": {
         "shape-ankara-tatvan": {
-          "index": 5005,
+          "index": 4059,
           "offset_m": 0,
-          "distance_km": 878.722,
-          "derived": true
+          "distance_km": 903.188,
+          "derived": false
         },
         "shape-ankara-kurtalan": {
-          "index": 5023,
+          "index": 4060,
           "offset_m": 0,
-          "distance_km": 880.056,
-          "derived": true
+          "distance_km": 903.188,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -10056,24 +10056,24 @@
       "name": "Fırat",
       "city": "",
       "district": "",
-      "latitude": 38.4611385,
-      "longitude": 38.6257152,
+      "latitude": 38.4611021,
+      "longitude": 38.625725,
       "coordinate_status": "derived",
-      "shape_index": 4904,
-      "shape_offset_m": 0,
-      "shape_distance_km": 867.346,
+      "shape_index": 3987,
+      "shape_offset_m": 54,
+      "shape_distance_km": 891.764,
       "shape_positions": {
         "shape-ankara-tatvan": {
-          "index": 4904,
-          "offset_m": 0,
-          "distance_km": 867.346,
-          "derived": true
+          "index": 3987,
+          "offset_m": 54,
+          "distance_km": 891.764,
+          "derived": false
         },
         "shape-ankara-kurtalan": {
-          "index": 4915,
-          "offset_m": 0,
-          "distance_km": 868.476,
-          "derived": true
+          "index": 3988,
+          "offset_m": 54,
+          "distance_km": 891.764,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -10109,21 +10109,21 @@
       "latitude": 38.4449068,
       "longitude": 38.3999156,
       "coordinate_status": "derived",
-      "shape_index": 4804,
+      "shape_index": 3921,
       "shape_offset_m": 0,
-      "shape_distance_km": 845.928,
+      "shape_distance_km": 870.405,
       "shape_positions": {
         "shape-ankara-tatvan": {
-          "index": 4804,
+          "index": 3921,
           "offset_m": 0,
-          "distance_km": 845.928,
-          "derived": true
+          "distance_km": 870.405,
+          "derived": false
         },
         "shape-ankara-kurtalan": {
-          "index": 4808,
+          "index": 3922,
           "offset_m": 0,
-          "distance_km": 847.546,
-          "derived": true
+          "distance_km": 870.405,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -10159,26 +10159,26 @@
       "latitude": 38.3525196,
       "longitude": 38.2832453,
       "coordinate_status": "verified",
-      "shape_index": 4703,
-      "shape_offset_m": 342,
-      "shape_distance_km": 829.601,
+      "shape_index": 3845,
+      "shape_offset_m": 628,
+      "shape_distance_km": 853.112,
       "shape_positions": {
         "shape-ankara-tatvan": {
-          "index": 4703,
-          "offset_m": 342,
-          "distance_km": 829.601,
+          "index": 3845,
+          "offset_m": 628,
+          "distance_km": 853.112,
           "derived": false
         },
         "shape-ankara-kurtalan": {
-          "index": 4700,
-          "offset_m": 342,
-          "distance_km": 829.601,
+          "index": 3845,
+          "offset_m": 628,
+          "distance_km": 853.112,
           "derived": false
         },
         "shape-ankara-malatya": {
-          "index": 5438,
+          "index": 3847,
           "offset_m": 5,
-          "distance_km": 854.023,
+          "distance_km": 853.484,
           "derived": false
         }
       },
@@ -10235,14 +10235,14 @@
       "latitude": 37.9284229,
       "longitude": 41.6973637,
       "coordinate_status": "verified",
-      "shape_index": 7393,
+      "shape_index": 5656,
       "shape_offset_m": 74,
-      "shape_distance_km": 1241.432,
+      "shape_distance_km": 1265.747,
       "shape_positions": {
         "shape-ankara-kurtalan": {
-          "index": 7393,
+          "index": 5656,
           "offset_m": 74,
-          "distance_km": 1241.432,
+          "distance_km": 1265.747,
           "derived": false
         }
       },
@@ -10276,18 +10276,18 @@
       "name": "Demirlikuyu",
       "city": "",
       "district": "",
-      "latitude": 37.9621233,
-      "longitude": 41.4982219,
+      "latitude": 37.9620934,
+      "longitude": 41.4982176,
       "coordinate_status": "derived",
-      "shape_index": 7270,
-      "shape_offset_m": 0,
-      "shape_distance_km": 1220.967,
+      "shape_index": 5557,
+      "shape_offset_m": 69,
+      "shape_distance_km": 1245.216,
       "shape_positions": {
         "shape-ankara-kurtalan": {
-          "index": 7270,
-          "offset_m": 0,
-          "distance_km": 1220.967,
-          "derived": true
+          "index": 5557,
+          "offset_m": 69,
+          "distance_km": 1245.216,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -10310,18 +10310,18 @@
       "name": "Beşiri",
       "city": "",
       "district": "",
-      "latitude": 37.9646745,
-      "longitude": 41.2662852,
+      "latitude": 37.9646562,
+      "longitude": 41.2662693,
       "coordinate_status": "derived",
-      "shape_index": 7147,
-      "shape_offset_m": 0,
-      "shape_distance_km": 1199.037,
+      "shape_index": 5470,
+      "shape_offset_m": 96,
+      "shape_distance_km": 1223.266,
       "shape_positions": {
         "shape-ankara-kurtalan": {
-          "index": 7147,
-          "offset_m": 0,
-          "distance_km": 1199.037,
-          "derived": true
+          "index": 5470,
+          "offset_m": 96,
+          "distance_km": 1223.266,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -10347,15 +10347,15 @@
       "latitude": 37.9682829,
       "longitude": 41.1785705,
       "coordinate_status": "derived",
-      "shape_index": 7024,
+      "shape_index": 5392,
       "shape_offset_m": 0,
-      "shape_distance_km": 1185.758,
+      "shape_distance_km": 1210.091,
       "shape_positions": {
         "shape-ankara-kurtalan": {
-          "index": 7024,
+          "index": 5392,
           "offset_m": 0,
-          "distance_km": 1185.758,
-          "derived": true
+          "distance_km": 1210.091,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -10381,14 +10381,14 @@
       "latitude": 37.8785813,
       "longitude": 41.1226819,
       "coordinate_status": "verified",
-      "shape_index": 6901,
+      "shape_index": 5306,
       "shape_offset_m": 213,
-      "shape_distance_km": 1172.953,
+      "shape_distance_km": 1197.291,
       "shape_positions": {
         "shape-ankara-kurtalan": {
-          "index": 6901,
+          "index": 5306,
           "offset_m": 213,
-          "distance_km": 1172.953,
+          "distance_km": 1197.291,
           "derived": false
         }
       },
@@ -10415,15 +10415,15 @@
       "latitude": 37.8260596,
       "longitude": 41.0035699,
       "coordinate_status": "derived",
-      "shape_index": 6857,
+      "shape_index": 5279,
       "shape_offset_m": 0,
-      "shape_distance_km": 1160.399,
+      "shape_distance_km": 1184.739,
       "shape_positions": {
         "shape-ankara-kurtalan": {
-          "index": 6857,
+          "index": 5279,
           "offset_m": 0,
-          "distance_km": 1160.399,
-          "derived": true
+          "distance_km": 1184.739,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -10449,15 +10449,15 @@
       "latitude": 37.8491847,
       "longitude": 40.8473476,
       "coordinate_status": "derived",
-      "shape_index": 6813,
+      "shape_index": 5250,
       "shape_offset_m": 0,
-      "shape_distance_km": 1146.045,
+      "shape_distance_km": 1170.387,
       "shape_positions": {
         "shape-ankara-kurtalan": {
-          "index": 6813,
+          "index": 5250,
           "offset_m": 0,
-          "distance_km": 1146.045,
-          "derived": true
+          "distance_km": 1170.387,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -10483,15 +10483,15 @@
       "latitude": 37.8581856,
       "longitude": 40.6106364,
       "coordinate_status": "derived",
-      "shape_index": 6769,
+      "shape_index": 5218,
       "shape_offset_m": 0,
-      "shape_distance_km": 1124.908,
+      "shape_distance_km": 1149.251,
       "shape_positions": {
         "shape-ankara-kurtalan": {
-          "index": 6769,
+          "index": 5218,
           "offset_m": 0,
-          "distance_km": 1124.908,
-          "derived": true
+          "distance_km": 1149.251,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -10517,15 +10517,15 @@
       "latitude": 37.8224082,
       "longitude": 40.3936948,
       "coordinate_status": "derived",
-      "shape_index": 6724,
+      "shape_index": 5183,
       "shape_offset_m": 0,
-      "shape_distance_km": 1104.225,
+      "shape_distance_km": 1128.569,
       "shape_positions": {
         "shape-ankara-kurtalan": {
-          "index": 6724,
+          "index": 5183,
           "offset_m": 0,
-          "distance_km": 1104.225,
-          "derived": true
+          "distance_km": 1128.569,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -10551,15 +10551,15 @@
       "latitude": 37.8649391,
       "longitude": 40.2281903,
       "coordinate_status": "derived",
-      "shape_index": 6680,
+      "shape_index": 5151,
       "shape_offset_m": 0,
-      "shape_distance_km": 1087.971,
+      "shape_distance_km": 1112.316,
       "shape_positions": {
         "shape-ankara-kurtalan": {
-          "index": 6680,
+          "index": 5151,
           "offset_m": 0,
-          "distance_km": 1087.971,
-          "derived": true
+          "distance_km": 1112.316,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -10585,14 +10585,14 @@
       "latitude": 37.9136473,
       "longitude": 40.2157446,
       "coordinate_status": "verified",
-      "shape_index": 6636,
+      "shape_index": 5124,
       "shape_offset_m": 295,
-      "shape_distance_km": 1082.451,
+      "shape_distance_km": 1106.799,
       "shape_positions": {
         "shape-ankara-kurtalan": {
-          "index": 6636,
+          "index": 5124,
           "offset_m": 295,
-          "distance_km": 1082.451,
+          "distance_km": 1106.799,
           "derived": false
         }
       },
@@ -10616,18 +10616,18 @@
       "name": "Leylek",
       "city": "",
       "district": "",
-      "latitude": 38.2260713,
-      "longitude": 39.7674712,
+      "latitude": 38.2260534,
+      "longitude": 39.7674489,
       "coordinate_status": "derived",
-      "shape_index": 6528,
-      "shape_offset_m": 0,
-      "shape_distance_km": 1027.712,
+      "shape_index": 5045,
+      "shape_offset_m": 47,
+      "shape_distance_km": 1052.112,
       "shape_positions": {
         "shape-ankara-kurtalan": {
-          "index": 6528,
-          "offset_m": 0,
-          "distance_km": 1027.712,
-          "derived": true
+          "index": 5045,
+          "offset_m": 47,
+          "distance_km": 1052.112,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -10650,18 +10650,18 @@
       "name": "Ergani",
       "city": "",
       "district": "",
-      "latitude": 38.2938742,
-      "longitude": 39.6617962,
+      "latitude": 38.2938797,
+      "longitude": 39.6617452,
       "coordinate_status": "derived",
-      "shape_index": 6421,
-      "shape_offset_m": 0,
-      "shape_distance_km": 1014.322,
+      "shape_index": 4975,
+      "shape_offset_m": 38,
+      "shape_distance_km": 1038.721,
       "shape_positions": {
         "shape-ankara-kurtalan": {
-          "index": 6421,
-          "offset_m": 0,
-          "distance_km": 1014.322,
-          "derived": true
+          "index": 4975,
+          "offset_m": 38,
+          "distance_km": 1038.721,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -10687,15 +10687,15 @@
       "latitude": 38.3557574,
       "longitude": 39.6768535,
       "coordinate_status": "derived",
-      "shape_index": 6313,
+      "shape_index": 4905,
       "shape_offset_m": 0,
-      "shape_distance_km": 1005.893,
+      "shape_distance_km": 1030.264,
       "shape_positions": {
         "shape-ankara-kurtalan": {
-          "index": 6313,
+          "index": 4905,
           "offset_m": 0,
-          "distance_km": 1005.893,
-          "derived": true
+          "distance_km": 1030.264,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -10718,18 +10718,18 @@
       "name": "Maden",
       "city": "",
       "district": "",
-      "latitude": 38.4232238,
-      "longitude": 39.6490105,
+      "latitude": 38.4232518,
+      "longitude": 39.6490532,
       "coordinate_status": "derived",
-      "shape_index": 6206,
-      "shape_offset_m": 0,
-      "shape_distance_km": 996.119,
+      "shape_index": 4832,
+      "shape_offset_m": 39,
+      "shape_distance_km": 1020.536,
       "shape_positions": {
         "shape-ankara-kurtalan": {
-          "index": 6206,
-          "offset_m": 0,
-          "distance_km": 996.119,
-          "derived": true
+          "index": 4832,
+          "offset_m": 39,
+          "distance_km": 1020.536,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -10752,18 +10752,18 @@
       "name": "Gezin",
       "city": "",
       "district": "",
-      "latitude": 38.4761116,
-      "longitude": 39.5855876,
+      "latitude": 38.4761014,
+      "longitude": 39.5855746,
       "coordinate_status": "derived",
-      "shape_index": 6098,
-      "shape_offset_m": 0,
-      "shape_distance_km": 986.305,
+      "shape_index": 4761,
+      "shape_offset_m": 32,
+      "shape_distance_km": 1010.724,
       "shape_positions": {
         "shape-ankara-kurtalan": {
-          "index": 6098,
-          "offset_m": 0,
-          "distance_km": 986.305,
-          "derived": true
+          "index": 4761,
+          "offset_m": 32,
+          "distance_km": 1010.724,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -10789,15 +10789,15 @@
       "latitude": 38.4783804,
       "longitude": 39.4491135,
       "coordinate_status": "derived",
-      "shape_index": 5991,
+      "shape_index": 4689,
       "shape_offset_m": 0,
-      "shape_distance_km": 972.467,
+      "shape_distance_km": 996.86,
       "shape_positions": {
         "shape-ankara-kurtalan": {
-          "index": 5991,
+          "index": 4689,
           "offset_m": 0,
-          "distance_km": 972.467,
-          "derived": true
+          "distance_km": 996.86,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -10823,15 +10823,15 @@
       "latitude": 38.4505302,
       "longitude": 39.3578278,
       "coordinate_status": "derived",
-      "shape_index": 5883,
+      "shape_index": 4622,
       "shape_offset_m": 0,
-      "shape_distance_km": 963.543,
+      "shape_distance_km": 987.943,
       "shape_positions": {
         "shape-ankara-kurtalan": {
-          "index": 5883,
+          "index": 4622,
           "offset_m": 0,
-          "distance_km": 963.543,
-          "derived": true
+          "distance_km": 987.943,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -10857,15 +10857,15 @@
       "latitude": 38.4898226,
       "longitude": 39.259119,
       "coordinate_status": "derived",
-      "shape_index": 5776,
+      "shape_index": 4552,
       "shape_offset_m": 0,
-      "shape_distance_km": 950.094,
+      "shape_distance_km": 974.503,
       "shape_positions": {
         "shape-ankara-kurtalan": {
-          "index": 5776,
+          "index": 4552,
           "offset_m": 0,
-          "distance_km": 950.094,
-          "derived": true
+          "distance_km": 974.503,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -10891,15 +10891,15 @@
       "latitude": 38.5144059,
       "longitude": 39.1740462,
       "coordinate_status": "derived",
-      "shape_index": 5668,
+      "shape_index": 4481,
       "shape_offset_m": 0,
-      "shape_distance_km": 939.457,
+      "shape_distance_km": 963.873,
       "shape_positions": {
         "shape-ankara-kurtalan": {
-          "index": 5668,
+          "index": 4481,
           "offset_m": 0,
-          "distance_km": 939.457,
-          "derived": true
+          "distance_km": 963.873,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -10925,14 +10925,14 @@
       "latitude": 39.562222222222,
       "longitude": 30.190555555555,
       "coordinate_status": "verified",
-      "shape_index": 340,
+      "shape_index": 232,
       "shape_offset_m": 459,
-      "shape_distance_km": 46.576,
+      "shape_distance_km": 46.555,
       "shape_positions": {
         "shape-eskisehir-denizli": {
-          "index": 340,
+          "index": 232,
           "offset_m": 459,
-          "distance_km": 46.576,
+          "distance_km": 46.555,
           "derived": false
         }
       },
@@ -10969,14 +10969,14 @@
       "latitude": 39.266666666667,
       "longitude": 30.178333333334,
       "coordinate_status": "verified",
-      "shape_index": 636,
+      "shape_index": 447,
       "shape_offset_m": 226,
-      "shape_distance_km": 106.638,
+      "shape_distance_km": 106.606,
       "shape_positions": {
         "shape-eskisehir-denizli": {
-          "index": 636,
+          "index": 447,
           "offset_m": 226,
-          "distance_km": 106.638,
+          "distance_km": 106.606,
           "derived": false
         }
       },
@@ -11013,14 +11013,14 @@
       "latitude": 39.208055555556,
       "longitude": 30.304166666667,
       "coordinate_status": "verified",
-      "shape_index": 723,
+      "shape_index": 525,
       "shape_offset_m": 349,
-      "shape_distance_km": 121.854,
+      "shape_distance_km": 121.821,
       "shape_positions": {
         "shape-eskisehir-denizli": {
-          "index": 723,
+          "index": 525,
           "offset_m": 349,
-          "distance_km": 121.854,
+          "distance_km": 121.821,
           "derived": false
         }
       },
@@ -11057,14 +11057,14 @@
       "latitude": 39.13177019876854,
       "longitude": 30.38060432864439,
       "coordinate_status": "verified",
-      "shape_index": 746,
-      "shape_offset_m": 474,
-      "shape_distance_km": 132.5,
+      "shape_index": 545,
+      "shape_offset_m": 590,
+      "shape_distance_km": 133.53,
       "shape_positions": {
         "shape-eskisehir-denizli": {
-          "index": 746,
-          "offset_m": 474,
-          "distance_km": 132.5,
+          "index": 545,
+          "offset_m": 590,
+          "distance_km": 133.53,
           "derived": false
         }
       },
@@ -11101,14 +11101,14 @@
       "latitude": 39.01341368,
       "longitude": 30.40339359,
       "coordinate_status": "verified",
-      "shape_index": 839,
+      "shape_index": 626,
       "shape_offset_m": 196,
-      "shape_distance_km": 147.954,
+      "shape_distance_km": 147.919,
       "shape_positions": {
         "shape-eskisehir-denizli": {
-          "index": 839,
+          "index": 626,
           "offset_m": 196,
-          "distance_km": 147.954,
+          "distance_km": 147.919,
           "derived": false
         }
       },
@@ -11145,14 +11145,14 @@
       "latitude": 38.9325,
       "longitude": 30.500555555556,
       "coordinate_status": "verified",
-      "shape_index": 879,
+      "shape_index": 658,
       "shape_offset_m": 54,
-      "shape_distance_km": 161.346,
+      "shape_distance_km": 161.309,
       "shape_positions": {
         "shape-eskisehir-denizli": {
-          "index": 879,
+          "index": 658,
           "offset_m": 54,
-          "distance_km": 161.346,
+          "distance_km": 161.309,
           "derived": false
         }
       },
@@ -11189,14 +11189,14 @@
       "latitude": 38.763055555556,
       "longitude": 30.553055555556,
       "coordinate_status": "verified",
-      "shape_index": 925,
+      "shape_index": 694,
       "shape_offset_m": 93,
-      "shape_distance_km": 181.332,
+      "shape_distance_km": 181.294,
       "shape_positions": {
         "shape-eskisehir-denizli": {
-          "index": 925,
+          "index": 694,
           "offset_m": 93,
-          "distance_km": 181.332,
+          "distance_km": 181.294,
           "derived": false
         }
       },
@@ -11230,17 +11230,17 @@
       "name": "Tınaztepe",
       "city": "Afyonkarahisar",
       "district": "Sinanpaşa",
-      "latitude": 38.716666666667,
-      "longitude": 30.385277777777,
-      "coordinate_status": "verified",
-      "shape_index": 1058,
-      "shape_offset_m": 601,
-      "shape_distance_km": 209.351,
+      "latitude": 38.7210667,
+      "longitude": 30.3812725,
+      "coordinate_status": "derived",
+      "shape_index": 782,
+      "shape_offset_m": 36,
+      "shape_distance_km": 209.306,
       "shape_positions": {
         "shape-eskisehir-denizli": {
-          "index": 1058,
-          "offset_m": 601,
-          "distance_km": 209.351,
+          "index": 782,
+          "offset_m": 36,
+          "distance_km": 209.306,
           "derived": false
         }
       },
@@ -11277,14 +11277,14 @@
       "latitude": 38.458333333333,
       "longitude": 30.261111111111,
       "coordinate_status": "verified",
-      "shape_index": 1388,
+      "shape_index": 1006,
       "shape_offset_m": 346,
-      "shape_distance_km": 248.79,
+      "shape_distance_km": 248.726,
       "shape_positions": {
         "shape-eskisehir-denizli": {
-          "index": 1388,
+          "index": 1006,
           "offset_m": 346,
-          "distance_km": 248.79,
+          "distance_km": 248.726,
           "derived": false
         }
       },
@@ -11321,14 +11321,14 @@
       "latitude": 38.305833333333,
       "longitude": 30.186944444444,
       "coordinate_status": "verified",
-      "shape_index": 1409,
-      "shape_offset_m": 447,
-      "shape_distance_km": 267.339,
+      "shape_index": 1021,
+      "shape_offset_m": 1967,
+      "shape_distance_km": 269.688,
       "shape_positions": {
         "shape-eskisehir-denizli": {
-          "index": 1409,
-          "offset_m": 447,
-          "distance_km": 267.339,
+          "index": 1021,
+          "offset_m": 1967,
+          "distance_km": 269.688,
           "derived": false
         }
       },
@@ -11362,17 +11362,17 @@
       "name": "Karakuyu",
       "city": "Afyonkarahisar",
       "district": "Dinar",
-      "latitude": 38.090277777777,
-      "longitude": 30.219166666667,
-      "coordinate_status": "verified",
-      "shape_index": 1500,
-      "shape_offset_m": 973,
-      "shape_distance_km": 295.43,
+      "latitude": 38.0827875,
+      "longitude": 30.2134232,
+      "coordinate_status": "derived",
+      "shape_index": 1082,
+      "shape_offset_m": 0,
+      "shape_distance_km": 295.361,
       "shape_positions": {
         "shape-eskisehir-denizli": {
-          "index": 1500,
-          "offset_m": 973,
-          "distance_km": 295.43,
+          "index": 1082,
+          "offset_m": 0,
+          "distance_km": 295.361,
           "derived": false
         }
       },
@@ -11409,14 +11409,14 @@
       "latitude": 38.065277777778,
       "longitude": 30.156388888889,
       "coordinate_status": "verified",
-      "shape_index": 1646,
-      "shape_offset_m": 115,
-      "shape_distance_km": 311.259,
+      "shape_index": 1173,
+      "shape_offset_m": 633,
+      "shape_distance_km": 310.436,
       "shape_positions": {
         "shape-eskisehir-denizli": {
-          "index": 1646,
-          "offset_m": 115,
-          "distance_km": 311.259,
+          "index": 1173,
+          "offset_m": 633,
+          "distance_km": 310.436,
           "derived": false
         }
       },
@@ -11453,14 +11453,14 @@
       "latitude": 38.128611111111,
       "longitude": 29.991111111111,
       "coordinate_status": "verified",
-      "shape_index": 1728,
+      "shape_index": 1230,
       "shape_offset_m": 60,
-      "shape_distance_km": 330.857,
+      "shape_distance_km": 330.775,
       "shape_positions": {
         "shape-eskisehir-denizli": {
-          "index": 1728,
+          "index": 1230,
           "offset_m": 60,
-          "distance_km": 330.857,
+          "distance_km": 330.775,
           "derived": false
         }
       },
@@ -11497,15 +11497,15 @@
       "latitude": 38.0481947,
       "longitude": 29.9382191,
       "coordinate_status": "derived",
-      "shape_index": 1755,
+      "shape_index": 1248,
       "shape_offset_m": 0,
-      "shape_distance_km": 341.099,
+      "shape_distance_km": 341.017,
       "shape_positions": {
         "shape-eskisehir-denizli": {
-          "index": 1755,
+          "index": 1248,
           "offset_m": 0,
-          "distance_km": 341.099,
-          "derived": true
+          "distance_km": 341.017,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -11538,18 +11538,18 @@
       "name": "Evciler",
       "city": "Afyonkarahisar",
       "district": "Evciler",
-      "latitude": 37.9255294,
-      "longitude": 29.8707987,
+      "latitude": 37.9255452,
+      "longitude": 29.8707756,
       "coordinate_status": "derived",
-      "shape_index": 1781,
-      "shape_offset_m": 0,
-      "shape_distance_km": 356.344,
+      "shape_index": 1269,
+      "shape_offset_m": 104,
+      "shape_distance_km": 356.156,
       "shape_positions": {
         "shape-eskisehir-denizli": {
-          "index": 1781,
-          "offset_m": 0,
-          "distance_km": 356.344,
-          "derived": true
+          "index": 1269,
+          "offset_m": 104,
+          "distance_km": 356.156,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -11585,14 +11585,14 @@
       "latitude": 37.903333333333,
       "longitude": 29.863055555556,
       "coordinate_status": "verified",
-      "shape_index": 1808,
-      "shape_offset_m": 467,
-      "shape_distance_km": 358.643,
+      "shape_index": 1286,
+      "shape_offset_m": 521,
+      "shape_distance_km": 358.504,
       "shape_positions": {
         "shape-eskisehir-denizli": {
-          "index": 1808,
-          "offset_m": 467,
-          "distance_km": 358.643,
+          "index": 1286,
+          "offset_m": 521,
+          "distance_km": 358.504,
           "derived": false
         }
       },
@@ -11629,14 +11629,14 @@
       "latitude": 37.821388888889,
       "longitude": 29.680277777778,
       "coordinate_status": "verified",
-      "shape_index": 1892,
-      "shape_offset_m": 531,
-      "shape_distance_km": 379.499,
+      "shape_index": 1346,
+      "shape_offset_m": 829,
+      "shape_distance_km": 379.709,
       "shape_positions": {
         "shape-eskisehir-denizli": {
-          "index": 1892,
-          "offset_m": 531,
-          "distance_km": 379.499,
+          "index": 1346,
+          "offset_m": 829,
+          "distance_km": 379.709,
           "derived": false
         }
       },
@@ -11673,14 +11673,14 @@
       "latitude": 37.825555555556,
       "longitude": 29.646111111111,
       "coordinate_status": "verified",
-      "shape_index": 1898,
-      "shape_offset_m": 1039,
-      "shape_distance_km": 383.061,
+      "shape_index": 1350,
+      "shape_offset_m": 1147,
+      "shape_distance_km": 383.08,
       "shape_positions": {
         "shape-eskisehir-denizli": {
-          "index": 1898,
-          "offset_m": 1039,
-          "distance_km": 383.061,
+          "index": 1350,
+          "offset_m": 1147,
+          "distance_km": 383.08,
           "derived": false
         }
       },
@@ -11717,14 +11717,14 @@
       "latitude": 37.826944444445,
       "longitude": 29.415,
       "coordinate_status": "verified",
-      "shape_index": 2036,
-      "shape_offset_m": 78,
-      "shape_distance_km": 404.221,
+      "shape_index": 1443,
+      "shape_offset_m": 121,
+      "shape_distance_km": 404.083,
       "shape_positions": {
         "shape-eskisehir-denizli": {
-          "index": 2036,
-          "offset_m": 78,
-          "distance_km": 404.221,
+          "index": 1443,
+          "offset_m": 121,
+          "distance_km": 404.083,
           "derived": false
         }
       },
@@ -11761,14 +11761,14 @@
       "latitude": 37.849444444444,
       "longitude": 29.116944444445,
       "coordinate_status": "verified",
-      "shape_index": 2264,
+      "shape_index": 1603,
       "shape_offset_m": 67,
-      "shape_distance_km": 436.411,
+      "shape_distance_km": 436.304,
       "shape_positions": {
         "shape-eskisehir-denizli": {
-          "index": 2264,
+          "index": 1603,
           "offset_m": 67,
-          "distance_km": 436.411,
+          "distance_km": 436.304,
           "derived": false
         }
       },
@@ -11792,17 +11792,17 @@
       "name": "Denizli",
       "city": "Denizli",
       "district": "Merkez",
-      "latitude": 37.789166666666,
-      "longitude": 29.089722222222,
-      "coordinate_status": "verified",
-      "shape_index": 2355,
-      "shape_offset_m": 107,
-      "shape_distance_km": 445.724,
+      "latitude": 37.7885153,
+      "longitude": 29.0888331,
+      "coordinate_status": "derived",
+      "shape_index": 1659,
+      "shape_offset_m": 0,
+      "shape_distance_km": 445.61,
       "shape_positions": {
         "shape-eskisehir-denizli": {
-          "index": 2355,
-          "offset_m": 107,
-          "distance_km": 445.724,
+          "index": 1659,
+          "offset_m": 0,
+          "distance_km": 445.61,
           "derived": false
         }
       },
@@ -11839,14 +11839,14 @@
       "latitude": 39.9484468,
       "longitude": 33.2042196,
       "coordinate_status": "verified",
-      "shape_index": 171,
-      "shape_offset_m": 466,
-      "shape_distance_km": 34.489,
+      "shape_index": 124,
+      "shape_offset_m": 1475,
+      "shape_distance_km": 33.474,
       "shape_positions": {
         "shape-ankara-sivas-yht": {
-          "index": 171,
-          "offset_m": 466,
-          "distance_km": 34.489,
+          "index": 124,
+          "offset_m": 1475,
+          "distance_km": 33.474,
           "derived": false
         }
       },
@@ -11883,20 +11883,20 @@
       "latitude": 39.8676282,
       "longitude": 33.5359081,
       "coordinate_status": "verified",
-      "shape_index": 272,
-      "shape_offset_m": 541,
-      "shape_distance_km": 74.908,
+      "shape_index": 201,
+      "shape_offset_m": 947,
+      "shape_distance_km": 74.365,
       "shape_positions": {
         "shape-ankara-sivas-yht": {
-          "index": 272,
-          "offset_m": 541,
-          "distance_km": 74.908,
+          "index": 201,
+          "offset_m": 947,
+          "distance_km": 74.365,
           "derived": false
         },
         "shape-sogutlucesme-sivas-yht": {
-          "index": 2140,
-          "offset_m": 541,
-          "distance_km": 608.747,
+          "index": 1447,
+          "offset_m": 947,
+          "distance_km": 608.143,
           "derived": false
         }
       },
@@ -11953,14 +11953,14 @@
       "latitude": 39.6871011,
       "longitude": 34.4657364,
       "coordinate_status": "verified",
-      "shape_index": 471,
-      "shape_offset_m": 634,
-      "shape_distance_km": 167.939,
+      "shape_index": 350,
+      "shape_offset_m": 1526,
+      "shape_distance_km": 166.777,
       "shape_positions": {
         "shape-ankara-sivas-yht": {
-          "index": 471,
-          "offset_m": 634,
-          "distance_km": 167.939,
+          "index": 350,
+          "offset_m": 1526,
+          "distance_km": 166.777,
           "derived": false
         }
       },
@@ -11997,20 +11997,20 @@
       "latitude": 39.7582006,
       "longitude": 34.8401141,
       "coordinate_status": "verified",
-      "shape_index": 539,
-      "shape_offset_m": 214,
-      "shape_distance_km": 203.457,
+      "shape_index": 398,
+      "shape_offset_m": 562,
+      "shape_distance_km": 203.956,
       "shape_positions": {
         "shape-ankara-sivas-yht": {
-          "index": 539,
-          "offset_m": 214,
-          "distance_km": 203.457,
+          "index": 398,
+          "offset_m": 562,
+          "distance_km": 203.956,
           "derived": false
         },
         "shape-sogutlucesme-sivas-yht": {
-          "index": 2406,
-          "offset_m": 214,
-          "distance_km": 737.296,
+          "index": 1642,
+          "offset_m": 562,
+          "distance_km": 737.734,
           "derived": false
         }
       },
@@ -12067,14 +12067,14 @@
       "latitude": 39.8266852,
       "longitude": 35.158587,
       "coordinate_status": "verified",
-      "shape_index": 576,
+      "shape_index": 426,
       "shape_offset_m": 1334,
-      "shape_distance_km": 231.091,
+      "shape_distance_km": 230.819,
       "shape_positions": {
         "shape-ankara-sivas-yht": {
-          "index": 576,
+          "index": 426,
           "offset_m": 1334,
-          "distance_km": 231.091,
+          "distance_km": 230.819,
           "derived": false
         }
       },
@@ -12111,14 +12111,14 @@
       "latitude": 39.7821471,
       "longitude": 35.8920926,
       "coordinate_status": "verified",
-      "shape_index": 676,
+      "shape_index": 515,
       "shape_offset_m": 456,
-      "shape_distance_km": 298.314,
+      "shape_distance_km": 298.041,
       "shape_positions": {
         "shape-ankara-sivas-yht": {
-          "index": 676,
+          "index": 515,
           "offset_m": 456,
-          "distance_km": 298.314,
+          "distance_km": 298.041,
           "derived": false
         }
       },
@@ -12155,20 +12155,20 @@
       "latitude": 39.8589175,
       "longitude": 36.5623214,
       "coordinate_status": "verified",
-      "shape_index": 769,
-      "shape_offset_m": 634,
-      "shape_distance_km": 358.902,
+      "shape_index": 593,
+      "shape_offset_m": 1187,
+      "shape_distance_km": 358.076,
       "shape_positions": {
         "shape-ankara-sivas-yht": {
-          "index": 769,
-          "offset_m": 634,
-          "distance_km": 358.902,
+          "index": 593,
+          "offset_m": 1187,
+          "distance_km": 358.076,
           "derived": false
         },
         "shape-sogutlucesme-sivas-yht": {
-          "index": 2636,
-          "offset_m": 634,
-          "distance_km": 892.741,
+          "index": 1837,
+          "offset_m": 1187,
+          "distance_km": 891.854,
           "derived": false
         }
       },
@@ -12225,14 +12225,14 @@
       "latitude": 39.9042599,
       "longitude": 30.0372781,
       "coordinate_status": "verified",
-      "shape_index": 1287,
+      "shape_index": 890,
       "shape_offset_m": 164,
-      "shape_distance_km": 335.017,
+      "shape_distance_km": 334.861,
       "shape_positions": {
         "shape-ankara-halkali-conventional": {
-          "index": 1287,
+          "index": 890,
           "offset_m": 164,
-          "distance_km": 335.017,
+          "distance_km": 334.861,
           "derived": false
         }
       },
@@ -12269,14 +12269,14 @@
       "latitude": 40.0004119,
       "longitude": 30.0079158,
       "coordinate_status": "verified",
-      "shape_index": 1392,
-      "shape_offset_m": 222,
-      "shape_distance_km": 349.247,
+      "shape_index": 958,
+      "shape_offset_m": 225,
+      "shape_distance_km": 349.532,
       "shape_positions": {
         "shape-ankara-halkali-conventional": {
-          "index": 1392,
-          "offset_m": 222,
-          "distance_km": 349.247,
+          "index": 958,
+          "offset_m": 225,
+          "distance_km": 349.532,
           "derived": false
         }
       },
@@ -12300,21 +12300,21 @@
       "name": "Yayla",
       "city": "Bilecik",
       "district": "Merkez",
-      "latitude": 40.069371,
-      "longitude": 30.0144565,
-      "coordinate_status": "verified",
-      "shape_index": 1486,
-      "shape_offset_m": 3,
-      "shape_distance_km": 358.397,
+      "latitude": 40.0700155,
+      "longitude": 30.0144431,
+      "coordinate_status": "derived",
+      "shape_index": 1011,
+      "shape_offset_m": 0,
+      "shape_distance_km": 358.3,
       "shape_positions": {
         "shape-ankara-halkali-conventional": {
-          "index": 1486,
-          "offset_m": 3,
-          "distance_km": 358.397,
+          "index": 1011,
+          "offset_m": 0,
+          "distance_km": 358.3,
           "derived": false
         }
       },
-      "source_status": "verified_open",
+      "source_status": "catalog_or_derived",
       "directions": [
         {
           "pattern_id": "pattern-ankara-ekspresi-ankara-halkali",
@@ -12334,21 +12334,21 @@
       "name": "Bilecik",
       "city": "Bilecik",
       "district": "Merkez",
-      "latitude": 40.1153928,
-      "longitude": 30.0005384,
-      "coordinate_status": "verified",
-      "shape_index": 1580,
-      "shape_offset_m": 147,
-      "shape_distance_km": 366.248,
+      "latitude": 40.1166065,
+      "longitude": 30.0012226,
+      "coordinate_status": "derived",
+      "shape_index": 1073,
+      "shape_offset_m": 0,
+      "shape_distance_km": 366.073,
       "shape_positions": {
         "shape-ankara-halkali-conventional": {
-          "index": 1580,
-          "offset_m": 147,
-          "distance_km": 366.248,
+          "index": 1073,
+          "offset_m": 0,
+          "distance_km": 366.073,
           "derived": false
         }
       },
-      "source_status": "verified_open",
+      "source_status": "catalog_or_derived",
       "directions": [
         {
           "pattern_id": "pattern-ankara-ekspresi-ankara-halkali",

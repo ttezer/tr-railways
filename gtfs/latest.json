@@ -1,0 +1,17 @@
+{
+  "filename": "tr_railways_20260731.zip",
+  "generated_at": "2026-07-31T11:20:04.690Z",
+  "generation_date": "20260731",
+  "feed_start_date": "20260731",
+  "feed_end_date": "20260813",
+  "available_days": 14,
+  "routes": 10,
+  "stops": 192,
+  "trips": 71,
+  "services": 11,
+  "stop_times": 880,
+  "shapes": 28,
+  "shape_points": 73792,
+  "validation": "passed",
+  "size_bytes": 1183639
+}
