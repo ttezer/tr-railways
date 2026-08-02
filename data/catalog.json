@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T10:16:36.648Z",
+  "generated_at": "2026-08-02T11:46:50.152Z",
   "publication_status": "independent_open_project",
   "routes": [
     {
@@ -184,6 +184,18 @@
       ],
       "direction_count": 4,
       "station_count": 35
+    },
+    {
+      "id": "route-sivas-samsun-bolgesel",
+      "name": "Sivas–Samsun Bölgesel Treni",
+      "mode": "regional",
+      "status": "active",
+      "length_km": 400,
+      "shape_ids": [
+        "shape-sivas-samsun"
+      ],
+      "direction_count": 2,
+      "station_count": 34
     }
   ],
   "directions": [
@@ -1610,6 +1622,100 @@
         "st-goncali",
         "st-saraykoy",
         "st-izmir-basmane"
+      ]
+    },
+    {
+      "id": "pattern-sivas-samsun",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "direction": "forward",
+      "headsign": "Samsun",
+      "origin_station_id": "st-sivas",
+      "destination_station_id": "st-samsun",
+      "base_shape_id": "shape-sivas-samsun",
+      "shape_orientation": "forward",
+      "schedule_status": "official_dates_available",
+      "stop_ids": [
+        "st-sivas",
+        "st-kalin",
+        "st-yildizeli",
+        "st-sandal",
+        "st-subasi",
+        "st-cizozu",
+        "st-topulyurdu",
+        "st-tokat-yesilyurt",
+        "st-kunduz",
+        "st-artova",
+        "st-yenice-d",
+        "st-gumusyurt",
+        "st-guzelbeyli",
+        "st-zile",
+        "st-turhal",
+        "st-kizoglu",
+        "st-kizilca",
+        "st-ovasaray",
+        "st-kayabasi",
+        "st-amasya",
+        "st-bogazkoy",
+        "st-suluova",
+        "st-hacibayram",
+        "st-havza",
+        "st-bekdigin",
+        "st-ladik",
+        "st-kavak",
+        "st-germiyan",
+        "st-cukurbuk",
+        "st-ciftlik",
+        "st-bogazici",
+        "st-celikalan",
+        "st-meseliduz",
+        "st-samsun"
+      ]
+    },
+    {
+      "id": "pattern-samsun-sivas",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "direction": "reverse",
+      "headsign": "Sivas",
+      "origin_station_id": "st-samsun",
+      "destination_station_id": "st-sivas",
+      "base_shape_id": "shape-sivas-samsun",
+      "shape_orientation": "reverse",
+      "schedule_status": "official_dates_available",
+      "stop_ids": [
+        "st-samsun",
+        "st-meseliduz",
+        "st-celikalan",
+        "st-bogazici",
+        "st-ciftlik",
+        "st-cukurbuk",
+        "st-germiyan",
+        "st-kavak",
+        "st-ladik",
+        "st-bekdigin",
+        "st-havza",
+        "st-hacibayram",
+        "st-suluova",
+        "st-bogazkoy",
+        "st-amasya",
+        "st-kayabasi",
+        "st-ovasaray",
+        "st-kizilca",
+        "st-kizoglu",
+        "st-turhal",
+        "st-zile",
+        "st-guzelbeyli",
+        "st-gumusyurt",
+        "st-yenice-d",
+        "st-artova",
+        "st-kunduz",
+        "st-tokat-yesilyurt",
+        "st-topulyurdu",
+        "st-cizozu",
+        "st-subasi",
+        "st-sandal",
+        "st-yildizeli",
+        "st-kalin",
+        "st-sivas"
       ]
     }
   ],
@@ -5548,6 +5654,12 @@
           "offset_m": 336,
           "distance_km": 581.015,
           "derived": false
+        },
+        "shape-sivas-samsun": {
+          "index": 94,
+          "offset_m": 210,
+          "distance_km": 23.21,
+          "derived": false
         }
       },
       "source_status": "catalog_or_derived",
@@ -5611,6 +5723,26 @@
           "sequence": 11,
           "remaining_stations": 12,
           "schedule_status": "official_dates_available"
+        },
+        {
+          "pattern_id": "pattern-sivas-samsun",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Samsun",
+          "direction": "forward",
+          "sequence": 2,
+          "remaining_stations": 32,
+          "schedule_status": "official_dates_available"
+        },
+        {
+          "pattern_id": "pattern-samsun-sivas",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Sivas",
+          "direction": "reverse",
+          "sequence": 33,
+          "remaining_stations": 1,
+          "schedule_status": "official_dates_available"
         }
       ]
     },
@@ -5667,6 +5799,12 @@
           "index": 2664,
           "offset_m": 21,
           "distance_km": 604.098,
+          "derived": false
+        },
+        "shape-sivas-samsun": {
+          "index": 0,
+          "offset_m": 21,
+          "distance_km": 0,
           "derived": false
         }
       },
@@ -5790,6 +5928,26 @@
           "direction": "reverse",
           "sequence": 10,
           "remaining_stations": 13,
+          "schedule_status": "official_dates_available"
+        },
+        {
+          "pattern_id": "pattern-sivas-samsun",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Samsun",
+          "direction": "forward",
+          "sequence": 1,
+          "remaining_stations": 33,
+          "schedule_status": "official_dates_available"
+        },
+        {
+          "pattern_id": "pattern-samsun-sivas",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Sivas",
+          "direction": "reverse",
+          "sequence": 34,
+          "remaining_stations": 0,
           "schedule_status": "official_dates_available"
         }
       ]
@@ -17718,6 +17876,1414 @@
           "direction": "reverse",
           "sequence": 17,
           "remaining_stations": 18,
+          "schedule_status": "official_dates_available"
+        }
+      ]
+    },
+    {
+      "id": "st-yildizeli",
+      "external_id": "586",
+      "name": "Yıldızeli",
+      "city": "Sivas",
+      "district": "Yıldızeli",
+      "latitude": 39.868055555556,
+      "longitude": 36.594722222222,
+      "coordinate_status": "verified",
+      "shape_index": 241,
+      "shape_offset_m": 248,
+      "shape_distance_km": 52.973,
+      "shape_positions": {
+        "shape-sivas-samsun": {
+          "index": 241,
+          "offset_m": 248,
+          "distance_km": 52.973,
+          "derived": false
+        }
+      },
+      "source_status": "catalog_or_derived",
+      "directions": [
+        {
+          "pattern_id": "pattern-sivas-samsun",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Samsun",
+          "direction": "forward",
+          "sequence": 3,
+          "remaining_stations": 31,
+          "schedule_status": "official_dates_available"
+        },
+        {
+          "pattern_id": "pattern-samsun-sivas",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Sivas",
+          "direction": "reverse",
+          "sequence": 32,
+          "remaining_stations": 2,
+          "schedule_status": "official_dates_available"
+        }
+      ]
+    },
+    {
+      "id": "st-sandal",
+      "external_id": "500",
+      "name": "Sandal",
+      "city": "Sivas",
+      "district": "",
+      "latitude": 39.8476141,
+      "longitude": 36.4580001,
+      "coordinate_status": "derived",
+      "shape_index": 270,
+      "shape_offset_m": 0,
+      "shape_distance_km": 65.27,
+      "shape_positions": {
+        "shape-sivas-samsun": {
+          "index": 270,
+          "offset_m": 0,
+          "distance_km": 65.27,
+          "derived": false
+        }
+      },
+      "source_status": "catalog_or_derived",
+      "directions": [
+        {
+          "pattern_id": "pattern-sivas-samsun",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Samsun",
+          "direction": "forward",
+          "sequence": 4,
+          "remaining_stations": 30,
+          "schedule_status": "official_dates_available"
+        },
+        {
+          "pattern_id": "pattern-samsun-sivas",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Sivas",
+          "direction": "reverse",
+          "sequence": 31,
+          "remaining_stations": 3,
+          "schedule_status": "official_dates_available"
+        }
+      ]
+    },
+    {
+      "id": "st-subasi",
+      "external_id": "1119",
+      "name": "Subaşı",
+      "city": "Sivas",
+      "district": "Yıldızeli",
+      "latitude": 39.893160445677886,
+      "longitude": 36.41950962394846,
+      "coordinate_status": "verified",
+      "shape_index": 299,
+      "shape_offset_m": 358,
+      "shape_distance_km": 72.503,
+      "shape_positions": {
+        "shape-sivas-samsun": {
+          "index": 299,
+          "offset_m": 358,
+          "distance_km": 72.503,
+          "derived": false
+        }
+      },
+      "source_status": "catalog_or_derived",
+      "directions": [
+        {
+          "pattern_id": "pattern-sivas-samsun",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Samsun",
+          "direction": "forward",
+          "sequence": 5,
+          "remaining_stations": 29,
+          "schedule_status": "official_dates_available"
+        },
+        {
+          "pattern_id": "pattern-samsun-sivas",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Sivas",
+          "direction": "reverse",
+          "sequence": 30,
+          "remaining_stations": 4,
+          "schedule_status": "official_dates_available"
+        }
+      ]
+    },
+    {
+      "id": "st-cizozu",
+      "external_id": "416",
+      "name": "Çizözü",
+      "city": "Sivas",
+      "district": "",
+      "latitude": 39.9343264,
+      "longitude": 36.3901678,
+      "coordinate_status": "derived",
+      "shape_index": 378,
+      "shape_offset_m": 0,
+      "shape_distance_km": 82.667,
+      "shape_positions": {
+        "shape-sivas-samsun": {
+          "index": 378,
+          "offset_m": 0,
+          "distance_km": 82.667,
+          "derived": false
+        }
+      },
+      "source_status": "catalog_or_derived",
+      "directions": [
+        {
+          "pattern_id": "pattern-sivas-samsun",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Samsun",
+          "direction": "forward",
+          "sequence": 6,
+          "remaining_stations": 28,
+          "schedule_status": "official_dates_available"
+        },
+        {
+          "pattern_id": "pattern-samsun-sivas",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Sivas",
+          "direction": "reverse",
+          "sequence": 29,
+          "remaining_stations": 5,
+          "schedule_status": "official_dates_available"
+        }
+      ]
+    },
+    {
+      "id": "st-topulyurdu",
+      "external_id": "1065",
+      "name": "Topulyurdu",
+      "city": "Sivas",
+      "district": "",
+      "latitude": 39.9499595,
+      "longitude": 36.3236516,
+      "coordinate_status": "derived",
+      "shape_index": 458,
+      "shape_offset_m": 0,
+      "shape_distance_km": 92.728,
+      "shape_positions": {
+        "shape-sivas-samsun": {
+          "index": 458,
+          "offset_m": 0,
+          "distance_km": 92.728,
+          "derived": false
+        }
+      },
+      "source_status": "catalog_or_derived",
+      "directions": [
+        {
+          "pattern_id": "pattern-sivas-samsun",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Samsun",
+          "direction": "forward",
+          "sequence": 7,
+          "remaining_stations": 27,
+          "schedule_status": "official_dates_available"
+        },
+        {
+          "pattern_id": "pattern-samsun-sivas",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Sivas",
+          "direction": "reverse",
+          "sequence": 28,
+          "remaining_stations": 6,
+          "schedule_status": "official_dates_available"
+        }
+      ]
+    },
+    {
+      "id": "st-tokat-yesilyurt",
+      "external_id": "551",
+      "name": "Tokat (Yeşilyurt)",
+      "city": "Tokat",
+      "district": "Yeşilyurt",
+      "latitude": 40.00784232292445,
+      "longitude": 36.218856912334,
+      "coordinate_status": "verified",
+      "shape_index": 537,
+      "shape_offset_m": 340,
+      "shape_distance_km": 107.639,
+      "shape_positions": {
+        "shape-sivas-samsun": {
+          "index": 537,
+          "offset_m": 340,
+          "distance_km": 107.639,
+          "derived": false
+        }
+      },
+      "source_status": "catalog_or_derived",
+      "directions": [
+        {
+          "pattern_id": "pattern-sivas-samsun",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Samsun",
+          "direction": "forward",
+          "sequence": 8,
+          "remaining_stations": 26,
+          "schedule_status": "official_dates_available"
+        },
+        {
+          "pattern_id": "pattern-samsun-sivas",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Sivas",
+          "direction": "reverse",
+          "sequence": 27,
+          "remaining_stations": 7,
+          "schedule_status": "official_dates_available"
+        }
+      ]
+    },
+    {
+      "id": "st-kunduz",
+      "external_id": "563",
+      "name": "Kunduz",
+      "city": "Tokat",
+      "district": "",
+      "latitude": 40.061483,
+      "longitude": 36.296182,
+      "coordinate_status": "derived",
+      "shape_index": 579,
+      "shape_offset_m": 26,
+      "shape_distance_km": 118.314,
+      "shape_positions": {
+        "shape-sivas-samsun": {
+          "index": 579,
+          "offset_m": 26,
+          "distance_km": 118.314,
+          "derived": false
+        }
+      },
+      "source_status": "catalog_or_derived",
+      "directions": [
+        {
+          "pattern_id": "pattern-sivas-samsun",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Samsun",
+          "direction": "forward",
+          "sequence": 9,
+          "remaining_stations": 25,
+          "schedule_status": "official_dates_available"
+        },
+        {
+          "pattern_id": "pattern-samsun-sivas",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Sivas",
+          "direction": "reverse",
+          "sequence": 26,
+          "remaining_stations": 8,
+          "schedule_status": "official_dates_available"
+        }
+      ]
+    },
+    {
+      "id": "st-artova",
+      "external_id": "462",
+      "name": "Artova",
+      "city": "Tokat",
+      "district": "Artova",
+      "latitude": 40.115,
+      "longitude": 36.300833333333,
+      "coordinate_status": "verified",
+      "shape_index": 622,
+      "shape_offset_m": 271,
+      "shape_distance_km": 124.952,
+      "shape_positions": {
+        "shape-sivas-samsun": {
+          "index": 622,
+          "offset_m": 271,
+          "distance_km": 124.952,
+          "derived": false
+        }
+      },
+      "source_status": "catalog_or_derived",
+      "directions": [
+        {
+          "pattern_id": "pattern-sivas-samsun",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Samsun",
+          "direction": "forward",
+          "sequence": 10,
+          "remaining_stations": 24,
+          "schedule_status": "official_dates_available"
+        },
+        {
+          "pattern_id": "pattern-samsun-sivas",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Sivas",
+          "direction": "reverse",
+          "sequence": 25,
+          "remaining_stations": 9,
+          "schedule_status": "official_dates_available"
+        }
+      ]
+    },
+    {
+      "id": "st-yenice-d",
+      "external_id": "598",
+      "name": "Yenice D",
+      "city": "Tokat",
+      "district": "",
+      "latitude": 40.1498632,
+      "longitude": 36.3041617,
+      "coordinate_status": "derived",
+      "shape_index": 662,
+      "shape_offset_m": 85,
+      "shape_distance_km": 129.597,
+      "shape_positions": {
+        "shape-sivas-samsun": {
+          "index": 662,
+          "offset_m": 85,
+          "distance_km": 129.597,
+          "derived": false
+        }
+      },
+      "source_status": "catalog_or_derived",
+      "directions": [
+        {
+          "pattern_id": "pattern-sivas-samsun",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Samsun",
+          "direction": "forward",
+          "sequence": 11,
+          "remaining_stations": 23,
+          "schedule_status": "official_dates_available"
+        },
+        {
+          "pattern_id": "pattern-samsun-sivas",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Sivas",
+          "direction": "reverse",
+          "sequence": 24,
+          "remaining_stations": 10,
+          "schedule_status": "official_dates_available"
+        }
+      ]
+    },
+    {
+      "id": "st-gumusyurt",
+      "external_id": "600",
+      "name": "Gümüşyurt",
+      "city": "Tokat",
+      "district": "Artova",
+      "latitude": 40.1537413,
+      "longitude": 36.171025,
+      "coordinate_status": "derived",
+      "shape_index": 703,
+      "shape_offset_m": 314,
+      "shape_distance_km": 141.142,
+      "shape_positions": {
+        "shape-sivas-samsun": {
+          "index": 703,
+          "offset_m": 314,
+          "distance_km": 141.142,
+          "derived": false
+        }
+      },
+      "source_status": "catalog_or_derived",
+      "directions": [
+        {
+          "pattern_id": "pattern-sivas-samsun",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Samsun",
+          "direction": "forward",
+          "sequence": 12,
+          "remaining_stations": 22,
+          "schedule_status": "official_dates_available"
+        },
+        {
+          "pattern_id": "pattern-samsun-sivas",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Sivas",
+          "direction": "reverse",
+          "sequence": 23,
+          "remaining_stations": 11,
+          "schedule_status": "official_dates_available"
+        }
+      ]
+    },
+    {
+      "id": "st-guzelbeyli",
+      "external_id": "582",
+      "name": "Güzelbeyli",
+      "city": "Tokat",
+      "district": "Zile",
+      "latitude": 40.15,
+      "longitude": 36.006388888889,
+      "coordinate_status": "verified",
+      "shape_index": 792,
+      "shape_offset_m": 87,
+      "shape_distance_km": 157.604,
+      "shape_positions": {
+        "shape-sivas-samsun": {
+          "index": 792,
+          "offset_m": 87,
+          "distance_km": 157.604,
+          "derived": false
+        }
+      },
+      "source_status": "catalog_or_derived",
+      "directions": [
+        {
+          "pattern_id": "pattern-sivas-samsun",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Samsun",
+          "direction": "forward",
+          "sequence": 13,
+          "remaining_stations": 21,
+          "schedule_status": "official_dates_available"
+        },
+        {
+          "pattern_id": "pattern-samsun-sivas",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Sivas",
+          "direction": "reverse",
+          "sequence": 22,
+          "remaining_stations": 12,
+          "schedule_status": "official_dates_available"
+        }
+      ]
+    },
+    {
+      "id": "st-zile",
+      "external_id": "587",
+      "name": "Zile",
+      "city": "Tokat",
+      "district": "Zile",
+      "latitude": 40.282777777778,
+      "longitude": 35.931944444445,
+      "coordinate_status": "verified",
+      "shape_index": 976,
+      "shape_offset_m": 322,
+      "shape_distance_km": 186.394,
+      "shape_positions": {
+        "shape-sivas-samsun": {
+          "index": 976,
+          "offset_m": 322,
+          "distance_km": 186.394,
+          "derived": false
+        }
+      },
+      "source_status": "catalog_or_derived",
+      "directions": [
+        {
+          "pattern_id": "pattern-sivas-samsun",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Samsun",
+          "direction": "forward",
+          "sequence": 14,
+          "remaining_stations": 20,
+          "schedule_status": "official_dates_available"
+        },
+        {
+          "pattern_id": "pattern-samsun-sivas",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Sivas",
+          "direction": "reverse",
+          "sequence": 21,
+          "remaining_stations": 13,
+          "schedule_status": "official_dates_available"
+        }
+      ]
+    },
+    {
+      "id": "st-turhal",
+      "external_id": "1158",
+      "name": "Turhal",
+      "city": "Tokat",
+      "district": "Turhal",
+      "latitude": 40.389444444444,
+      "longitude": 36.0775,
+      "coordinate_status": "verified",
+      "shape_index": 1046,
+      "shape_offset_m": 341,
+      "shape_distance_km": 203.98,
+      "shape_positions": {
+        "shape-sivas-samsun": {
+          "index": 1046,
+          "offset_m": 341,
+          "distance_km": 203.98,
+          "derived": false
+        }
+      },
+      "source_status": "catalog_or_derived",
+      "directions": [
+        {
+          "pattern_id": "pattern-sivas-samsun",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Samsun",
+          "direction": "forward",
+          "sequence": 15,
+          "remaining_stations": 19,
+          "schedule_status": "official_dates_available"
+        },
+        {
+          "pattern_id": "pattern-samsun-sivas",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Sivas",
+          "direction": "reverse",
+          "sequence": 20,
+          "remaining_stations": 14,
+          "schedule_status": "official_dates_available"
+        }
+      ]
+    },
+    {
+      "id": "st-kizoglu",
+      "external_id": "539",
+      "name": "Kızoğlu",
+      "city": "Tokat",
+      "district": "Turhal",
+      "latitude": 40.493611111111,
+      "longitude": 35.8825,
+      "coordinate_status": "verified",
+      "shape_index": 1271,
+      "shape_offset_m": 214,
+      "shape_distance_km": 235.803,
+      "shape_positions": {
+        "shape-sivas-samsun": {
+          "index": 1271,
+          "offset_m": 214,
+          "distance_km": 235.803,
+          "derived": false
+        }
+      },
+      "source_status": "catalog_or_derived",
+      "directions": [
+        {
+          "pattern_id": "pattern-sivas-samsun",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Samsun",
+          "direction": "forward",
+          "sequence": 16,
+          "remaining_stations": 18,
+          "schedule_status": "official_dates_available"
+        },
+        {
+          "pattern_id": "pattern-samsun-sivas",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Sivas",
+          "direction": "reverse",
+          "sequence": 19,
+          "remaining_stations": 15,
+          "schedule_status": "official_dates_available"
+        }
+      ]
+    },
+    {
+      "id": "st-kizilca",
+      "external_id": "538",
+      "name": "Kızılca",
+      "city": "Amasya",
+      "district": "",
+      "latitude": 40.4945706,
+      "longitude": 35.8336412,
+      "coordinate_status": "derived",
+      "shape_index": 1312,
+      "shape_offset_m": 0,
+      "shape_distance_km": 240.182,
+      "shape_positions": {
+        "shape-sivas-samsun": {
+          "index": 1312,
+          "offset_m": 0,
+          "distance_km": 240.182,
+          "derived": false
+        }
+      },
+      "source_status": "catalog_or_derived",
+      "directions": [
+        {
+          "pattern_id": "pattern-sivas-samsun",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Samsun",
+          "direction": "forward",
+          "sequence": 17,
+          "remaining_stations": 17,
+          "schedule_status": "official_dates_available"
+        },
+        {
+          "pattern_id": "pattern-samsun-sivas",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Sivas",
+          "direction": "reverse",
+          "sequence": 18,
+          "remaining_stations": 16,
+          "schedule_status": "official_dates_available"
+        }
+      ]
+    },
+    {
+      "id": "st-ovasaray",
+      "external_id": "553",
+      "name": "Ovasaray",
+      "city": "Amasya",
+      "district": "",
+      "latitude": 40.5126859,
+      "longitude": 35.7807843,
+      "coordinate_status": "derived",
+      "shape_index": 1354,
+      "shape_offset_m": 0,
+      "shape_distance_km": 246.091,
+      "shape_positions": {
+        "shape-sivas-samsun": {
+          "index": 1354,
+          "offset_m": 0,
+          "distance_km": 246.091,
+          "derived": false
+        }
+      },
+      "source_status": "catalog_or_derived",
+      "directions": [
+        {
+          "pattern_id": "pattern-sivas-samsun",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Samsun",
+          "direction": "forward",
+          "sequence": 18,
+          "remaining_stations": 16,
+          "schedule_status": "official_dates_available"
+        },
+        {
+          "pattern_id": "pattern-samsun-sivas",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Sivas",
+          "direction": "reverse",
+          "sequence": 17,
+          "remaining_stations": 17,
+          "schedule_status": "official_dates_available"
+        }
+      ]
+    },
+    {
+      "id": "st-kayabasi",
+      "external_id": "534",
+      "name": "Kayabaşı",
+      "city": "Amasya",
+      "district": "Merkez",
+      "latitude": 40.573611111111,
+      "longitude": 35.756666666667,
+      "coordinate_status": "verified",
+      "shape_index": 1395,
+      "shape_offset_m": 74,
+      "shape_distance_km": 255.194,
+      "shape_positions": {
+        "shape-sivas-samsun": {
+          "index": 1395,
+          "offset_m": 74,
+          "distance_km": 255.194,
+          "derived": false
+        }
+      },
+      "source_status": "catalog_or_derived",
+      "directions": [
+        {
+          "pattern_id": "pattern-sivas-samsun",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Samsun",
+          "direction": "forward",
+          "sequence": 19,
+          "remaining_stations": 15,
+          "schedule_status": "official_dates_available"
+        },
+        {
+          "pattern_id": "pattern-samsun-sivas",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Sivas",
+          "direction": "reverse",
+          "sequence": 16,
+          "remaining_stations": 18,
+          "schedule_status": "official_dates_available"
+        }
+      ]
+    },
+    {
+      "id": "st-amasya",
+      "external_id": "461",
+      "name": "Amasya",
+      "city": "Amasya",
+      "district": "Merkez",
+      "latitude": 40.65452238700835,
+      "longitude": 35.81559398429238,
+      "coordinate_status": "verified",
+      "shape_index": 1458,
+      "shape_offset_m": 174,
+      "shape_distance_km": 268.114,
+      "shape_positions": {
+        "shape-sivas-samsun": {
+          "index": 1458,
+          "offset_m": 174,
+          "distance_km": 268.114,
+          "derived": false
+        }
+      },
+      "source_status": "catalog_or_derived",
+      "directions": [
+        {
+          "pattern_id": "pattern-sivas-samsun",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Samsun",
+          "direction": "forward",
+          "sequence": 20,
+          "remaining_stations": 14,
+          "schedule_status": "official_dates_available"
+        },
+        {
+          "pattern_id": "pattern-samsun-sivas",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Sivas",
+          "direction": "reverse",
+          "sequence": 15,
+          "remaining_stations": 19,
+          "schedule_status": "official_dates_available"
+        }
+      ]
+    },
+    {
+      "id": "st-bogazkoy",
+      "external_id": "470",
+      "name": "Boğazköy",
+      "city": "Amasya",
+      "district": "Merkez",
+      "latitude": 40.734444444444,
+      "longitude": 35.773333333334,
+      "coordinate_status": "verified",
+      "shape_index": 1555,
+      "shape_offset_m": 302,
+      "shape_distance_km": 280.639,
+      "shape_positions": {
+        "shape-sivas-samsun": {
+          "index": 1555,
+          "offset_m": 302,
+          "distance_km": 280.639,
+          "derived": false
+        }
+      },
+      "source_status": "catalog_or_derived",
+      "directions": [
+        {
+          "pattern_id": "pattern-sivas-samsun",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Samsun",
+          "direction": "forward",
+          "sequence": 21,
+          "remaining_stations": 13,
+          "schedule_status": "official_dates_available"
+        },
+        {
+          "pattern_id": "pattern-samsun-sivas",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Sivas",
+          "direction": "reverse",
+          "sequence": 14,
+          "remaining_stations": 20,
+          "schedule_status": "official_dates_available"
+        }
+      ]
+    },
+    {
+      "id": "st-suluova",
+      "external_id": "569",
+      "name": "Suluova",
+      "city": "Amasya",
+      "district": "Suluova",
+      "latitude": 40.815833333333,
+      "longitude": 35.657777777778,
+      "coordinate_status": "verified",
+      "shape_index": 1605,
+      "shape_offset_m": 281,
+      "shape_distance_km": 295.336,
+      "shape_positions": {
+        "shape-sivas-samsun": {
+          "index": 1605,
+          "offset_m": 281,
+          "distance_km": 295.336,
+          "derived": false
+        }
+      },
+      "source_status": "catalog_or_derived",
+      "directions": [
+        {
+          "pattern_id": "pattern-sivas-samsun",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Samsun",
+          "direction": "forward",
+          "sequence": 22,
+          "remaining_stations": 12,
+          "schedule_status": "official_dates_available"
+        },
+        {
+          "pattern_id": "pattern-samsun-sivas",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Sivas",
+          "direction": "reverse",
+          "sequence": 13,
+          "remaining_stations": 21,
+          "schedule_status": "official_dates_available"
+        }
+      ]
+    },
+    {
+      "id": "st-hacibayram",
+      "external_id": "511",
+      "name": "Hacıbayram",
+      "city": "Amasya",
+      "district": "Suluova",
+      "latitude": 40.853888888889,
+      "longitude": 35.633611111111,
+      "coordinate_status": "verified",
+      "shape_index": 1636,
+      "shape_offset_m": 219,
+      "shape_distance_km": 300.986,
+      "shape_positions": {
+        "shape-sivas-samsun": {
+          "index": 1636,
+          "offset_m": 219,
+          "distance_km": 300.986,
+          "derived": false
+        }
+      },
+      "source_status": "catalog_or_derived",
+      "directions": [
+        {
+          "pattern_id": "pattern-sivas-samsun",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Samsun",
+          "direction": "forward",
+          "sequence": 23,
+          "remaining_stations": 11,
+          "schedule_status": "official_dates_available"
+        },
+        {
+          "pattern_id": "pattern-samsun-sivas",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Sivas",
+          "direction": "reverse",
+          "sequence": 12,
+          "remaining_stations": 22,
+          "schedule_status": "official_dates_available"
+        }
+      ]
+    },
+    {
+      "id": "st-havza",
+      "external_id": "516",
+      "name": "Havza",
+      "city": "Samsun",
+      "district": "Havza",
+      "latitude": 40.965555555556,
+      "longitude": 35.6675,
+      "coordinate_status": "verified",
+      "shape_index": 1717,
+      "shape_offset_m": 283,
+      "shape_distance_km": 315.102,
+      "shape_positions": {
+        "shape-sivas-samsun": {
+          "index": 1717,
+          "offset_m": 283,
+          "distance_km": 315.102,
+          "derived": false
+        }
+      },
+      "source_status": "catalog_or_derived",
+      "directions": [
+        {
+          "pattern_id": "pattern-sivas-samsun",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Samsun",
+          "direction": "forward",
+          "sequence": 24,
+          "remaining_stations": 10,
+          "schedule_status": "official_dates_available"
+        },
+        {
+          "pattern_id": "pattern-samsun-sivas",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Sivas",
+          "direction": "reverse",
+          "sequence": 11,
+          "remaining_stations": 23,
+          "schedule_status": "official_dates_available"
+        }
+      ]
+    },
+    {
+      "id": "st-bekdigin",
+      "external_id": "488",
+      "name": "Bekdiğin",
+      "city": "Samsun",
+      "district": "",
+      "latitude": 40.9988405,
+      "longitude": 35.758983,
+      "coordinate_status": "derived",
+      "shape_index": 1787,
+      "shape_offset_m": 387,
+      "shape_distance_km": 323.9,
+      "shape_positions": {
+        "shape-sivas-samsun": {
+          "index": 1787,
+          "offset_m": 387,
+          "distance_km": 323.9,
+          "derived": false
+        }
+      },
+      "source_status": "catalog_or_derived",
+      "directions": [
+        {
+          "pattern_id": "pattern-sivas-samsun",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Samsun",
+          "direction": "forward",
+          "sequence": 25,
+          "remaining_stations": 9,
+          "schedule_status": "official_dates_available"
+        },
+        {
+          "pattern_id": "pattern-samsun-sivas",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Sivas",
+          "direction": "reverse",
+          "sequence": 10,
+          "remaining_stations": 24,
+          "schedule_status": "official_dates_available"
+        }
+      ]
+    },
+    {
+      "id": "st-ladik",
+      "external_id": "565",
+      "name": "Ladik",
+      "city": "Samsun",
+      "district": "Ladik",
+      "latitude": 41.012777777778,
+      "longitude": 35.867777777778,
+      "coordinate_status": "verified",
+      "shape_index": 1858,
+      "shape_offset_m": 364,
+      "shape_distance_km": 335.842,
+      "shape_positions": {
+        "shape-sivas-samsun": {
+          "index": 1858,
+          "offset_m": 364,
+          "distance_km": 335.842,
+          "derived": false
+        }
+      },
+      "source_status": "catalog_or_derived",
+      "directions": [
+        {
+          "pattern_id": "pattern-sivas-samsun",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Samsun",
+          "direction": "forward",
+          "sequence": 26,
+          "remaining_stations": 8,
+          "schedule_status": "official_dates_available"
+        },
+        {
+          "pattern_id": "pattern-samsun-sivas",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Sivas",
+          "direction": "reverse",
+          "sequence": 9,
+          "remaining_stations": 25,
+          "schedule_status": "official_dates_available"
+        }
+      ]
+    },
+    {
+      "id": "st-kavak",
+      "external_id": "533",
+      "name": "Kavak",
+      "city": "Samsun",
+      "district": "Kavak",
+      "latitude": 41.057222222222,
+      "longitude": 35.971388888889,
+      "coordinate_status": "verified",
+      "shape_index": 1969,
+      "shape_offset_m": 132,
+      "shape_distance_km": 348.156,
+      "shape_positions": {
+        "shape-sivas-samsun": {
+          "index": 1969,
+          "offset_m": 132,
+          "distance_km": 348.156,
+          "derived": false
+        }
+      },
+      "source_status": "catalog_or_derived",
+      "directions": [
+        {
+          "pattern_id": "pattern-sivas-samsun",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Samsun",
+          "direction": "forward",
+          "sequence": 27,
+          "remaining_stations": 7,
+          "schedule_status": "official_dates_available"
+        },
+        {
+          "pattern_id": "pattern-samsun-sivas",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Sivas",
+          "direction": "reverse",
+          "sequence": 8,
+          "remaining_stations": 26,
+          "schedule_status": "official_dates_available"
+        }
+      ]
+    },
+    {
+      "id": "st-germiyan",
+      "external_id": "503",
+      "name": "Germiyan",
+      "city": "Samsun",
+      "district": "",
+      "latitude": 41.0555623,
+      "longitude": 36.0823702,
+      "coordinate_status": "derived",
+      "shape_index": 2018,
+      "shape_offset_m": 0,
+      "shape_distance_km": 358.38,
+      "shape_positions": {
+        "shape-sivas-samsun": {
+          "index": 2018,
+          "offset_m": 0,
+          "distance_km": 358.38,
+          "derived": false
+        }
+      },
+      "source_status": "catalog_or_derived",
+      "directions": [
+        {
+          "pattern_id": "pattern-sivas-samsun",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Samsun",
+          "direction": "forward",
+          "sequence": 28,
+          "remaining_stations": 6,
+          "schedule_status": "official_dates_available"
+        },
+        {
+          "pattern_id": "pattern-samsun-sivas",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Sivas",
+          "direction": "reverse",
+          "sequence": 7,
+          "remaining_stations": 27,
+          "schedule_status": "official_dates_available"
+        }
+      ]
+    },
+    {
+      "id": "st-cukurbuk",
+      "external_id": "505",
+      "name": "Çukurbük",
+      "city": "Samsun",
+      "district": "Kavak",
+      "latitude": 41.077777777778,
+      "longitude": 36.154166666667,
+      "coordinate_status": "verified",
+      "shape_index": 2067,
+      "shape_offset_m": 191,
+      "shape_distance_km": 365.781,
+      "shape_positions": {
+        "shape-sivas-samsun": {
+          "index": 2067,
+          "offset_m": 191,
+          "distance_km": 365.781,
+          "derived": false
+        }
+      },
+      "source_status": "catalog_or_derived",
+      "directions": [
+        {
+          "pattern_id": "pattern-sivas-samsun",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Samsun",
+          "direction": "forward",
+          "sequence": 29,
+          "remaining_stations": 5,
+          "schedule_status": "official_dates_available"
+        },
+        {
+          "pattern_id": "pattern-samsun-sivas",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Sivas",
+          "direction": "reverse",
+          "sequence": 6,
+          "remaining_stations": 28,
+          "schedule_status": "official_dates_available"
+        }
+      ]
+    },
+    {
+      "id": "st-ciftlik",
+      "external_id": "921",
+      "name": "Çiftlik",
+      "city": "Samsun",
+      "district": "Kavak",
+      "latitude": 41.10791951,
+      "longitude": 36.16053111,
+      "coordinate_status": "verified",
+      "shape_index": 2096,
+      "shape_offset_m": 12,
+      "shape_distance_km": 369.923,
+      "shape_positions": {
+        "shape-sivas-samsun": {
+          "index": 2096,
+          "offset_m": 12,
+          "distance_km": 369.923,
+          "derived": false
+        }
+      },
+      "source_status": "catalog_or_derived",
+      "directions": [
+        {
+          "pattern_id": "pattern-sivas-samsun",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Samsun",
+          "direction": "forward",
+          "sequence": 30,
+          "remaining_stations": 4,
+          "schedule_status": "official_dates_available"
+        },
+        {
+          "pattern_id": "pattern-samsun-sivas",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Sivas",
+          "direction": "reverse",
+          "sequence": 5,
+          "remaining_stations": 29,
+          "schedule_status": "official_dates_available"
+        }
+      ]
+    },
+    {
+      "id": "st-bogazici",
+      "external_id": "490",
+      "name": "Boğaziçi",
+      "city": "Samsun",
+      "district": "İlkadım",
+      "latitude": 41.13635539,
+      "longitude": 36.17828141,
+      "coordinate_status": "verified",
+      "shape_index": 2135,
+      "shape_offset_m": 19,
+      "shape_distance_km": 373.788,
+      "shape_positions": {
+        "shape-sivas-samsun": {
+          "index": 2135,
+          "offset_m": 19,
+          "distance_km": 373.788,
+          "derived": false
+        }
+      },
+      "source_status": "catalog_or_derived",
+      "directions": [
+        {
+          "pattern_id": "pattern-sivas-samsun",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Samsun",
+          "direction": "forward",
+          "sequence": 31,
+          "remaining_stations": 3,
+          "schedule_status": "official_dates_available"
+        },
+        {
+          "pattern_id": "pattern-samsun-sivas",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Sivas",
+          "direction": "reverse",
+          "sequence": 4,
+          "remaining_stations": 30,
+          "schedule_status": "official_dates_available"
+        }
+      ]
+    },
+    {
+      "id": "st-celikalan",
+      "external_id": "424",
+      "name": "Çelikalan",
+      "city": "Samsun",
+      "district": "",
+      "latitude": 41.1549595,
+      "longitude": 36.2046732,
+      "coordinate_status": "derived",
+      "shape_index": 2171,
+      "shape_offset_m": 103,
+      "shape_distance_km": 377.356,
+      "shape_positions": {
+        "shape-sivas-samsun": {
+          "index": 2171,
+          "offset_m": 103,
+          "distance_km": 377.356,
+          "derived": false
+        }
+      },
+      "source_status": "catalog_or_derived",
+      "directions": [
+        {
+          "pattern_id": "pattern-sivas-samsun",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Samsun",
+          "direction": "forward",
+          "sequence": 32,
+          "remaining_stations": 2,
+          "schedule_status": "official_dates_available"
+        },
+        {
+          "pattern_id": "pattern-samsun-sivas",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Sivas",
+          "direction": "reverse",
+          "sequence": 3,
+          "remaining_stations": 31,
+          "schedule_status": "official_dates_available"
+        }
+      ]
+    },
+    {
+      "id": "st-meseliduz",
+      "external_id": "549",
+      "name": "Meşelidüz",
+      "city": "Samsun",
+      "district": "İlkadım",
+      "latitude": 41.19342403953458,
+      "longitude": 36.21151093772051,
+      "coordinate_status": "verified",
+      "shape_index": 2206,
+      "shape_offset_m": 205,
+      "shape_distance_km": 381.703,
+      "shape_positions": {
+        "shape-sivas-samsun": {
+          "index": 2206,
+          "offset_m": 205,
+          "distance_km": 381.703,
+          "derived": false
+        }
+      },
+      "source_status": "catalog_or_derived",
+      "directions": [
+        {
+          "pattern_id": "pattern-sivas-samsun",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Samsun",
+          "direction": "forward",
+          "sequence": 33,
+          "remaining_stations": 1,
+          "schedule_status": "official_dates_available"
+        },
+        {
+          "pattern_id": "pattern-samsun-sivas",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Sivas",
+          "direction": "reverse",
+          "sequence": 2,
+          "remaining_stations": 32,
+          "schedule_status": "official_dates_available"
+        }
+      ]
+    },
+    {
+      "id": "st-samsun",
+      "external_id": "557",
+      "name": "Samsun",
+      "city": "Samsun",
+      "district": "İlkadım",
+      "latitude": 41.280555555556,
+      "longitude": 36.349166666666,
+      "coordinate_status": "verified",
+      "shape_index": 2330,
+      "shape_offset_m": 35,
+      "shape_distance_km": 399.989,
+      "shape_positions": {
+        "shape-sivas-samsun": {
+          "index": 2330,
+          "offset_m": 35,
+          "distance_km": 399.989,
+          "derived": false
+        }
+      },
+      "source_status": "catalog_or_derived",
+      "directions": [
+        {
+          "pattern_id": "pattern-sivas-samsun",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Samsun",
+          "direction": "forward",
+          "sequence": 34,
+          "remaining_stations": 0,
+          "schedule_status": "official_dates_available"
+        },
+        {
+          "pattern_id": "pattern-samsun-sivas",
+          "route_id": "route-sivas-samsun-bolgesel",
+          "base_shape_id": "shape-sivas-samsun",
+          "headsign": "Sivas",
+          "direction": "reverse",
+          "sequence": 1,
+          "remaining_stations": 33,
           "schedule_status": "official_dates_available"
         }
       ]
@@ -33756,6 +35322,188 @@
         "source_id": "official-goller-guller-20260801-20260815",
         "mode": "mainline",
         "route_name": "Göller/Güller Ekspresleri"
+      },
+      {
+        "id": "trip-sivas-samsun-20260802-42622-083500",
+        "train_number": "42622",
+        "route_id": "route-sivas-samsun-bolgesel",
+        "service_id": "service-sivas-samsun-20260802",
+        "pattern_id": "pattern-samsun-sivas",
+        "headsign": "Sivas",
+        "direction": "reverse",
+        "status": "official_published",
+        "source_status": "official_published",
+        "source_id": "official-sivas-samsun-20260802-20260816",
+        "mode": "regional",
+        "route_name": "Sivas–Samsun Bölgesel Treni"
+      },
+      {
+        "id": "trip-sivas-samsun-20260803-42621-084500",
+        "train_number": "42621",
+        "route_id": "route-sivas-samsun-bolgesel",
+        "service_id": "service-sivas-samsun-20260803",
+        "pattern_id": "pattern-sivas-samsun",
+        "headsign": "Samsun",
+        "direction": "forward",
+        "status": "official_published",
+        "source_status": "official_published",
+        "source_id": "official-sivas-samsun-20260802-20260816",
+        "mode": "regional",
+        "route_name": "Sivas–Samsun Bölgesel Treni"
+      },
+      {
+        "id": "trip-sivas-samsun-20260804-42622-083500",
+        "train_number": "42622",
+        "route_id": "route-sivas-samsun-bolgesel",
+        "service_id": "service-sivas-samsun-20260804",
+        "pattern_id": "pattern-samsun-sivas",
+        "headsign": "Sivas",
+        "direction": "reverse",
+        "status": "official_published",
+        "source_status": "official_published",
+        "source_id": "official-sivas-samsun-20260802-20260816",
+        "mode": "regional",
+        "route_name": "Sivas–Samsun Bölgesel Treni"
+      },
+      {
+        "id": "trip-sivas-samsun-20260806-42621-084500",
+        "train_number": "42621",
+        "route_id": "route-sivas-samsun-bolgesel",
+        "service_id": "service-sivas-samsun-20260806",
+        "pattern_id": "pattern-sivas-samsun",
+        "headsign": "Samsun",
+        "direction": "forward",
+        "status": "official_published",
+        "source_status": "official_published",
+        "source_id": "official-sivas-samsun-20260802-20260816",
+        "mode": "regional",
+        "route_name": "Sivas–Samsun Bölgesel Treni"
+      },
+      {
+        "id": "trip-sivas-samsun-20260807-42622-083500",
+        "train_number": "42622",
+        "route_id": "route-sivas-samsun-bolgesel",
+        "service_id": "service-sivas-samsun-20260807",
+        "pattern_id": "pattern-samsun-sivas",
+        "headsign": "Sivas",
+        "direction": "reverse",
+        "status": "official_published",
+        "source_status": "official_published",
+        "source_id": "official-sivas-samsun-20260802-20260816",
+        "mode": "regional",
+        "route_name": "Sivas–Samsun Bölgesel Treni"
+      },
+      {
+        "id": "trip-sivas-samsun-20260808-42621-084500",
+        "train_number": "42621",
+        "route_id": "route-sivas-samsun-bolgesel",
+        "service_id": "service-sivas-samsun-20260808",
+        "pattern_id": "pattern-sivas-samsun",
+        "headsign": "Samsun",
+        "direction": "forward",
+        "status": "official_published",
+        "source_status": "official_published",
+        "source_id": "official-sivas-samsun-20260802-20260816",
+        "mode": "regional",
+        "route_name": "Sivas–Samsun Bölgesel Treni"
+      },
+      {
+        "id": "trip-sivas-samsun-20260809-42622-083500",
+        "train_number": "42622",
+        "route_id": "route-sivas-samsun-bolgesel",
+        "service_id": "service-sivas-samsun-20260809",
+        "pattern_id": "pattern-samsun-sivas",
+        "headsign": "Sivas",
+        "direction": "reverse",
+        "status": "official_published",
+        "source_status": "official_published",
+        "source_id": "official-sivas-samsun-20260802-20260816",
+        "mode": "regional",
+        "route_name": "Sivas–Samsun Bölgesel Treni"
+      },
+      {
+        "id": "trip-sivas-samsun-20260810-42621-084500",
+        "train_number": "42621",
+        "route_id": "route-sivas-samsun-bolgesel",
+        "service_id": "service-sivas-samsun-20260810",
+        "pattern_id": "pattern-sivas-samsun",
+        "headsign": "Samsun",
+        "direction": "forward",
+        "status": "official_published",
+        "source_status": "official_published",
+        "source_id": "official-sivas-samsun-20260802-20260816",
+        "mode": "regional",
+        "route_name": "Sivas–Samsun Bölgesel Treni"
+      },
+      {
+        "id": "trip-sivas-samsun-20260811-42622-083500",
+        "train_number": "42622",
+        "route_id": "route-sivas-samsun-bolgesel",
+        "service_id": "service-sivas-samsun-20260811",
+        "pattern_id": "pattern-samsun-sivas",
+        "headsign": "Sivas",
+        "direction": "reverse",
+        "status": "official_published",
+        "source_status": "official_published",
+        "source_id": "official-sivas-samsun-20260802-20260816",
+        "mode": "regional",
+        "route_name": "Sivas–Samsun Bölgesel Treni"
+      },
+      {
+        "id": "trip-sivas-samsun-20260813-42621-084500",
+        "train_number": "42621",
+        "route_id": "route-sivas-samsun-bolgesel",
+        "service_id": "service-sivas-samsun-20260813",
+        "pattern_id": "pattern-sivas-samsun",
+        "headsign": "Samsun",
+        "direction": "forward",
+        "status": "official_published",
+        "source_status": "official_published",
+        "source_id": "official-sivas-samsun-20260802-20260816",
+        "mode": "regional",
+        "route_name": "Sivas–Samsun Bölgesel Treni"
+      },
+      {
+        "id": "trip-sivas-samsun-20260814-42622-083500",
+        "train_number": "42622",
+        "route_id": "route-sivas-samsun-bolgesel",
+        "service_id": "service-sivas-samsun-20260814",
+        "pattern_id": "pattern-samsun-sivas",
+        "headsign": "Sivas",
+        "direction": "reverse",
+        "status": "official_published",
+        "source_status": "official_published",
+        "source_id": "official-sivas-samsun-20260802-20260816",
+        "mode": "regional",
+        "route_name": "Sivas–Samsun Bölgesel Treni"
+      },
+      {
+        "id": "trip-sivas-samsun-20260815-42621-084500",
+        "train_number": "42621",
+        "route_id": "route-sivas-samsun-bolgesel",
+        "service_id": "service-sivas-samsun-20260815",
+        "pattern_id": "pattern-sivas-samsun",
+        "headsign": "Samsun",
+        "direction": "forward",
+        "status": "official_published",
+        "source_status": "official_published",
+        "source_id": "official-sivas-samsun-20260802-20260816",
+        "mode": "regional",
+        "route_name": "Sivas–Samsun Bölgesel Treni"
+      },
+      {
+        "id": "trip-sivas-samsun-20260816-42622-083500",
+        "train_number": "42622",
+        "route_id": "route-sivas-samsun-bolgesel",
+        "service_id": "service-sivas-samsun-20260816",
+        "pattern_id": "pattern-samsun-sivas",
+        "headsign": "Sivas",
+        "direction": "reverse",
+        "status": "official_published",
+        "source_status": "official_published",
+        "source_id": "official-sivas-samsun-20260802-20260816",
+        "mode": "regional",
+        "route_name": "Sivas–Samsun Bölgesel Treni"
       },
       {
         "id": "trip-dogu-20260728-22010-180000",
@@ -163267,6 +165015,3984 @@
         "drop_off_type": 0
       },
       {
+        "trip_id": "trip-sivas-samsun-20260802-42622-083500",
+        "station_id": "st-samsun",
+        "stop_sequence": 1,
+        "arrival_time": "08:35:00",
+        "departure_time": "08:35:00",
+        "pickup_type": 0,
+        "drop_off_type": 1
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260802-42622-083500",
+        "station_id": "st-meseliduz",
+        "stop_sequence": 2,
+        "arrival_time": "09:00:00",
+        "departure_time": "09:00:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260802-42622-083500",
+        "station_id": "st-celikalan",
+        "stop_sequence": 3,
+        "arrival_time": "09:08:00",
+        "departure_time": "09:08:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260802-42622-083500",
+        "station_id": "st-bogazici",
+        "stop_sequence": 4,
+        "arrival_time": "09:15:00",
+        "departure_time": "09:15:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260802-42622-083500",
+        "station_id": "st-ciftlik",
+        "stop_sequence": 5,
+        "arrival_time": "09:22:00",
+        "departure_time": "09:22:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260802-42622-083500",
+        "station_id": "st-cukurbuk",
+        "stop_sequence": 6,
+        "arrival_time": "09:28:00",
+        "departure_time": "09:28:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260802-42622-083500",
+        "station_id": "st-germiyan",
+        "stop_sequence": 7,
+        "arrival_time": "09:36:00",
+        "departure_time": "09:36:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260802-42622-083500",
+        "station_id": "st-kavak",
+        "stop_sequence": 8,
+        "arrival_time": "09:46:00",
+        "departure_time": "09:46:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260802-42622-083500",
+        "station_id": "st-ladik",
+        "stop_sequence": 9,
+        "arrival_time": "10:12:00",
+        "departure_time": "10:12:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260802-42622-083500",
+        "station_id": "st-bekdigin",
+        "stop_sequence": 10,
+        "arrival_time": "10:23:00",
+        "departure_time": "10:23:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260802-42622-083500",
+        "station_id": "st-havza",
+        "stop_sequence": 11,
+        "arrival_time": "10:40:00",
+        "departure_time": "10:40:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260802-42622-083500",
+        "station_id": "st-hacibayram",
+        "stop_sequence": 12,
+        "arrival_time": "11:03:00",
+        "departure_time": "11:03:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260802-42622-083500",
+        "station_id": "st-suluova",
+        "stop_sequence": 13,
+        "arrival_time": "11:11:00",
+        "departure_time": "11:11:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260802-42622-083500",
+        "station_id": "st-bogazkoy",
+        "stop_sequence": 14,
+        "arrival_time": "11:26:00",
+        "departure_time": "11:26:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260802-42622-083500",
+        "station_id": "st-amasya",
+        "stop_sequence": 15,
+        "arrival_time": "11:42:00",
+        "departure_time": "11:42:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260802-42622-083500",
+        "station_id": "st-kayabasi",
+        "stop_sequence": 16,
+        "arrival_time": "12:01:00",
+        "departure_time": "12:01:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260802-42622-083500",
+        "station_id": "st-ovasaray",
+        "stop_sequence": 17,
+        "arrival_time": "12:06:00",
+        "departure_time": "12:06:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260802-42622-083500",
+        "station_id": "st-kizilca",
+        "stop_sequence": 18,
+        "arrival_time": "12:11:00",
+        "departure_time": "12:11:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260802-42622-083500",
+        "station_id": "st-kizoglu",
+        "stop_sequence": 19,
+        "arrival_time": "12:26:00",
+        "departure_time": "12:26:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260802-42622-083500",
+        "station_id": "st-turhal",
+        "stop_sequence": 20,
+        "arrival_time": "13:00:00",
+        "departure_time": "13:00:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260802-42622-083500",
+        "station_id": "st-zile",
+        "stop_sequence": 21,
+        "arrival_time": "13:19:00",
+        "departure_time": "13:19:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260802-42622-083500",
+        "station_id": "st-guzelbeyli",
+        "stop_sequence": 22,
+        "arrival_time": "13:52:00",
+        "departure_time": "13:52:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260802-42622-083500",
+        "station_id": "st-gumusyurt",
+        "stop_sequence": 23,
+        "arrival_time": "14:09:00",
+        "departure_time": "14:09:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260802-42622-083500",
+        "station_id": "st-yenice-d",
+        "stop_sequence": 24,
+        "arrival_time": "14:16:00",
+        "departure_time": "14:16:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260802-42622-083500",
+        "station_id": "st-artova",
+        "stop_sequence": 25,
+        "arrival_time": "14:27:00",
+        "departure_time": "14:27:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260802-42622-083500",
+        "station_id": "st-kunduz",
+        "stop_sequence": 26,
+        "arrival_time": "14:38:00",
+        "departure_time": "14:38:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260802-42622-083500",
+        "station_id": "st-tokat-yesilyurt",
+        "stop_sequence": 27,
+        "arrival_time": "14:46:00",
+        "departure_time": "14:46:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260802-42622-083500",
+        "station_id": "st-topulyurdu",
+        "stop_sequence": 28,
+        "arrival_time": "14:58:00",
+        "departure_time": "14:58:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260802-42622-083500",
+        "station_id": "st-cizozu",
+        "stop_sequence": 29,
+        "arrival_time": "15:14:00",
+        "departure_time": "15:14:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260802-42622-083500",
+        "station_id": "st-subasi",
+        "stop_sequence": 30,
+        "arrival_time": "15:32:00",
+        "departure_time": "15:32:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260802-42622-083500",
+        "station_id": "st-sandal",
+        "stop_sequence": 31,
+        "arrival_time": "15:36:00",
+        "departure_time": "15:36:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260802-42622-083500",
+        "station_id": "st-yildizeli",
+        "stop_sequence": 32,
+        "arrival_time": "15:50:00",
+        "departure_time": "15:50:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260802-42622-083500",
+        "station_id": "st-kalin",
+        "stop_sequence": 33,
+        "arrival_time": "16:18:00",
+        "departure_time": "16:18:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260802-42622-083500",
+        "station_id": "st-sivas",
+        "stop_sequence": 34,
+        "arrival_time": "16:41:00",
+        "departure_time": "16:41:00",
+        "pickup_type": 1,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260803-42621-084500",
+        "station_id": "st-sivas",
+        "stop_sequence": 1,
+        "arrival_time": "08:45:00",
+        "departure_time": "08:45:00",
+        "pickup_type": 0,
+        "drop_off_type": 1
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260803-42621-084500",
+        "station_id": "st-kalin",
+        "stop_sequence": 2,
+        "arrival_time": "09:06:00",
+        "departure_time": "09:06:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260803-42621-084500",
+        "station_id": "st-yildizeli",
+        "stop_sequence": 3,
+        "arrival_time": "09:34:00",
+        "departure_time": "09:34:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260803-42621-084500",
+        "station_id": "st-sandal",
+        "stop_sequence": 4,
+        "arrival_time": "09:48:00",
+        "departure_time": "09:48:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260803-42621-084500",
+        "station_id": "st-subasi",
+        "stop_sequence": 5,
+        "arrival_time": "09:52:00",
+        "departure_time": "09:52:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260803-42621-084500",
+        "station_id": "st-cizozu",
+        "stop_sequence": 6,
+        "arrival_time": "10:10:00",
+        "departure_time": "10:10:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260803-42621-084500",
+        "station_id": "st-topulyurdu",
+        "stop_sequence": 7,
+        "arrival_time": "10:26:00",
+        "departure_time": "10:26:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260803-42621-084500",
+        "station_id": "st-tokat-yesilyurt",
+        "stop_sequence": 8,
+        "arrival_time": "10:38:00",
+        "departure_time": "10:38:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260803-42621-084500",
+        "station_id": "st-kunduz",
+        "stop_sequence": 9,
+        "arrival_time": "10:46:00",
+        "departure_time": "10:46:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260803-42621-084500",
+        "station_id": "st-artova",
+        "stop_sequence": 10,
+        "arrival_time": "10:56:00",
+        "departure_time": "10:56:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260803-42621-084500",
+        "station_id": "st-yenice-d",
+        "stop_sequence": 11,
+        "arrival_time": "11:07:00",
+        "departure_time": "11:07:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260803-42621-084500",
+        "station_id": "st-gumusyurt",
+        "stop_sequence": 12,
+        "arrival_time": "11:14:00",
+        "departure_time": "11:14:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260803-42621-084500",
+        "station_id": "st-guzelbeyli",
+        "stop_sequence": 13,
+        "arrival_time": "11:31:00",
+        "departure_time": "11:31:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260803-42621-084500",
+        "station_id": "st-zile",
+        "stop_sequence": 14,
+        "arrival_time": "12:01:00",
+        "departure_time": "12:01:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260803-42621-084500",
+        "station_id": "st-turhal",
+        "stop_sequence": 15,
+        "arrival_time": "12:24:00",
+        "departure_time": "12:24:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260803-42621-084500",
+        "station_id": "st-kizoglu",
+        "stop_sequence": 16,
+        "arrival_time": "13:02:00",
+        "departure_time": "13:02:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260803-42621-084500",
+        "station_id": "st-kizilca",
+        "stop_sequence": 17,
+        "arrival_time": "13:18:00",
+        "departure_time": "13:18:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260803-42621-084500",
+        "station_id": "st-ovasaray",
+        "stop_sequence": 18,
+        "arrival_time": "13:23:00",
+        "departure_time": "13:23:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260803-42621-084500",
+        "station_id": "st-kayabasi",
+        "stop_sequence": 19,
+        "arrival_time": "13:28:00",
+        "departure_time": "13:28:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260803-42621-084500",
+        "station_id": "st-amasya",
+        "stop_sequence": 20,
+        "arrival_time": "13:43:00",
+        "departure_time": "13:43:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260803-42621-084500",
+        "station_id": "st-bogazkoy",
+        "stop_sequence": 21,
+        "arrival_time": "14:04:00",
+        "departure_time": "14:04:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260803-42621-084500",
+        "station_id": "st-suluova",
+        "stop_sequence": 22,
+        "arrival_time": "14:19:00",
+        "departure_time": "14:19:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260803-42621-084500",
+        "station_id": "st-hacibayram",
+        "stop_sequence": 23,
+        "arrival_time": "14:26:00",
+        "departure_time": "14:26:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260803-42621-084500",
+        "station_id": "st-havza",
+        "stop_sequence": 24,
+        "arrival_time": "14:44:00",
+        "departure_time": "14:44:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260803-42621-084500",
+        "station_id": "st-bekdigin",
+        "stop_sequence": 25,
+        "arrival_time": "15:00:00",
+        "departure_time": "15:00:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260803-42621-084500",
+        "station_id": "st-ladik",
+        "stop_sequence": 26,
+        "arrival_time": "15:11:00",
+        "departure_time": "15:11:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260803-42621-084500",
+        "station_id": "st-kavak",
+        "stop_sequence": 27,
+        "arrival_time": "15:35:00",
+        "departure_time": "15:35:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260803-42621-084500",
+        "station_id": "st-germiyan",
+        "stop_sequence": 28,
+        "arrival_time": "15:45:00",
+        "departure_time": "15:45:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260803-42621-084500",
+        "station_id": "st-cukurbuk",
+        "stop_sequence": 29,
+        "arrival_time": "15:53:00",
+        "departure_time": "15:53:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260803-42621-084500",
+        "station_id": "st-ciftlik",
+        "stop_sequence": 30,
+        "arrival_time": "15:59:00",
+        "departure_time": "15:59:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260803-42621-084500",
+        "station_id": "st-bogazici",
+        "stop_sequence": 31,
+        "arrival_time": "16:06:00",
+        "departure_time": "16:06:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260803-42621-084500",
+        "station_id": "st-celikalan",
+        "stop_sequence": 32,
+        "arrival_time": "16:13:00",
+        "departure_time": "16:13:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260803-42621-084500",
+        "station_id": "st-meseliduz",
+        "stop_sequence": 33,
+        "arrival_time": "16:20:00",
+        "departure_time": "16:20:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260803-42621-084500",
+        "station_id": "st-samsun",
+        "stop_sequence": 34,
+        "arrival_time": "16:47:00",
+        "departure_time": "16:47:00",
+        "pickup_type": 1,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260804-42622-083500",
+        "station_id": "st-samsun",
+        "stop_sequence": 1,
+        "arrival_time": "08:35:00",
+        "departure_time": "08:35:00",
+        "pickup_type": 0,
+        "drop_off_type": 1
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260804-42622-083500",
+        "station_id": "st-meseliduz",
+        "stop_sequence": 2,
+        "arrival_time": "09:00:00",
+        "departure_time": "09:00:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260804-42622-083500",
+        "station_id": "st-celikalan",
+        "stop_sequence": 3,
+        "arrival_time": "09:08:00",
+        "departure_time": "09:08:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260804-42622-083500",
+        "station_id": "st-bogazici",
+        "stop_sequence": 4,
+        "arrival_time": "09:15:00",
+        "departure_time": "09:15:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260804-42622-083500",
+        "station_id": "st-ciftlik",
+        "stop_sequence": 5,
+        "arrival_time": "09:22:00",
+        "departure_time": "09:22:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260804-42622-083500",
+        "station_id": "st-cukurbuk",
+        "stop_sequence": 6,
+        "arrival_time": "09:28:00",
+        "departure_time": "09:28:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260804-42622-083500",
+        "station_id": "st-germiyan",
+        "stop_sequence": 7,
+        "arrival_time": "09:36:00",
+        "departure_time": "09:36:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260804-42622-083500",
+        "station_id": "st-kavak",
+        "stop_sequence": 8,
+        "arrival_time": "09:46:00",
+        "departure_time": "09:46:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260804-42622-083500",
+        "station_id": "st-ladik",
+        "stop_sequence": 9,
+        "arrival_time": "10:12:00",
+        "departure_time": "10:12:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260804-42622-083500",
+        "station_id": "st-bekdigin",
+        "stop_sequence": 10,
+        "arrival_time": "10:23:00",
+        "departure_time": "10:23:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260804-42622-083500",
+        "station_id": "st-havza",
+        "stop_sequence": 11,
+        "arrival_time": "10:40:00",
+        "departure_time": "10:40:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260804-42622-083500",
+        "station_id": "st-hacibayram",
+        "stop_sequence": 12,
+        "arrival_time": "11:03:00",
+        "departure_time": "11:03:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260804-42622-083500",
+        "station_id": "st-suluova",
+        "stop_sequence": 13,
+        "arrival_time": "11:11:00",
+        "departure_time": "11:11:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260804-42622-083500",
+        "station_id": "st-bogazkoy",
+        "stop_sequence": 14,
+        "arrival_time": "11:26:00",
+        "departure_time": "11:26:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260804-42622-083500",
+        "station_id": "st-amasya",
+        "stop_sequence": 15,
+        "arrival_time": "11:42:00",
+        "departure_time": "11:42:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260804-42622-083500",
+        "station_id": "st-kayabasi",
+        "stop_sequence": 16,
+        "arrival_time": "12:01:00",
+        "departure_time": "12:01:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260804-42622-083500",
+        "station_id": "st-ovasaray",
+        "stop_sequence": 17,
+        "arrival_time": "12:06:00",
+        "departure_time": "12:06:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260804-42622-083500",
+        "station_id": "st-kizilca",
+        "stop_sequence": 18,
+        "arrival_time": "12:11:00",
+        "departure_time": "12:11:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260804-42622-083500",
+        "station_id": "st-kizoglu",
+        "stop_sequence": 19,
+        "arrival_time": "12:26:00",
+        "departure_time": "12:26:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260804-42622-083500",
+        "station_id": "st-turhal",
+        "stop_sequence": 20,
+        "arrival_time": "13:00:00",
+        "departure_time": "13:00:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260804-42622-083500",
+        "station_id": "st-zile",
+        "stop_sequence": 21,
+        "arrival_time": "13:19:00",
+        "departure_time": "13:19:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260804-42622-083500",
+        "station_id": "st-guzelbeyli",
+        "stop_sequence": 22,
+        "arrival_time": "13:52:00",
+        "departure_time": "13:52:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260804-42622-083500",
+        "station_id": "st-gumusyurt",
+        "stop_sequence": 23,
+        "arrival_time": "14:09:00",
+        "departure_time": "14:09:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260804-42622-083500",
+        "station_id": "st-yenice-d",
+        "stop_sequence": 24,
+        "arrival_time": "14:16:00",
+        "departure_time": "14:16:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260804-42622-083500",
+        "station_id": "st-artova",
+        "stop_sequence": 25,
+        "arrival_time": "14:27:00",
+        "departure_time": "14:27:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260804-42622-083500",
+        "station_id": "st-kunduz",
+        "stop_sequence": 26,
+        "arrival_time": "14:38:00",
+        "departure_time": "14:38:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260804-42622-083500",
+        "station_id": "st-tokat-yesilyurt",
+        "stop_sequence": 27,
+        "arrival_time": "14:46:00",
+        "departure_time": "14:46:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260804-42622-083500",
+        "station_id": "st-topulyurdu",
+        "stop_sequence": 28,
+        "arrival_time": "14:58:00",
+        "departure_time": "14:58:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260804-42622-083500",
+        "station_id": "st-cizozu",
+        "stop_sequence": 29,
+        "arrival_time": "15:14:00",
+        "departure_time": "15:14:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260804-42622-083500",
+        "station_id": "st-subasi",
+        "stop_sequence": 30,
+        "arrival_time": "15:32:00",
+        "departure_time": "15:32:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260804-42622-083500",
+        "station_id": "st-sandal",
+        "stop_sequence": 31,
+        "arrival_time": "15:36:00",
+        "departure_time": "15:36:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260804-42622-083500",
+        "station_id": "st-yildizeli",
+        "stop_sequence": 32,
+        "arrival_time": "15:50:00",
+        "departure_time": "15:50:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260804-42622-083500",
+        "station_id": "st-kalin",
+        "stop_sequence": 33,
+        "arrival_time": "16:18:00",
+        "departure_time": "16:18:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260804-42622-083500",
+        "station_id": "st-sivas",
+        "stop_sequence": 34,
+        "arrival_time": "16:41:00",
+        "departure_time": "16:41:00",
+        "pickup_type": 1,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260806-42621-084500",
+        "station_id": "st-sivas",
+        "stop_sequence": 1,
+        "arrival_time": "08:45:00",
+        "departure_time": "08:45:00",
+        "pickup_type": 0,
+        "drop_off_type": 1
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260806-42621-084500",
+        "station_id": "st-kalin",
+        "stop_sequence": 2,
+        "arrival_time": "09:06:00",
+        "departure_time": "09:06:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260806-42621-084500",
+        "station_id": "st-yildizeli",
+        "stop_sequence": 3,
+        "arrival_time": "09:34:00",
+        "departure_time": "09:34:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260806-42621-084500",
+        "station_id": "st-sandal",
+        "stop_sequence": 4,
+        "arrival_time": "09:48:00",
+        "departure_time": "09:48:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260806-42621-084500",
+        "station_id": "st-subasi",
+        "stop_sequence": 5,
+        "arrival_time": "09:52:00",
+        "departure_time": "09:52:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260806-42621-084500",
+        "station_id": "st-cizozu",
+        "stop_sequence": 6,
+        "arrival_time": "10:10:00",
+        "departure_time": "10:10:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260806-42621-084500",
+        "station_id": "st-topulyurdu",
+        "stop_sequence": 7,
+        "arrival_time": "10:26:00",
+        "departure_time": "10:26:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260806-42621-084500",
+        "station_id": "st-tokat-yesilyurt",
+        "stop_sequence": 8,
+        "arrival_time": "10:38:00",
+        "departure_time": "10:38:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260806-42621-084500",
+        "station_id": "st-kunduz",
+        "stop_sequence": 9,
+        "arrival_time": "10:46:00",
+        "departure_time": "10:46:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260806-42621-084500",
+        "station_id": "st-artova",
+        "stop_sequence": 10,
+        "arrival_time": "10:56:00",
+        "departure_time": "10:56:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260806-42621-084500",
+        "station_id": "st-yenice-d",
+        "stop_sequence": 11,
+        "arrival_time": "11:07:00",
+        "departure_time": "11:07:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260806-42621-084500",
+        "station_id": "st-gumusyurt",
+        "stop_sequence": 12,
+        "arrival_time": "11:14:00",
+        "departure_time": "11:14:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260806-42621-084500",
+        "station_id": "st-guzelbeyli",
+        "stop_sequence": 13,
+        "arrival_time": "11:31:00",
+        "departure_time": "11:31:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260806-42621-084500",
+        "station_id": "st-zile",
+        "stop_sequence": 14,
+        "arrival_time": "12:01:00",
+        "departure_time": "12:01:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260806-42621-084500",
+        "station_id": "st-turhal",
+        "stop_sequence": 15,
+        "arrival_time": "12:24:00",
+        "departure_time": "12:24:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260806-42621-084500",
+        "station_id": "st-kizoglu",
+        "stop_sequence": 16,
+        "arrival_time": "13:02:00",
+        "departure_time": "13:02:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260806-42621-084500",
+        "station_id": "st-kizilca",
+        "stop_sequence": 17,
+        "arrival_time": "13:18:00",
+        "departure_time": "13:18:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260806-42621-084500",
+        "station_id": "st-ovasaray",
+        "stop_sequence": 18,
+        "arrival_time": "13:23:00",
+        "departure_time": "13:23:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260806-42621-084500",
+        "station_id": "st-kayabasi",
+        "stop_sequence": 19,
+        "arrival_time": "13:28:00",
+        "departure_time": "13:28:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260806-42621-084500",
+        "station_id": "st-amasya",
+        "stop_sequence": 20,
+        "arrival_time": "13:43:00",
+        "departure_time": "13:43:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260806-42621-084500",
+        "station_id": "st-bogazkoy",
+        "stop_sequence": 21,
+        "arrival_time": "14:04:00",
+        "departure_time": "14:04:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260806-42621-084500",
+        "station_id": "st-suluova",
+        "stop_sequence": 22,
+        "arrival_time": "14:19:00",
+        "departure_time": "14:19:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260806-42621-084500",
+        "station_id": "st-hacibayram",
+        "stop_sequence": 23,
+        "arrival_time": "14:26:00",
+        "departure_time": "14:26:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260806-42621-084500",
+        "station_id": "st-havza",
+        "stop_sequence": 24,
+        "arrival_time": "14:44:00",
+        "departure_time": "14:44:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260806-42621-084500",
+        "station_id": "st-bekdigin",
+        "stop_sequence": 25,
+        "arrival_time": "15:00:00",
+        "departure_time": "15:00:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260806-42621-084500",
+        "station_id": "st-ladik",
+        "stop_sequence": 26,
+        "arrival_time": "15:11:00",
+        "departure_time": "15:11:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260806-42621-084500",
+        "station_id": "st-kavak",
+        "stop_sequence": 27,
+        "arrival_time": "15:35:00",
+        "departure_time": "15:35:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260806-42621-084500",
+        "station_id": "st-germiyan",
+        "stop_sequence": 28,
+        "arrival_time": "15:45:00",
+        "departure_time": "15:45:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260806-42621-084500",
+        "station_id": "st-cukurbuk",
+        "stop_sequence": 29,
+        "arrival_time": "15:53:00",
+        "departure_time": "15:53:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260806-42621-084500",
+        "station_id": "st-ciftlik",
+        "stop_sequence": 30,
+        "arrival_time": "15:59:00",
+        "departure_time": "15:59:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260806-42621-084500",
+        "station_id": "st-bogazici",
+        "stop_sequence": 31,
+        "arrival_time": "16:06:00",
+        "departure_time": "16:06:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260806-42621-084500",
+        "station_id": "st-celikalan",
+        "stop_sequence": 32,
+        "arrival_time": "16:13:00",
+        "departure_time": "16:13:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260806-42621-084500",
+        "station_id": "st-meseliduz",
+        "stop_sequence": 33,
+        "arrival_time": "16:20:00",
+        "departure_time": "16:20:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260806-42621-084500",
+        "station_id": "st-samsun",
+        "stop_sequence": 34,
+        "arrival_time": "16:47:00",
+        "departure_time": "16:47:00",
+        "pickup_type": 1,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260807-42622-083500",
+        "station_id": "st-samsun",
+        "stop_sequence": 1,
+        "arrival_time": "08:35:00",
+        "departure_time": "08:35:00",
+        "pickup_type": 0,
+        "drop_off_type": 1
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260807-42622-083500",
+        "station_id": "st-meseliduz",
+        "stop_sequence": 2,
+        "arrival_time": "09:00:00",
+        "departure_time": "09:00:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260807-42622-083500",
+        "station_id": "st-celikalan",
+        "stop_sequence": 3,
+        "arrival_time": "09:08:00",
+        "departure_time": "09:08:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260807-42622-083500",
+        "station_id": "st-bogazici",
+        "stop_sequence": 4,
+        "arrival_time": "09:15:00",
+        "departure_time": "09:15:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260807-42622-083500",
+        "station_id": "st-ciftlik",
+        "stop_sequence": 5,
+        "arrival_time": "09:22:00",
+        "departure_time": "09:22:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260807-42622-083500",
+        "station_id": "st-cukurbuk",
+        "stop_sequence": 6,
+        "arrival_time": "09:28:00",
+        "departure_time": "09:28:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260807-42622-083500",
+        "station_id": "st-germiyan",
+        "stop_sequence": 7,
+        "arrival_time": "09:36:00",
+        "departure_time": "09:36:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260807-42622-083500",
+        "station_id": "st-kavak",
+        "stop_sequence": 8,
+        "arrival_time": "09:46:00",
+        "departure_time": "09:46:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260807-42622-083500",
+        "station_id": "st-ladik",
+        "stop_sequence": 9,
+        "arrival_time": "10:12:00",
+        "departure_time": "10:12:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260807-42622-083500",
+        "station_id": "st-bekdigin",
+        "stop_sequence": 10,
+        "arrival_time": "10:23:00",
+        "departure_time": "10:23:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260807-42622-083500",
+        "station_id": "st-havza",
+        "stop_sequence": 11,
+        "arrival_time": "10:40:00",
+        "departure_time": "10:40:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260807-42622-083500",
+        "station_id": "st-hacibayram",
+        "stop_sequence": 12,
+        "arrival_time": "11:03:00",
+        "departure_time": "11:03:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260807-42622-083500",
+        "station_id": "st-suluova",
+        "stop_sequence": 13,
+        "arrival_time": "11:11:00",
+        "departure_time": "11:11:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260807-42622-083500",
+        "station_id": "st-bogazkoy",
+        "stop_sequence": 14,
+        "arrival_time": "11:26:00",
+        "departure_time": "11:26:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260807-42622-083500",
+        "station_id": "st-amasya",
+        "stop_sequence": 15,
+        "arrival_time": "11:42:00",
+        "departure_time": "11:42:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260807-42622-083500",
+        "station_id": "st-kayabasi",
+        "stop_sequence": 16,
+        "arrival_time": "12:01:00",
+        "departure_time": "12:01:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260807-42622-083500",
+        "station_id": "st-ovasaray",
+        "stop_sequence": 17,
+        "arrival_time": "12:06:00",
+        "departure_time": "12:06:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260807-42622-083500",
+        "station_id": "st-kizilca",
+        "stop_sequence": 18,
+        "arrival_time": "12:11:00",
+        "departure_time": "12:11:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260807-42622-083500",
+        "station_id": "st-kizoglu",
+        "stop_sequence": 19,
+        "arrival_time": "12:26:00",
+        "departure_time": "12:26:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260807-42622-083500",
+        "station_id": "st-turhal",
+        "stop_sequence": 20,
+        "arrival_time": "13:00:00",
+        "departure_time": "13:00:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260807-42622-083500",
+        "station_id": "st-zile",
+        "stop_sequence": 21,
+        "arrival_time": "13:19:00",
+        "departure_time": "13:19:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260807-42622-083500",
+        "station_id": "st-guzelbeyli",
+        "stop_sequence": 22,
+        "arrival_time": "13:52:00",
+        "departure_time": "13:52:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260807-42622-083500",
+        "station_id": "st-gumusyurt",
+        "stop_sequence": 23,
+        "arrival_time": "14:09:00",
+        "departure_time": "14:09:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260807-42622-083500",
+        "station_id": "st-yenice-d",
+        "stop_sequence": 24,
+        "arrival_time": "14:16:00",
+        "departure_time": "14:16:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260807-42622-083500",
+        "station_id": "st-artova",
+        "stop_sequence": 25,
+        "arrival_time": "14:27:00",
+        "departure_time": "14:27:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260807-42622-083500",
+        "station_id": "st-kunduz",
+        "stop_sequence": 26,
+        "arrival_time": "14:38:00",
+        "departure_time": "14:38:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260807-42622-083500",
+        "station_id": "st-tokat-yesilyurt",
+        "stop_sequence": 27,
+        "arrival_time": "14:46:00",
+        "departure_time": "14:46:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260807-42622-083500",
+        "station_id": "st-topulyurdu",
+        "stop_sequence": 28,
+        "arrival_time": "14:58:00",
+        "departure_time": "14:58:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260807-42622-083500",
+        "station_id": "st-cizozu",
+        "stop_sequence": 29,
+        "arrival_time": "15:14:00",
+        "departure_time": "15:14:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260807-42622-083500",
+        "station_id": "st-subasi",
+        "stop_sequence": 30,
+        "arrival_time": "15:32:00",
+        "departure_time": "15:32:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260807-42622-083500",
+        "station_id": "st-sandal",
+        "stop_sequence": 31,
+        "arrival_time": "15:36:00",
+        "departure_time": "15:36:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260807-42622-083500",
+        "station_id": "st-yildizeli",
+        "stop_sequence": 32,
+        "arrival_time": "15:50:00",
+        "departure_time": "15:50:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260807-42622-083500",
+        "station_id": "st-kalin",
+        "stop_sequence": 33,
+        "arrival_time": "16:18:00",
+        "departure_time": "16:18:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260807-42622-083500",
+        "station_id": "st-sivas",
+        "stop_sequence": 34,
+        "arrival_time": "16:41:00",
+        "departure_time": "16:41:00",
+        "pickup_type": 1,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260808-42621-084500",
+        "station_id": "st-sivas",
+        "stop_sequence": 1,
+        "arrival_time": "08:45:00",
+        "departure_time": "08:45:00",
+        "pickup_type": 0,
+        "drop_off_type": 1
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260808-42621-084500",
+        "station_id": "st-kalin",
+        "stop_sequence": 2,
+        "arrival_time": "09:06:00",
+        "departure_time": "09:06:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260808-42621-084500",
+        "station_id": "st-yildizeli",
+        "stop_sequence": 3,
+        "arrival_time": "09:34:00",
+        "departure_time": "09:34:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260808-42621-084500",
+        "station_id": "st-sandal",
+        "stop_sequence": 4,
+        "arrival_time": "09:48:00",
+        "departure_time": "09:48:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260808-42621-084500",
+        "station_id": "st-subasi",
+        "stop_sequence": 5,
+        "arrival_time": "09:52:00",
+        "departure_time": "09:52:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260808-42621-084500",
+        "station_id": "st-cizozu",
+        "stop_sequence": 6,
+        "arrival_time": "10:10:00",
+        "departure_time": "10:10:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260808-42621-084500",
+        "station_id": "st-topulyurdu",
+        "stop_sequence": 7,
+        "arrival_time": "10:26:00",
+        "departure_time": "10:26:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260808-42621-084500",
+        "station_id": "st-tokat-yesilyurt",
+        "stop_sequence": 8,
+        "arrival_time": "10:38:00",
+        "departure_time": "10:38:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260808-42621-084500",
+        "station_id": "st-kunduz",
+        "stop_sequence": 9,
+        "arrival_time": "10:46:00",
+        "departure_time": "10:46:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260808-42621-084500",
+        "station_id": "st-artova",
+        "stop_sequence": 10,
+        "arrival_time": "10:56:00",
+        "departure_time": "10:56:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260808-42621-084500",
+        "station_id": "st-yenice-d",
+        "stop_sequence": 11,
+        "arrival_time": "11:07:00",
+        "departure_time": "11:07:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260808-42621-084500",
+        "station_id": "st-gumusyurt",
+        "stop_sequence": 12,
+        "arrival_time": "11:14:00",
+        "departure_time": "11:14:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260808-42621-084500",
+        "station_id": "st-guzelbeyli",
+        "stop_sequence": 13,
+        "arrival_time": "11:31:00",
+        "departure_time": "11:31:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260808-42621-084500",
+        "station_id": "st-zile",
+        "stop_sequence": 14,
+        "arrival_time": "12:01:00",
+        "departure_time": "12:01:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260808-42621-084500",
+        "station_id": "st-turhal",
+        "stop_sequence": 15,
+        "arrival_time": "12:24:00",
+        "departure_time": "12:24:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260808-42621-084500",
+        "station_id": "st-kizoglu",
+        "stop_sequence": 16,
+        "arrival_time": "13:02:00",
+        "departure_time": "13:02:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260808-42621-084500",
+        "station_id": "st-kizilca",
+        "stop_sequence": 17,
+        "arrival_time": "13:18:00",
+        "departure_time": "13:18:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260808-42621-084500",
+        "station_id": "st-ovasaray",
+        "stop_sequence": 18,
+        "arrival_time": "13:23:00",
+        "departure_time": "13:23:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260808-42621-084500",
+        "station_id": "st-kayabasi",
+        "stop_sequence": 19,
+        "arrival_time": "13:28:00",
+        "departure_time": "13:28:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260808-42621-084500",
+        "station_id": "st-amasya",
+        "stop_sequence": 20,
+        "arrival_time": "13:43:00",
+        "departure_time": "13:43:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260808-42621-084500",
+        "station_id": "st-bogazkoy",
+        "stop_sequence": 21,
+        "arrival_time": "14:04:00",
+        "departure_time": "14:04:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260808-42621-084500",
+        "station_id": "st-suluova",
+        "stop_sequence": 22,
+        "arrival_time": "14:19:00",
+        "departure_time": "14:19:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260808-42621-084500",
+        "station_id": "st-hacibayram",
+        "stop_sequence": 23,
+        "arrival_time": "14:26:00",
+        "departure_time": "14:26:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260808-42621-084500",
+        "station_id": "st-havza",
+        "stop_sequence": 24,
+        "arrival_time": "14:44:00",
+        "departure_time": "14:44:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260808-42621-084500",
+        "station_id": "st-bekdigin",
+        "stop_sequence": 25,
+        "arrival_time": "15:00:00",
+        "departure_time": "15:00:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260808-42621-084500",
+        "station_id": "st-ladik",
+        "stop_sequence": 26,
+        "arrival_time": "15:11:00",
+        "departure_time": "15:11:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260808-42621-084500",
+        "station_id": "st-kavak",
+        "stop_sequence": 27,
+        "arrival_time": "15:35:00",
+        "departure_time": "15:35:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260808-42621-084500",
+        "station_id": "st-germiyan",
+        "stop_sequence": 28,
+        "arrival_time": "15:45:00",
+        "departure_time": "15:45:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260808-42621-084500",
+        "station_id": "st-cukurbuk",
+        "stop_sequence": 29,
+        "arrival_time": "15:53:00",
+        "departure_time": "15:53:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260808-42621-084500",
+        "station_id": "st-ciftlik",
+        "stop_sequence": 30,
+        "arrival_time": "15:59:00",
+        "departure_time": "15:59:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260808-42621-084500",
+        "station_id": "st-bogazici",
+        "stop_sequence": 31,
+        "arrival_time": "16:06:00",
+        "departure_time": "16:06:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260808-42621-084500",
+        "station_id": "st-celikalan",
+        "stop_sequence": 32,
+        "arrival_time": "16:13:00",
+        "departure_time": "16:13:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260808-42621-084500",
+        "station_id": "st-meseliduz",
+        "stop_sequence": 33,
+        "arrival_time": "16:20:00",
+        "departure_time": "16:20:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260808-42621-084500",
+        "station_id": "st-samsun",
+        "stop_sequence": 34,
+        "arrival_time": "16:47:00",
+        "departure_time": "16:47:00",
+        "pickup_type": 1,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260809-42622-083500",
+        "station_id": "st-samsun",
+        "stop_sequence": 1,
+        "arrival_time": "08:35:00",
+        "departure_time": "08:35:00",
+        "pickup_type": 0,
+        "drop_off_type": 1
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260809-42622-083500",
+        "station_id": "st-meseliduz",
+        "stop_sequence": 2,
+        "arrival_time": "09:00:00",
+        "departure_time": "09:00:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260809-42622-083500",
+        "station_id": "st-celikalan",
+        "stop_sequence": 3,
+        "arrival_time": "09:08:00",
+        "departure_time": "09:08:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260809-42622-083500",
+        "station_id": "st-bogazici",
+        "stop_sequence": 4,
+        "arrival_time": "09:15:00",
+        "departure_time": "09:15:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260809-42622-083500",
+        "station_id": "st-ciftlik",
+        "stop_sequence": 5,
+        "arrival_time": "09:22:00",
+        "departure_time": "09:22:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260809-42622-083500",
+        "station_id": "st-cukurbuk",
+        "stop_sequence": 6,
+        "arrival_time": "09:28:00",
+        "departure_time": "09:28:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260809-42622-083500",
+        "station_id": "st-germiyan",
+        "stop_sequence": 7,
+        "arrival_time": "09:36:00",
+        "departure_time": "09:36:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260809-42622-083500",
+        "station_id": "st-kavak",
+        "stop_sequence": 8,
+        "arrival_time": "09:46:00",
+        "departure_time": "09:46:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260809-42622-083500",
+        "station_id": "st-ladik",
+        "stop_sequence": 9,
+        "arrival_time": "10:12:00",
+        "departure_time": "10:12:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260809-42622-083500",
+        "station_id": "st-bekdigin",
+        "stop_sequence": 10,
+        "arrival_time": "10:23:00",
+        "departure_time": "10:23:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260809-42622-083500",
+        "station_id": "st-havza",
+        "stop_sequence": 11,
+        "arrival_time": "10:40:00",
+        "departure_time": "10:40:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260809-42622-083500",
+        "station_id": "st-hacibayram",
+        "stop_sequence": 12,
+        "arrival_time": "11:03:00",
+        "departure_time": "11:03:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260809-42622-083500",
+        "station_id": "st-suluova",
+        "stop_sequence": 13,
+        "arrival_time": "11:11:00",
+        "departure_time": "11:11:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260809-42622-083500",
+        "station_id": "st-bogazkoy",
+        "stop_sequence": 14,
+        "arrival_time": "11:26:00",
+        "departure_time": "11:26:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260809-42622-083500",
+        "station_id": "st-amasya",
+        "stop_sequence": 15,
+        "arrival_time": "11:42:00",
+        "departure_time": "11:42:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260809-42622-083500",
+        "station_id": "st-kayabasi",
+        "stop_sequence": 16,
+        "arrival_time": "12:01:00",
+        "departure_time": "12:01:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260809-42622-083500",
+        "station_id": "st-ovasaray",
+        "stop_sequence": 17,
+        "arrival_time": "12:06:00",
+        "departure_time": "12:06:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260809-42622-083500",
+        "station_id": "st-kizilca",
+        "stop_sequence": 18,
+        "arrival_time": "12:11:00",
+        "departure_time": "12:11:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260809-42622-083500",
+        "station_id": "st-kizoglu",
+        "stop_sequence": 19,
+        "arrival_time": "12:26:00",
+        "departure_time": "12:26:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260809-42622-083500",
+        "station_id": "st-turhal",
+        "stop_sequence": 20,
+        "arrival_time": "13:00:00",
+        "departure_time": "13:00:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260809-42622-083500",
+        "station_id": "st-zile",
+        "stop_sequence": 21,
+        "arrival_time": "13:19:00",
+        "departure_time": "13:19:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260809-42622-083500",
+        "station_id": "st-guzelbeyli",
+        "stop_sequence": 22,
+        "arrival_time": "13:52:00",
+        "departure_time": "13:52:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260809-42622-083500",
+        "station_id": "st-gumusyurt",
+        "stop_sequence": 23,
+        "arrival_time": "14:09:00",
+        "departure_time": "14:09:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260809-42622-083500",
+        "station_id": "st-yenice-d",
+        "stop_sequence": 24,
+        "arrival_time": "14:16:00",
+        "departure_time": "14:16:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260809-42622-083500",
+        "station_id": "st-artova",
+        "stop_sequence": 25,
+        "arrival_time": "14:27:00",
+        "departure_time": "14:27:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260809-42622-083500",
+        "station_id": "st-kunduz",
+        "stop_sequence": 26,
+        "arrival_time": "14:38:00",
+        "departure_time": "14:38:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260809-42622-083500",
+        "station_id": "st-tokat-yesilyurt",
+        "stop_sequence": 27,
+        "arrival_time": "14:46:00",
+        "departure_time": "14:46:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260809-42622-083500",
+        "station_id": "st-topulyurdu",
+        "stop_sequence": 28,
+        "arrival_time": "14:58:00",
+        "departure_time": "14:58:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260809-42622-083500",
+        "station_id": "st-cizozu",
+        "stop_sequence": 29,
+        "arrival_time": "15:14:00",
+        "departure_time": "15:14:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260809-42622-083500",
+        "station_id": "st-subasi",
+        "stop_sequence": 30,
+        "arrival_time": "15:32:00",
+        "departure_time": "15:32:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260809-42622-083500",
+        "station_id": "st-sandal",
+        "stop_sequence": 31,
+        "arrival_time": "15:36:00",
+        "departure_time": "15:36:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260809-42622-083500",
+        "station_id": "st-yildizeli",
+        "stop_sequence": 32,
+        "arrival_time": "15:50:00",
+        "departure_time": "15:50:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260809-42622-083500",
+        "station_id": "st-kalin",
+        "stop_sequence": 33,
+        "arrival_time": "16:18:00",
+        "departure_time": "16:18:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260809-42622-083500",
+        "station_id": "st-sivas",
+        "stop_sequence": 34,
+        "arrival_time": "16:41:00",
+        "departure_time": "16:41:00",
+        "pickup_type": 1,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260810-42621-084500",
+        "station_id": "st-sivas",
+        "stop_sequence": 1,
+        "arrival_time": "08:45:00",
+        "departure_time": "08:45:00",
+        "pickup_type": 0,
+        "drop_off_type": 1
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260810-42621-084500",
+        "station_id": "st-kalin",
+        "stop_sequence": 2,
+        "arrival_time": "09:06:00",
+        "departure_time": "09:06:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260810-42621-084500",
+        "station_id": "st-yildizeli",
+        "stop_sequence": 3,
+        "arrival_time": "09:34:00",
+        "departure_time": "09:34:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260810-42621-084500",
+        "station_id": "st-sandal",
+        "stop_sequence": 4,
+        "arrival_time": "09:48:00",
+        "departure_time": "09:48:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260810-42621-084500",
+        "station_id": "st-subasi",
+        "stop_sequence": 5,
+        "arrival_time": "09:52:00",
+        "departure_time": "09:52:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260810-42621-084500",
+        "station_id": "st-cizozu",
+        "stop_sequence": 6,
+        "arrival_time": "10:10:00",
+        "departure_time": "10:10:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260810-42621-084500",
+        "station_id": "st-topulyurdu",
+        "stop_sequence": 7,
+        "arrival_time": "10:26:00",
+        "departure_time": "10:26:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260810-42621-084500",
+        "station_id": "st-tokat-yesilyurt",
+        "stop_sequence": 8,
+        "arrival_time": "10:38:00",
+        "departure_time": "10:38:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260810-42621-084500",
+        "station_id": "st-kunduz",
+        "stop_sequence": 9,
+        "arrival_time": "10:46:00",
+        "departure_time": "10:46:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260810-42621-084500",
+        "station_id": "st-artova",
+        "stop_sequence": 10,
+        "arrival_time": "10:56:00",
+        "departure_time": "10:56:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260810-42621-084500",
+        "station_id": "st-yenice-d",
+        "stop_sequence": 11,
+        "arrival_time": "11:07:00",
+        "departure_time": "11:07:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260810-42621-084500",
+        "station_id": "st-gumusyurt",
+        "stop_sequence": 12,
+        "arrival_time": "11:14:00",
+        "departure_time": "11:14:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260810-42621-084500",
+        "station_id": "st-guzelbeyli",
+        "stop_sequence": 13,
+        "arrival_time": "11:31:00",
+        "departure_time": "11:31:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260810-42621-084500",
+        "station_id": "st-zile",
+        "stop_sequence": 14,
+        "arrival_time": "12:01:00",
+        "departure_time": "12:01:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260810-42621-084500",
+        "station_id": "st-turhal",
+        "stop_sequence": 15,
+        "arrival_time": "12:24:00",
+        "departure_time": "12:24:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260810-42621-084500",
+        "station_id": "st-kizoglu",
+        "stop_sequence": 16,
+        "arrival_time": "13:02:00",
+        "departure_time": "13:02:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260810-42621-084500",
+        "station_id": "st-kizilca",
+        "stop_sequence": 17,
+        "arrival_time": "13:18:00",
+        "departure_time": "13:18:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260810-42621-084500",
+        "station_id": "st-ovasaray",
+        "stop_sequence": 18,
+        "arrival_time": "13:23:00",
+        "departure_time": "13:23:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260810-42621-084500",
+        "station_id": "st-kayabasi",
+        "stop_sequence": 19,
+        "arrival_time": "13:28:00",
+        "departure_time": "13:28:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260810-42621-084500",
+        "station_id": "st-amasya",
+        "stop_sequence": 20,
+        "arrival_time": "13:43:00",
+        "departure_time": "13:43:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260810-42621-084500",
+        "station_id": "st-bogazkoy",
+        "stop_sequence": 21,
+        "arrival_time": "14:04:00",
+        "departure_time": "14:04:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260810-42621-084500",
+        "station_id": "st-suluova",
+        "stop_sequence": 22,
+        "arrival_time": "14:19:00",
+        "departure_time": "14:19:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260810-42621-084500",
+        "station_id": "st-hacibayram",
+        "stop_sequence": 23,
+        "arrival_time": "14:26:00",
+        "departure_time": "14:26:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260810-42621-084500",
+        "station_id": "st-havza",
+        "stop_sequence": 24,
+        "arrival_time": "14:44:00",
+        "departure_time": "14:44:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260810-42621-084500",
+        "station_id": "st-bekdigin",
+        "stop_sequence": 25,
+        "arrival_time": "15:00:00",
+        "departure_time": "15:00:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260810-42621-084500",
+        "station_id": "st-ladik",
+        "stop_sequence": 26,
+        "arrival_time": "15:11:00",
+        "departure_time": "15:11:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260810-42621-084500",
+        "station_id": "st-kavak",
+        "stop_sequence": 27,
+        "arrival_time": "15:35:00",
+        "departure_time": "15:35:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260810-42621-084500",
+        "station_id": "st-germiyan",
+        "stop_sequence": 28,
+        "arrival_time": "15:45:00",
+        "departure_time": "15:45:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260810-42621-084500",
+        "station_id": "st-cukurbuk",
+        "stop_sequence": 29,
+        "arrival_time": "15:53:00",
+        "departure_time": "15:53:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260810-42621-084500",
+        "station_id": "st-ciftlik",
+        "stop_sequence": 30,
+        "arrival_time": "15:59:00",
+        "departure_time": "15:59:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260810-42621-084500",
+        "station_id": "st-bogazici",
+        "stop_sequence": 31,
+        "arrival_time": "16:06:00",
+        "departure_time": "16:06:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260810-42621-084500",
+        "station_id": "st-celikalan",
+        "stop_sequence": 32,
+        "arrival_time": "16:13:00",
+        "departure_time": "16:13:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260810-42621-084500",
+        "station_id": "st-meseliduz",
+        "stop_sequence": 33,
+        "arrival_time": "16:20:00",
+        "departure_time": "16:20:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260810-42621-084500",
+        "station_id": "st-samsun",
+        "stop_sequence": 34,
+        "arrival_time": "16:47:00",
+        "departure_time": "16:47:00",
+        "pickup_type": 1,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260811-42622-083500",
+        "station_id": "st-samsun",
+        "stop_sequence": 1,
+        "arrival_time": "08:35:00",
+        "departure_time": "08:35:00",
+        "pickup_type": 0,
+        "drop_off_type": 1
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260811-42622-083500",
+        "station_id": "st-meseliduz",
+        "stop_sequence": 2,
+        "arrival_time": "09:00:00",
+        "departure_time": "09:00:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260811-42622-083500",
+        "station_id": "st-celikalan",
+        "stop_sequence": 3,
+        "arrival_time": "09:08:00",
+        "departure_time": "09:08:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260811-42622-083500",
+        "station_id": "st-bogazici",
+        "stop_sequence": 4,
+        "arrival_time": "09:15:00",
+        "departure_time": "09:15:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260811-42622-083500",
+        "station_id": "st-ciftlik",
+        "stop_sequence": 5,
+        "arrival_time": "09:22:00",
+        "departure_time": "09:22:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260811-42622-083500",
+        "station_id": "st-cukurbuk",
+        "stop_sequence": 6,
+        "arrival_time": "09:28:00",
+        "departure_time": "09:28:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260811-42622-083500",
+        "station_id": "st-germiyan",
+        "stop_sequence": 7,
+        "arrival_time": "09:36:00",
+        "departure_time": "09:36:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260811-42622-083500",
+        "station_id": "st-kavak",
+        "stop_sequence": 8,
+        "arrival_time": "09:46:00",
+        "departure_time": "09:46:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260811-42622-083500",
+        "station_id": "st-ladik",
+        "stop_sequence": 9,
+        "arrival_time": "10:12:00",
+        "departure_time": "10:12:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260811-42622-083500",
+        "station_id": "st-bekdigin",
+        "stop_sequence": 10,
+        "arrival_time": "10:23:00",
+        "departure_time": "10:23:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260811-42622-083500",
+        "station_id": "st-havza",
+        "stop_sequence": 11,
+        "arrival_time": "10:40:00",
+        "departure_time": "10:40:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260811-42622-083500",
+        "station_id": "st-hacibayram",
+        "stop_sequence": 12,
+        "arrival_time": "11:03:00",
+        "departure_time": "11:03:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260811-42622-083500",
+        "station_id": "st-suluova",
+        "stop_sequence": 13,
+        "arrival_time": "11:11:00",
+        "departure_time": "11:11:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260811-42622-083500",
+        "station_id": "st-bogazkoy",
+        "stop_sequence": 14,
+        "arrival_time": "11:26:00",
+        "departure_time": "11:26:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260811-42622-083500",
+        "station_id": "st-amasya",
+        "stop_sequence": 15,
+        "arrival_time": "11:42:00",
+        "departure_time": "11:42:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260811-42622-083500",
+        "station_id": "st-kayabasi",
+        "stop_sequence": 16,
+        "arrival_time": "12:01:00",
+        "departure_time": "12:01:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260811-42622-083500",
+        "station_id": "st-ovasaray",
+        "stop_sequence": 17,
+        "arrival_time": "12:06:00",
+        "departure_time": "12:06:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260811-42622-083500",
+        "station_id": "st-kizilca",
+        "stop_sequence": 18,
+        "arrival_time": "12:11:00",
+        "departure_time": "12:11:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260811-42622-083500",
+        "station_id": "st-kizoglu",
+        "stop_sequence": 19,
+        "arrival_time": "12:26:00",
+        "departure_time": "12:26:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260811-42622-083500",
+        "station_id": "st-turhal",
+        "stop_sequence": 20,
+        "arrival_time": "13:00:00",
+        "departure_time": "13:00:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260811-42622-083500",
+        "station_id": "st-zile",
+        "stop_sequence": 21,
+        "arrival_time": "13:19:00",
+        "departure_time": "13:19:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260811-42622-083500",
+        "station_id": "st-guzelbeyli",
+        "stop_sequence": 22,
+        "arrival_time": "13:52:00",
+        "departure_time": "13:52:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260811-42622-083500",
+        "station_id": "st-gumusyurt",
+        "stop_sequence": 23,
+        "arrival_time": "14:09:00",
+        "departure_time": "14:09:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260811-42622-083500",
+        "station_id": "st-yenice-d",
+        "stop_sequence": 24,
+        "arrival_time": "14:16:00",
+        "departure_time": "14:16:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260811-42622-083500",
+        "station_id": "st-artova",
+        "stop_sequence": 25,
+        "arrival_time": "14:27:00",
+        "departure_time": "14:27:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260811-42622-083500",
+        "station_id": "st-kunduz",
+        "stop_sequence": 26,
+        "arrival_time": "14:38:00",
+        "departure_time": "14:38:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260811-42622-083500",
+        "station_id": "st-tokat-yesilyurt",
+        "stop_sequence": 27,
+        "arrival_time": "14:46:00",
+        "departure_time": "14:46:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260811-42622-083500",
+        "station_id": "st-topulyurdu",
+        "stop_sequence": 28,
+        "arrival_time": "14:58:00",
+        "departure_time": "14:58:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260811-42622-083500",
+        "station_id": "st-cizozu",
+        "stop_sequence": 29,
+        "arrival_time": "15:14:00",
+        "departure_time": "15:14:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260811-42622-083500",
+        "station_id": "st-subasi",
+        "stop_sequence": 30,
+        "arrival_time": "15:32:00",
+        "departure_time": "15:32:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260811-42622-083500",
+        "station_id": "st-sandal",
+        "stop_sequence": 31,
+        "arrival_time": "15:36:00",
+        "departure_time": "15:36:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260811-42622-083500",
+        "station_id": "st-yildizeli",
+        "stop_sequence": 32,
+        "arrival_time": "15:50:00",
+        "departure_time": "15:50:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260811-42622-083500",
+        "station_id": "st-kalin",
+        "stop_sequence": 33,
+        "arrival_time": "16:18:00",
+        "departure_time": "16:18:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260811-42622-083500",
+        "station_id": "st-sivas",
+        "stop_sequence": 34,
+        "arrival_time": "16:41:00",
+        "departure_time": "16:41:00",
+        "pickup_type": 1,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260813-42621-084500",
+        "station_id": "st-sivas",
+        "stop_sequence": 1,
+        "arrival_time": "08:45:00",
+        "departure_time": "08:45:00",
+        "pickup_type": 0,
+        "drop_off_type": 1
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260813-42621-084500",
+        "station_id": "st-kalin",
+        "stop_sequence": 2,
+        "arrival_time": "09:06:00",
+        "departure_time": "09:06:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260813-42621-084500",
+        "station_id": "st-yildizeli",
+        "stop_sequence": 3,
+        "arrival_time": "09:34:00",
+        "departure_time": "09:34:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260813-42621-084500",
+        "station_id": "st-sandal",
+        "stop_sequence": 4,
+        "arrival_time": "09:48:00",
+        "departure_time": "09:48:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260813-42621-084500",
+        "station_id": "st-subasi",
+        "stop_sequence": 5,
+        "arrival_time": "09:52:00",
+        "departure_time": "09:52:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260813-42621-084500",
+        "station_id": "st-cizozu",
+        "stop_sequence": 6,
+        "arrival_time": "10:10:00",
+        "departure_time": "10:10:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260813-42621-084500",
+        "station_id": "st-topulyurdu",
+        "stop_sequence": 7,
+        "arrival_time": "10:26:00",
+        "departure_time": "10:26:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260813-42621-084500",
+        "station_id": "st-tokat-yesilyurt",
+        "stop_sequence": 8,
+        "arrival_time": "10:38:00",
+        "departure_time": "10:38:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260813-42621-084500",
+        "station_id": "st-kunduz",
+        "stop_sequence": 9,
+        "arrival_time": "10:46:00",
+        "departure_time": "10:46:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260813-42621-084500",
+        "station_id": "st-artova",
+        "stop_sequence": 10,
+        "arrival_time": "10:56:00",
+        "departure_time": "10:56:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260813-42621-084500",
+        "station_id": "st-yenice-d",
+        "stop_sequence": 11,
+        "arrival_time": "11:07:00",
+        "departure_time": "11:07:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260813-42621-084500",
+        "station_id": "st-gumusyurt",
+        "stop_sequence": 12,
+        "arrival_time": "11:14:00",
+        "departure_time": "11:14:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260813-42621-084500",
+        "station_id": "st-guzelbeyli",
+        "stop_sequence": 13,
+        "arrival_time": "11:31:00",
+        "departure_time": "11:31:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260813-42621-084500",
+        "station_id": "st-zile",
+        "stop_sequence": 14,
+        "arrival_time": "12:01:00",
+        "departure_time": "12:01:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260813-42621-084500",
+        "station_id": "st-turhal",
+        "stop_sequence": 15,
+        "arrival_time": "12:24:00",
+        "departure_time": "12:24:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260813-42621-084500",
+        "station_id": "st-kizoglu",
+        "stop_sequence": 16,
+        "arrival_time": "13:02:00",
+        "departure_time": "13:02:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260813-42621-084500",
+        "station_id": "st-kizilca",
+        "stop_sequence": 17,
+        "arrival_time": "13:18:00",
+        "departure_time": "13:18:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260813-42621-084500",
+        "station_id": "st-ovasaray",
+        "stop_sequence": 18,
+        "arrival_time": "13:23:00",
+        "departure_time": "13:23:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260813-42621-084500",
+        "station_id": "st-kayabasi",
+        "stop_sequence": 19,
+        "arrival_time": "13:28:00",
+        "departure_time": "13:28:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260813-42621-084500",
+        "station_id": "st-amasya",
+        "stop_sequence": 20,
+        "arrival_time": "13:43:00",
+        "departure_time": "13:43:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260813-42621-084500",
+        "station_id": "st-bogazkoy",
+        "stop_sequence": 21,
+        "arrival_time": "14:04:00",
+        "departure_time": "14:04:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260813-42621-084500",
+        "station_id": "st-suluova",
+        "stop_sequence": 22,
+        "arrival_time": "14:19:00",
+        "departure_time": "14:19:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260813-42621-084500",
+        "station_id": "st-hacibayram",
+        "stop_sequence": 23,
+        "arrival_time": "14:26:00",
+        "departure_time": "14:26:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260813-42621-084500",
+        "station_id": "st-havza",
+        "stop_sequence": 24,
+        "arrival_time": "14:44:00",
+        "departure_time": "14:44:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260813-42621-084500",
+        "station_id": "st-bekdigin",
+        "stop_sequence": 25,
+        "arrival_time": "15:00:00",
+        "departure_time": "15:00:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260813-42621-084500",
+        "station_id": "st-ladik",
+        "stop_sequence": 26,
+        "arrival_time": "15:11:00",
+        "departure_time": "15:11:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260813-42621-084500",
+        "station_id": "st-kavak",
+        "stop_sequence": 27,
+        "arrival_time": "15:35:00",
+        "departure_time": "15:35:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260813-42621-084500",
+        "station_id": "st-germiyan",
+        "stop_sequence": 28,
+        "arrival_time": "15:45:00",
+        "departure_time": "15:45:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260813-42621-084500",
+        "station_id": "st-cukurbuk",
+        "stop_sequence": 29,
+        "arrival_time": "15:53:00",
+        "departure_time": "15:53:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260813-42621-084500",
+        "station_id": "st-ciftlik",
+        "stop_sequence": 30,
+        "arrival_time": "15:59:00",
+        "departure_time": "15:59:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260813-42621-084500",
+        "station_id": "st-bogazici",
+        "stop_sequence": 31,
+        "arrival_time": "16:06:00",
+        "departure_time": "16:06:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260813-42621-084500",
+        "station_id": "st-celikalan",
+        "stop_sequence": 32,
+        "arrival_time": "16:13:00",
+        "departure_time": "16:13:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260813-42621-084500",
+        "station_id": "st-meseliduz",
+        "stop_sequence": 33,
+        "arrival_time": "16:20:00",
+        "departure_time": "16:20:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260813-42621-084500",
+        "station_id": "st-samsun",
+        "stop_sequence": 34,
+        "arrival_time": "16:47:00",
+        "departure_time": "16:47:00",
+        "pickup_type": 1,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260814-42622-083500",
+        "station_id": "st-samsun",
+        "stop_sequence": 1,
+        "arrival_time": "08:35:00",
+        "departure_time": "08:35:00",
+        "pickup_type": 0,
+        "drop_off_type": 1
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260814-42622-083500",
+        "station_id": "st-meseliduz",
+        "stop_sequence": 2,
+        "arrival_time": "09:00:00",
+        "departure_time": "09:00:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260814-42622-083500",
+        "station_id": "st-celikalan",
+        "stop_sequence": 3,
+        "arrival_time": "09:08:00",
+        "departure_time": "09:08:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260814-42622-083500",
+        "station_id": "st-bogazici",
+        "stop_sequence": 4,
+        "arrival_time": "09:15:00",
+        "departure_time": "09:15:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260814-42622-083500",
+        "station_id": "st-ciftlik",
+        "stop_sequence": 5,
+        "arrival_time": "09:22:00",
+        "departure_time": "09:22:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260814-42622-083500",
+        "station_id": "st-cukurbuk",
+        "stop_sequence": 6,
+        "arrival_time": "09:28:00",
+        "departure_time": "09:28:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260814-42622-083500",
+        "station_id": "st-germiyan",
+        "stop_sequence": 7,
+        "arrival_time": "09:36:00",
+        "departure_time": "09:36:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260814-42622-083500",
+        "station_id": "st-kavak",
+        "stop_sequence": 8,
+        "arrival_time": "09:46:00",
+        "departure_time": "09:46:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260814-42622-083500",
+        "station_id": "st-ladik",
+        "stop_sequence": 9,
+        "arrival_time": "10:12:00",
+        "departure_time": "10:12:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260814-42622-083500",
+        "station_id": "st-bekdigin",
+        "stop_sequence": 10,
+        "arrival_time": "10:23:00",
+        "departure_time": "10:23:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260814-42622-083500",
+        "station_id": "st-havza",
+        "stop_sequence": 11,
+        "arrival_time": "10:40:00",
+        "departure_time": "10:40:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260814-42622-083500",
+        "station_id": "st-hacibayram",
+        "stop_sequence": 12,
+        "arrival_time": "11:03:00",
+        "departure_time": "11:03:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260814-42622-083500",
+        "station_id": "st-suluova",
+        "stop_sequence": 13,
+        "arrival_time": "11:11:00",
+        "departure_time": "11:11:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260814-42622-083500",
+        "station_id": "st-bogazkoy",
+        "stop_sequence": 14,
+        "arrival_time": "11:26:00",
+        "departure_time": "11:26:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260814-42622-083500",
+        "station_id": "st-amasya",
+        "stop_sequence": 15,
+        "arrival_time": "11:42:00",
+        "departure_time": "11:42:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260814-42622-083500",
+        "station_id": "st-kayabasi",
+        "stop_sequence": 16,
+        "arrival_time": "12:01:00",
+        "departure_time": "12:01:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260814-42622-083500",
+        "station_id": "st-ovasaray",
+        "stop_sequence": 17,
+        "arrival_time": "12:06:00",
+        "departure_time": "12:06:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260814-42622-083500",
+        "station_id": "st-kizilca",
+        "stop_sequence": 18,
+        "arrival_time": "12:11:00",
+        "departure_time": "12:11:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260814-42622-083500",
+        "station_id": "st-kizoglu",
+        "stop_sequence": 19,
+        "arrival_time": "12:26:00",
+        "departure_time": "12:26:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260814-42622-083500",
+        "station_id": "st-turhal",
+        "stop_sequence": 20,
+        "arrival_time": "13:00:00",
+        "departure_time": "13:00:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260814-42622-083500",
+        "station_id": "st-zile",
+        "stop_sequence": 21,
+        "arrival_time": "13:19:00",
+        "departure_time": "13:19:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260814-42622-083500",
+        "station_id": "st-guzelbeyli",
+        "stop_sequence": 22,
+        "arrival_time": "13:52:00",
+        "departure_time": "13:52:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260814-42622-083500",
+        "station_id": "st-gumusyurt",
+        "stop_sequence": 23,
+        "arrival_time": "14:09:00",
+        "departure_time": "14:09:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260814-42622-083500",
+        "station_id": "st-yenice-d",
+        "stop_sequence": 24,
+        "arrival_time": "14:16:00",
+        "departure_time": "14:16:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260814-42622-083500",
+        "station_id": "st-artova",
+        "stop_sequence": 25,
+        "arrival_time": "14:27:00",
+        "departure_time": "14:27:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260814-42622-083500",
+        "station_id": "st-kunduz",
+        "stop_sequence": 26,
+        "arrival_time": "14:38:00",
+        "departure_time": "14:38:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260814-42622-083500",
+        "station_id": "st-tokat-yesilyurt",
+        "stop_sequence": 27,
+        "arrival_time": "14:46:00",
+        "departure_time": "14:46:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260814-42622-083500",
+        "station_id": "st-topulyurdu",
+        "stop_sequence": 28,
+        "arrival_time": "14:58:00",
+        "departure_time": "14:58:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260814-42622-083500",
+        "station_id": "st-cizozu",
+        "stop_sequence": 29,
+        "arrival_time": "15:14:00",
+        "departure_time": "15:14:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260814-42622-083500",
+        "station_id": "st-subasi",
+        "stop_sequence": 30,
+        "arrival_time": "15:32:00",
+        "departure_time": "15:32:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260814-42622-083500",
+        "station_id": "st-sandal",
+        "stop_sequence": 31,
+        "arrival_time": "15:36:00",
+        "departure_time": "15:36:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260814-42622-083500",
+        "station_id": "st-yildizeli",
+        "stop_sequence": 32,
+        "arrival_time": "15:50:00",
+        "departure_time": "15:50:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260814-42622-083500",
+        "station_id": "st-kalin",
+        "stop_sequence": 33,
+        "arrival_time": "16:18:00",
+        "departure_time": "16:18:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260814-42622-083500",
+        "station_id": "st-sivas",
+        "stop_sequence": 34,
+        "arrival_time": "16:41:00",
+        "departure_time": "16:41:00",
+        "pickup_type": 1,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260815-42621-084500",
+        "station_id": "st-sivas",
+        "stop_sequence": 1,
+        "arrival_time": "08:45:00",
+        "departure_time": "08:45:00",
+        "pickup_type": 0,
+        "drop_off_type": 1
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260815-42621-084500",
+        "station_id": "st-kalin",
+        "stop_sequence": 2,
+        "arrival_time": "09:06:00",
+        "departure_time": "09:06:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260815-42621-084500",
+        "station_id": "st-yildizeli",
+        "stop_sequence": 3,
+        "arrival_time": "09:34:00",
+        "departure_time": "09:34:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260815-42621-084500",
+        "station_id": "st-sandal",
+        "stop_sequence": 4,
+        "arrival_time": "09:48:00",
+        "departure_time": "09:48:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260815-42621-084500",
+        "station_id": "st-subasi",
+        "stop_sequence": 5,
+        "arrival_time": "09:52:00",
+        "departure_time": "09:52:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260815-42621-084500",
+        "station_id": "st-cizozu",
+        "stop_sequence": 6,
+        "arrival_time": "10:10:00",
+        "departure_time": "10:10:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260815-42621-084500",
+        "station_id": "st-topulyurdu",
+        "stop_sequence": 7,
+        "arrival_time": "10:26:00",
+        "departure_time": "10:26:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260815-42621-084500",
+        "station_id": "st-tokat-yesilyurt",
+        "stop_sequence": 8,
+        "arrival_time": "10:38:00",
+        "departure_time": "10:38:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260815-42621-084500",
+        "station_id": "st-kunduz",
+        "stop_sequence": 9,
+        "arrival_time": "10:46:00",
+        "departure_time": "10:46:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260815-42621-084500",
+        "station_id": "st-artova",
+        "stop_sequence": 10,
+        "arrival_time": "10:56:00",
+        "departure_time": "10:56:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260815-42621-084500",
+        "station_id": "st-yenice-d",
+        "stop_sequence": 11,
+        "arrival_time": "11:07:00",
+        "departure_time": "11:07:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260815-42621-084500",
+        "station_id": "st-gumusyurt",
+        "stop_sequence": 12,
+        "arrival_time": "11:14:00",
+        "departure_time": "11:14:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260815-42621-084500",
+        "station_id": "st-guzelbeyli",
+        "stop_sequence": 13,
+        "arrival_time": "11:31:00",
+        "departure_time": "11:31:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260815-42621-084500",
+        "station_id": "st-zile",
+        "stop_sequence": 14,
+        "arrival_time": "12:01:00",
+        "departure_time": "12:01:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260815-42621-084500",
+        "station_id": "st-turhal",
+        "stop_sequence": 15,
+        "arrival_time": "12:24:00",
+        "departure_time": "12:24:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260815-42621-084500",
+        "station_id": "st-kizoglu",
+        "stop_sequence": 16,
+        "arrival_time": "13:02:00",
+        "departure_time": "13:02:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260815-42621-084500",
+        "station_id": "st-kizilca",
+        "stop_sequence": 17,
+        "arrival_time": "13:18:00",
+        "departure_time": "13:18:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260815-42621-084500",
+        "station_id": "st-ovasaray",
+        "stop_sequence": 18,
+        "arrival_time": "13:23:00",
+        "departure_time": "13:23:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260815-42621-084500",
+        "station_id": "st-kayabasi",
+        "stop_sequence": 19,
+        "arrival_time": "13:28:00",
+        "departure_time": "13:28:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260815-42621-084500",
+        "station_id": "st-amasya",
+        "stop_sequence": 20,
+        "arrival_time": "13:43:00",
+        "departure_time": "13:43:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260815-42621-084500",
+        "station_id": "st-bogazkoy",
+        "stop_sequence": 21,
+        "arrival_time": "14:04:00",
+        "departure_time": "14:04:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260815-42621-084500",
+        "station_id": "st-suluova",
+        "stop_sequence": 22,
+        "arrival_time": "14:19:00",
+        "departure_time": "14:19:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260815-42621-084500",
+        "station_id": "st-hacibayram",
+        "stop_sequence": 23,
+        "arrival_time": "14:26:00",
+        "departure_time": "14:26:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260815-42621-084500",
+        "station_id": "st-havza",
+        "stop_sequence": 24,
+        "arrival_time": "14:44:00",
+        "departure_time": "14:44:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260815-42621-084500",
+        "station_id": "st-bekdigin",
+        "stop_sequence": 25,
+        "arrival_time": "15:00:00",
+        "departure_time": "15:00:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260815-42621-084500",
+        "station_id": "st-ladik",
+        "stop_sequence": 26,
+        "arrival_time": "15:11:00",
+        "departure_time": "15:11:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260815-42621-084500",
+        "station_id": "st-kavak",
+        "stop_sequence": 27,
+        "arrival_time": "15:35:00",
+        "departure_time": "15:35:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260815-42621-084500",
+        "station_id": "st-germiyan",
+        "stop_sequence": 28,
+        "arrival_time": "15:45:00",
+        "departure_time": "15:45:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260815-42621-084500",
+        "station_id": "st-cukurbuk",
+        "stop_sequence": 29,
+        "arrival_time": "15:53:00",
+        "departure_time": "15:53:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260815-42621-084500",
+        "station_id": "st-ciftlik",
+        "stop_sequence": 30,
+        "arrival_time": "15:59:00",
+        "departure_time": "15:59:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260815-42621-084500",
+        "station_id": "st-bogazici",
+        "stop_sequence": 31,
+        "arrival_time": "16:06:00",
+        "departure_time": "16:06:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260815-42621-084500",
+        "station_id": "st-celikalan",
+        "stop_sequence": 32,
+        "arrival_time": "16:13:00",
+        "departure_time": "16:13:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260815-42621-084500",
+        "station_id": "st-meseliduz",
+        "stop_sequence": 33,
+        "arrival_time": "16:20:00",
+        "departure_time": "16:20:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260815-42621-084500",
+        "station_id": "st-samsun",
+        "stop_sequence": 34,
+        "arrival_time": "16:47:00",
+        "departure_time": "16:47:00",
+        "pickup_type": 1,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260816-42622-083500",
+        "station_id": "st-samsun",
+        "stop_sequence": 1,
+        "arrival_time": "08:35:00",
+        "departure_time": "08:35:00",
+        "pickup_type": 0,
+        "drop_off_type": 1
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260816-42622-083500",
+        "station_id": "st-meseliduz",
+        "stop_sequence": 2,
+        "arrival_time": "09:00:00",
+        "departure_time": "09:00:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260816-42622-083500",
+        "station_id": "st-celikalan",
+        "stop_sequence": 3,
+        "arrival_time": "09:08:00",
+        "departure_time": "09:08:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260816-42622-083500",
+        "station_id": "st-bogazici",
+        "stop_sequence": 4,
+        "arrival_time": "09:15:00",
+        "departure_time": "09:15:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260816-42622-083500",
+        "station_id": "st-ciftlik",
+        "stop_sequence": 5,
+        "arrival_time": "09:22:00",
+        "departure_time": "09:22:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260816-42622-083500",
+        "station_id": "st-cukurbuk",
+        "stop_sequence": 6,
+        "arrival_time": "09:28:00",
+        "departure_time": "09:28:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260816-42622-083500",
+        "station_id": "st-germiyan",
+        "stop_sequence": 7,
+        "arrival_time": "09:36:00",
+        "departure_time": "09:36:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260816-42622-083500",
+        "station_id": "st-kavak",
+        "stop_sequence": 8,
+        "arrival_time": "09:46:00",
+        "departure_time": "09:46:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260816-42622-083500",
+        "station_id": "st-ladik",
+        "stop_sequence": 9,
+        "arrival_time": "10:12:00",
+        "departure_time": "10:12:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260816-42622-083500",
+        "station_id": "st-bekdigin",
+        "stop_sequence": 10,
+        "arrival_time": "10:23:00",
+        "departure_time": "10:23:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260816-42622-083500",
+        "station_id": "st-havza",
+        "stop_sequence": 11,
+        "arrival_time": "10:40:00",
+        "departure_time": "10:40:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260816-42622-083500",
+        "station_id": "st-hacibayram",
+        "stop_sequence": 12,
+        "arrival_time": "11:03:00",
+        "departure_time": "11:03:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260816-42622-083500",
+        "station_id": "st-suluova",
+        "stop_sequence": 13,
+        "arrival_time": "11:11:00",
+        "departure_time": "11:11:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260816-42622-083500",
+        "station_id": "st-bogazkoy",
+        "stop_sequence": 14,
+        "arrival_time": "11:26:00",
+        "departure_time": "11:26:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260816-42622-083500",
+        "station_id": "st-amasya",
+        "stop_sequence": 15,
+        "arrival_time": "11:42:00",
+        "departure_time": "11:42:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260816-42622-083500",
+        "station_id": "st-kayabasi",
+        "stop_sequence": 16,
+        "arrival_time": "12:01:00",
+        "departure_time": "12:01:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260816-42622-083500",
+        "station_id": "st-ovasaray",
+        "stop_sequence": 17,
+        "arrival_time": "12:06:00",
+        "departure_time": "12:06:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260816-42622-083500",
+        "station_id": "st-kizilca",
+        "stop_sequence": 18,
+        "arrival_time": "12:11:00",
+        "departure_time": "12:11:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260816-42622-083500",
+        "station_id": "st-kizoglu",
+        "stop_sequence": 19,
+        "arrival_time": "12:26:00",
+        "departure_time": "12:26:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260816-42622-083500",
+        "station_id": "st-turhal",
+        "stop_sequence": 20,
+        "arrival_time": "13:00:00",
+        "departure_time": "13:00:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260816-42622-083500",
+        "station_id": "st-zile",
+        "stop_sequence": 21,
+        "arrival_time": "13:19:00",
+        "departure_time": "13:19:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260816-42622-083500",
+        "station_id": "st-guzelbeyli",
+        "stop_sequence": 22,
+        "arrival_time": "13:52:00",
+        "departure_time": "13:52:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260816-42622-083500",
+        "station_id": "st-gumusyurt",
+        "stop_sequence": 23,
+        "arrival_time": "14:09:00",
+        "departure_time": "14:09:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260816-42622-083500",
+        "station_id": "st-yenice-d",
+        "stop_sequence": 24,
+        "arrival_time": "14:16:00",
+        "departure_time": "14:16:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260816-42622-083500",
+        "station_id": "st-artova",
+        "stop_sequence": 25,
+        "arrival_time": "14:27:00",
+        "departure_time": "14:27:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260816-42622-083500",
+        "station_id": "st-kunduz",
+        "stop_sequence": 26,
+        "arrival_time": "14:38:00",
+        "departure_time": "14:38:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260816-42622-083500",
+        "station_id": "st-tokat-yesilyurt",
+        "stop_sequence": 27,
+        "arrival_time": "14:46:00",
+        "departure_time": "14:46:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260816-42622-083500",
+        "station_id": "st-topulyurdu",
+        "stop_sequence": 28,
+        "arrival_time": "14:58:00",
+        "departure_time": "14:58:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260816-42622-083500",
+        "station_id": "st-cizozu",
+        "stop_sequence": 29,
+        "arrival_time": "15:14:00",
+        "departure_time": "15:14:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260816-42622-083500",
+        "station_id": "st-subasi",
+        "stop_sequence": 30,
+        "arrival_time": "15:32:00",
+        "departure_time": "15:32:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260816-42622-083500",
+        "station_id": "st-sandal",
+        "stop_sequence": 31,
+        "arrival_time": "15:36:00",
+        "departure_time": "15:36:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260816-42622-083500",
+        "station_id": "st-yildizeli",
+        "stop_sequence": 32,
+        "arrival_time": "15:50:00",
+        "departure_time": "15:50:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260816-42622-083500",
+        "station_id": "st-kalin",
+        "stop_sequence": 33,
+        "arrival_time": "16:18:00",
+        "departure_time": "16:18:00",
+        "pickup_type": 0,
+        "drop_off_type": 0
+      },
+      {
+        "trip_id": "trip-sivas-samsun-20260816-42622-083500",
+        "station_id": "st-sivas",
+        "stop_sequence": 34,
+        "arrival_time": "16:41:00",
+        "departure_time": "16:41:00",
+        "pickup_type": 1,
+        "drop_off_type": 0
+      },
+      {
         "trip_id": "trip-dogu-20260728-22010-180000",
         "station_id": "st-ankara-gar",
         "stop_sequence": 1,
@@ -178231,6 +183957,97 @@
         "source_id": "official-goller-guller-20260801-20260815"
       },
       {
+        "service_id": "service-sivas-samsun-20260802",
+        "date": "20260802",
+        "exception_type": 1,
+        "source_status": "official_published",
+        "source_id": "official-sivas-samsun-20260802-20260816"
+      },
+      {
+        "service_id": "service-sivas-samsun-20260803",
+        "date": "20260803",
+        "exception_type": 1,
+        "source_status": "official_published",
+        "source_id": "official-sivas-samsun-20260802-20260816"
+      },
+      {
+        "service_id": "service-sivas-samsun-20260804",
+        "date": "20260804",
+        "exception_type": 1,
+        "source_status": "official_published",
+        "source_id": "official-sivas-samsun-20260802-20260816"
+      },
+      {
+        "service_id": "service-sivas-samsun-20260806",
+        "date": "20260806",
+        "exception_type": 1,
+        "source_status": "official_published",
+        "source_id": "official-sivas-samsun-20260802-20260816"
+      },
+      {
+        "service_id": "service-sivas-samsun-20260807",
+        "date": "20260807",
+        "exception_type": 1,
+        "source_status": "official_published",
+        "source_id": "official-sivas-samsun-20260802-20260816"
+      },
+      {
+        "service_id": "service-sivas-samsun-20260808",
+        "date": "20260808",
+        "exception_type": 1,
+        "source_status": "official_published",
+        "source_id": "official-sivas-samsun-20260802-20260816"
+      },
+      {
+        "service_id": "service-sivas-samsun-20260809",
+        "date": "20260809",
+        "exception_type": 1,
+        "source_status": "official_published",
+        "source_id": "official-sivas-samsun-20260802-20260816"
+      },
+      {
+        "service_id": "service-sivas-samsun-20260810",
+        "date": "20260810",
+        "exception_type": 1,
+        "source_status": "official_published",
+        "source_id": "official-sivas-samsun-20260802-20260816"
+      },
+      {
+        "service_id": "service-sivas-samsun-20260811",
+        "date": "20260811",
+        "exception_type": 1,
+        "source_status": "official_published",
+        "source_id": "official-sivas-samsun-20260802-20260816"
+      },
+      {
+        "service_id": "service-sivas-samsun-20260813",
+        "date": "20260813",
+        "exception_type": 1,
+        "source_status": "official_published",
+        "source_id": "official-sivas-samsun-20260802-20260816"
+      },
+      {
+        "service_id": "service-sivas-samsun-20260814",
+        "date": "20260814",
+        "exception_type": 1,
+        "source_status": "official_published",
+        "source_id": "official-sivas-samsun-20260802-20260816"
+      },
+      {
+        "service_id": "service-sivas-samsun-20260815",
+        "date": "20260815",
+        "exception_type": 1,
+        "source_status": "official_published",
+        "source_id": "official-sivas-samsun-20260802-20260816"
+      },
+      {
+        "service_id": "service-sivas-samsun-20260816",
+        "date": "20260816",
+        "exception_type": 1,
+        "source_status": "official_published",
+        "source_id": "official-sivas-samsun-20260802-20260816"
+      },
+      {
         "service_id": "service-dogu-20260728",
         "date": "20260728",
         "exception_type": 1,
@@ -178456,13 +184273,23 @@
         "valid_until": "2026-08-15",
         "license": "Resmî yayın; yeniden kullanım koşulları ayrıca belirtilmemiştir",
         "status": "official_published"
+      },
+      {
+        "id": "official-sivas-samsun-20260802-20260816",
+        "name": "Resmî Sivas–Samsun Bölgesel Treni sefer yayını",
+        "url": "https://www.tcddtasimacilik.gov.tr/tren-sorgula/",
+        "retrieved_at": "2026-08-02T11:41:51.044Z",
+        "valid_from": "2026-08-02",
+        "valid_until": "2026-08-16",
+        "license": "Resmî yayın; yeniden kullanım koşulları ayrıca belirtilmemiştir",
+        "status": "official_published"
       }
     ]
   },
   "transfer_graph": {
     "status": "ready",
-    "node_count": 256,
-    "ride_edge_count": 809,
+    "node_count": 288,
+    "ride_edge_count": 875,
     "transfer_edge_count": 0
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T10:16:36.648Z",
+  "generated_at": "2026-08-02T11:46:50.152Z",
   "status": "ready",
   "nodes": [
     {
@@ -329,7 +329,8 @@
         "route-dogu-ekspresi",
         "route-vangolu-ekspresi",
         "route-guney-kurtalan-ekspresi",
-        "route-4-eylul-mavi"
+        "route-4-eylul-mavi",
+        "route-sivas-samsun-bolgesel"
       ]
     },
     {
@@ -341,7 +342,8 @@
         "route-guney-kurtalan-ekspresi",
         "route-yht-sivas",
         "route-turistik-dogu-ekspresi",
-        "route-4-eylul-mavi"
+        "route-4-eylul-mavi",
+        "route-sivas-samsun-bolgesel"
       ]
     },
     {
@@ -1987,6 +1989,230 @@
       "name": "Buharkent",
       "route_ids": [
         "route-goller-guller-ekspresleri"
+      ]
+    },
+    {
+      "station_id": "st-yildizeli",
+      "name": "Yıldızeli",
+      "route_ids": [
+        "route-sivas-samsun-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-sandal",
+      "name": "Sandal",
+      "route_ids": [
+        "route-sivas-samsun-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-subasi",
+      "name": "Subaşı",
+      "route_ids": [
+        "route-sivas-samsun-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-cizozu",
+      "name": "Çizözü",
+      "route_ids": [
+        "route-sivas-samsun-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-topulyurdu",
+      "name": "Topulyurdu",
+      "route_ids": [
+        "route-sivas-samsun-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-tokat-yesilyurt",
+      "name": "Tokat (Yeşilyurt)",
+      "route_ids": [
+        "route-sivas-samsun-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-kunduz",
+      "name": "Kunduz",
+      "route_ids": [
+        "route-sivas-samsun-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-artova",
+      "name": "Artova",
+      "route_ids": [
+        "route-sivas-samsun-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-yenice-d",
+      "name": "Yenice D",
+      "route_ids": [
+        "route-sivas-samsun-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-gumusyurt",
+      "name": "Gümüşyurt",
+      "route_ids": [
+        "route-sivas-samsun-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-guzelbeyli",
+      "name": "Güzelbeyli",
+      "route_ids": [
+        "route-sivas-samsun-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-zile",
+      "name": "Zile",
+      "route_ids": [
+        "route-sivas-samsun-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-turhal",
+      "name": "Turhal",
+      "route_ids": [
+        "route-sivas-samsun-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-kizoglu",
+      "name": "Kızoğlu",
+      "route_ids": [
+        "route-sivas-samsun-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-kizilca",
+      "name": "Kızılca",
+      "route_ids": [
+        "route-sivas-samsun-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-ovasaray",
+      "name": "Ovasaray",
+      "route_ids": [
+        "route-sivas-samsun-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-kayabasi",
+      "name": "Kayabaşı",
+      "route_ids": [
+        "route-sivas-samsun-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-amasya",
+      "name": "Amasya",
+      "route_ids": [
+        "route-sivas-samsun-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-bogazkoy",
+      "name": "Boğazköy",
+      "route_ids": [
+        "route-sivas-samsun-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-suluova",
+      "name": "Suluova",
+      "route_ids": [
+        "route-sivas-samsun-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-hacibayram",
+      "name": "Hacıbayram",
+      "route_ids": [
+        "route-sivas-samsun-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-havza",
+      "name": "Havza",
+      "route_ids": [
+        "route-sivas-samsun-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-bekdigin",
+      "name": "Bekdiğin",
+      "route_ids": [
+        "route-sivas-samsun-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-ladik",
+      "name": "Ladik",
+      "route_ids": [
+        "route-sivas-samsun-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-kavak",
+      "name": "Kavak",
+      "route_ids": [
+        "route-sivas-samsun-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-germiyan",
+      "name": "Germiyan",
+      "route_ids": [
+        "route-sivas-samsun-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-cukurbuk",
+      "name": "Çukurbük",
+      "route_ids": [
+        "route-sivas-samsun-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-ciftlik",
+      "name": "Çiftlik",
+      "route_ids": [
+        "route-sivas-samsun-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-bogazici",
+      "name": "Boğaziçi",
+      "route_ids": [
+        "route-sivas-samsun-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-celikalan",
+      "name": "Çelikalan",
+      "route_ids": [
+        "route-sivas-samsun-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-meseliduz",
+      "name": "Meşelidüz",
+      "route_ids": [
+        "route-sivas-samsun-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-samsun",
+      "name": "Samsun",
+      "route_ids": [
+        "route-sivas-samsun-bolgesel"
       ]
     }
   ],
@@ -9271,6 +9497,600 @@
       "pattern_id": "pattern-goller-isparta-basmane",
       "direction": "reverse",
       "sequence": 15
+    },
+    {
+      "id": "pattern-sivas-samsun:1",
+      "from_station_id": "st-sivas",
+      "to_station_id": "st-kalin",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-sivas-samsun",
+      "direction": "forward",
+      "sequence": 1
+    },
+    {
+      "id": "pattern-sivas-samsun:2",
+      "from_station_id": "st-kalin",
+      "to_station_id": "st-yildizeli",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-sivas-samsun",
+      "direction": "forward",
+      "sequence": 2
+    },
+    {
+      "id": "pattern-sivas-samsun:3",
+      "from_station_id": "st-yildizeli",
+      "to_station_id": "st-sandal",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-sivas-samsun",
+      "direction": "forward",
+      "sequence": 3
+    },
+    {
+      "id": "pattern-sivas-samsun:4",
+      "from_station_id": "st-sandal",
+      "to_station_id": "st-subasi",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-sivas-samsun",
+      "direction": "forward",
+      "sequence": 4
+    },
+    {
+      "id": "pattern-sivas-samsun:5",
+      "from_station_id": "st-subasi",
+      "to_station_id": "st-cizozu",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-sivas-samsun",
+      "direction": "forward",
+      "sequence": 5
+    },
+    {
+      "id": "pattern-sivas-samsun:6",
+      "from_station_id": "st-cizozu",
+      "to_station_id": "st-topulyurdu",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-sivas-samsun",
+      "direction": "forward",
+      "sequence": 6
+    },
+    {
+      "id": "pattern-sivas-samsun:7",
+      "from_station_id": "st-topulyurdu",
+      "to_station_id": "st-tokat-yesilyurt",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-sivas-samsun",
+      "direction": "forward",
+      "sequence": 7
+    },
+    {
+      "id": "pattern-sivas-samsun:8",
+      "from_station_id": "st-tokat-yesilyurt",
+      "to_station_id": "st-kunduz",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-sivas-samsun",
+      "direction": "forward",
+      "sequence": 8
+    },
+    {
+      "id": "pattern-sivas-samsun:9",
+      "from_station_id": "st-kunduz",
+      "to_station_id": "st-artova",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-sivas-samsun",
+      "direction": "forward",
+      "sequence": 9
+    },
+    {
+      "id": "pattern-sivas-samsun:10",
+      "from_station_id": "st-artova",
+      "to_station_id": "st-yenice-d",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-sivas-samsun",
+      "direction": "forward",
+      "sequence": 10
+    },
+    {
+      "id": "pattern-sivas-samsun:11",
+      "from_station_id": "st-yenice-d",
+      "to_station_id": "st-gumusyurt",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-sivas-samsun",
+      "direction": "forward",
+      "sequence": 11
+    },
+    {
+      "id": "pattern-sivas-samsun:12",
+      "from_station_id": "st-gumusyurt",
+      "to_station_id": "st-guzelbeyli",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-sivas-samsun",
+      "direction": "forward",
+      "sequence": 12
+    },
+    {
+      "id": "pattern-sivas-samsun:13",
+      "from_station_id": "st-guzelbeyli",
+      "to_station_id": "st-zile",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-sivas-samsun",
+      "direction": "forward",
+      "sequence": 13
+    },
+    {
+      "id": "pattern-sivas-samsun:14",
+      "from_station_id": "st-zile",
+      "to_station_id": "st-turhal",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-sivas-samsun",
+      "direction": "forward",
+      "sequence": 14
+    },
+    {
+      "id": "pattern-sivas-samsun:15",
+      "from_station_id": "st-turhal",
+      "to_station_id": "st-kizoglu",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-sivas-samsun",
+      "direction": "forward",
+      "sequence": 15
+    },
+    {
+      "id": "pattern-sivas-samsun:16",
+      "from_station_id": "st-kizoglu",
+      "to_station_id": "st-kizilca",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-sivas-samsun",
+      "direction": "forward",
+      "sequence": 16
+    },
+    {
+      "id": "pattern-sivas-samsun:17",
+      "from_station_id": "st-kizilca",
+      "to_station_id": "st-ovasaray",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-sivas-samsun",
+      "direction": "forward",
+      "sequence": 17
+    },
+    {
+      "id": "pattern-sivas-samsun:18",
+      "from_station_id": "st-ovasaray",
+      "to_station_id": "st-kayabasi",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-sivas-samsun",
+      "direction": "forward",
+      "sequence": 18
+    },
+    {
+      "id": "pattern-sivas-samsun:19",
+      "from_station_id": "st-kayabasi",
+      "to_station_id": "st-amasya",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-sivas-samsun",
+      "direction": "forward",
+      "sequence": 19
+    },
+    {
+      "id": "pattern-sivas-samsun:20",
+      "from_station_id": "st-amasya",
+      "to_station_id": "st-bogazkoy",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-sivas-samsun",
+      "direction": "forward",
+      "sequence": 20
+    },
+    {
+      "id": "pattern-sivas-samsun:21",
+      "from_station_id": "st-bogazkoy",
+      "to_station_id": "st-suluova",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-sivas-samsun",
+      "direction": "forward",
+      "sequence": 21
+    },
+    {
+      "id": "pattern-sivas-samsun:22",
+      "from_station_id": "st-suluova",
+      "to_station_id": "st-hacibayram",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-sivas-samsun",
+      "direction": "forward",
+      "sequence": 22
+    },
+    {
+      "id": "pattern-sivas-samsun:23",
+      "from_station_id": "st-hacibayram",
+      "to_station_id": "st-havza",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-sivas-samsun",
+      "direction": "forward",
+      "sequence": 23
+    },
+    {
+      "id": "pattern-sivas-samsun:24",
+      "from_station_id": "st-havza",
+      "to_station_id": "st-bekdigin",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-sivas-samsun",
+      "direction": "forward",
+      "sequence": 24
+    },
+    {
+      "id": "pattern-sivas-samsun:25",
+      "from_station_id": "st-bekdigin",
+      "to_station_id": "st-ladik",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-sivas-samsun",
+      "direction": "forward",
+      "sequence": 25
+    },
+    {
+      "id": "pattern-sivas-samsun:26",
+      "from_station_id": "st-ladik",
+      "to_station_id": "st-kavak",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-sivas-samsun",
+      "direction": "forward",
+      "sequence": 26
+    },
+    {
+      "id": "pattern-sivas-samsun:27",
+      "from_station_id": "st-kavak",
+      "to_station_id": "st-germiyan",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-sivas-samsun",
+      "direction": "forward",
+      "sequence": 27
+    },
+    {
+      "id": "pattern-sivas-samsun:28",
+      "from_station_id": "st-germiyan",
+      "to_station_id": "st-cukurbuk",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-sivas-samsun",
+      "direction": "forward",
+      "sequence": 28
+    },
+    {
+      "id": "pattern-sivas-samsun:29",
+      "from_station_id": "st-cukurbuk",
+      "to_station_id": "st-ciftlik",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-sivas-samsun",
+      "direction": "forward",
+      "sequence": 29
+    },
+    {
+      "id": "pattern-sivas-samsun:30",
+      "from_station_id": "st-ciftlik",
+      "to_station_id": "st-bogazici",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-sivas-samsun",
+      "direction": "forward",
+      "sequence": 30
+    },
+    {
+      "id": "pattern-sivas-samsun:31",
+      "from_station_id": "st-bogazici",
+      "to_station_id": "st-celikalan",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-sivas-samsun",
+      "direction": "forward",
+      "sequence": 31
+    },
+    {
+      "id": "pattern-sivas-samsun:32",
+      "from_station_id": "st-celikalan",
+      "to_station_id": "st-meseliduz",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-sivas-samsun",
+      "direction": "forward",
+      "sequence": 32
+    },
+    {
+      "id": "pattern-sivas-samsun:33",
+      "from_station_id": "st-meseliduz",
+      "to_station_id": "st-samsun",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-sivas-samsun",
+      "direction": "forward",
+      "sequence": 33
+    },
+    {
+      "id": "pattern-samsun-sivas:1",
+      "from_station_id": "st-samsun",
+      "to_station_id": "st-meseliduz",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-samsun-sivas",
+      "direction": "reverse",
+      "sequence": 1
+    },
+    {
+      "id": "pattern-samsun-sivas:2",
+      "from_station_id": "st-meseliduz",
+      "to_station_id": "st-celikalan",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-samsun-sivas",
+      "direction": "reverse",
+      "sequence": 2
+    },
+    {
+      "id": "pattern-samsun-sivas:3",
+      "from_station_id": "st-celikalan",
+      "to_station_id": "st-bogazici",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-samsun-sivas",
+      "direction": "reverse",
+      "sequence": 3
+    },
+    {
+      "id": "pattern-samsun-sivas:4",
+      "from_station_id": "st-bogazici",
+      "to_station_id": "st-ciftlik",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-samsun-sivas",
+      "direction": "reverse",
+      "sequence": 4
+    },
+    {
+      "id": "pattern-samsun-sivas:5",
+      "from_station_id": "st-ciftlik",
+      "to_station_id": "st-cukurbuk",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-samsun-sivas",
+      "direction": "reverse",
+      "sequence": 5
+    },
+    {
+      "id": "pattern-samsun-sivas:6",
+      "from_station_id": "st-cukurbuk",
+      "to_station_id": "st-germiyan",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-samsun-sivas",
+      "direction": "reverse",
+      "sequence": 6
+    },
+    {
+      "id": "pattern-samsun-sivas:7",
+      "from_station_id": "st-germiyan",
+      "to_station_id": "st-kavak",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-samsun-sivas",
+      "direction": "reverse",
+      "sequence": 7
+    },
+    {
+      "id": "pattern-samsun-sivas:8",
+      "from_station_id": "st-kavak",
+      "to_station_id": "st-ladik",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-samsun-sivas",
+      "direction": "reverse",
+      "sequence": 8
+    },
+    {
+      "id": "pattern-samsun-sivas:9",
+      "from_station_id": "st-ladik",
+      "to_station_id": "st-bekdigin",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-samsun-sivas",
+      "direction": "reverse",
+      "sequence": 9
+    },
+    {
+      "id": "pattern-samsun-sivas:10",
+      "from_station_id": "st-bekdigin",
+      "to_station_id": "st-havza",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-samsun-sivas",
+      "direction": "reverse",
+      "sequence": 10
+    },
+    {
+      "id": "pattern-samsun-sivas:11",
+      "from_station_id": "st-havza",
+      "to_station_id": "st-hacibayram",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-samsun-sivas",
+      "direction": "reverse",
+      "sequence": 11
+    },
+    {
+      "id": "pattern-samsun-sivas:12",
+      "from_station_id": "st-hacibayram",
+      "to_station_id": "st-suluova",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-samsun-sivas",
+      "direction": "reverse",
+      "sequence": 12
+    },
+    {
+      "id": "pattern-samsun-sivas:13",
+      "from_station_id": "st-suluova",
+      "to_station_id": "st-bogazkoy",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-samsun-sivas",
+      "direction": "reverse",
+      "sequence": 13
+    },
+    {
+      "id": "pattern-samsun-sivas:14",
+      "from_station_id": "st-bogazkoy",
+      "to_station_id": "st-amasya",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-samsun-sivas",
+      "direction": "reverse",
+      "sequence": 14
+    },
+    {
+      "id": "pattern-samsun-sivas:15",
+      "from_station_id": "st-amasya",
+      "to_station_id": "st-kayabasi",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-samsun-sivas",
+      "direction": "reverse",
+      "sequence": 15
+    },
+    {
+      "id": "pattern-samsun-sivas:16",
+      "from_station_id": "st-kayabasi",
+      "to_station_id": "st-ovasaray",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-samsun-sivas",
+      "direction": "reverse",
+      "sequence": 16
+    },
+    {
+      "id": "pattern-samsun-sivas:17",
+      "from_station_id": "st-ovasaray",
+      "to_station_id": "st-kizilca",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-samsun-sivas",
+      "direction": "reverse",
+      "sequence": 17
+    },
+    {
+      "id": "pattern-samsun-sivas:18",
+      "from_station_id": "st-kizilca",
+      "to_station_id": "st-kizoglu",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-samsun-sivas",
+      "direction": "reverse",
+      "sequence": 18
+    },
+    {
+      "id": "pattern-samsun-sivas:19",
+      "from_station_id": "st-kizoglu",
+      "to_station_id": "st-turhal",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-samsun-sivas",
+      "direction": "reverse",
+      "sequence": 19
+    },
+    {
+      "id": "pattern-samsun-sivas:20",
+      "from_station_id": "st-turhal",
+      "to_station_id": "st-zile",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-samsun-sivas",
+      "direction": "reverse",
+      "sequence": 20
+    },
+    {
+      "id": "pattern-samsun-sivas:21",
+      "from_station_id": "st-zile",
+      "to_station_id": "st-guzelbeyli",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-samsun-sivas",
+      "direction": "reverse",
+      "sequence": 21
+    },
+    {
+      "id": "pattern-samsun-sivas:22",
+      "from_station_id": "st-guzelbeyli",
+      "to_station_id": "st-gumusyurt",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-samsun-sivas",
+      "direction": "reverse",
+      "sequence": 22
+    },
+    {
+      "id": "pattern-samsun-sivas:23",
+      "from_station_id": "st-gumusyurt",
+      "to_station_id": "st-yenice-d",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-samsun-sivas",
+      "direction": "reverse",
+      "sequence": 23
+    },
+    {
+      "id": "pattern-samsun-sivas:24",
+      "from_station_id": "st-yenice-d",
+      "to_station_id": "st-artova",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-samsun-sivas",
+      "direction": "reverse",
+      "sequence": 24
+    },
+    {
+      "id": "pattern-samsun-sivas:25",
+      "from_station_id": "st-artova",
+      "to_station_id": "st-kunduz",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-samsun-sivas",
+      "direction": "reverse",
+      "sequence": 25
+    },
+    {
+      "id": "pattern-samsun-sivas:26",
+      "from_station_id": "st-kunduz",
+      "to_station_id": "st-tokat-yesilyurt",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-samsun-sivas",
+      "direction": "reverse",
+      "sequence": 26
+    },
+    {
+      "id": "pattern-samsun-sivas:27",
+      "from_station_id": "st-tokat-yesilyurt",
+      "to_station_id": "st-topulyurdu",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-samsun-sivas",
+      "direction": "reverse",
+      "sequence": 27
+    },
+    {
+      "id": "pattern-samsun-sivas:28",
+      "from_station_id": "st-topulyurdu",
+      "to_station_id": "st-cizozu",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-samsun-sivas",
+      "direction": "reverse",
+      "sequence": 28
+    },
+    {
+      "id": "pattern-samsun-sivas:29",
+      "from_station_id": "st-cizozu",
+      "to_station_id": "st-subasi",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-samsun-sivas",
+      "direction": "reverse",
+      "sequence": 29
+    },
+    {
+      "id": "pattern-samsun-sivas:30",
+      "from_station_id": "st-subasi",
+      "to_station_id": "st-sandal",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-samsun-sivas",
+      "direction": "reverse",
+      "sequence": 30
+    },
+    {
+      "id": "pattern-samsun-sivas:31",
+      "from_station_id": "st-sandal",
+      "to_station_id": "st-yildizeli",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-samsun-sivas",
+      "direction": "reverse",
+      "sequence": 31
+    },
+    {
+      "id": "pattern-samsun-sivas:32",
+      "from_station_id": "st-yildizeli",
+      "to_station_id": "st-kalin",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-samsun-sivas",
+      "direction": "reverse",
+      "sequence": 32
+    },
+    {
+      "id": "pattern-samsun-sivas:33",
+      "from_station_id": "st-kalin",
+      "to_station_id": "st-sivas",
+      "route_id": "route-sivas-samsun-bolgesel",
+      "pattern_id": "pattern-samsun-sivas",
+      "direction": "reverse",
+      "sequence": 33
     }
   ],
   "transfer_edges": []
