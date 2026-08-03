@@ -1,6 +1,6 @@
 {
   "filename": "tr_railways_20260803.zip",
-  "generated_at": "2026-08-03T07:05:34.029Z",
+  "generated_at": "2026-08-03T07:14:58.520Z",
   "generation_date": "20260803",
   "feed_start_date": "20260803",
   "feed_end_date": "20260817",
@@ -13,5 +13,5 @@
   "shapes": 48,
   "shape_points": 103232,
   "validation": "passed",
-  "size_bytes": 1644224
+  "size_bytes": 1644279
 }
