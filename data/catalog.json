@@ -1,12 +1,22 @@
 {
-  "generated_at": "2026-08-03T07:15:00.435Z",
+  "generated_at": "2026-08-03T08:20:45.007Z",
   "publication_status": "independent_open_project",
+  "infrastructure": {
+    "status": "physical_network_available",
+    "feature_count": 7825,
+    "operational_feature_count": 7780,
+    "construction_feature_count": 45,
+    "point_count": 88090,
+    "length_km": 10804.9,
+    "timetable_scope": "independent"
+  },
   "routes": [
     {
       "id": "route-yht-ankara-istanbul",
       "name": "Ankara–İstanbul YHT",
       "mode": "yht",
       "status": "active",
+      "schedule_status": "official_dates_available",
       "length_km": 606.7,
       "shape_ids": [
         "shape-ankara-halkali"
@@ -19,6 +29,7 @@
       "name": "Konya YHT",
       "mode": "yht",
       "status": "active",
+      "schedule_status": "official_dates_available",
       "length_km": 814.6,
       "shape_ids": [
         "shape-ankara-karaman",
@@ -32,6 +43,7 @@
       "name": "Doğu Ekspresi",
       "mode": "mainline",
       "status": "active",
+      "schedule_status": "official_dates_available",
       "length_km": 1361.2,
       "shape_ids": [
         "shape-ankara-kars"
@@ -44,6 +56,7 @@
       "name": "İzmir Mavi Treni",
       "mode": "mainline",
       "status": "active",
+      "schedule_status": "official_dates_available",
       "length_km": 822.5,
       "shape_ids": [
         "shape-ankara-basmane"
@@ -56,6 +69,7 @@
       "name": "Vangölü Ekspresi",
       "mode": "mainline",
       "status": "active",
+      "schedule_status": "official_dates_available",
       "length_km": 1316.2,
       "shape_ids": [
         "shape-ankara-tatvan"
@@ -68,6 +82,7 @@
       "name": "Güney Kurtalan Ekspresi",
       "mode": "mainline",
       "status": "active",
+      "schedule_status": "official_dates_available",
       "length_km": 1265.7,
       "shape_ids": [
         "shape-ankara-kurtalan"
@@ -80,6 +95,7 @@
       "name": "Pamukkale Ekspresi",
       "mode": "mainline",
       "status": "active",
+      "schedule_status": "official_dates_available",
       "length_km": 445.6,
       "shape_ids": [
         "shape-eskisehir-denizli"
@@ -92,6 +108,7 @@
       "name": "Sivas YHT",
       "mode": "yht",
       "status": "active",
+      "schedule_status": "official_dates_available",
       "length_km": 938.5,
       "shape_ids": [
         "shape-ankara-sivas-yht",
@@ -105,6 +122,7 @@
       "name": "Turistik Doğu Ekspresi",
       "mode": "mainline",
       "status": "active",
+      "schedule_status": "awaiting_timetable",
       "length_km": 1361.2,
       "shape_ids": [
         "shape-turistik-ankara-kars"
@@ -117,6 +135,7 @@
       "name": "Ankara Ekspresi",
       "mode": "mainline",
       "status": "active",
+      "schedule_status": "official_dates_available",
       "length_km": 642.6,
       "shape_ids": [
         "shape-ankara-halkali-conventional"
@@ -129,6 +148,7 @@
       "name": "4 Eylül Mavi",
       "mode": "mainline",
       "status": "active",
+      "schedule_status": "official_dates_available",
       "length_km": 853.5,
       "shape_ids": [
         "shape-ankara-malatya"
@@ -141,6 +161,7 @@
       "name": "Konya Mavi Treni",
       "mode": "mainline",
       "status": "active",
+      "schedule_status": "official_dates_available",
       "length_km": 689.3,
       "shape_ids": [
         "shape-konya-basmane"
@@ -153,6 +174,7 @@
       "name": "Ege Ekspresi",
       "mode": "mainline",
       "status": "active",
+      "schedule_status": "official_dates_available",
       "length_km": 565.7,
       "shape_ids": [
         "shape-eskisehir-basmane"
@@ -165,6 +187,7 @@
       "name": "6/17 Eylül Ekspresleri",
       "mode": "mainline",
       "status": "active",
+      "schedule_status": "official_dates_available",
       "length_km": 337,
       "shape_ids": [
         "shape-basmane-bandirma"
@@ -177,6 +200,7 @@
       "name": "Göller/Güller Ekspresleri",
       "mode": "mainline",
       "status": "active",
+      "schedule_status": "official_dates_available",
       "length_km": 520.4,
       "shape_ids": [
         "shape-basmane-isparta",
@@ -190,6 +214,7 @@
       "name": "Sivas–Samsun Bölgesel Treni",
       "mode": "regional",
       "status": "active",
+      "schedule_status": "official_dates_available",
       "length_km": 400,
       "shape_ids": [
         "shape-sivas-samsun"
@@ -202,6 +227,7 @@
       "name": "Halkalı–Edirne Bölgesel Treni",
       "mode": "regional",
       "status": "active",
+      "schedule_status": "official_dates_available",
       "length_km": 257.6,
       "shape_ids": [
         "shape-halkali-edirne"
@@ -214,6 +240,7 @@
       "name": "Halkalı–Uzunköprü Bölgesel Treni",
       "mode": "regional",
       "status": "active",
+      "schedule_status": "official_dates_available",
       "length_km": 231.6,
       "shape_ids": [
         "shape-halkali-uzunkopru"
@@ -226,6 +253,7 @@
       "name": "Gaziantep–Nizip Bölgesel Treni",
       "mode": "regional",
       "status": "active",
+      "schedule_status": "official_dates_available",
       "length_km": 48.8,
       "shape_ids": [
         "shape-gaziantep-nizip"

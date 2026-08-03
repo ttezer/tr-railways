@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T07:15:00.435Z",
+  "generated_at": "2026-08-03T08:20:45.007Z",
   "publication_status": "independent_open_project",
   "sources": [
     {
@@ -8,7 +8,19 @@
       "repository": "https://github.com/ttezer/turkiye-harita-verisi"
     },
     {
-      "id": "rail-network",
+      "id": "rail-infrastructure",
+      "status": "odbl",
+      "input": "ray_shape.geojson",
+      "output": "public/data/rail-infrastructure.geojson",
+      "feature_count": 7825,
+      "operational_feature_count": 7780,
+      "construction_feature_count": 45,
+      "point_count": 88090,
+      "length_km": 10804.9,
+      "timetable_scope": "independent"
+    },
+    {
+      "id": "passenger-route-shapes",
       "status": "odbl",
       "input": "ray_shape.geojson",
       "output": "output/route-shapes.geojson",
