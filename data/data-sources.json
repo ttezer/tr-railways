@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T09:22:18.799Z",
+  "generated_at": "2026-08-03T14:05:18.296Z",
   "publication_status": "independent_open_project",
   "sources": [
     {
@@ -13,12 +13,18 @@
       "input": "ray_shape.geojson",
       "output": "public/data/rail-infrastructure.geojson",
       "compressed_output": "public/data/rail-infrastructure.geojson.gz",
-      "feature_count": 7825,
+      "feature_count": 7957,
       "operational_feature_count": 7780,
       "construction_feature_count": 45,
-      "source_point_count": 88090,
-      "point_count": 53440,
-      "length_km": 10804.9,
+      "inactive_feature_count": 131,
+      "train_ferry_feature_count": 1,
+      "source_point_count": 90286,
+      "point_count": 54775,
+      "length_km": 11434.6,
+      "ferry_length_km": 89.8,
+      "supplemental_input": "data/source-snapshots/osm/official-network-gaps-20260803.json",
+      "supplemental_osm_timestamp": "2026-08-03T13:52:01Z",
+      "official_crosscheck": "https://static.tcdd.gov.tr/webfiles/userfiles/files/sebekebildirimi/2024/32182.pdf",
       "timetable_scope": "independent"
     },
     {
@@ -28,8 +34,8 @@
       "output": "public/data/rail-stations.geojson",
       "osm_timestamp": "2026-08-03T09:10:01Z",
       "catalog_station_count": 308,
-      "additional_station_count": 767,
-      "total_map_station_count": 1075,
+      "additional_station_count": 788,
+      "total_map_station_count": 1096,
       "timetable_scope": "independent"
     },
     {

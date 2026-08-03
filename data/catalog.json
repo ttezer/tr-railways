@@ -1,14 +1,17 @@
 {
-  "generated_at": "2026-08-03T09:22:18.799Z",
+  "generated_at": "2026-08-03T14:05:18.296Z",
   "publication_status": "independent_open_project",
   "infrastructure": {
     "status": "physical_network_available",
-    "feature_count": 7825,
+    "feature_count": 7957,
     "operational_feature_count": 7780,
     "construction_feature_count": 45,
-    "source_point_count": 88090,
-    "point_count": 53440,
-    "length_km": 10804.9,
+    "inactive_feature_count": 131,
+    "train_ferry_feature_count": 1,
+    "source_point_count": 90286,
+    "point_count": 54775,
+    "length_km": 11434.6,
+    "ferry_length_km": 89.8,
     "timetable_scope": "independent"
   },
   "routes": [
