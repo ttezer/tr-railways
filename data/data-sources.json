@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T08:40:53.587Z",
+  "generated_at": "2026-08-03T08:46:22.726Z",
   "publication_status": "independent_open_project",
   "sources": [
     {
@@ -12,6 +12,7 @@
       "status": "odbl",
       "input": "ray_shape.geojson",
       "output": "public/data/rail-infrastructure.geojson",
+      "compressed_output": "public/data/rail-infrastructure.geojson.gz",
       "feature_count": 7825,
       "operational_feature_count": 7780,
       "construction_feature_count": 45,
