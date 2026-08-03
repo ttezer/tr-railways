@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T08:46:22.726Z",
+  "generated_at": "2026-08-03T09:22:18.799Z",
   "publication_status": "independent_open_project",
   "sources": [
     {
@@ -19,6 +19,17 @@
       "source_point_count": 88090,
       "point_count": 53440,
       "length_km": 10804.9,
+      "timetable_scope": "independent"
+    },
+    {
+      "id": "rail-stations",
+      "status": "odbl",
+      "input": "data/source-snapshots/osm/rail-stations-20260803.json",
+      "output": "public/data/rail-stations.geojson",
+      "osm_timestamp": "2026-08-03T09:10:01Z",
+      "catalog_station_count": 308,
+      "additional_station_count": 767,
+      "total_map_station_count": 1075,
       "timetable_scope": "independent"
     },
     {
