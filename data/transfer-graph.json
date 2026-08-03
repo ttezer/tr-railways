@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T11:46:50.152Z",
+  "generated_at": "2026-08-03T07:05:35.971Z",
   "status": "ready",
   "nodes": [
     {
@@ -144,7 +144,9 @@
       "route_ids": [
         "route-yht-ankara-istanbul",
         "route-yht-konya",
-        "route-ankara-ekspresi"
+        "route-ankara-ekspresi",
+        "route-halkali-edirne-bolgesel",
+        "route-halkali-uzunkopru-bolgesel"
       ]
     },
     {
@@ -2213,6 +2215,159 @@
       "name": "Samsun",
       "route_ids": [
         "route-sivas-samsun-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-ispartakule",
+      "name": "Ispartakule",
+      "route_ids": [
+        "route-halkali-edirne-bolgesel",
+        "route-halkali-uzunkopru-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-catalca",
+      "name": "Çatalca",
+      "route_ids": [
+        "route-halkali-edirne-bolgesel",
+        "route-halkali-uzunkopru-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-kabakca",
+      "name": "Kabakça",
+      "route_ids": [
+        "route-halkali-edirne-bolgesel",
+        "route-halkali-uzunkopru-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-kurfalli",
+      "name": "Kurfallı",
+      "route_ids": [
+        "route-halkali-edirne-bolgesel",
+        "route-halkali-uzunkopru-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-sinekli",
+      "name": "Sinekli",
+      "route_ids": [
+        "route-halkali-edirne-bolgesel",
+        "route-halkali-uzunkopru-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-cerkezkoy",
+      "name": "Çerkezköy",
+      "route_ids": [
+        "route-halkali-edirne-bolgesel",
+        "route-halkali-uzunkopru-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-velimese",
+      "name": "Velimeşe",
+      "route_ids": [
+        "route-halkali-edirne-bolgesel",
+        "route-halkali-uzunkopru-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-corlu",
+      "name": "Çorlu",
+      "route_ids": [
+        "route-halkali-edirne-bolgesel",
+        "route-halkali-uzunkopru-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-muratli",
+      "name": "Muratlı",
+      "route_ids": [
+        "route-halkali-edirne-bolgesel",
+        "route-halkali-uzunkopru-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-kayabeyli",
+      "name": "Kayabeyli",
+      "route_ids": [
+        "route-halkali-edirne-bolgesel",
+        "route-halkali-uzunkopru-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-luleburgaz",
+      "name": "Lüleburgaz",
+      "route_ids": [
+        "route-halkali-edirne-bolgesel",
+        "route-halkali-uzunkopru-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-alpullu",
+      "name": "Alpullu",
+      "route_ids": [
+        "route-halkali-edirne-bolgesel",
+        "route-halkali-uzunkopru-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-pehlivankoy",
+      "name": "Pehlivanköy",
+      "route_ids": [
+        "route-halkali-edirne-bolgesel",
+        "route-halkali-uzunkopru-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-bahcivanova",
+      "name": "Bahçıvanova",
+      "route_ids": [
+        "route-halkali-edirne-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-edirne",
+      "name": "Edirne",
+      "route_ids": [
+        "route-halkali-edirne-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-uzunkopru",
+      "name": "Uzunköprü",
+      "route_ids": [
+        "route-halkali-uzunkopru-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-gaziantep",
+      "name": "Gaziantep",
+      "route_ids": [
+        "route-gaziantep-nizip-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-mustafayavuz",
+      "name": "Mustafayavuz",
+      "route_ids": [
+        "route-gaziantep-nizip-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-taslica",
+      "name": "Taşlıca",
+      "route_ids": [
+        "route-gaziantep-nizip-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-nizip",
+      "name": "Nizip",
+      "route_ids": [
+        "route-gaziantep-nizip-bolgesel"
       ]
     }
   ],
@@ -10091,6 +10246,582 @@
       "pattern_id": "pattern-samsun-sivas",
       "direction": "reverse",
       "sequence": 33
+    },
+    {
+      "id": "pattern-halkali-edirne:1",
+      "from_station_id": "st-istanbul-halkali",
+      "to_station_id": "st-ispartakule",
+      "route_id": "route-halkali-edirne-bolgesel",
+      "pattern_id": "pattern-halkali-edirne",
+      "direction": "forward",
+      "sequence": 1
+    },
+    {
+      "id": "pattern-halkali-edirne:2",
+      "from_station_id": "st-ispartakule",
+      "to_station_id": "st-catalca",
+      "route_id": "route-halkali-edirne-bolgesel",
+      "pattern_id": "pattern-halkali-edirne",
+      "direction": "forward",
+      "sequence": 2
+    },
+    {
+      "id": "pattern-halkali-edirne:3",
+      "from_station_id": "st-catalca",
+      "to_station_id": "st-kabakca",
+      "route_id": "route-halkali-edirne-bolgesel",
+      "pattern_id": "pattern-halkali-edirne",
+      "direction": "forward",
+      "sequence": 3
+    },
+    {
+      "id": "pattern-halkali-edirne:4",
+      "from_station_id": "st-kabakca",
+      "to_station_id": "st-kurfalli",
+      "route_id": "route-halkali-edirne-bolgesel",
+      "pattern_id": "pattern-halkali-edirne",
+      "direction": "forward",
+      "sequence": 4
+    },
+    {
+      "id": "pattern-halkali-edirne:5",
+      "from_station_id": "st-kurfalli",
+      "to_station_id": "st-sinekli",
+      "route_id": "route-halkali-edirne-bolgesel",
+      "pattern_id": "pattern-halkali-edirne",
+      "direction": "forward",
+      "sequence": 5
+    },
+    {
+      "id": "pattern-halkali-edirne:6",
+      "from_station_id": "st-sinekli",
+      "to_station_id": "st-cerkezkoy",
+      "route_id": "route-halkali-edirne-bolgesel",
+      "pattern_id": "pattern-halkali-edirne",
+      "direction": "forward",
+      "sequence": 6
+    },
+    {
+      "id": "pattern-halkali-edirne:7",
+      "from_station_id": "st-cerkezkoy",
+      "to_station_id": "st-velimese",
+      "route_id": "route-halkali-edirne-bolgesel",
+      "pattern_id": "pattern-halkali-edirne",
+      "direction": "forward",
+      "sequence": 7
+    },
+    {
+      "id": "pattern-halkali-edirne:8",
+      "from_station_id": "st-velimese",
+      "to_station_id": "st-corlu",
+      "route_id": "route-halkali-edirne-bolgesel",
+      "pattern_id": "pattern-halkali-edirne",
+      "direction": "forward",
+      "sequence": 8
+    },
+    {
+      "id": "pattern-halkali-edirne:9",
+      "from_station_id": "st-corlu",
+      "to_station_id": "st-muratli",
+      "route_id": "route-halkali-edirne-bolgesel",
+      "pattern_id": "pattern-halkali-edirne",
+      "direction": "forward",
+      "sequence": 9
+    },
+    {
+      "id": "pattern-halkali-edirne:10",
+      "from_station_id": "st-muratli",
+      "to_station_id": "st-kayabeyli",
+      "route_id": "route-halkali-edirne-bolgesel",
+      "pattern_id": "pattern-halkali-edirne",
+      "direction": "forward",
+      "sequence": 10
+    },
+    {
+      "id": "pattern-halkali-edirne:11",
+      "from_station_id": "st-kayabeyli",
+      "to_station_id": "st-luleburgaz",
+      "route_id": "route-halkali-edirne-bolgesel",
+      "pattern_id": "pattern-halkali-edirne",
+      "direction": "forward",
+      "sequence": 11
+    },
+    {
+      "id": "pattern-halkali-edirne:12",
+      "from_station_id": "st-luleburgaz",
+      "to_station_id": "st-alpullu",
+      "route_id": "route-halkali-edirne-bolgesel",
+      "pattern_id": "pattern-halkali-edirne",
+      "direction": "forward",
+      "sequence": 12
+    },
+    {
+      "id": "pattern-halkali-edirne:13",
+      "from_station_id": "st-alpullu",
+      "to_station_id": "st-pehlivankoy",
+      "route_id": "route-halkali-edirne-bolgesel",
+      "pattern_id": "pattern-halkali-edirne",
+      "direction": "forward",
+      "sequence": 13
+    },
+    {
+      "id": "pattern-halkali-edirne:14",
+      "from_station_id": "st-pehlivankoy",
+      "to_station_id": "st-bahcivanova",
+      "route_id": "route-halkali-edirne-bolgesel",
+      "pattern_id": "pattern-halkali-edirne",
+      "direction": "forward",
+      "sequence": 14
+    },
+    {
+      "id": "pattern-halkali-edirne:15",
+      "from_station_id": "st-bahcivanova",
+      "to_station_id": "st-edirne",
+      "route_id": "route-halkali-edirne-bolgesel",
+      "pattern_id": "pattern-halkali-edirne",
+      "direction": "forward",
+      "sequence": 15
+    },
+    {
+      "id": "pattern-edirne-halkali:1",
+      "from_station_id": "st-edirne",
+      "to_station_id": "st-bahcivanova",
+      "route_id": "route-halkali-edirne-bolgesel",
+      "pattern_id": "pattern-edirne-halkali",
+      "direction": "reverse",
+      "sequence": 1
+    },
+    {
+      "id": "pattern-edirne-halkali:2",
+      "from_station_id": "st-bahcivanova",
+      "to_station_id": "st-pehlivankoy",
+      "route_id": "route-halkali-edirne-bolgesel",
+      "pattern_id": "pattern-edirne-halkali",
+      "direction": "reverse",
+      "sequence": 2
+    },
+    {
+      "id": "pattern-edirne-halkali:3",
+      "from_station_id": "st-pehlivankoy",
+      "to_station_id": "st-alpullu",
+      "route_id": "route-halkali-edirne-bolgesel",
+      "pattern_id": "pattern-edirne-halkali",
+      "direction": "reverse",
+      "sequence": 3
+    },
+    {
+      "id": "pattern-edirne-halkali:4",
+      "from_station_id": "st-alpullu",
+      "to_station_id": "st-luleburgaz",
+      "route_id": "route-halkali-edirne-bolgesel",
+      "pattern_id": "pattern-edirne-halkali",
+      "direction": "reverse",
+      "sequence": 4
+    },
+    {
+      "id": "pattern-edirne-halkali:5",
+      "from_station_id": "st-luleburgaz",
+      "to_station_id": "st-kayabeyli",
+      "route_id": "route-halkali-edirne-bolgesel",
+      "pattern_id": "pattern-edirne-halkali",
+      "direction": "reverse",
+      "sequence": 5
+    },
+    {
+      "id": "pattern-edirne-halkali:6",
+      "from_station_id": "st-kayabeyli",
+      "to_station_id": "st-muratli",
+      "route_id": "route-halkali-edirne-bolgesel",
+      "pattern_id": "pattern-edirne-halkali",
+      "direction": "reverse",
+      "sequence": 6
+    },
+    {
+      "id": "pattern-edirne-halkali:7",
+      "from_station_id": "st-muratli",
+      "to_station_id": "st-corlu",
+      "route_id": "route-halkali-edirne-bolgesel",
+      "pattern_id": "pattern-edirne-halkali",
+      "direction": "reverse",
+      "sequence": 7
+    },
+    {
+      "id": "pattern-edirne-halkali:8",
+      "from_station_id": "st-corlu",
+      "to_station_id": "st-velimese",
+      "route_id": "route-halkali-edirne-bolgesel",
+      "pattern_id": "pattern-edirne-halkali",
+      "direction": "reverse",
+      "sequence": 8
+    },
+    {
+      "id": "pattern-edirne-halkali:9",
+      "from_station_id": "st-velimese",
+      "to_station_id": "st-cerkezkoy",
+      "route_id": "route-halkali-edirne-bolgesel",
+      "pattern_id": "pattern-edirne-halkali",
+      "direction": "reverse",
+      "sequence": 9
+    },
+    {
+      "id": "pattern-edirne-halkali:10",
+      "from_station_id": "st-cerkezkoy",
+      "to_station_id": "st-sinekli",
+      "route_id": "route-halkali-edirne-bolgesel",
+      "pattern_id": "pattern-edirne-halkali",
+      "direction": "reverse",
+      "sequence": 10
+    },
+    {
+      "id": "pattern-edirne-halkali:11",
+      "from_station_id": "st-sinekli",
+      "to_station_id": "st-kurfalli",
+      "route_id": "route-halkali-edirne-bolgesel",
+      "pattern_id": "pattern-edirne-halkali",
+      "direction": "reverse",
+      "sequence": 11
+    },
+    {
+      "id": "pattern-edirne-halkali:12",
+      "from_station_id": "st-kurfalli",
+      "to_station_id": "st-kabakca",
+      "route_id": "route-halkali-edirne-bolgesel",
+      "pattern_id": "pattern-edirne-halkali",
+      "direction": "reverse",
+      "sequence": 12
+    },
+    {
+      "id": "pattern-edirne-halkali:13",
+      "from_station_id": "st-kabakca",
+      "to_station_id": "st-catalca",
+      "route_id": "route-halkali-edirne-bolgesel",
+      "pattern_id": "pattern-edirne-halkali",
+      "direction": "reverse",
+      "sequence": 13
+    },
+    {
+      "id": "pattern-edirne-halkali:14",
+      "from_station_id": "st-catalca",
+      "to_station_id": "st-ispartakule",
+      "route_id": "route-halkali-edirne-bolgesel",
+      "pattern_id": "pattern-edirne-halkali",
+      "direction": "reverse",
+      "sequence": 14
+    },
+    {
+      "id": "pattern-edirne-halkali:15",
+      "from_station_id": "st-ispartakule",
+      "to_station_id": "st-istanbul-halkali",
+      "route_id": "route-halkali-edirne-bolgesel",
+      "pattern_id": "pattern-edirne-halkali",
+      "direction": "reverse",
+      "sequence": 15
+    },
+    {
+      "id": "pattern-halkali-uzunkopru:1",
+      "from_station_id": "st-istanbul-halkali",
+      "to_station_id": "st-ispartakule",
+      "route_id": "route-halkali-uzunkopru-bolgesel",
+      "pattern_id": "pattern-halkali-uzunkopru",
+      "direction": "forward",
+      "sequence": 1
+    },
+    {
+      "id": "pattern-halkali-uzunkopru:2",
+      "from_station_id": "st-ispartakule",
+      "to_station_id": "st-catalca",
+      "route_id": "route-halkali-uzunkopru-bolgesel",
+      "pattern_id": "pattern-halkali-uzunkopru",
+      "direction": "forward",
+      "sequence": 2
+    },
+    {
+      "id": "pattern-halkali-uzunkopru:3",
+      "from_station_id": "st-catalca",
+      "to_station_id": "st-kabakca",
+      "route_id": "route-halkali-uzunkopru-bolgesel",
+      "pattern_id": "pattern-halkali-uzunkopru",
+      "direction": "forward",
+      "sequence": 3
+    },
+    {
+      "id": "pattern-halkali-uzunkopru:4",
+      "from_station_id": "st-kabakca",
+      "to_station_id": "st-kurfalli",
+      "route_id": "route-halkali-uzunkopru-bolgesel",
+      "pattern_id": "pattern-halkali-uzunkopru",
+      "direction": "forward",
+      "sequence": 4
+    },
+    {
+      "id": "pattern-halkali-uzunkopru:5",
+      "from_station_id": "st-kurfalli",
+      "to_station_id": "st-sinekli",
+      "route_id": "route-halkali-uzunkopru-bolgesel",
+      "pattern_id": "pattern-halkali-uzunkopru",
+      "direction": "forward",
+      "sequence": 5
+    },
+    {
+      "id": "pattern-halkali-uzunkopru:6",
+      "from_station_id": "st-sinekli",
+      "to_station_id": "st-cerkezkoy",
+      "route_id": "route-halkali-uzunkopru-bolgesel",
+      "pattern_id": "pattern-halkali-uzunkopru",
+      "direction": "forward",
+      "sequence": 6
+    },
+    {
+      "id": "pattern-halkali-uzunkopru:7",
+      "from_station_id": "st-cerkezkoy",
+      "to_station_id": "st-velimese",
+      "route_id": "route-halkali-uzunkopru-bolgesel",
+      "pattern_id": "pattern-halkali-uzunkopru",
+      "direction": "forward",
+      "sequence": 7
+    },
+    {
+      "id": "pattern-halkali-uzunkopru:8",
+      "from_station_id": "st-velimese",
+      "to_station_id": "st-corlu",
+      "route_id": "route-halkali-uzunkopru-bolgesel",
+      "pattern_id": "pattern-halkali-uzunkopru",
+      "direction": "forward",
+      "sequence": 8
+    },
+    {
+      "id": "pattern-halkali-uzunkopru:9",
+      "from_station_id": "st-corlu",
+      "to_station_id": "st-muratli",
+      "route_id": "route-halkali-uzunkopru-bolgesel",
+      "pattern_id": "pattern-halkali-uzunkopru",
+      "direction": "forward",
+      "sequence": 9
+    },
+    {
+      "id": "pattern-halkali-uzunkopru:10",
+      "from_station_id": "st-muratli",
+      "to_station_id": "st-kayabeyli",
+      "route_id": "route-halkali-uzunkopru-bolgesel",
+      "pattern_id": "pattern-halkali-uzunkopru",
+      "direction": "forward",
+      "sequence": 10
+    },
+    {
+      "id": "pattern-halkali-uzunkopru:11",
+      "from_station_id": "st-kayabeyli",
+      "to_station_id": "st-luleburgaz",
+      "route_id": "route-halkali-uzunkopru-bolgesel",
+      "pattern_id": "pattern-halkali-uzunkopru",
+      "direction": "forward",
+      "sequence": 11
+    },
+    {
+      "id": "pattern-halkali-uzunkopru:12",
+      "from_station_id": "st-luleburgaz",
+      "to_station_id": "st-alpullu",
+      "route_id": "route-halkali-uzunkopru-bolgesel",
+      "pattern_id": "pattern-halkali-uzunkopru",
+      "direction": "forward",
+      "sequence": 12
+    },
+    {
+      "id": "pattern-halkali-uzunkopru:13",
+      "from_station_id": "st-alpullu",
+      "to_station_id": "st-pehlivankoy",
+      "route_id": "route-halkali-uzunkopru-bolgesel",
+      "pattern_id": "pattern-halkali-uzunkopru",
+      "direction": "forward",
+      "sequence": 13
+    },
+    {
+      "id": "pattern-halkali-uzunkopru:14",
+      "from_station_id": "st-pehlivankoy",
+      "to_station_id": "st-uzunkopru",
+      "route_id": "route-halkali-uzunkopru-bolgesel",
+      "pattern_id": "pattern-halkali-uzunkopru",
+      "direction": "forward",
+      "sequence": 14
+    },
+    {
+      "id": "pattern-uzunkopru-halkali:1",
+      "from_station_id": "st-uzunkopru",
+      "to_station_id": "st-pehlivankoy",
+      "route_id": "route-halkali-uzunkopru-bolgesel",
+      "pattern_id": "pattern-uzunkopru-halkali",
+      "direction": "reverse",
+      "sequence": 1
+    },
+    {
+      "id": "pattern-uzunkopru-halkali:2",
+      "from_station_id": "st-pehlivankoy",
+      "to_station_id": "st-alpullu",
+      "route_id": "route-halkali-uzunkopru-bolgesel",
+      "pattern_id": "pattern-uzunkopru-halkali",
+      "direction": "reverse",
+      "sequence": 2
+    },
+    {
+      "id": "pattern-uzunkopru-halkali:3",
+      "from_station_id": "st-alpullu",
+      "to_station_id": "st-luleburgaz",
+      "route_id": "route-halkali-uzunkopru-bolgesel",
+      "pattern_id": "pattern-uzunkopru-halkali",
+      "direction": "reverse",
+      "sequence": 3
+    },
+    {
+      "id": "pattern-uzunkopru-halkali:4",
+      "from_station_id": "st-luleburgaz",
+      "to_station_id": "st-kayabeyli",
+      "route_id": "route-halkali-uzunkopru-bolgesel",
+      "pattern_id": "pattern-uzunkopru-halkali",
+      "direction": "reverse",
+      "sequence": 4
+    },
+    {
+      "id": "pattern-uzunkopru-halkali:5",
+      "from_station_id": "st-kayabeyli",
+      "to_station_id": "st-muratli",
+      "route_id": "route-halkali-uzunkopru-bolgesel",
+      "pattern_id": "pattern-uzunkopru-halkali",
+      "direction": "reverse",
+      "sequence": 5
+    },
+    {
+      "id": "pattern-uzunkopru-halkali:6",
+      "from_station_id": "st-muratli",
+      "to_station_id": "st-corlu",
+      "route_id": "route-halkali-uzunkopru-bolgesel",
+      "pattern_id": "pattern-uzunkopru-halkali",
+      "direction": "reverse",
+      "sequence": 6
+    },
+    {
+      "id": "pattern-uzunkopru-halkali:7",
+      "from_station_id": "st-corlu",
+      "to_station_id": "st-velimese",
+      "route_id": "route-halkali-uzunkopru-bolgesel",
+      "pattern_id": "pattern-uzunkopru-halkali",
+      "direction": "reverse",
+      "sequence": 7
+    },
+    {
+      "id": "pattern-uzunkopru-halkali:8",
+      "from_station_id": "st-velimese",
+      "to_station_id": "st-cerkezkoy",
+      "route_id": "route-halkali-uzunkopru-bolgesel",
+      "pattern_id": "pattern-uzunkopru-halkali",
+      "direction": "reverse",
+      "sequence": 8
+    },
+    {
+      "id": "pattern-uzunkopru-halkali:9",
+      "from_station_id": "st-cerkezkoy",
+      "to_station_id": "st-sinekli",
+      "route_id": "route-halkali-uzunkopru-bolgesel",
+      "pattern_id": "pattern-uzunkopru-halkali",
+      "direction": "reverse",
+      "sequence": 9
+    },
+    {
+      "id": "pattern-uzunkopru-halkali:10",
+      "from_station_id": "st-sinekli",
+      "to_station_id": "st-kurfalli",
+      "route_id": "route-halkali-uzunkopru-bolgesel",
+      "pattern_id": "pattern-uzunkopru-halkali",
+      "direction": "reverse",
+      "sequence": 10
+    },
+    {
+      "id": "pattern-uzunkopru-halkali:11",
+      "from_station_id": "st-kurfalli",
+      "to_station_id": "st-kabakca",
+      "route_id": "route-halkali-uzunkopru-bolgesel",
+      "pattern_id": "pattern-uzunkopru-halkali",
+      "direction": "reverse",
+      "sequence": 11
+    },
+    {
+      "id": "pattern-uzunkopru-halkali:12",
+      "from_station_id": "st-kabakca",
+      "to_station_id": "st-catalca",
+      "route_id": "route-halkali-uzunkopru-bolgesel",
+      "pattern_id": "pattern-uzunkopru-halkali",
+      "direction": "reverse",
+      "sequence": 12
+    },
+    {
+      "id": "pattern-uzunkopru-halkali:13",
+      "from_station_id": "st-catalca",
+      "to_station_id": "st-ispartakule",
+      "route_id": "route-halkali-uzunkopru-bolgesel",
+      "pattern_id": "pattern-uzunkopru-halkali",
+      "direction": "reverse",
+      "sequence": 13
+    },
+    {
+      "id": "pattern-uzunkopru-halkali:14",
+      "from_station_id": "st-ispartakule",
+      "to_station_id": "st-istanbul-halkali",
+      "route_id": "route-halkali-uzunkopru-bolgesel",
+      "pattern_id": "pattern-uzunkopru-halkali",
+      "direction": "reverse",
+      "sequence": 14
+    },
+    {
+      "id": "pattern-gaziantep-nizip:1",
+      "from_station_id": "st-gaziantep",
+      "to_station_id": "st-mustafayavuz",
+      "route_id": "route-gaziantep-nizip-bolgesel",
+      "pattern_id": "pattern-gaziantep-nizip",
+      "direction": "forward",
+      "sequence": 1
+    },
+    {
+      "id": "pattern-gaziantep-nizip:2",
+      "from_station_id": "st-mustafayavuz",
+      "to_station_id": "st-taslica",
+      "route_id": "route-gaziantep-nizip-bolgesel",
+      "pattern_id": "pattern-gaziantep-nizip",
+      "direction": "forward",
+      "sequence": 2
+    },
+    {
+      "id": "pattern-gaziantep-nizip:3",
+      "from_station_id": "st-taslica",
+      "to_station_id": "st-nizip",
+      "route_id": "route-gaziantep-nizip-bolgesel",
+      "pattern_id": "pattern-gaziantep-nizip",
+      "direction": "forward",
+      "sequence": 3
+    },
+    {
+      "id": "pattern-nizip-gaziantep:1",
+      "from_station_id": "st-nizip",
+      "to_station_id": "st-taslica",
+      "route_id": "route-gaziantep-nizip-bolgesel",
+      "pattern_id": "pattern-nizip-gaziantep",
+      "direction": "reverse",
+      "sequence": 1
+    },
+    {
+      "id": "pattern-nizip-gaziantep:2",
+      "from_station_id": "st-taslica",
+      "to_station_id": "st-mustafayavuz",
+      "route_id": "route-gaziantep-nizip-bolgesel",
+      "pattern_id": "pattern-nizip-gaziantep",
+      "direction": "reverse",
+      "sequence": 2
+    },
+    {
+      "id": "pattern-nizip-gaziantep:3",
+      "from_station_id": "st-mustafayavuz",
+      "to_station_id": "st-gaziantep",
+      "route_id": "route-gaziantep-nizip-bolgesel",
+      "pattern_id": "pattern-nizip-gaziantep",
+      "direction": "reverse",
+      "sequence": 3
     }
   ],
   "transfer_edges": []
