@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T14:20:04.288Z",
+  "generated_at": "2026-08-03T20:34:52.261Z",
   "publication_status": "independent_open_project",
   "sources": [
     {
@@ -57,8 +57,8 @@
       "calendar_strategy": "explicit_service_dates",
       "source_count": 16,
       "trip_count": 1308,
-      "stop_time_count": 17740,
-      "valid_from": "2026-07-28",
+      "stop_time_count": 16990,
+      "valid_from": "2026-07-30",
       "valid_until": "2026-08-17"
     },
     {
