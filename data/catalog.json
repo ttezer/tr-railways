@@ -1,12 +1,13 @@
 {
-  "generated_at": "2026-08-03T08:20:45.007Z",
+  "generated_at": "2026-08-03T08:40:53.587Z",
   "publication_status": "independent_open_project",
   "infrastructure": {
     "status": "physical_network_available",
     "feature_count": 7825,
     "operational_feature_count": 7780,
     "construction_feature_count": 45,
-    "point_count": 88090,
+    "source_point_count": 88090,
+    "point_count": 53440,
     "length_km": 10804.9,
     "timetable_scope": "independent"
   },
