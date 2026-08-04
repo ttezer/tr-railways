@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T17:41:10.072Z",
+  "generated_at": "2026-08-04T17:51:01.652Z",
   "status": "ready",
   "nodes": [
     {
@@ -820,7 +820,10 @@
         "route-ege-ekspresi",
         "route-6-17-eylul-ekspresleri",
         "route-goller-guller-ekspresleri",
-        "route-basmane-odemis-bolgesel"
+        "route-basmane-odemis-bolgesel",
+        "route-basmane-tire-bolgesel",
+        "route-basmane-denizli-bolgesel",
+        "route-basmane-nazilli-bolgesel"
       ]
     },
     {
@@ -1454,7 +1457,8 @@
       "name": "Goncalı",
       "route_ids": [
         "route-pamukkale-ekspresi",
-        "route-goller-guller-ekspresleri"
+        "route-goller-guller-ekspresleri",
+        "route-basmane-denizli-bolgesel"
       ]
     },
     {
@@ -1462,7 +1466,8 @@
       "name": "Denizli",
       "route_ids": [
         "route-pamukkale-ekspresi",
-        "route-goller-guller-ekspresleri"
+        "route-goller-guller-ekspresleri",
+        "route-basmane-denizli-bolgesel"
       ]
     },
     {
@@ -1850,91 +1855,115 @@
       "station_id": "st-horsunlu",
       "name": "Horsunlu",
       "route_ids": [
-        "route-goller-guller-ekspresleri"
+        "route-goller-guller-ekspresleri",
+        "route-basmane-denizli-bolgesel"
       ]
     },
     {
       "station_id": "st-kuyucak",
       "name": "Kuyucak",
       "route_ids": [
-        "route-goller-guller-ekspresleri"
+        "route-goller-guller-ekspresleri",
+        "route-basmane-denizli-bolgesel"
       ]
     },
     {
       "station_id": "st-nazilli",
       "name": "Nazilli",
       "route_ids": [
-        "route-goller-guller-ekspresleri"
+        "route-goller-guller-ekspresleri",
+        "route-basmane-denizli-bolgesel",
+        "route-basmane-nazilli-bolgesel"
       ]
     },
     {
       "station_id": "st-atca",
       "name": "Atça",
       "route_ids": [
-        "route-goller-guller-ekspresleri"
+        "route-goller-guller-ekspresleri",
+        "route-basmane-denizli-bolgesel",
+        "route-basmane-nazilli-bolgesel"
       ]
     },
     {
       "station_id": "st-sultanhisar",
       "name": "Sultanhisar",
       "route_ids": [
-        "route-goller-guller-ekspresleri"
+        "route-goller-guller-ekspresleri",
+        "route-basmane-denizli-bolgesel",
+        "route-basmane-nazilli-bolgesel"
       ]
     },
     {
       "station_id": "st-kosk",
       "name": "Köşk",
       "route_ids": [
-        "route-goller-guller-ekspresleri"
+        "route-goller-guller-ekspresleri",
+        "route-basmane-denizli-bolgesel",
+        "route-basmane-nazilli-bolgesel"
       ]
     },
     {
       "station_id": "st-aydin",
       "name": "Aydın",
       "route_ids": [
-        "route-goller-guller-ekspresleri"
+        "route-goller-guller-ekspresleri",
+        "route-basmane-denizli-bolgesel",
+        "route-basmane-nazilli-bolgesel"
       ]
     },
     {
       "station_id": "st-incirliova",
       "name": "İncirliova",
       "route_ids": [
-        "route-goller-guller-ekspresleri"
+        "route-goller-guller-ekspresleri",
+        "route-basmane-denizli-bolgesel",
+        "route-basmane-nazilli-bolgesel"
       ]
     },
     {
       "station_id": "st-germencik",
       "name": "Germencik",
       "route_ids": [
-        "route-goller-guller-ekspresleri"
+        "route-goller-guller-ekspresleri",
+        "route-basmane-denizli-bolgesel",
+        "route-basmane-nazilli-bolgesel"
       ]
     },
     {
       "station_id": "st-ortaklar",
       "name": "Ortaklar",
       "route_ids": [
-        "route-goller-guller-ekspresleri"
+        "route-goller-guller-ekspresleri",
+        "route-basmane-denizli-bolgesel",
+        "route-basmane-nazilli-bolgesel"
       ]
     },
     {
       "station_id": "st-camlik",
       "name": "Çamlık",
       "route_ids": [
-        "route-goller-guller-ekspresleri"
+        "route-goller-guller-ekspresleri",
+        "route-basmane-denizli-bolgesel",
+        "route-basmane-nazilli-bolgesel"
       ]
     },
     {
       "station_id": "st-selcuk",
       "name": "Selçuk",
       "route_ids": [
-        "route-goller-guller-ekspresleri"
+        "route-goller-guller-ekspresleri",
+        "route-basmane-denizli-bolgesel",
+        "route-basmane-nazilli-bolgesel"
       ]
     },
     {
       "station_id": "st-tepekoy",
       "name": "Tepeköy",
       "route_ids": [
-        "route-goller-guller-ekspresleri"
+        "route-goller-guller-ekspresleri",
+        "route-basmane-denizli-bolgesel",
+        "route-basmane-nazilli-bolgesel"
       ]
     },
     {
@@ -1942,7 +1971,10 @@
       "name": "Torbalı",
       "route_ids": [
         "route-goller-guller-ekspresleri",
-        "route-basmane-odemis-bolgesel"
+        "route-basmane-odemis-bolgesel",
+        "route-basmane-tire-bolgesel",
+        "route-basmane-denizli-bolgesel",
+        "route-basmane-nazilli-bolgesel"
       ]
     },
     {
@@ -1950,7 +1982,10 @@
       "name": "Menderes",
       "route_ids": [
         "route-goller-guller-ekspresleri",
-        "route-basmane-odemis-bolgesel"
+        "route-basmane-odemis-bolgesel",
+        "route-basmane-tire-bolgesel",
+        "route-basmane-denizli-bolgesel",
+        "route-basmane-nazilli-bolgesel"
       ]
     },
     {
@@ -1958,7 +1993,10 @@
       "name": "Adnanmenderes Havaalanı",
       "route_ids": [
         "route-goller-guller-ekspresleri",
-        "route-basmane-odemis-bolgesel"
+        "route-basmane-odemis-bolgesel",
+        "route-basmane-tire-bolgesel",
+        "route-basmane-denizli-bolgesel",
+        "route-basmane-nazilli-bolgesel"
       ]
     },
     {
@@ -1966,7 +2004,10 @@
       "name": "Gaziemir",
       "route_ids": [
         "route-goller-guller-ekspresleri",
-        "route-basmane-odemis-bolgesel"
+        "route-basmane-odemis-bolgesel",
+        "route-basmane-tire-bolgesel",
+        "route-basmane-denizli-bolgesel",
+        "route-basmane-nazilli-bolgesel"
       ]
     },
     {
@@ -1988,14 +2029,16 @@
       "station_id": "st-saraykoy",
       "name": "Sarayköy",
       "route_ids": [
-        "route-goller-guller-ekspresleri"
+        "route-goller-guller-ekspresleri",
+        "route-basmane-denizli-bolgesel"
       ]
     },
     {
       "station_id": "st-buharkent",
       "name": "Buharkent",
       "route_ids": [
-        "route-goller-guller-ekspresleri"
+        "route-goller-guller-ekspresleri",
+        "route-basmane-denizli-bolgesel"
       ]
     },
     {
@@ -2634,84 +2677,98 @@
       "station_id": "st-pancar",
       "name": "Pancar",
       "route_ids": [
-        "route-basmane-odemis-bolgesel"
+        "route-basmane-odemis-bolgesel",
+        "route-basmane-tire-bolgesel",
+        "route-basmane-denizli-bolgesel",
+        "route-basmane-nazilli-bolgesel"
       ]
     },
     {
       "station_id": "st-yedi-eylul",
       "name": "Yedi Eylül",
       "route_ids": [
-        "route-basmane-odemis-bolgesel"
+        "route-basmane-odemis-bolgesel",
+        "route-basmane-tire-bolgesel"
       ]
     },
     {
       "station_id": "st-gurgur",
       "name": "Gürgür",
       "route_ids": [
-        "route-basmane-odemis-bolgesel"
+        "route-basmane-odemis-bolgesel",
+        "route-basmane-tire-bolgesel"
       ]
     },
     {
       "station_id": "st-taskesik",
       "name": "Taşkesik",
       "route_ids": [
-        "route-basmane-odemis-bolgesel"
+        "route-basmane-odemis-bolgesel",
+        "route-basmane-tire-bolgesel"
       ]
     },
     {
       "station_id": "st-arikbasi",
       "name": "Arıkbaşı",
       "route_ids": [
-        "route-basmane-odemis-bolgesel"
+        "route-basmane-odemis-bolgesel",
+        "route-basmane-tire-bolgesel"
       ]
     },
     {
       "station_id": "st-karpuzlu",
       "name": "Karpuzlu",
       "route_ids": [
-        "route-basmane-odemis-bolgesel"
+        "route-basmane-odemis-bolgesel",
+        "route-basmane-tire-bolgesel"
       ]
     },
     {
       "station_id": "st-elifli",
       "name": "Elifli",
       "route_ids": [
-        "route-basmane-odemis-bolgesel"
+        "route-basmane-odemis-bolgesel",
+        "route-basmane-tire-bolgesel"
       ]
     },
     {
       "station_id": "st-furunlu",
       "name": "Furunlu",
       "route_ids": [
-        "route-basmane-odemis-bolgesel"
+        "route-basmane-odemis-bolgesel",
+        "route-basmane-tire-bolgesel"
       ]
     },
     {
       "station_id": "st-bayindir",
       "name": "Bayındır",
       "route_ids": [
-        "route-basmane-odemis-bolgesel"
+        "route-basmane-odemis-bolgesel",
+        "route-basmane-tire-bolgesel"
       ]
     },
     {
       "station_id": "st-bayindir-myo",
       "name": "Bayındır Myo",
       "route_ids": [
-        "route-basmane-odemis-bolgesel"
+        "route-basmane-odemis-bolgesel",
+        "route-basmane-tire-bolgesel"
       ]
     },
     {
       "station_id": "st-yakakoy",
       "name": "Yakaköy",
       "route_ids": [
-        "route-basmane-odemis-bolgesel"
+        "route-basmane-odemis-bolgesel",
+        "route-basmane-tire-bolgesel"
       ]
     },
     {
       "station_id": "st-catal",
       "name": "Çatal",
       "route_ids": [
-        "route-basmane-odemis-bolgesel"
+        "route-basmane-odemis-bolgesel",
+        "route-basmane-tire-bolgesel"
       ]
     },
     {
@@ -2761,6 +2818,66 @@
       "name": "Ödemiş Şehir",
       "route_ids": [
         "route-basmane-odemis-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-toki-duragi",
+      "name": "Tokı Durağı",
+      "route_ids": [
+        "route-basmane-tire-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-fen-lisesi-duragi",
+      "name": "Fen Lisesi Durağı",
+      "route_ids": [
+        "route-basmane-tire-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-tire",
+      "name": "Tire",
+      "route_ids": [
+        "route-basmane-tire-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-nesetiye",
+      "name": "Neşetiye",
+      "route_ids": [
+        "route-basmane-denizli-bolgesel",
+        "route-basmane-nazilli-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-umurlu",
+      "name": "Umurlu",
+      "route_ids": [
+        "route-basmane-denizli-bolgesel",
+        "route-basmane-nazilli-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-karaali",
+      "name": "Karaali",
+      "route_ids": [
+        "route-basmane-denizli-bolgesel",
+        "route-basmane-nazilli-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-isabeyli",
+      "name": "İsabeyli",
+      "route_ids": [
+        "route-basmane-denizli-bolgesel",
+        "route-basmane-nazilli-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-pamukoren",
+      "name": "Pamukören",
+      "route_ids": [
+        "route-basmane-denizli-bolgesel"
       ]
     }
   ],
@@ -12619,6 +12736,1194 @@
       "pattern_id": "pattern-odemis-basmane",
       "direction": "reverse",
       "sequence": 23
+    },
+    {
+      "id": "pattern-basmane-tire:1",
+      "from_station_id": "st-izmir-basmane",
+      "to_station_id": "st-gaziemir",
+      "route_id": "route-basmane-tire-bolgesel",
+      "pattern_id": "pattern-basmane-tire",
+      "direction": "forward",
+      "sequence": 1
+    },
+    {
+      "id": "pattern-basmane-tire:2",
+      "from_station_id": "st-gaziemir",
+      "to_station_id": "st-adnanmenderes-havaalani",
+      "route_id": "route-basmane-tire-bolgesel",
+      "pattern_id": "pattern-basmane-tire",
+      "direction": "forward",
+      "sequence": 2
+    },
+    {
+      "id": "pattern-basmane-tire:3",
+      "from_station_id": "st-adnanmenderes-havaalani",
+      "to_station_id": "st-menderes",
+      "route_id": "route-basmane-tire-bolgesel",
+      "pattern_id": "pattern-basmane-tire",
+      "direction": "forward",
+      "sequence": 3
+    },
+    {
+      "id": "pattern-basmane-tire:4",
+      "from_station_id": "st-menderes",
+      "to_station_id": "st-pancar",
+      "route_id": "route-basmane-tire-bolgesel",
+      "pattern_id": "pattern-basmane-tire",
+      "direction": "forward",
+      "sequence": 4
+    },
+    {
+      "id": "pattern-basmane-tire:5",
+      "from_station_id": "st-pancar",
+      "to_station_id": "st-torbali",
+      "route_id": "route-basmane-tire-bolgesel",
+      "pattern_id": "pattern-basmane-tire",
+      "direction": "forward",
+      "sequence": 5
+    },
+    {
+      "id": "pattern-basmane-tire:6",
+      "from_station_id": "st-torbali",
+      "to_station_id": "st-yedi-eylul",
+      "route_id": "route-basmane-tire-bolgesel",
+      "pattern_id": "pattern-basmane-tire",
+      "direction": "forward",
+      "sequence": 6
+    },
+    {
+      "id": "pattern-basmane-tire:7",
+      "from_station_id": "st-yedi-eylul",
+      "to_station_id": "st-gurgur",
+      "route_id": "route-basmane-tire-bolgesel",
+      "pattern_id": "pattern-basmane-tire",
+      "direction": "forward",
+      "sequence": 7
+    },
+    {
+      "id": "pattern-basmane-tire:8",
+      "from_station_id": "st-gurgur",
+      "to_station_id": "st-taskesik",
+      "route_id": "route-basmane-tire-bolgesel",
+      "pattern_id": "pattern-basmane-tire",
+      "direction": "forward",
+      "sequence": 8
+    },
+    {
+      "id": "pattern-basmane-tire:9",
+      "from_station_id": "st-taskesik",
+      "to_station_id": "st-arikbasi",
+      "route_id": "route-basmane-tire-bolgesel",
+      "pattern_id": "pattern-basmane-tire",
+      "direction": "forward",
+      "sequence": 9
+    },
+    {
+      "id": "pattern-basmane-tire:10",
+      "from_station_id": "st-arikbasi",
+      "to_station_id": "st-karpuzlu",
+      "route_id": "route-basmane-tire-bolgesel",
+      "pattern_id": "pattern-basmane-tire",
+      "direction": "forward",
+      "sequence": 10
+    },
+    {
+      "id": "pattern-basmane-tire:11",
+      "from_station_id": "st-karpuzlu",
+      "to_station_id": "st-elifli",
+      "route_id": "route-basmane-tire-bolgesel",
+      "pattern_id": "pattern-basmane-tire",
+      "direction": "forward",
+      "sequence": 11
+    },
+    {
+      "id": "pattern-basmane-tire:12",
+      "from_station_id": "st-elifli",
+      "to_station_id": "st-furunlu",
+      "route_id": "route-basmane-tire-bolgesel",
+      "pattern_id": "pattern-basmane-tire",
+      "direction": "forward",
+      "sequence": 12
+    },
+    {
+      "id": "pattern-basmane-tire:13",
+      "from_station_id": "st-furunlu",
+      "to_station_id": "st-bayindir",
+      "route_id": "route-basmane-tire-bolgesel",
+      "pattern_id": "pattern-basmane-tire",
+      "direction": "forward",
+      "sequence": 13
+    },
+    {
+      "id": "pattern-basmane-tire:14",
+      "from_station_id": "st-bayindir",
+      "to_station_id": "st-bayindir-myo",
+      "route_id": "route-basmane-tire-bolgesel",
+      "pattern_id": "pattern-basmane-tire",
+      "direction": "forward",
+      "sequence": 14
+    },
+    {
+      "id": "pattern-basmane-tire:15",
+      "from_station_id": "st-bayindir-myo",
+      "to_station_id": "st-yakakoy",
+      "route_id": "route-basmane-tire-bolgesel",
+      "pattern_id": "pattern-basmane-tire",
+      "direction": "forward",
+      "sequence": 15
+    },
+    {
+      "id": "pattern-basmane-tire:16",
+      "from_station_id": "st-yakakoy",
+      "to_station_id": "st-catal",
+      "route_id": "route-basmane-tire-bolgesel",
+      "pattern_id": "pattern-basmane-tire",
+      "direction": "forward",
+      "sequence": 16
+    },
+    {
+      "id": "pattern-basmane-tire:17",
+      "from_station_id": "st-catal",
+      "to_station_id": "st-toki-duragi",
+      "route_id": "route-basmane-tire-bolgesel",
+      "pattern_id": "pattern-basmane-tire",
+      "direction": "forward",
+      "sequence": 17
+    },
+    {
+      "id": "pattern-basmane-tire:18",
+      "from_station_id": "st-toki-duragi",
+      "to_station_id": "st-fen-lisesi-duragi",
+      "route_id": "route-basmane-tire-bolgesel",
+      "pattern_id": "pattern-basmane-tire",
+      "direction": "forward",
+      "sequence": 18
+    },
+    {
+      "id": "pattern-basmane-tire:19",
+      "from_station_id": "st-fen-lisesi-duragi",
+      "to_station_id": "st-tire",
+      "route_id": "route-basmane-tire-bolgesel",
+      "pattern_id": "pattern-basmane-tire",
+      "direction": "forward",
+      "sequence": 19
+    },
+    {
+      "id": "pattern-tire-basmane:1",
+      "from_station_id": "st-tire",
+      "to_station_id": "st-fen-lisesi-duragi",
+      "route_id": "route-basmane-tire-bolgesel",
+      "pattern_id": "pattern-tire-basmane",
+      "direction": "reverse",
+      "sequence": 1
+    },
+    {
+      "id": "pattern-tire-basmane:2",
+      "from_station_id": "st-fen-lisesi-duragi",
+      "to_station_id": "st-toki-duragi",
+      "route_id": "route-basmane-tire-bolgesel",
+      "pattern_id": "pattern-tire-basmane",
+      "direction": "reverse",
+      "sequence": 2
+    },
+    {
+      "id": "pattern-tire-basmane:3",
+      "from_station_id": "st-toki-duragi",
+      "to_station_id": "st-catal",
+      "route_id": "route-basmane-tire-bolgesel",
+      "pattern_id": "pattern-tire-basmane",
+      "direction": "reverse",
+      "sequence": 3
+    },
+    {
+      "id": "pattern-tire-basmane:4",
+      "from_station_id": "st-catal",
+      "to_station_id": "st-yakakoy",
+      "route_id": "route-basmane-tire-bolgesel",
+      "pattern_id": "pattern-tire-basmane",
+      "direction": "reverse",
+      "sequence": 4
+    },
+    {
+      "id": "pattern-tire-basmane:5",
+      "from_station_id": "st-yakakoy",
+      "to_station_id": "st-bayindir-myo",
+      "route_id": "route-basmane-tire-bolgesel",
+      "pattern_id": "pattern-tire-basmane",
+      "direction": "reverse",
+      "sequence": 5
+    },
+    {
+      "id": "pattern-tire-basmane:6",
+      "from_station_id": "st-bayindir-myo",
+      "to_station_id": "st-bayindir",
+      "route_id": "route-basmane-tire-bolgesel",
+      "pattern_id": "pattern-tire-basmane",
+      "direction": "reverse",
+      "sequence": 6
+    },
+    {
+      "id": "pattern-tire-basmane:7",
+      "from_station_id": "st-bayindir",
+      "to_station_id": "st-furunlu",
+      "route_id": "route-basmane-tire-bolgesel",
+      "pattern_id": "pattern-tire-basmane",
+      "direction": "reverse",
+      "sequence": 7
+    },
+    {
+      "id": "pattern-tire-basmane:8",
+      "from_station_id": "st-furunlu",
+      "to_station_id": "st-elifli",
+      "route_id": "route-basmane-tire-bolgesel",
+      "pattern_id": "pattern-tire-basmane",
+      "direction": "reverse",
+      "sequence": 8
+    },
+    {
+      "id": "pattern-tire-basmane:9",
+      "from_station_id": "st-elifli",
+      "to_station_id": "st-karpuzlu",
+      "route_id": "route-basmane-tire-bolgesel",
+      "pattern_id": "pattern-tire-basmane",
+      "direction": "reverse",
+      "sequence": 9
+    },
+    {
+      "id": "pattern-tire-basmane:10",
+      "from_station_id": "st-karpuzlu",
+      "to_station_id": "st-arikbasi",
+      "route_id": "route-basmane-tire-bolgesel",
+      "pattern_id": "pattern-tire-basmane",
+      "direction": "reverse",
+      "sequence": 10
+    },
+    {
+      "id": "pattern-tire-basmane:11",
+      "from_station_id": "st-arikbasi",
+      "to_station_id": "st-taskesik",
+      "route_id": "route-basmane-tire-bolgesel",
+      "pattern_id": "pattern-tire-basmane",
+      "direction": "reverse",
+      "sequence": 11
+    },
+    {
+      "id": "pattern-tire-basmane:12",
+      "from_station_id": "st-taskesik",
+      "to_station_id": "st-gurgur",
+      "route_id": "route-basmane-tire-bolgesel",
+      "pattern_id": "pattern-tire-basmane",
+      "direction": "reverse",
+      "sequence": 12
+    },
+    {
+      "id": "pattern-tire-basmane:13",
+      "from_station_id": "st-gurgur",
+      "to_station_id": "st-yedi-eylul",
+      "route_id": "route-basmane-tire-bolgesel",
+      "pattern_id": "pattern-tire-basmane",
+      "direction": "reverse",
+      "sequence": 13
+    },
+    {
+      "id": "pattern-tire-basmane:14",
+      "from_station_id": "st-yedi-eylul",
+      "to_station_id": "st-torbali",
+      "route_id": "route-basmane-tire-bolgesel",
+      "pattern_id": "pattern-tire-basmane",
+      "direction": "reverse",
+      "sequence": 14
+    },
+    {
+      "id": "pattern-tire-basmane:15",
+      "from_station_id": "st-torbali",
+      "to_station_id": "st-pancar",
+      "route_id": "route-basmane-tire-bolgesel",
+      "pattern_id": "pattern-tire-basmane",
+      "direction": "reverse",
+      "sequence": 15
+    },
+    {
+      "id": "pattern-tire-basmane:16",
+      "from_station_id": "st-pancar",
+      "to_station_id": "st-menderes",
+      "route_id": "route-basmane-tire-bolgesel",
+      "pattern_id": "pattern-tire-basmane",
+      "direction": "reverse",
+      "sequence": 16
+    },
+    {
+      "id": "pattern-tire-basmane:17",
+      "from_station_id": "st-menderes",
+      "to_station_id": "st-adnanmenderes-havaalani",
+      "route_id": "route-basmane-tire-bolgesel",
+      "pattern_id": "pattern-tire-basmane",
+      "direction": "reverse",
+      "sequence": 17
+    },
+    {
+      "id": "pattern-tire-basmane:18",
+      "from_station_id": "st-adnanmenderes-havaalani",
+      "to_station_id": "st-gaziemir",
+      "route_id": "route-basmane-tire-bolgesel",
+      "pattern_id": "pattern-tire-basmane",
+      "direction": "reverse",
+      "sequence": 18
+    },
+    {
+      "id": "pattern-tire-basmane:19",
+      "from_station_id": "st-gaziemir",
+      "to_station_id": "st-izmir-basmane",
+      "route_id": "route-basmane-tire-bolgesel",
+      "pattern_id": "pattern-tire-basmane",
+      "direction": "reverse",
+      "sequence": 19
+    },
+    {
+      "id": "pattern-basmane-denizli:1",
+      "from_station_id": "st-izmir-basmane",
+      "to_station_id": "st-gaziemir",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-basmane-denizli",
+      "direction": "forward",
+      "sequence": 1
+    },
+    {
+      "id": "pattern-basmane-denizli:2",
+      "from_station_id": "st-gaziemir",
+      "to_station_id": "st-adnanmenderes-havaalani",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-basmane-denizli",
+      "direction": "forward",
+      "sequence": 2
+    },
+    {
+      "id": "pattern-basmane-denizli:3",
+      "from_station_id": "st-adnanmenderes-havaalani",
+      "to_station_id": "st-menderes",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-basmane-denizli",
+      "direction": "forward",
+      "sequence": 3
+    },
+    {
+      "id": "pattern-basmane-denizli:4",
+      "from_station_id": "st-menderes",
+      "to_station_id": "st-pancar",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-basmane-denizli",
+      "direction": "forward",
+      "sequence": 4
+    },
+    {
+      "id": "pattern-basmane-denizli:5",
+      "from_station_id": "st-pancar",
+      "to_station_id": "st-torbali",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-basmane-denizli",
+      "direction": "forward",
+      "sequence": 5
+    },
+    {
+      "id": "pattern-basmane-denizli:6",
+      "from_station_id": "st-torbali",
+      "to_station_id": "st-tepekoy",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-basmane-denizli",
+      "direction": "forward",
+      "sequence": 6
+    },
+    {
+      "id": "pattern-basmane-denizli:7",
+      "from_station_id": "st-tepekoy",
+      "to_station_id": "st-selcuk",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-basmane-denizli",
+      "direction": "forward",
+      "sequence": 7
+    },
+    {
+      "id": "pattern-basmane-denizli:8",
+      "from_station_id": "st-selcuk",
+      "to_station_id": "st-camlik",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-basmane-denizli",
+      "direction": "forward",
+      "sequence": 8
+    },
+    {
+      "id": "pattern-basmane-denizli:9",
+      "from_station_id": "st-camlik",
+      "to_station_id": "st-ortaklar",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-basmane-denizli",
+      "direction": "forward",
+      "sequence": 9
+    },
+    {
+      "id": "pattern-basmane-denizli:10",
+      "from_station_id": "st-ortaklar",
+      "to_station_id": "st-nesetiye",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-basmane-denizli",
+      "direction": "forward",
+      "sequence": 10
+    },
+    {
+      "id": "pattern-basmane-denizli:11",
+      "from_station_id": "st-nesetiye",
+      "to_station_id": "st-germencik",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-basmane-denizli",
+      "direction": "forward",
+      "sequence": 11
+    },
+    {
+      "id": "pattern-basmane-denizli:12",
+      "from_station_id": "st-germencik",
+      "to_station_id": "st-incirliova",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-basmane-denizli",
+      "direction": "forward",
+      "sequence": 12
+    },
+    {
+      "id": "pattern-basmane-denizli:13",
+      "from_station_id": "st-incirliova",
+      "to_station_id": "st-aydin",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-basmane-denizli",
+      "direction": "forward",
+      "sequence": 13
+    },
+    {
+      "id": "pattern-basmane-denizli:14",
+      "from_station_id": "st-aydin",
+      "to_station_id": "st-umurlu",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-basmane-denizli",
+      "direction": "forward",
+      "sequence": 14
+    },
+    {
+      "id": "pattern-basmane-denizli:15",
+      "from_station_id": "st-umurlu",
+      "to_station_id": "st-kosk",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-basmane-denizli",
+      "direction": "forward",
+      "sequence": 15
+    },
+    {
+      "id": "pattern-basmane-denizli:16",
+      "from_station_id": "st-kosk",
+      "to_station_id": "st-karaali",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-basmane-denizli",
+      "direction": "forward",
+      "sequence": 16
+    },
+    {
+      "id": "pattern-basmane-denizli:17",
+      "from_station_id": "st-karaali",
+      "to_station_id": "st-sultanhisar",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-basmane-denizli",
+      "direction": "forward",
+      "sequence": 17
+    },
+    {
+      "id": "pattern-basmane-denizli:18",
+      "from_station_id": "st-sultanhisar",
+      "to_station_id": "st-atca",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-basmane-denizli",
+      "direction": "forward",
+      "sequence": 18
+    },
+    {
+      "id": "pattern-basmane-denizli:19",
+      "from_station_id": "st-atca",
+      "to_station_id": "st-isabeyli",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-basmane-denizli",
+      "direction": "forward",
+      "sequence": 19
+    },
+    {
+      "id": "pattern-basmane-denizli:20",
+      "from_station_id": "st-isabeyli",
+      "to_station_id": "st-nazilli",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-basmane-denizli",
+      "direction": "forward",
+      "sequence": 20
+    },
+    {
+      "id": "pattern-basmane-denizli:21",
+      "from_station_id": "st-nazilli",
+      "to_station_id": "st-kuyucak",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-basmane-denizli",
+      "direction": "forward",
+      "sequence": 21
+    },
+    {
+      "id": "pattern-basmane-denizli:22",
+      "from_station_id": "st-kuyucak",
+      "to_station_id": "st-pamukoren",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-basmane-denizli",
+      "direction": "forward",
+      "sequence": 22
+    },
+    {
+      "id": "pattern-basmane-denizli:23",
+      "from_station_id": "st-pamukoren",
+      "to_station_id": "st-horsunlu",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-basmane-denizli",
+      "direction": "forward",
+      "sequence": 23
+    },
+    {
+      "id": "pattern-basmane-denizli:24",
+      "from_station_id": "st-horsunlu",
+      "to_station_id": "st-buharkent",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-basmane-denizli",
+      "direction": "forward",
+      "sequence": 24
+    },
+    {
+      "id": "pattern-basmane-denizli:25",
+      "from_station_id": "st-buharkent",
+      "to_station_id": "st-saraykoy",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-basmane-denizli",
+      "direction": "forward",
+      "sequence": 25
+    },
+    {
+      "id": "pattern-basmane-denizli:26",
+      "from_station_id": "st-saraykoy",
+      "to_station_id": "st-goncali",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-basmane-denizli",
+      "direction": "forward",
+      "sequence": 26
+    },
+    {
+      "id": "pattern-basmane-denizli:27",
+      "from_station_id": "st-goncali",
+      "to_station_id": "st-denizli",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-basmane-denizli",
+      "direction": "forward",
+      "sequence": 27
+    },
+    {
+      "id": "pattern-denizli-basmane:1",
+      "from_station_id": "st-denizli",
+      "to_station_id": "st-goncali",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-denizli-basmane",
+      "direction": "reverse",
+      "sequence": 1
+    },
+    {
+      "id": "pattern-denizli-basmane:2",
+      "from_station_id": "st-goncali",
+      "to_station_id": "st-saraykoy",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-denizli-basmane",
+      "direction": "reverse",
+      "sequence": 2
+    },
+    {
+      "id": "pattern-denizli-basmane:3",
+      "from_station_id": "st-saraykoy",
+      "to_station_id": "st-buharkent",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-denizli-basmane",
+      "direction": "reverse",
+      "sequence": 3
+    },
+    {
+      "id": "pattern-denizli-basmane:4",
+      "from_station_id": "st-buharkent",
+      "to_station_id": "st-horsunlu",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-denizli-basmane",
+      "direction": "reverse",
+      "sequence": 4
+    },
+    {
+      "id": "pattern-denizli-basmane:5",
+      "from_station_id": "st-horsunlu",
+      "to_station_id": "st-pamukoren",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-denizli-basmane",
+      "direction": "reverse",
+      "sequence": 5
+    },
+    {
+      "id": "pattern-denizli-basmane:6",
+      "from_station_id": "st-pamukoren",
+      "to_station_id": "st-kuyucak",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-denizli-basmane",
+      "direction": "reverse",
+      "sequence": 6
+    },
+    {
+      "id": "pattern-denizli-basmane:7",
+      "from_station_id": "st-kuyucak",
+      "to_station_id": "st-nazilli",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-denizli-basmane",
+      "direction": "reverse",
+      "sequence": 7
+    },
+    {
+      "id": "pattern-denizli-basmane:8",
+      "from_station_id": "st-nazilli",
+      "to_station_id": "st-isabeyli",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-denizli-basmane",
+      "direction": "reverse",
+      "sequence": 8
+    },
+    {
+      "id": "pattern-denizli-basmane:9",
+      "from_station_id": "st-isabeyli",
+      "to_station_id": "st-atca",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-denizli-basmane",
+      "direction": "reverse",
+      "sequence": 9
+    },
+    {
+      "id": "pattern-denizli-basmane:10",
+      "from_station_id": "st-atca",
+      "to_station_id": "st-sultanhisar",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-denizli-basmane",
+      "direction": "reverse",
+      "sequence": 10
+    },
+    {
+      "id": "pattern-denizli-basmane:11",
+      "from_station_id": "st-sultanhisar",
+      "to_station_id": "st-karaali",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-denizli-basmane",
+      "direction": "reverse",
+      "sequence": 11
+    },
+    {
+      "id": "pattern-denizli-basmane:12",
+      "from_station_id": "st-karaali",
+      "to_station_id": "st-kosk",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-denizli-basmane",
+      "direction": "reverse",
+      "sequence": 12
+    },
+    {
+      "id": "pattern-denizli-basmane:13",
+      "from_station_id": "st-kosk",
+      "to_station_id": "st-umurlu",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-denizli-basmane",
+      "direction": "reverse",
+      "sequence": 13
+    },
+    {
+      "id": "pattern-denizli-basmane:14",
+      "from_station_id": "st-umurlu",
+      "to_station_id": "st-aydin",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-denizli-basmane",
+      "direction": "reverse",
+      "sequence": 14
+    },
+    {
+      "id": "pattern-denizli-basmane:15",
+      "from_station_id": "st-aydin",
+      "to_station_id": "st-incirliova",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-denizli-basmane",
+      "direction": "reverse",
+      "sequence": 15
+    },
+    {
+      "id": "pattern-denizli-basmane:16",
+      "from_station_id": "st-incirliova",
+      "to_station_id": "st-germencik",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-denizli-basmane",
+      "direction": "reverse",
+      "sequence": 16
+    },
+    {
+      "id": "pattern-denizli-basmane:17",
+      "from_station_id": "st-germencik",
+      "to_station_id": "st-nesetiye",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-denizli-basmane",
+      "direction": "reverse",
+      "sequence": 17
+    },
+    {
+      "id": "pattern-denizli-basmane:18",
+      "from_station_id": "st-nesetiye",
+      "to_station_id": "st-ortaklar",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-denizli-basmane",
+      "direction": "reverse",
+      "sequence": 18
+    },
+    {
+      "id": "pattern-denizli-basmane:19",
+      "from_station_id": "st-ortaklar",
+      "to_station_id": "st-camlik",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-denizli-basmane",
+      "direction": "reverse",
+      "sequence": 19
+    },
+    {
+      "id": "pattern-denizli-basmane:20",
+      "from_station_id": "st-camlik",
+      "to_station_id": "st-selcuk",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-denizli-basmane",
+      "direction": "reverse",
+      "sequence": 20
+    },
+    {
+      "id": "pattern-denizli-basmane:21",
+      "from_station_id": "st-selcuk",
+      "to_station_id": "st-tepekoy",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-denizli-basmane",
+      "direction": "reverse",
+      "sequence": 21
+    },
+    {
+      "id": "pattern-denizli-basmane:22",
+      "from_station_id": "st-tepekoy",
+      "to_station_id": "st-torbali",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-denizli-basmane",
+      "direction": "reverse",
+      "sequence": 22
+    },
+    {
+      "id": "pattern-denizli-basmane:23",
+      "from_station_id": "st-torbali",
+      "to_station_id": "st-pancar",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-denizli-basmane",
+      "direction": "reverse",
+      "sequence": 23
+    },
+    {
+      "id": "pattern-denizli-basmane:24",
+      "from_station_id": "st-pancar",
+      "to_station_id": "st-menderes",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-denizli-basmane",
+      "direction": "reverse",
+      "sequence": 24
+    },
+    {
+      "id": "pattern-denizli-basmane:25",
+      "from_station_id": "st-menderes",
+      "to_station_id": "st-adnanmenderes-havaalani",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-denizli-basmane",
+      "direction": "reverse",
+      "sequence": 25
+    },
+    {
+      "id": "pattern-denizli-basmane:26",
+      "from_station_id": "st-adnanmenderes-havaalani",
+      "to_station_id": "st-gaziemir",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-denizli-basmane",
+      "direction": "reverse",
+      "sequence": 26
+    },
+    {
+      "id": "pattern-denizli-basmane:27",
+      "from_station_id": "st-gaziemir",
+      "to_station_id": "st-izmir-basmane",
+      "route_id": "route-basmane-denizli-bolgesel",
+      "pattern_id": "pattern-denizli-basmane",
+      "direction": "reverse",
+      "sequence": 27
+    },
+    {
+      "id": "pattern-basmane-nazilli:1",
+      "from_station_id": "st-izmir-basmane",
+      "to_station_id": "st-gaziemir",
+      "route_id": "route-basmane-nazilli-bolgesel",
+      "pattern_id": "pattern-basmane-nazilli",
+      "direction": "forward",
+      "sequence": 1
+    },
+    {
+      "id": "pattern-basmane-nazilli:2",
+      "from_station_id": "st-gaziemir",
+      "to_station_id": "st-adnanmenderes-havaalani",
+      "route_id": "route-basmane-nazilli-bolgesel",
+      "pattern_id": "pattern-basmane-nazilli",
+      "direction": "forward",
+      "sequence": 2
+    },
+    {
+      "id": "pattern-basmane-nazilli:3",
+      "from_station_id": "st-adnanmenderes-havaalani",
+      "to_station_id": "st-menderes",
+      "route_id": "route-basmane-nazilli-bolgesel",
+      "pattern_id": "pattern-basmane-nazilli",
+      "direction": "forward",
+      "sequence": 3
+    },
+    {
+      "id": "pattern-basmane-nazilli:4",
+      "from_station_id": "st-menderes",
+      "to_station_id": "st-pancar",
+      "route_id": "route-basmane-nazilli-bolgesel",
+      "pattern_id": "pattern-basmane-nazilli",
+      "direction": "forward",
+      "sequence": 4
+    },
+    {
+      "id": "pattern-basmane-nazilli:5",
+      "from_station_id": "st-pancar",
+      "to_station_id": "st-torbali",
+      "route_id": "route-basmane-nazilli-bolgesel",
+      "pattern_id": "pattern-basmane-nazilli",
+      "direction": "forward",
+      "sequence": 5
+    },
+    {
+      "id": "pattern-basmane-nazilli:6",
+      "from_station_id": "st-torbali",
+      "to_station_id": "st-tepekoy",
+      "route_id": "route-basmane-nazilli-bolgesel",
+      "pattern_id": "pattern-basmane-nazilli",
+      "direction": "forward",
+      "sequence": 6
+    },
+    {
+      "id": "pattern-basmane-nazilli:7",
+      "from_station_id": "st-tepekoy",
+      "to_station_id": "st-selcuk",
+      "route_id": "route-basmane-nazilli-bolgesel",
+      "pattern_id": "pattern-basmane-nazilli",
+      "direction": "forward",
+      "sequence": 7
+    },
+    {
+      "id": "pattern-basmane-nazilli:8",
+      "from_station_id": "st-selcuk",
+      "to_station_id": "st-camlik",
+      "route_id": "route-basmane-nazilli-bolgesel",
+      "pattern_id": "pattern-basmane-nazilli",
+      "direction": "forward",
+      "sequence": 8
+    },
+    {
+      "id": "pattern-basmane-nazilli:9",
+      "from_station_id": "st-camlik",
+      "to_station_id": "st-ortaklar",
+      "route_id": "route-basmane-nazilli-bolgesel",
+      "pattern_id": "pattern-basmane-nazilli",
+      "direction": "forward",
+      "sequence": 9
+    },
+    {
+      "id": "pattern-basmane-nazilli:10",
+      "from_station_id": "st-ortaklar",
+      "to_station_id": "st-nesetiye",
+      "route_id": "route-basmane-nazilli-bolgesel",
+      "pattern_id": "pattern-basmane-nazilli",
+      "direction": "forward",
+      "sequence": 10
+    },
+    {
+      "id": "pattern-basmane-nazilli:11",
+      "from_station_id": "st-nesetiye",
+      "to_station_id": "st-germencik",
+      "route_id": "route-basmane-nazilli-bolgesel",
+      "pattern_id": "pattern-basmane-nazilli",
+      "direction": "forward",
+      "sequence": 11
+    },
+    {
+      "id": "pattern-basmane-nazilli:12",
+      "from_station_id": "st-germencik",
+      "to_station_id": "st-incirliova",
+      "route_id": "route-basmane-nazilli-bolgesel",
+      "pattern_id": "pattern-basmane-nazilli",
+      "direction": "forward",
+      "sequence": 12
+    },
+    {
+      "id": "pattern-basmane-nazilli:13",
+      "from_station_id": "st-incirliova",
+      "to_station_id": "st-aydin",
+      "route_id": "route-basmane-nazilli-bolgesel",
+      "pattern_id": "pattern-basmane-nazilli",
+      "direction": "forward",
+      "sequence": 13
+    },
+    {
+      "id": "pattern-basmane-nazilli:14",
+      "from_station_id": "st-aydin",
+      "to_station_id": "st-umurlu",
+      "route_id": "route-basmane-nazilli-bolgesel",
+      "pattern_id": "pattern-basmane-nazilli",
+      "direction": "forward",
+      "sequence": 14
+    },
+    {
+      "id": "pattern-basmane-nazilli:15",
+      "from_station_id": "st-umurlu",
+      "to_station_id": "st-kosk",
+      "route_id": "route-basmane-nazilli-bolgesel",
+      "pattern_id": "pattern-basmane-nazilli",
+      "direction": "forward",
+      "sequence": 15
+    },
+    {
+      "id": "pattern-basmane-nazilli:16",
+      "from_station_id": "st-kosk",
+      "to_station_id": "st-karaali",
+      "route_id": "route-basmane-nazilli-bolgesel",
+      "pattern_id": "pattern-basmane-nazilli",
+      "direction": "forward",
+      "sequence": 16
+    },
+    {
+      "id": "pattern-basmane-nazilli:17",
+      "from_station_id": "st-karaali",
+      "to_station_id": "st-sultanhisar",
+      "route_id": "route-basmane-nazilli-bolgesel",
+      "pattern_id": "pattern-basmane-nazilli",
+      "direction": "forward",
+      "sequence": 17
+    },
+    {
+      "id": "pattern-basmane-nazilli:18",
+      "from_station_id": "st-sultanhisar",
+      "to_station_id": "st-atca",
+      "route_id": "route-basmane-nazilli-bolgesel",
+      "pattern_id": "pattern-basmane-nazilli",
+      "direction": "forward",
+      "sequence": 18
+    },
+    {
+      "id": "pattern-basmane-nazilli:19",
+      "from_station_id": "st-atca",
+      "to_station_id": "st-isabeyli",
+      "route_id": "route-basmane-nazilli-bolgesel",
+      "pattern_id": "pattern-basmane-nazilli",
+      "direction": "forward",
+      "sequence": 19
+    },
+    {
+      "id": "pattern-basmane-nazilli:20",
+      "from_station_id": "st-isabeyli",
+      "to_station_id": "st-nazilli",
+      "route_id": "route-basmane-nazilli-bolgesel",
+      "pattern_id": "pattern-basmane-nazilli",
+      "direction": "forward",
+      "sequence": 20
+    },
+    {
+      "id": "pattern-nazilli-basmane:1",
+      "from_station_id": "st-nazilli",
+      "to_station_id": "st-isabeyli",
+      "route_id": "route-basmane-nazilli-bolgesel",
+      "pattern_id": "pattern-nazilli-basmane",
+      "direction": "reverse",
+      "sequence": 1
+    },
+    {
+      "id": "pattern-nazilli-basmane:2",
+      "from_station_id": "st-isabeyli",
+      "to_station_id": "st-atca",
+      "route_id": "route-basmane-nazilli-bolgesel",
+      "pattern_id": "pattern-nazilli-basmane",
+      "direction": "reverse",
+      "sequence": 2
+    },
+    {
+      "id": "pattern-nazilli-basmane:3",
+      "from_station_id": "st-atca",
+      "to_station_id": "st-sultanhisar",
+      "route_id": "route-basmane-nazilli-bolgesel",
+      "pattern_id": "pattern-nazilli-basmane",
+      "direction": "reverse",
+      "sequence": 3
+    },
+    {
+      "id": "pattern-nazilli-basmane:4",
+      "from_station_id": "st-sultanhisar",
+      "to_station_id": "st-karaali",
+      "route_id": "route-basmane-nazilli-bolgesel",
+      "pattern_id": "pattern-nazilli-basmane",
+      "direction": "reverse",
+      "sequence": 4
+    },
+    {
+      "id": "pattern-nazilli-basmane:5",
+      "from_station_id": "st-karaali",
+      "to_station_id": "st-kosk",
+      "route_id": "route-basmane-nazilli-bolgesel",
+      "pattern_id": "pattern-nazilli-basmane",
+      "direction": "reverse",
+      "sequence": 5
+    },
+    {
+      "id": "pattern-nazilli-basmane:6",
+      "from_station_id": "st-kosk",
+      "to_station_id": "st-umurlu",
+      "route_id": "route-basmane-nazilli-bolgesel",
+      "pattern_id": "pattern-nazilli-basmane",
+      "direction": "reverse",
+      "sequence": 6
+    },
+    {
+      "id": "pattern-nazilli-basmane:7",
+      "from_station_id": "st-umurlu",
+      "to_station_id": "st-aydin",
+      "route_id": "route-basmane-nazilli-bolgesel",
+      "pattern_id": "pattern-nazilli-basmane",
+      "direction": "reverse",
+      "sequence": 7
+    },
+    {
+      "id": "pattern-nazilli-basmane:8",
+      "from_station_id": "st-aydin",
+      "to_station_id": "st-incirliova",
+      "route_id": "route-basmane-nazilli-bolgesel",
+      "pattern_id": "pattern-nazilli-basmane",
+      "direction": "reverse",
+      "sequence": 8
+    },
+    {
+      "id": "pattern-nazilli-basmane:9",
+      "from_station_id": "st-incirliova",
+      "to_station_id": "st-germencik",
+      "route_id": "route-basmane-nazilli-bolgesel",
+      "pattern_id": "pattern-nazilli-basmane",
+      "direction": "reverse",
+      "sequence": 9
+    },
+    {
+      "id": "pattern-nazilli-basmane:10",
+      "from_station_id": "st-germencik",
+      "to_station_id": "st-nesetiye",
+      "route_id": "route-basmane-nazilli-bolgesel",
+      "pattern_id": "pattern-nazilli-basmane",
+      "direction": "reverse",
+      "sequence": 10
+    },
+    {
+      "id": "pattern-nazilli-basmane:11",
+      "from_station_id": "st-nesetiye",
+      "to_station_id": "st-ortaklar",
+      "route_id": "route-basmane-nazilli-bolgesel",
+      "pattern_id": "pattern-nazilli-basmane",
+      "direction": "reverse",
+      "sequence": 11
+    },
+    {
+      "id": "pattern-nazilli-basmane:12",
+      "from_station_id": "st-ortaklar",
+      "to_station_id": "st-camlik",
+      "route_id": "route-basmane-nazilli-bolgesel",
+      "pattern_id": "pattern-nazilli-basmane",
+      "direction": "reverse",
+      "sequence": 12
+    },
+    {
+      "id": "pattern-nazilli-basmane:13",
+      "from_station_id": "st-camlik",
+      "to_station_id": "st-selcuk",
+      "route_id": "route-basmane-nazilli-bolgesel",
+      "pattern_id": "pattern-nazilli-basmane",
+      "direction": "reverse",
+      "sequence": 13
+    },
+    {
+      "id": "pattern-nazilli-basmane:14",
+      "from_station_id": "st-selcuk",
+      "to_station_id": "st-tepekoy",
+      "route_id": "route-basmane-nazilli-bolgesel",
+      "pattern_id": "pattern-nazilli-basmane",
+      "direction": "reverse",
+      "sequence": 14
+    },
+    {
+      "id": "pattern-nazilli-basmane:15",
+      "from_station_id": "st-tepekoy",
+      "to_station_id": "st-torbali",
+      "route_id": "route-basmane-nazilli-bolgesel",
+      "pattern_id": "pattern-nazilli-basmane",
+      "direction": "reverse",
+      "sequence": 15
+    },
+    {
+      "id": "pattern-nazilli-basmane:16",
+      "from_station_id": "st-torbali",
+      "to_station_id": "st-pancar",
+      "route_id": "route-basmane-nazilli-bolgesel",
+      "pattern_id": "pattern-nazilli-basmane",
+      "direction": "reverse",
+      "sequence": 16
+    },
+    {
+      "id": "pattern-nazilli-basmane:17",
+      "from_station_id": "st-pancar",
+      "to_station_id": "st-menderes",
+      "route_id": "route-basmane-nazilli-bolgesel",
+      "pattern_id": "pattern-nazilli-basmane",
+      "direction": "reverse",
+      "sequence": 17
+    },
+    {
+      "id": "pattern-nazilli-basmane:18",
+      "from_station_id": "st-menderes",
+      "to_station_id": "st-adnanmenderes-havaalani",
+      "route_id": "route-basmane-nazilli-bolgesel",
+      "pattern_id": "pattern-nazilli-basmane",
+      "direction": "reverse",
+      "sequence": 18
+    },
+    {
+      "id": "pattern-nazilli-basmane:19",
+      "from_station_id": "st-adnanmenderes-havaalani",
+      "to_station_id": "st-gaziemir",
+      "route_id": "route-basmane-nazilli-bolgesel",
+      "pattern_id": "pattern-nazilli-basmane",
+      "direction": "reverse",
+      "sequence": 19
+    },
+    {
+      "id": "pattern-nazilli-basmane:20",
+      "from_station_id": "st-gaziemir",
+      "to_station_id": "st-izmir-basmane",
+      "route_id": "route-basmane-nazilli-bolgesel",
+      "pattern_id": "pattern-nazilli-basmane",
+      "direction": "reverse",
+      "sequence": 20
     }
   ],
   "transfer_edges": []
