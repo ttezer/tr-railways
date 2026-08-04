@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T20:34:52.261Z",
+  "generated_at": "2026-08-04T17:41:10.072Z",
   "publication_status": "independent_open_project",
   "sources": [
     {
@@ -33,9 +33,9 @@
       "input": "data/source-snapshots/osm/rail-stations-20260803.json",
       "output": "public/data/rail-stations.geojson",
       "osm_timestamp": "2026-08-03T09:10:01Z",
-      "catalog_station_count": 308,
-      "additional_station_count": 788,
-      "total_map_station_count": 1096,
+      "catalog_station_count": 360,
+      "additional_station_count": 738,
+      "total_map_station_count": 1098,
       "timetable_scope": "independent"
     },
     {
@@ -43,30 +43,30 @@
       "status": "odbl",
       "input": "ray_shape.geojson",
       "output": "output/route-shapes.geojson",
-      "shape_count": 22
+      "shape_count": 25
     },
     {
       "id": "station-catalog",
       "status": "catalog_or_derived",
       "input": "data/input/stations.csv",
-      "total_records": 308
+      "total_records": 360
     },
     {
       "id": "timetable",
       "status": "official_published",
       "calendar_strategy": "explicit_service_dates",
-      "source_count": 16,
-      "trip_count": 1308,
-      "stop_time_count": 16990,
+      "source_count": 19,
+      "trip_count": 1664,
+      "stop_time_count": 25445,
       "valid_from": "2026-07-30",
-      "valid_until": "2026-08-17"
+      "valid_until": "2026-08-18"
     },
     {
       "id": "transfer-graph",
       "status": "generated",
       "input": "data/input/transfers.csv",
-      "node_count": 308,
-      "ride_edge_count": 939,
+      "node_count": 360,
+      "ride_edge_count": 1095,
       "transfer_edge_count": 0
     }
   ]
