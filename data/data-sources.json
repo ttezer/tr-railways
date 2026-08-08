@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T19:43:02.120Z",
+  "generated_at": "2026-08-08T19:55:08.068Z",
   "publication_status": "independent_open_project",
   "sources": [
     {
@@ -34,8 +34,8 @@
       "output": "public/data/rail-stations.geojson",
       "osm_timestamp": "2026-08-03T09:10:01Z",
       "catalog_station_count": 399,
-      "additional_station_count": 709,
-      "total_map_station_count": 1108,
+      "additional_station_count": 707,
+      "total_map_station_count": 1106,
       "timetable_scope": "independent"
     },
     {

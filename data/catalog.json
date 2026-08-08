@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T19:43:02.120Z",
+  "generated_at": "2026-08-08T19:55:08.068Z",
   "publication_status": "independent_open_project",
   "infrastructure": {
     "status": "physical_network_available",
@@ -297,7 +297,7 @@
       "mode": "regional",
       "status": "active",
       "schedule_status": "official_dates_available",
-      "length_km": 127.9,
+      "length_km": 110.8,
       "shape_ids": [
         "shape-basmane-odemis"
       ],
@@ -310,7 +310,7 @@
       "mode": "regional",
       "status": "active",
       "schedule_status": "official_dates_available",
-      "length_km": 112.5,
+      "length_km": 95.5,
       "shape_ids": [
         "shape-basmane-tire"
       ],
@@ -323,7 +323,7 @@
       "mode": "regional",
       "status": "active",
       "schedule_status": "official_dates_available",
-      "length_km": 262.5,
+      "length_km": 262.9,
       "shape_ids": [
         "shape-basmane-denizli"
       ],
@@ -336,7 +336,7 @@
       "mode": "regional",
       "status": "active",
       "schedule_status": "official_dates_available",
-      "length_km": 177,
+      "length_km": 177.5,
       "shape_ids": [
         "shape-basmane-nazilli"
       ],
@@ -16389,9 +16389,9 @@
           "derived": false
         },
         "shape-basmane-denizli": {
-          "index": 616,
+          "index": 635,
           "offset_m": 87,
-          "distance_km": 253.187,
+          "distance_km": 253.614,
           "derived": false
         }
       },
@@ -16491,9 +16491,9 @@
           "derived": false
         },
         "shape-basmane-denizli": {
-          "index": 669,
+          "index": 688,
           "offset_m": 0,
-          "distance_km": 262.458,
+          "distance_km": 262.885,
           "derived": false
         }
       },
@@ -19693,9 +19693,9 @@
           "derived": false
         },
         "shape-basmane-denizli": {
-          "index": 495,
+          "index": 514,
           "offset_m": 1083,
-          "distance_km": 199.596,
+          "distance_km": 200.023,
           "derived": false
         }
       },
@@ -19779,9 +19779,9 @@
           "derived": false
         },
         "shape-basmane-denizli": {
-          "index": 469,
+          "index": 488,
           "offset_m": 537,
-          "distance_km": 188.346,
+          "distance_km": 188.773,
           "derived": false
         }
       },
@@ -19865,15 +19865,15 @@
           "derived": false
         },
         "shape-basmane-denizli": {
-          "index": 455,
+          "index": 474,
           "offset_m": 393,
-          "distance_km": 176.692,
+          "distance_km": 177.119,
           "derived": false
         },
         "shape-basmane-nazilli": {
-          "index": 455,
+          "index": 474,
           "offset_m": 58,
-          "distance_km": 177.027,
+          "distance_km": 177.454,
           "derived": false
         }
       },
@@ -19977,15 +19977,15 @@
           "derived": false
         },
         "shape-basmane-denizli": {
-          "index": 434,
+          "index": 453,
           "offset_m": 19,
-          "distance_km": 166.203,
+          "distance_km": 166.63,
           "derived": false
         },
         "shape-basmane-nazilli": {
-          "index": 434,
+          "index": 453,
           "offset_m": 19,
-          "distance_km": 166.203,
+          "distance_km": 166.63,
           "derived": false
         }
       },
@@ -20089,15 +20089,15 @@
           "derived": false
         },
         "shape-basmane-denizli": {
-          "index": 427,
+          "index": 446,
           "offset_m": 307,
-          "distance_km": 161.487,
+          "distance_km": 161.914,
           "derived": false
         },
         "shape-basmane-nazilli": {
-          "index": 427,
+          "index": 446,
           "offset_m": 307,
-          "distance_km": 161.487,
+          "distance_km": 161.914,
           "derived": false
         }
       },
@@ -20201,15 +20201,15 @@
           "derived": false
         },
         "shape-basmane-denizli": {
-          "index": 402,
+          "index": 421,
           "offset_m": 78,
-          "distance_km": 150.901,
+          "distance_km": 151.328,
           "derived": false
         },
         "shape-basmane-nazilli": {
-          "index": 402,
+          "index": 421,
           "offset_m": 78,
-          "distance_km": 150.901,
+          "distance_km": 151.328,
           "derived": false
         }
       },
@@ -20313,15 +20313,15 @@
           "derived": false
         },
         "shape-basmane-denizli": {
-          "index": 366,
+          "index": 385,
           "offset_m": 118,
-          "distance_km": 132.217,
+          "distance_km": 132.644,
           "derived": false
         },
         "shape-basmane-nazilli": {
-          "index": 366,
+          "index": 385,
           "offset_m": 118,
-          "distance_km": 132.217,
+          "distance_km": 132.644,
           "derived": false
         }
       },
@@ -20425,15 +20425,15 @@
           "derived": false
         },
         "shape-basmane-denizli": {
-          "index": 334,
+          "index": 353,
           "offset_m": 25,
-          "distance_km": 103.338,
+          "distance_km": 103.765,
           "derived": false
         },
         "shape-basmane-nazilli": {
-          "index": 334,
+          "index": 353,
           "offset_m": 25,
-          "distance_km": 103.338,
+          "distance_km": 103.765,
           "derived": false
         }
       },
@@ -20537,15 +20537,15 @@
           "derived": false
         },
         "shape-basmane-denizli": {
-          "index": 301,
+          "index": 320,
           "offset_m": 36,
-          "distance_km": 96.988,
+          "distance_km": 97.415,
           "derived": false
         },
         "shape-basmane-nazilli": {
-          "index": 301,
+          "index": 320,
           "offset_m": 36,
-          "distance_km": 96.988,
+          "distance_km": 97.415,
           "derived": false
         }
       },
@@ -20629,35 +20629,35 @@
       "name": "Ortaklar",
       "city": "Ortaklar",
       "district": "Merkez",
-      "latitude": 37.8777785,
-      "longitude": 27.3931756,
+      "latitude": 37.8782451,
+      "longitude": 27.3926721,
       "coordinate_status": "derived",
       "shape_index": 263,
-      "shape_offset_m": 214,
+      "shape_offset_m": 146,
       "shape_distance_km": 89.108,
       "shape_positions": {
         "shape-basmane-isparta-guller-forward": {
           "index": 263,
-          "offset_m": 214,
+          "offset_m": 146,
           "distance_km": 89.108,
           "derived": false
         },
         "shape-basmane-isparta": {
           "index": 263,
-          "offset_m": 214,
+          "offset_m": 146,
           "distance_km": 89.108,
           "derived": false
         },
         "shape-basmane-denizli": {
-          "index": 255,
-          "offset_m": 324,
-          "distance_km": 89.036,
+          "index": 274,
+          "offset_m": 256,
+          "distance_km": 89.463,
           "derived": false
         },
         "shape-basmane-nazilli": {
-          "index": 254,
-          "offset_m": 214,
-          "distance_km": 89.146,
+          "index": 273,
+          "offset_m": 146,
+          "distance_km": 89.573,
           "derived": false
         }
       },
@@ -20741,35 +20741,35 @@
       "name": "Çamlık",
       "city": "Çamlık",
       "district": "Merkez",
-      "latitude": 37.9039736,
-      "longitude": 27.3687063,
+      "latitude": 37.9095761,
+      "longitude": 27.3759393,
       "coordinate_status": "derived",
-      "shape_index": 229,
-      "shape_offset_m": 91,
-      "shape_distance_km": 84.477,
+      "shape_index": 221,
+      "shape_offset_m": 171,
+      "shape_distance_km": 83.486,
       "shape_positions": {
         "shape-basmane-isparta-guller-forward": {
-          "index": 229,
-          "offset_m": 91,
-          "distance_km": 84.477,
+          "index": 221,
+          "offset_m": 171,
+          "distance_km": 83.486,
           "derived": false
         },
         "shape-basmane-isparta": {
-          "index": 229,
-          "offset_m": 91,
-          "distance_km": 84.477,
+          "index": 221,
+          "offset_m": 171,
+          "distance_km": 83.486,
           "derived": false
         },
         "shape-basmane-denizli": {
-          "index": 222,
-          "offset_m": 91,
-          "distance_km": 84.516,
+          "index": 233,
+          "offset_m": 171,
+          "distance_km": 83.952,
           "derived": false
         },
         "shape-basmane-nazilli": {
-          "index": 222,
-          "offset_m": 91,
-          "distance_km": 84.516,
+          "index": 233,
+          "offset_m": 171,
+          "distance_km": 83.952,
           "derived": false
         }
       },
@@ -20853,35 +20853,35 @@
       "name": "Selçuk",
       "city": "Selçuk",
       "district": "Merkez",
-      "latitude": 37.9239151,
-      "longitude": 27.3745282,
+      "latitude": 37.9244613,
+      "longitude": 27.3776609,
       "coordinate_status": "derived",
-      "shape_index": 191,
-      "shape_offset_m": 0,
-      "shape_distance_km": 80.136,
+      "shape_index": 187,
+      "shape_offset_m": 29,
+      "shape_distance_km": 79.816,
       "shape_positions": {
         "shape-basmane-isparta-guller-forward": {
-          "index": 191,
-          "offset_m": 0,
-          "distance_km": 80.136,
+          "index": 187,
+          "offset_m": 29,
+          "distance_km": 79.816,
           "derived": false
         },
         "shape-basmane-isparta": {
-          "index": 191,
-          "offset_m": 0,
-          "distance_km": 80.136,
+          "index": 187,
+          "offset_m": 29,
+          "distance_km": 79.816,
           "derived": false
         },
         "shape-basmane-denizli": {
-          "index": 184,
-          "offset_m": 0,
-          "distance_km": 80.175,
+          "index": 199,
+          "offset_m": 29,
+          "distance_km": 80.282,
           "derived": false
         },
         "shape-basmane-nazilli": {
-          "index": 184,
-          "offset_m": 0,
-          "distance_km": 80.175,
+          "index": 199,
+          "offset_m": 29,
+          "distance_km": 80.282,
           "derived": false
         }
       },
@@ -20965,39 +20965,39 @@
       "name": "Tepeköy",
       "city": "Tepeköy",
       "district": "Merkez",
-      "latitude": 37.9627582,
-      "longitude": 27.373996,
-      "coordinate_status": "derived",
-      "shape_index": 158,
-      "shape_offset_m": 786,
-      "shape_distance_km": 75.811,
+      "latitude": 38.147035,
+      "longitude": 27.3615279,
+      "coordinate_status": "verified",
+      "shape_index": 119,
+      "shape_offset_m": 248,
+      "shape_distance_km": 50.908,
       "shape_positions": {
         "shape-basmane-isparta-guller-forward": {
-          "index": 158,
-          "offset_m": 786,
-          "distance_km": 75.811,
+          "index": 119,
+          "offset_m": 248,
+          "distance_km": 50.908,
           "derived": false
         },
         "shape-basmane-isparta": {
-          "index": 158,
-          "offset_m": 786,
-          "distance_km": 75.811,
+          "index": 119,
+          "offset_m": 248,
+          "distance_km": 50.908,
           "derived": false
         },
         "shape-basmane-denizli": {
-          "index": 155,
-          "offset_m": 787,
-          "distance_km": 75.849,
+          "index": 131,
+          "offset_m": 1594,
+          "distance_km": 52.72,
           "derived": false
         },
         "shape-basmane-nazilli": {
-          "index": 155,
-          "offset_m": 787,
-          "distance_km": 75.849,
+          "index": 131,
+          "offset_m": 1594,
+          "distance_km": 52.72,
           "derived": false
         }
       },
-      "source_status": "catalog_or_derived",
+      "source_status": "verified_open",
       "directions": [
         {
           "pattern_id": "pattern-guller-basmane-isparta",
@@ -21077,51 +21077,51 @@
       "name": "Torbalı",
       "city": "Torbalı",
       "district": "Merkez",
-      "latitude": 38.1120304,
-      "longitude": 27.3835597,
-      "coordinate_status": "derived",
-      "shape_index": 120,
-      "shape_offset_m": 72,
-      "shape_distance_km": 54.932,
+      "latitude": 38.1701193,
+      "longitude": 27.347338,
+      "coordinate_status": "verified",
+      "shape_index": 115,
+      "shape_offset_m": 23,
+      "shape_distance_km": 47.827,
       "shape_positions": {
         "shape-basmane-isparta-guller-forward": {
-          "index": 120,
-          "offset_m": 72,
-          "distance_km": 54.932,
+          "index": 115,
+          "offset_m": 23,
+          "distance_km": 47.827,
           "derived": false
         },
         "shape-basmane-isparta": {
-          "index": 120,
-          "offset_m": 72,
-          "distance_km": 54.932,
+          "index": 115,
+          "offset_m": 23,
+          "distance_km": 47.827,
           "derived": false
         },
         "shape-basmane-odemis": {
-          "index": 121,
-          "offset_m": 904,
-          "distance_km": 54.143,
+          "index": 111,
+          "offset_m": 73,
+          "distance_km": 47.726,
           "derived": false
         },
         "shape-basmane-tire": {
-          "index": 117,
-          "offset_m": 904,
-          "distance_km": 54.143,
+          "index": 111,
+          "offset_m": 73,
+          "distance_km": 47.726,
           "derived": false
         },
         "shape-basmane-denizli": {
-          "index": 120,
-          "offset_m": 5,
-          "distance_km": 55.053,
+          "index": 116,
+          "offset_m": 73,
+          "distance_km": 47.726,
           "derived": false
         },
         "shape-basmane-nazilli": {
-          "index": 120,
-          "offset_m": 5,
-          "distance_km": 55.053,
+          "index": 116,
+          "offset_m": 73,
+          "distance_km": 47.726,
           "derived": false
         }
       },
-      "source_status": "catalog_or_derived",
+      "source_status": "verified_open",
       "directions": [
         {
           "pattern_id": "pattern-guller-basmane-isparta",
@@ -21261,7 +21261,7 @@
           "derived": false
         },
         "shape-basmane-odemis": {
-          "index": 60,
+          "index": 59,
           "offset_m": 100,
           "distance_km": 20.486,
           "derived": false
@@ -21559,46 +21559,46 @@
       "name": "Gaziemir",
       "city": "Gaziemir",
       "district": "Merkez",
-      "latitude": 38.3901533,
-      "longitude": 27.1474247,
+      "latitude": 38.3903097,
+      "longitude": 27.1473994,
       "coordinate_status": "derived",
       "shape_index": 27,
-      "shape_offset_m": 275,
+      "shape_offset_m": 292,
       "shape_distance_km": 5.896,
       "shape_positions": {
         "shape-basmane-isparta-guller-forward": {
           "index": 27,
-          "offset_m": 275,
+          "offset_m": 292,
           "distance_km": 5.896,
           "derived": false
         },
         "shape-basmane-isparta": {
           "index": 27,
-          "offset_m": 275,
+          "offset_m": 292,
           "distance_km": 5.896,
           "derived": false
         },
         "shape-basmane-odemis": {
-          "index": 26,
-          "offset_m": 275,
+          "index": 27,
+          "offset_m": 293,
           "distance_km": 5.884,
           "derived": false
         },
         "shape-basmane-tire": {
           "index": 26,
-          "offset_m": 275,
+          "offset_m": 293,
           "distance_km": 5.884,
           "derived": false
         },
         "shape-basmane-denizli": {
           "index": 26,
-          "offset_m": 275,
+          "offset_m": 293,
           "distance_km": 5.884,
           "derived": false
         },
         "shape-basmane-nazilli": {
           "index": 26,
-          "offset_m": 275,
+          "offset_m": 293,
           "distance_km": 5.884,
           "derived": false
         }
@@ -21877,9 +21877,9 @@
           "derived": false
         },
         "shape-basmane-denizli": {
-          "index": 559,
+          "index": 578,
           "offset_m": 232,
-          "distance_km": 233.096,
+          "distance_km": 233.523,
           "derived": false
         }
       },
@@ -21963,9 +21963,9 @@
           "derived": false
         },
         "shape-basmane-denizli": {
-          "index": 517,
+          "index": 536,
           "offset_m": 858,
-          "distance_km": 215.536,
+          "distance_km": 215.963,
           "derived": false
         }
       },
@@ -26724,12 +26724,12 @@
       "latitude": 38.1975049,
       "longitude": 27.2395725,
       "coordinate_status": "verified",
-      "shape_index": 93,
+      "shape_index": 90,
       "shape_offset_m": 106,
       "shape_distance_km": 35.66,
       "shape_positions": {
         "shape-basmane-odemis": {
-          "index": 93,
+          "index": 90,
           "offset_m": 106,
           "distance_km": 35.66,
           "derived": false
@@ -26846,20 +26846,20 @@
       "latitude": 38.1667812,
       "longitude": 27.3695029,
       "coordinate_status": "verified",
-      "shape_index": 134,
-      "shape_offset_m": 909,
-      "shape_distance_km": 66.263,
+      "shape_index": 122,
+      "shape_offset_m": 835,
+      "shape_distance_km": 49.275,
       "shape_positions": {
         "shape-basmane-odemis": {
-          "index": 134,
-          "offset_m": 909,
-          "distance_km": 66.263,
+          "index": 122,
+          "offset_m": 835,
+          "distance_km": 49.275,
           "derived": false
         },
         "shape-basmane-tire": {
-          "index": 130,
-          "offset_m": 909,
-          "distance_km": 66.263,
+          "index": 122,
+          "offset_m": 835,
+          "distance_km": 49.274,
           "derived": false
         }
       },
@@ -26916,20 +26916,20 @@
       "latitude": 38.170766,
       "longitude": 27.4177464,
       "coordinate_status": "verified",
-      "shape_index": 140,
+      "shape_index": 128,
       "shape_offset_m": 405,
-      "shape_distance_km": 71.922,
+      "shape_distance_km": 54.86,
       "shape_positions": {
         "shape-basmane-odemis": {
-          "index": 140,
+          "index": 128,
           "offset_m": 405,
-          "distance_km": 71.922,
+          "distance_km": 54.86,
           "derived": false
         },
         "shape-basmane-tire": {
-          "index": 136,
+          "index": 128,
           "offset_m": 405,
-          "distance_km": 71.922,
+          "distance_km": 54.86,
           "derived": false
         }
       },
@@ -26986,20 +26986,20 @@
       "latitude": 38.1709172,
       "longitude": 27.4449927,
       "coordinate_status": "verified",
-      "shape_index": 147,
+      "shape_index": 135,
       "shape_offset_m": 64,
-      "shape_distance_km": 73.858,
+      "shape_distance_km": 56.796,
       "shape_positions": {
         "shape-basmane-odemis": {
-          "index": 147,
+          "index": 135,
           "offset_m": 64,
-          "distance_km": 73.858,
+          "distance_km": 56.796,
           "derived": false
         },
         "shape-basmane-tire": {
-          "index": 143,
+          "index": 135,
           "offset_m": 64,
-          "distance_km": 73.857,
+          "distance_km": 56.796,
           "derived": false
         }
       },
@@ -27056,20 +27056,20 @@
       "latitude": 38.177876,
       "longitude": 27.4963394,
       "coordinate_status": "verified",
-      "shape_index": 176,
+      "shape_index": 164,
       "shape_offset_m": 10,
-      "shape_distance_km": 78.887,
+      "shape_distance_km": 61.825,
       "shape_positions": {
         "shape-basmane-odemis": {
-          "index": 176,
+          "index": 164,
           "offset_m": 10,
-          "distance_km": 78.887,
+          "distance_km": 61.825,
           "derived": false
         },
         "shape-basmane-tire": {
-          "index": 172,
+          "index": 164,
           "offset_m": 10,
-          "distance_km": 78.887,
+          "distance_km": 61.825,
           "derived": false
         }
       },
@@ -27126,20 +27126,20 @@
       "latitude": 38.1836286,
       "longitude": 27.5566067,
       "coordinate_status": "verified",
-      "shape_index": 183,
+      "shape_index": 171,
       "shape_offset_m": 76,
-      "shape_distance_km": 84.415,
+      "shape_distance_km": 67.354,
       "shape_positions": {
         "shape-basmane-odemis": {
-          "index": 183,
+          "index": 171,
           "offset_m": 76,
-          "distance_km": 84.415,
+          "distance_km": 67.354,
           "derived": false
         },
         "shape-basmane-tire": {
-          "index": 179,
+          "index": 171,
           "offset_m": 76,
-          "distance_km": 84.415,
+          "distance_km": 67.353,
           "derived": false
         }
       },
@@ -27196,20 +27196,20 @@
       "latitude": 38.1916063,
       "longitude": 27.5826992,
       "coordinate_status": "verified",
-      "shape_index": 186,
+      "shape_index": 174,
       "shape_offset_m": 0,
-      "shape_distance_km": 86.79,
+      "shape_distance_km": 69.728,
       "shape_positions": {
         "shape-basmane-odemis": {
-          "index": 186,
+          "index": 174,
           "offset_m": 0,
-          "distance_km": 86.79,
+          "distance_km": 69.728,
           "derived": false
         },
         "shape-basmane-tire": {
-          "index": 182,
+          "index": 174,
           "offset_m": 0,
-          "distance_km": 86.79,
+          "distance_km": 69.728,
           "derived": false
         }
       },
@@ -27266,20 +27266,20 @@
       "latitude": 38.1952751,
       "longitude": 27.6044211,
       "coordinate_status": "verified",
-      "shape_index": 192,
+      "shape_index": 180,
       "shape_offset_m": 0,
-      "shape_distance_km": 88.746,
+      "shape_distance_km": 71.685,
       "shape_positions": {
         "shape-basmane-odemis": {
-          "index": 192,
+          "index": 180,
           "offset_m": 0,
-          "distance_km": 88.746,
+          "distance_km": 71.685,
           "derived": false
         },
         "shape-basmane-tire": {
-          "index": 188,
+          "index": 180,
           "offset_m": 0,
-          "distance_km": 88.746,
+          "distance_km": 71.684,
           "derived": false
         }
       },
@@ -27336,20 +27336,20 @@
       "latitude": 38.2128197,
       "longitude": 27.6495581,
       "coordinate_status": "verified",
-      "shape_index": 197,
+      "shape_index": 185,
       "shape_offset_m": 367,
-      "shape_distance_km": 93.569,
+      "shape_distance_km": 76.507,
       "shape_positions": {
         "shape-basmane-odemis": {
-          "index": 197,
+          "index": 185,
           "offset_m": 367,
-          "distance_km": 93.569,
+          "distance_km": 76.507,
           "derived": false
         },
         "shape-basmane-tire": {
-          "index": 191,
+          "index": 183,
           "offset_m": 367,
-          "distance_km": 93.569,
+          "distance_km": 76.507,
           "derived": false
         }
       },
@@ -27406,20 +27406,20 @@
       "latitude": 38.2031349,
       "longitude": 27.6729815,
       "coordinate_status": "verified",
-      "shape_index": 204,
+      "shape_index": 192,
       "shape_offset_m": 72,
-      "shape_distance_km": 95.687,
+      "shape_distance_km": 78.625,
       "shape_positions": {
         "shape-basmane-odemis": {
-          "index": 204,
+          "index": 192,
           "offset_m": 72,
-          "distance_km": 95.687,
+          "distance_km": 78.625,
           "derived": false
         },
         "shape-basmane-tire": {
-          "index": 199,
+          "index": 191,
           "offset_m": 72,
-          "distance_km": 95.686,
+          "distance_km": 78.625,
           "derived": false
         }
       },
@@ -27476,20 +27476,20 @@
       "latitude": 38.1985918,
       "longitude": 27.6963146,
       "coordinate_status": "verified",
-      "shape_index": 211,
+      "shape_index": 199,
       "shape_offset_m": 37,
-      "shape_distance_km": 97.84,
+      "shape_distance_km": 80.778,
       "shape_positions": {
         "shape-basmane-odemis": {
-          "index": 211,
+          "index": 199,
           "offset_m": 37,
-          "distance_km": 97.84,
+          "distance_km": 80.778,
           "derived": false
         },
         "shape-basmane-tire": {
-          "index": 206,
+          "index": 198,
           "offset_m": 37,
-          "distance_km": 97.84,
+          "distance_km": 80.778,
           "derived": false
         }
       },
@@ -27546,20 +27546,20 @@
       "latitude": 38.1724198,
       "longitude": 27.7208343,
       "coordinate_status": "verified",
-      "shape_index": 216,
+      "shape_index": 204,
       "shape_offset_m": 41,
-      "shape_distance_km": 101.458,
+      "shape_distance_km": 84.397,
       "shape_positions": {
         "shape-basmane-odemis": {
-          "index": 216,
+          "index": 204,
           "offset_m": 41,
-          "distance_km": 101.458,
+          "distance_km": 84.397,
           "derived": false
         },
         "shape-basmane-tire": {
-          "index": 212,
+          "index": 204,
           "offset_m": 41,
-          "distance_km": 101.458,
+          "distance_km": 84.397,
           "derived": false
         }
       },
@@ -27616,14 +27616,14 @@
       "latitude": 38.1607779,
       "longitude": 27.7450753,
       "coordinate_status": "derived",
-      "shape_index": 225,
+      "shape_index": 213,
       "shape_offset_m": 0,
-      "shape_distance_km": 104.472,
+      "shape_distance_km": 87.41,
       "shape_positions": {
         "shape-basmane-odemis": {
-          "index": 225,
+          "index": 213,
           "offset_m": 0,
-          "distance_km": 104.472,
+          "distance_km": 87.41,
           "derived": false
         }
       },
@@ -27660,14 +27660,14 @@
       "latitude": 38.156807,
       "longitude": 27.7941642,
       "coordinate_status": "derived",
-      "shape_index": 235,
+      "shape_index": 222,
       "shape_offset_m": 0,
-      "shape_distance_km": 108.861,
+      "shape_distance_km": 91.8,
       "shape_positions": {
         "shape-basmane-odemis": {
-          "index": 235,
+          "index": 222,
           "offset_m": 0,
-          "distance_km": 108.861,
+          "distance_km": 91.8,
           "derived": false
         }
       },
@@ -27704,14 +27704,14 @@
       "latitude": 38.1696768,
       "longitude": 27.8232396,
       "coordinate_status": "verified",
-      "shape_index": 244,
+      "shape_index": 230,
       "shape_offset_m": 0,
-      "shape_distance_km": 111.82,
+      "shape_distance_km": 94.759,
       "shape_positions": {
         "shape-basmane-odemis": {
-          "index": 244,
+          "index": 230,
           "offset_m": 0,
-          "distance_km": 111.82,
+          "distance_km": 94.759,
           "derived": false
         }
       },
@@ -27748,14 +27748,14 @@
       "latitude": 38.1737018,
       "longitude": 27.8659119,
       "coordinate_status": "verified",
-      "shape_index": 267,
+      "shape_index": 253,
       "shape_offset_m": 329,
-      "shape_distance_km": 115.545,
+      "shape_distance_km": 98.483,
       "shape_positions": {
         "shape-basmane-odemis": {
-          "index": 267,
+          "index": 253,
           "offset_m": 329,
-          "distance_km": 115.545,
+          "distance_km": 98.483,
           "derived": false
         }
       },
@@ -27792,14 +27792,14 @@
       "latitude": 38.2073722,
       "longitude": 27.9177247,
       "coordinate_status": "verified",
-      "shape_index": 276,
+      "shape_index": 262,
       "shape_offset_m": 351,
-      "shape_distance_km": 121.428,
+      "shape_distance_km": 104.367,
       "shape_positions": {
         "shape-basmane-odemis": {
-          "index": 276,
+          "index": 262,
           "offset_m": 351,
-          "distance_km": 121.428,
+          "distance_km": 104.367,
           "derived": false
         }
       },
@@ -27836,14 +27836,14 @@
       "latitude": 38.221574,
       "longitude": 27.9736822,
       "coordinate_status": "derived",
-      "shape_index": 283,
+      "shape_index": 269,
       "shape_offset_m": 0,
-      "shape_distance_km": 127.119,
+      "shape_distance_km": 110.058,
       "shape_positions": {
         "shape-basmane-odemis": {
-          "index": 283,
+          "index": 269,
           "offset_m": 0,
-          "distance_km": 127.119,
+          "distance_km": 110.058,
           "derived": false
         }
       },
@@ -27880,14 +27880,14 @@
       "latitude": 38.2272054,
       "longitude": 27.9771538,
       "coordinate_status": "verified",
-      "shape_index": 290,
+      "shape_index": 276,
       "shape_offset_m": 9,
-      "shape_distance_km": 127.911,
+      "shape_distance_km": 110.849,
       "shape_positions": {
         "shape-basmane-odemis": {
-          "index": 290,
+          "index": 276,
           "offset_m": 9,
-          "distance_km": 127.911,
+          "distance_km": 110.849,
           "derived": false
         }
       },
@@ -27924,14 +27924,14 @@
       "latitude": 38.1376153,
       "longitude": 27.713778,
       "coordinate_status": "derived",
-      "shape_index": 221,
+      "shape_index": 213,
       "shape_offset_m": 72,
-      "shape_distance_km": 105.933,
+      "shape_distance_km": 88.872,
       "shape_positions": {
         "shape-basmane-tire": {
-          "index": 221,
+          "index": 213,
           "offset_m": 72,
-          "distance_km": 105.933,
+          "distance_km": 88.872,
           "derived": false
         }
       },
@@ -27968,14 +27968,14 @@
       "latitude": 38.0979564,
       "longitude": 27.7098511,
       "coordinate_status": "verified",
-      "shape_index": 231,
+      "shape_index": 223,
       "shape_offset_m": 24,
-      "shape_distance_km": 110.515,
+      "shape_distance_km": 93.453,
       "shape_positions": {
         "shape-basmane-tire": {
-          "index": 231,
+          "index": 223,
           "offset_m": 24,
-          "distance_km": 110.515,
+          "distance_km": 93.453,
           "derived": false
         }
       },
@@ -28012,14 +28012,14 @@
       "latitude": 38.0924932,
       "longitude": 27.7278025,
       "coordinate_status": "verified",
-      "shape_index": 244,
+      "shape_index": 236,
       "shape_offset_m": 22,
-      "shape_distance_km": 112.545,
+      "shape_distance_km": 95.484,
       "shape_positions": {
         "shape-basmane-tire": {
-          "index": 244,
+          "index": 236,
           "offset_m": 22,
-          "distance_km": 112.545,
+          "distance_km": 95.484,
           "derived": false
         }
       },
@@ -28056,20 +28056,20 @@
       "latitude": 37.8774729,
       "longitude": 27.425796,
       "coordinate_status": "derived",
-      "shape_index": 275,
+      "shape_index": 294,
       "shape_offset_m": 0,
-      "shape_distance_km": 93.414,
+      "shape_distance_km": 93.841,
       "shape_positions": {
         "shape-basmane-denizli": {
-          "index": 275,
+          "index": 294,
           "offset_m": 0,
-          "distance_km": 93.414,
+          "distance_km": 93.841,
           "derived": false
         },
         "shape-basmane-nazilli": {
-          "index": 275,
+          "index": 294,
           "offset_m": 0,
-          "distance_km": 93.414,
+          "distance_km": 93.841,
           "derived": false
         }
       },
@@ -28126,20 +28126,20 @@
       "latitude": 37.8527742,
       "longitude": 27.9552472,
       "coordinate_status": "verified",
-      "shape_index": 396,
+      "shape_index": 415,
       "shape_offset_m": 28,
-      "shape_distance_km": 142.223,
+      "shape_distance_km": 142.65,
       "shape_positions": {
         "shape-basmane-denizli": {
-          "index": 396,
+          "index": 415,
           "offset_m": 28,
-          "distance_km": 142.223,
+          "distance_km": 142.65,
           "derived": false
         },
         "shape-basmane-nazilli": {
-          "index": 396,
+          "index": 415,
           "offset_m": 28,
-          "distance_km": 142.223,
+          "distance_km": 142.65,
           "derived": false
         }
       },
@@ -28196,20 +28196,20 @@
       "latitude": 37.8559604,
       "longitude": 28.0861185,
       "coordinate_status": "derived",
-      "shape_index": 414,
+      "shape_index": 433,
       "shape_offset_m": 62,
-      "shape_distance_km": 153.942,
+      "shape_distance_km": 154.369,
       "shape_positions": {
         "shape-basmane-denizli": {
-          "index": 414,
+          "index": 433,
           "offset_m": 62,
-          "distance_km": 153.942,
+          "distance_km": 154.369,
           "derived": false
         },
         "shape-basmane-nazilli": {
-          "index": 414,
+          "index": 433,
           "offset_m": 62,
-          "distance_km": 153.942,
+          "distance_km": 154.369,
           "derived": false
         }
       },
@@ -28266,20 +28266,20 @@
       "latitude": 37.8951389,
       "longitude": 28.2677675,
       "coordinate_status": "verified",
-      "shape_index": 443,
+      "shape_index": 462,
       "shape_offset_m": 68,
-      "shape_distance_km": 171.293,
+      "shape_distance_km": 171.72,
       "shape_positions": {
         "shape-basmane-denizli": {
-          "index": 443,
+          "index": 462,
           "offset_m": 68,
-          "distance_km": 171.293,
+          "distance_km": 171.72,
           "derived": false
         },
         "shape-basmane-nazilli": {
-          "index": 443,
+          "index": 462,
           "offset_m": 68,
-          "distance_km": 171.293,
+          "distance_km": 171.72,
           "derived": false
         }
       },
@@ -28336,14 +28336,14 @@
       "latitude": 37.9073446,
       "longitude": 28.5366908,
       "coordinate_status": "verified",
-      "shape_index": 486,
+      "shape_index": 505,
       "shape_offset_m": 56,
-      "shape_distance_km": 195.73,
+      "shape_distance_km": 196.157,
       "shape_positions": {
         "shape-basmane-denizli": {
-          "index": 486,
+          "index": 505,
           "offset_m": 56,
-          "distance_km": 195.73,
+          "distance_km": 196.157,
           "derived": false
         }
       },
