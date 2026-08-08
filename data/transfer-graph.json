@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T19:32:41.720Z",
+  "generated_at": "2026-08-08T19:43:02.120Z",
   "status": "ready",
   "nodes": [
     {
@@ -44,7 +44,10 @@
         "route-pamukkale-ekspresi",
         "route-yht-sivas",
         "route-ankara-ekspresi",
-        "route-ege-ekspresi"
+        "route-ege-ekspresi",
+        "route-afyon-eskisehir-bolgesel",
+        "route-eskisehir-kutahya-bolgesel",
+        "route-eskisehir-tavsanli-bolgesel"
       ]
     },
     {
@@ -671,7 +674,10 @@
       "route_ids": [
         "route-izmir-mavi",
         "route-pamukkale-ekspresi",
-        "route-ege-ekspresi"
+        "route-ege-ekspresi",
+        "route-afyon-eskisehir-bolgesel",
+        "route-eskisehir-kutahya-bolgesel",
+        "route-eskisehir-tavsanli-bolgesel"
       ]
     },
     {
@@ -680,7 +686,11 @@
       "route_ids": [
         "route-izmir-mavi",
         "route-pamukkale-ekspresi",
-        "route-ege-ekspresi"
+        "route-ege-ekspresi",
+        "route-afyon-eskisehir-bolgesel",
+        "route-eskisehir-kutahya-bolgesel",
+        "route-eskisehir-tavsanli-bolgesel",
+        "route-balikesir-kutahya-bolgesel"
       ]
     },
     {
@@ -688,7 +698,9 @@
       "name": "Tavşanlı",
       "route_ids": [
         "route-izmir-mavi",
-        "route-ege-ekspresi"
+        "route-ege-ekspresi",
+        "route-eskisehir-tavsanli-bolgesel",
+        "route-balikesir-kutahya-bolgesel"
       ]
     },
     {
@@ -696,7 +708,8 @@
       "name": "Balıköy",
       "route_ids": [
         "route-izmir-mavi",
-        "route-ege-ekspresi"
+        "route-ege-ekspresi",
+        "route-balikesir-kutahya-bolgesel"
       ]
     },
     {
@@ -704,7 +717,8 @@
       "name": "Dursunbey",
       "route_ids": [
         "route-izmir-mavi",
-        "route-ege-ekspresi"
+        "route-ege-ekspresi",
+        "route-balikesir-kutahya-bolgesel"
       ]
     },
     {
@@ -713,7 +727,8 @@
       "route_ids": [
         "route-izmir-mavi",
         "route-ege-ekspresi",
-        "route-6-17-eylul-ekspresleri"
+        "route-6-17-eylul-ekspresleri",
+        "route-balikesir-kutahya-bolgesel"
       ]
     },
     {
@@ -1326,42 +1341,50 @@
       "name": "Sabuncupınar",
       "route_ids": [
         "route-pamukkale-ekspresi",
-        "route-ege-ekspresi"
+        "route-ege-ekspresi",
+        "route-afyon-eskisehir-bolgesel",
+        "route-eskisehir-kutahya-bolgesel",
+        "route-eskisehir-tavsanli-bolgesel"
       ]
     },
     {
       "station_id": "st-cogurler",
       "name": "Çöğürler",
       "route_ids": [
-        "route-pamukkale-ekspresi"
+        "route-pamukkale-ekspresi",
+        "route-afyon-eskisehir-bolgesel"
       ]
     },
     {
       "station_id": "st-degirmenozu",
       "name": "Değirmenözü",
       "route_ids": [
-        "route-pamukkale-ekspresi"
+        "route-pamukkale-ekspresi",
+        "route-afyon-eskisehir-bolgesel"
       ]
     },
     {
       "station_id": "st-doger",
       "name": "Döğer",
       "route_ids": [
-        "route-pamukkale-ekspresi"
+        "route-pamukkale-ekspresi",
+        "route-afyon-eskisehir-bolgesel"
       ]
     },
     {
       "station_id": "st-ihsaniye",
       "name": "İhsaniye",
       "route_ids": [
-        "route-pamukkale-ekspresi"
+        "route-pamukkale-ekspresi",
+        "route-afyon-eskisehir-bolgesel"
       ]
     },
     {
       "station_id": "st-gazligol",
       "name": "Gazlıgöl",
       "route_ids": [
-        "route-pamukkale-ekspresi"
+        "route-pamukkale-ekspresi",
+        "route-afyon-eskisehir-bolgesel"
       ]
     },
     {
@@ -1369,7 +1392,8 @@
       "name": "Afyon A. Çetinkaya",
       "route_ids": [
         "route-pamukkale-ekspresi",
-        "route-konya-mavi"
+        "route-konya-mavi",
+        "route-afyon-eskisehir-bolgesel"
       ]
     },
     {
@@ -3055,6 +3079,106 @@
       "name": "Ahmetler",
       "route_ids": [
         "route-basmane-usak-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-demirozu",
+      "name": "Demirözü",
+      "route_ids": [
+        "route-afyon-eskisehir-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-alayunt-muselles",
+      "name": "Alayunt Müselles",
+      "route_ids": [
+        "route-afyon-eskisehir-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-gokcekisik",
+      "name": "Gökçekısık",
+      "route_ids": [
+        "route-afyon-eskisehir-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-porsuk",
+      "name": "Porsuk",
+      "route_ids": [
+        "route-eskisehir-kutahya-bolgesel",
+        "route-eskisehir-tavsanli-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-ulukoy",
+      "name": "Uluköy",
+      "route_ids": [
+        "route-eskisehir-kutahya-bolgesel",
+        "route-eskisehir-tavsanli-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-gundogan",
+      "name": "Gündoğan",
+      "route_ids": [
+        "route-balikesir-kutahya-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-nusrat",
+      "name": "Nusrat",
+      "route_ids": [
+        "route-balikesir-kutahya-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-mezitler",
+      "name": "Mezitler",
+      "route_ids": [
+        "route-balikesir-kutahya-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-kirec",
+      "name": "Kireç",
+      "route_ids": [
+        "route-balikesir-kutahya-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-piribeyler",
+      "name": "Piribeyler",
+      "route_ids": [
+        "route-balikesir-kutahya-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-gokcedag",
+      "name": "Gökçedağ",
+      "route_ids": [
+        "route-balikesir-kutahya-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-alove",
+      "name": "Alöve",
+      "route_ids": [
+        "route-balikesir-kutahya-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-alikoy",
+      "name": "Aliköy",
+      "route_ids": [
+        "route-balikesir-kutahya-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-guzelyurt",
+      "name": "Güzelyurt",
+      "route_ids": [
+        "route-balikesir-kutahya-bolgesel"
       ]
     }
   ],
@@ -15397,6 +15521,654 @@
       "pattern_id": "pattern-manisa-alasehir",
       "direction": "reverse",
       "sequence": 16
+    },
+    {
+      "id": "pattern-afyon-eskisehir:1",
+      "from_station_id": "st-afyon-ali-cetinkaya",
+      "to_station_id": "st-gazligol",
+      "route_id": "route-afyon-eskisehir-bolgesel",
+      "pattern_id": "pattern-afyon-eskisehir",
+      "direction": "forward",
+      "sequence": 1
+    },
+    {
+      "id": "pattern-afyon-eskisehir:2",
+      "from_station_id": "st-gazligol",
+      "to_station_id": "st-ihsaniye",
+      "route_id": "route-afyon-eskisehir-bolgesel",
+      "pattern_id": "pattern-afyon-eskisehir",
+      "direction": "forward",
+      "sequence": 2
+    },
+    {
+      "id": "pattern-afyon-eskisehir:3",
+      "from_station_id": "st-ihsaniye",
+      "to_station_id": "st-doger",
+      "route_id": "route-afyon-eskisehir-bolgesel",
+      "pattern_id": "pattern-afyon-eskisehir",
+      "direction": "forward",
+      "sequence": 3
+    },
+    {
+      "id": "pattern-afyon-eskisehir:4",
+      "from_station_id": "st-doger",
+      "to_station_id": "st-demirozu",
+      "route_id": "route-afyon-eskisehir-bolgesel",
+      "pattern_id": "pattern-afyon-eskisehir",
+      "direction": "forward",
+      "sequence": 4
+    },
+    {
+      "id": "pattern-afyon-eskisehir:5",
+      "from_station_id": "st-demirozu",
+      "to_station_id": "st-degirmenozu",
+      "route_id": "route-afyon-eskisehir-bolgesel",
+      "pattern_id": "pattern-afyon-eskisehir",
+      "direction": "forward",
+      "sequence": 5
+    },
+    {
+      "id": "pattern-afyon-eskisehir:6",
+      "from_station_id": "st-degirmenozu",
+      "to_station_id": "st-cogurler",
+      "route_id": "route-afyon-eskisehir-bolgesel",
+      "pattern_id": "pattern-afyon-eskisehir",
+      "direction": "forward",
+      "sequence": 6
+    },
+    {
+      "id": "pattern-afyon-eskisehir:7",
+      "from_station_id": "st-cogurler",
+      "to_station_id": "st-alayunt-muselles",
+      "route_id": "route-afyon-eskisehir-bolgesel",
+      "pattern_id": "pattern-afyon-eskisehir",
+      "direction": "forward",
+      "sequence": 7
+    },
+    {
+      "id": "pattern-afyon-eskisehir:8",
+      "from_station_id": "st-alayunt-muselles",
+      "to_station_id": "st-kutahya",
+      "route_id": "route-afyon-eskisehir-bolgesel",
+      "pattern_id": "pattern-afyon-eskisehir",
+      "direction": "forward",
+      "sequence": 8
+    },
+    {
+      "id": "pattern-afyon-eskisehir:9",
+      "from_station_id": "st-kutahya",
+      "to_station_id": "st-alayunt",
+      "route_id": "route-afyon-eskisehir-bolgesel",
+      "pattern_id": "pattern-afyon-eskisehir",
+      "direction": "forward",
+      "sequence": 9
+    },
+    {
+      "id": "pattern-afyon-eskisehir:10",
+      "from_station_id": "st-alayunt",
+      "to_station_id": "st-sabuncupinar",
+      "route_id": "route-afyon-eskisehir-bolgesel",
+      "pattern_id": "pattern-afyon-eskisehir",
+      "direction": "forward",
+      "sequence": 10
+    },
+    {
+      "id": "pattern-afyon-eskisehir:11",
+      "from_station_id": "st-sabuncupinar",
+      "to_station_id": "st-gokcekisik",
+      "route_id": "route-afyon-eskisehir-bolgesel",
+      "pattern_id": "pattern-afyon-eskisehir",
+      "direction": "forward",
+      "sequence": 11
+    },
+    {
+      "id": "pattern-afyon-eskisehir:12",
+      "from_station_id": "st-gokcekisik",
+      "to_station_id": "st-eskisehir",
+      "route_id": "route-afyon-eskisehir-bolgesel",
+      "pattern_id": "pattern-afyon-eskisehir",
+      "direction": "forward",
+      "sequence": 12
+    },
+    {
+      "id": "pattern-eskisehir-afyon:1",
+      "from_station_id": "st-eskisehir",
+      "to_station_id": "st-gokcekisik",
+      "route_id": "route-afyon-eskisehir-bolgesel",
+      "pattern_id": "pattern-eskisehir-afyon",
+      "direction": "reverse",
+      "sequence": 1
+    },
+    {
+      "id": "pattern-eskisehir-afyon:2",
+      "from_station_id": "st-gokcekisik",
+      "to_station_id": "st-sabuncupinar",
+      "route_id": "route-afyon-eskisehir-bolgesel",
+      "pattern_id": "pattern-eskisehir-afyon",
+      "direction": "reverse",
+      "sequence": 2
+    },
+    {
+      "id": "pattern-eskisehir-afyon:3",
+      "from_station_id": "st-sabuncupinar",
+      "to_station_id": "st-alayunt",
+      "route_id": "route-afyon-eskisehir-bolgesel",
+      "pattern_id": "pattern-eskisehir-afyon",
+      "direction": "reverse",
+      "sequence": 3
+    },
+    {
+      "id": "pattern-eskisehir-afyon:4",
+      "from_station_id": "st-alayunt",
+      "to_station_id": "st-kutahya",
+      "route_id": "route-afyon-eskisehir-bolgesel",
+      "pattern_id": "pattern-eskisehir-afyon",
+      "direction": "reverse",
+      "sequence": 4
+    },
+    {
+      "id": "pattern-eskisehir-afyon:5",
+      "from_station_id": "st-kutahya",
+      "to_station_id": "st-alayunt-muselles",
+      "route_id": "route-afyon-eskisehir-bolgesel",
+      "pattern_id": "pattern-eskisehir-afyon",
+      "direction": "reverse",
+      "sequence": 5
+    },
+    {
+      "id": "pattern-eskisehir-afyon:6",
+      "from_station_id": "st-alayunt-muselles",
+      "to_station_id": "st-cogurler",
+      "route_id": "route-afyon-eskisehir-bolgesel",
+      "pattern_id": "pattern-eskisehir-afyon",
+      "direction": "reverse",
+      "sequence": 6
+    },
+    {
+      "id": "pattern-eskisehir-afyon:7",
+      "from_station_id": "st-cogurler",
+      "to_station_id": "st-degirmenozu",
+      "route_id": "route-afyon-eskisehir-bolgesel",
+      "pattern_id": "pattern-eskisehir-afyon",
+      "direction": "reverse",
+      "sequence": 7
+    },
+    {
+      "id": "pattern-eskisehir-afyon:8",
+      "from_station_id": "st-degirmenozu",
+      "to_station_id": "st-demirozu",
+      "route_id": "route-afyon-eskisehir-bolgesel",
+      "pattern_id": "pattern-eskisehir-afyon",
+      "direction": "reverse",
+      "sequence": 8
+    },
+    {
+      "id": "pattern-eskisehir-afyon:9",
+      "from_station_id": "st-demirozu",
+      "to_station_id": "st-doger",
+      "route_id": "route-afyon-eskisehir-bolgesel",
+      "pattern_id": "pattern-eskisehir-afyon",
+      "direction": "reverse",
+      "sequence": 9
+    },
+    {
+      "id": "pattern-eskisehir-afyon:10",
+      "from_station_id": "st-doger",
+      "to_station_id": "st-ihsaniye",
+      "route_id": "route-afyon-eskisehir-bolgesel",
+      "pattern_id": "pattern-eskisehir-afyon",
+      "direction": "reverse",
+      "sequence": 10
+    },
+    {
+      "id": "pattern-eskisehir-afyon:11",
+      "from_station_id": "st-ihsaniye",
+      "to_station_id": "st-gazligol",
+      "route_id": "route-afyon-eskisehir-bolgesel",
+      "pattern_id": "pattern-eskisehir-afyon",
+      "direction": "reverse",
+      "sequence": 11
+    },
+    {
+      "id": "pattern-eskisehir-afyon:12",
+      "from_station_id": "st-gazligol",
+      "to_station_id": "st-afyon-ali-cetinkaya",
+      "route_id": "route-afyon-eskisehir-bolgesel",
+      "pattern_id": "pattern-eskisehir-afyon",
+      "direction": "reverse",
+      "sequence": 12
+    },
+    {
+      "id": "pattern-eskisehir-kutahya:1",
+      "from_station_id": "st-eskisehir",
+      "to_station_id": "st-porsuk",
+      "route_id": "route-eskisehir-kutahya-bolgesel",
+      "pattern_id": "pattern-eskisehir-kutahya",
+      "direction": "forward",
+      "sequence": 1
+    },
+    {
+      "id": "pattern-eskisehir-kutahya:2",
+      "from_station_id": "st-porsuk",
+      "to_station_id": "st-sabuncupinar",
+      "route_id": "route-eskisehir-kutahya-bolgesel",
+      "pattern_id": "pattern-eskisehir-kutahya",
+      "direction": "forward",
+      "sequence": 2
+    },
+    {
+      "id": "pattern-eskisehir-kutahya:3",
+      "from_station_id": "st-sabuncupinar",
+      "to_station_id": "st-ulukoy",
+      "route_id": "route-eskisehir-kutahya-bolgesel",
+      "pattern_id": "pattern-eskisehir-kutahya",
+      "direction": "forward",
+      "sequence": 3
+    },
+    {
+      "id": "pattern-eskisehir-kutahya:4",
+      "from_station_id": "st-ulukoy",
+      "to_station_id": "st-alayunt",
+      "route_id": "route-eskisehir-kutahya-bolgesel",
+      "pattern_id": "pattern-eskisehir-kutahya",
+      "direction": "forward",
+      "sequence": 4
+    },
+    {
+      "id": "pattern-eskisehir-kutahya:5",
+      "from_station_id": "st-alayunt",
+      "to_station_id": "st-kutahya",
+      "route_id": "route-eskisehir-kutahya-bolgesel",
+      "pattern_id": "pattern-eskisehir-kutahya",
+      "direction": "forward",
+      "sequence": 5
+    },
+    {
+      "id": "pattern-kutahya-eskisehir:1",
+      "from_station_id": "st-kutahya",
+      "to_station_id": "st-alayunt",
+      "route_id": "route-eskisehir-kutahya-bolgesel",
+      "pattern_id": "pattern-kutahya-eskisehir",
+      "direction": "reverse",
+      "sequence": 1
+    },
+    {
+      "id": "pattern-kutahya-eskisehir:2",
+      "from_station_id": "st-alayunt",
+      "to_station_id": "st-ulukoy",
+      "route_id": "route-eskisehir-kutahya-bolgesel",
+      "pattern_id": "pattern-kutahya-eskisehir",
+      "direction": "reverse",
+      "sequence": 2
+    },
+    {
+      "id": "pattern-kutahya-eskisehir:3",
+      "from_station_id": "st-ulukoy",
+      "to_station_id": "st-sabuncupinar",
+      "route_id": "route-eskisehir-kutahya-bolgesel",
+      "pattern_id": "pattern-kutahya-eskisehir",
+      "direction": "reverse",
+      "sequence": 3
+    },
+    {
+      "id": "pattern-kutahya-eskisehir:4",
+      "from_station_id": "st-sabuncupinar",
+      "to_station_id": "st-porsuk",
+      "route_id": "route-eskisehir-kutahya-bolgesel",
+      "pattern_id": "pattern-kutahya-eskisehir",
+      "direction": "reverse",
+      "sequence": 4
+    },
+    {
+      "id": "pattern-kutahya-eskisehir:5",
+      "from_station_id": "st-porsuk",
+      "to_station_id": "st-eskisehir",
+      "route_id": "route-eskisehir-kutahya-bolgesel",
+      "pattern_id": "pattern-kutahya-eskisehir",
+      "direction": "reverse",
+      "sequence": 5
+    },
+    {
+      "id": "pattern-eskisehir-tavsanli:1",
+      "from_station_id": "st-eskisehir",
+      "to_station_id": "st-porsuk",
+      "route_id": "route-eskisehir-tavsanli-bolgesel",
+      "pattern_id": "pattern-eskisehir-tavsanli",
+      "direction": "forward",
+      "sequence": 1
+    },
+    {
+      "id": "pattern-eskisehir-tavsanli:2",
+      "from_station_id": "st-porsuk",
+      "to_station_id": "st-sabuncupinar",
+      "route_id": "route-eskisehir-tavsanli-bolgesel",
+      "pattern_id": "pattern-eskisehir-tavsanli",
+      "direction": "forward",
+      "sequence": 2
+    },
+    {
+      "id": "pattern-eskisehir-tavsanli:3",
+      "from_station_id": "st-sabuncupinar",
+      "to_station_id": "st-ulukoy",
+      "route_id": "route-eskisehir-tavsanli-bolgesel",
+      "pattern_id": "pattern-eskisehir-tavsanli",
+      "direction": "forward",
+      "sequence": 3
+    },
+    {
+      "id": "pattern-eskisehir-tavsanli:4",
+      "from_station_id": "st-ulukoy",
+      "to_station_id": "st-alayunt",
+      "route_id": "route-eskisehir-tavsanli-bolgesel",
+      "pattern_id": "pattern-eskisehir-tavsanli",
+      "direction": "forward",
+      "sequence": 4
+    },
+    {
+      "id": "pattern-eskisehir-tavsanli:5",
+      "from_station_id": "st-alayunt",
+      "to_station_id": "st-kutahya",
+      "route_id": "route-eskisehir-tavsanli-bolgesel",
+      "pattern_id": "pattern-eskisehir-tavsanli",
+      "direction": "forward",
+      "sequence": 5
+    },
+    {
+      "id": "pattern-eskisehir-tavsanli:6",
+      "from_station_id": "st-kutahya",
+      "to_station_id": "st-tavsanli",
+      "route_id": "route-eskisehir-tavsanli-bolgesel",
+      "pattern_id": "pattern-eskisehir-tavsanli",
+      "direction": "forward",
+      "sequence": 6
+    },
+    {
+      "id": "pattern-tavsanli-eskisehir:1",
+      "from_station_id": "st-tavsanli",
+      "to_station_id": "st-kutahya",
+      "route_id": "route-eskisehir-tavsanli-bolgesel",
+      "pattern_id": "pattern-tavsanli-eskisehir",
+      "direction": "reverse",
+      "sequence": 1
+    },
+    {
+      "id": "pattern-tavsanli-eskisehir:2",
+      "from_station_id": "st-kutahya",
+      "to_station_id": "st-alayunt",
+      "route_id": "route-eskisehir-tavsanli-bolgesel",
+      "pattern_id": "pattern-tavsanli-eskisehir",
+      "direction": "reverse",
+      "sequence": 2
+    },
+    {
+      "id": "pattern-tavsanli-eskisehir:3",
+      "from_station_id": "st-alayunt",
+      "to_station_id": "st-ulukoy",
+      "route_id": "route-eskisehir-tavsanli-bolgesel",
+      "pattern_id": "pattern-tavsanli-eskisehir",
+      "direction": "reverse",
+      "sequence": 3
+    },
+    {
+      "id": "pattern-tavsanli-eskisehir:4",
+      "from_station_id": "st-ulukoy",
+      "to_station_id": "st-sabuncupinar",
+      "route_id": "route-eskisehir-tavsanli-bolgesel",
+      "pattern_id": "pattern-tavsanli-eskisehir",
+      "direction": "reverse",
+      "sequence": 4
+    },
+    {
+      "id": "pattern-tavsanli-eskisehir:5",
+      "from_station_id": "st-sabuncupinar",
+      "to_station_id": "st-porsuk",
+      "route_id": "route-eskisehir-tavsanli-bolgesel",
+      "pattern_id": "pattern-tavsanli-eskisehir",
+      "direction": "reverse",
+      "sequence": 5
+    },
+    {
+      "id": "pattern-tavsanli-eskisehir:6",
+      "from_station_id": "st-porsuk",
+      "to_station_id": "st-eskisehir",
+      "route_id": "route-eskisehir-tavsanli-bolgesel",
+      "pattern_id": "pattern-tavsanli-eskisehir",
+      "direction": "reverse",
+      "sequence": 6
+    },
+    {
+      "id": "pattern-balikesir-kutahya:1",
+      "from_station_id": "st-balikesir",
+      "to_station_id": "st-gundogan",
+      "route_id": "route-balikesir-kutahya-bolgesel",
+      "pattern_id": "pattern-balikesir-kutahya",
+      "direction": "forward",
+      "sequence": 1
+    },
+    {
+      "id": "pattern-balikesir-kutahya:2",
+      "from_station_id": "st-gundogan",
+      "to_station_id": "st-nusrat",
+      "route_id": "route-balikesir-kutahya-bolgesel",
+      "pattern_id": "pattern-balikesir-kutahya",
+      "direction": "forward",
+      "sequence": 2
+    },
+    {
+      "id": "pattern-balikesir-kutahya:3",
+      "from_station_id": "st-nusrat",
+      "to_station_id": "st-mezitler",
+      "route_id": "route-balikesir-kutahya-bolgesel",
+      "pattern_id": "pattern-balikesir-kutahya",
+      "direction": "forward",
+      "sequence": 3
+    },
+    {
+      "id": "pattern-balikesir-kutahya:4",
+      "from_station_id": "st-mezitler",
+      "to_station_id": "st-kirec",
+      "route_id": "route-balikesir-kutahya-bolgesel",
+      "pattern_id": "pattern-balikesir-kutahya",
+      "direction": "forward",
+      "sequence": 4
+    },
+    {
+      "id": "pattern-balikesir-kutahya:5",
+      "from_station_id": "st-kirec",
+      "to_station_id": "st-dursunbey",
+      "route_id": "route-balikesir-kutahya-bolgesel",
+      "pattern_id": "pattern-balikesir-kutahya",
+      "direction": "forward",
+      "sequence": 5
+    },
+    {
+      "id": "pattern-balikesir-kutahya:6",
+      "from_station_id": "st-dursunbey",
+      "to_station_id": "st-piribeyler",
+      "route_id": "route-balikesir-kutahya-bolgesel",
+      "pattern_id": "pattern-balikesir-kutahya",
+      "direction": "forward",
+      "sequence": 6
+    },
+    {
+      "id": "pattern-balikesir-kutahya:7",
+      "from_station_id": "st-piribeyler",
+      "to_station_id": "st-gokcedag",
+      "route_id": "route-balikesir-kutahya-bolgesel",
+      "pattern_id": "pattern-balikesir-kutahya",
+      "direction": "forward",
+      "sequence": 7
+    },
+    {
+      "id": "pattern-balikesir-kutahya:8",
+      "from_station_id": "st-gokcedag",
+      "to_station_id": "st-alove",
+      "route_id": "route-balikesir-kutahya-bolgesel",
+      "pattern_id": "pattern-balikesir-kutahya",
+      "direction": "forward",
+      "sequence": 8
+    },
+    {
+      "id": "pattern-balikesir-kutahya:9",
+      "from_station_id": "st-alove",
+      "to_station_id": "st-balikoy",
+      "route_id": "route-balikesir-kutahya-bolgesel",
+      "pattern_id": "pattern-balikesir-kutahya",
+      "direction": "forward",
+      "sequence": 9
+    },
+    {
+      "id": "pattern-balikesir-kutahya:10",
+      "from_station_id": "st-balikoy",
+      "to_station_id": "st-tavsanli",
+      "route_id": "route-balikesir-kutahya-bolgesel",
+      "pattern_id": "pattern-balikesir-kutahya",
+      "direction": "forward",
+      "sequence": 10
+    },
+    {
+      "id": "pattern-balikesir-kutahya:11",
+      "from_station_id": "st-tavsanli",
+      "to_station_id": "st-guzelyurt",
+      "route_id": "route-balikesir-kutahya-bolgesel",
+      "pattern_id": "pattern-balikesir-kutahya",
+      "direction": "forward",
+      "sequence": 11
+    },
+    {
+      "id": "pattern-balikesir-kutahya:12",
+      "from_station_id": "st-guzelyurt",
+      "to_station_id": "st-alikoy",
+      "route_id": "route-balikesir-kutahya-bolgesel",
+      "pattern_id": "pattern-balikesir-kutahya",
+      "direction": "forward",
+      "sequence": 12
+    },
+    {
+      "id": "pattern-balikesir-kutahya:13",
+      "from_station_id": "st-alikoy",
+      "to_station_id": "st-kutahya",
+      "route_id": "route-balikesir-kutahya-bolgesel",
+      "pattern_id": "pattern-balikesir-kutahya",
+      "direction": "forward",
+      "sequence": 13
+    },
+    {
+      "id": "pattern-kutahya-balikesir:1",
+      "from_station_id": "st-kutahya",
+      "to_station_id": "st-alikoy",
+      "route_id": "route-balikesir-kutahya-bolgesel",
+      "pattern_id": "pattern-kutahya-balikesir",
+      "direction": "reverse",
+      "sequence": 1
+    },
+    {
+      "id": "pattern-kutahya-balikesir:2",
+      "from_station_id": "st-alikoy",
+      "to_station_id": "st-guzelyurt",
+      "route_id": "route-balikesir-kutahya-bolgesel",
+      "pattern_id": "pattern-kutahya-balikesir",
+      "direction": "reverse",
+      "sequence": 2
+    },
+    {
+      "id": "pattern-kutahya-balikesir:3",
+      "from_station_id": "st-guzelyurt",
+      "to_station_id": "st-tavsanli",
+      "route_id": "route-balikesir-kutahya-bolgesel",
+      "pattern_id": "pattern-kutahya-balikesir",
+      "direction": "reverse",
+      "sequence": 3
+    },
+    {
+      "id": "pattern-kutahya-balikesir:4",
+      "from_station_id": "st-tavsanli",
+      "to_station_id": "st-balikoy",
+      "route_id": "route-balikesir-kutahya-bolgesel",
+      "pattern_id": "pattern-kutahya-balikesir",
+      "direction": "reverse",
+      "sequence": 4
+    },
+    {
+      "id": "pattern-kutahya-balikesir:5",
+      "from_station_id": "st-balikoy",
+      "to_station_id": "st-alove",
+      "route_id": "route-balikesir-kutahya-bolgesel",
+      "pattern_id": "pattern-kutahya-balikesir",
+      "direction": "reverse",
+      "sequence": 5
+    },
+    {
+      "id": "pattern-kutahya-balikesir:6",
+      "from_station_id": "st-alove",
+      "to_station_id": "st-gokcedag",
+      "route_id": "route-balikesir-kutahya-bolgesel",
+      "pattern_id": "pattern-kutahya-balikesir",
+      "direction": "reverse",
+      "sequence": 6
+    },
+    {
+      "id": "pattern-kutahya-balikesir:7",
+      "from_station_id": "st-gokcedag",
+      "to_station_id": "st-piribeyler",
+      "route_id": "route-balikesir-kutahya-bolgesel",
+      "pattern_id": "pattern-kutahya-balikesir",
+      "direction": "reverse",
+      "sequence": 7
+    },
+    {
+      "id": "pattern-kutahya-balikesir:8",
+      "from_station_id": "st-piribeyler",
+      "to_station_id": "st-dursunbey",
+      "route_id": "route-balikesir-kutahya-bolgesel",
+      "pattern_id": "pattern-kutahya-balikesir",
+      "direction": "reverse",
+      "sequence": 8
+    },
+    {
+      "id": "pattern-kutahya-balikesir:9",
+      "from_station_id": "st-dursunbey",
+      "to_station_id": "st-kirec",
+      "route_id": "route-balikesir-kutahya-bolgesel",
+      "pattern_id": "pattern-kutahya-balikesir",
+      "direction": "reverse",
+      "sequence": 9
+    },
+    {
+      "id": "pattern-kutahya-balikesir:10",
+      "from_station_id": "st-kirec",
+      "to_station_id": "st-mezitler",
+      "route_id": "route-balikesir-kutahya-bolgesel",
+      "pattern_id": "pattern-kutahya-balikesir",
+      "direction": "reverse",
+      "sequence": 10
+    },
+    {
+      "id": "pattern-kutahya-balikesir:11",
+      "from_station_id": "st-mezitler",
+      "to_station_id": "st-nusrat",
+      "route_id": "route-balikesir-kutahya-bolgesel",
+      "pattern_id": "pattern-kutahya-balikesir",
+      "direction": "reverse",
+      "sequence": 11
+    },
+    {
+      "id": "pattern-kutahya-balikesir:12",
+      "from_station_id": "st-nusrat",
+      "to_station_id": "st-gundogan",
+      "route_id": "route-balikesir-kutahya-bolgesel",
+      "pattern_id": "pattern-kutahya-balikesir",
+      "direction": "reverse",
+      "sequence": 12
+    },
+    {
+      "id": "pattern-kutahya-balikesir:13",
+      "from_station_id": "st-gundogan",
+      "to_station_id": "st-balikesir",
+      "route_id": "route-balikesir-kutahya-bolgesel",
+      "pattern_id": "pattern-kutahya-balikesir",
+      "direction": "reverse",
+      "sequence": 13
     }
   ],
   "transfer_edges": []

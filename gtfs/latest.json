@@ -1,17 +1,17 @@
 {
   "filename": "tr_railways_20260808.zip",
-  "generated_at": "2026-08-08T19:32:38.461Z",
+  "generated_at": "2026-08-08T19:42:59.027Z",
   "generation_date": "20260808",
   "feed_start_date": "20260808",
   "feed_end_date": "20260822",
   "available_days": 15,
-  "routes": 27,
-  "stops": 382,
-  "trips": 152,
+  "routes": 31,
+  "stops": 396,
+  "trips": 162,
   "services": 12,
-  "stop_times": 2711,
-  "shapes": 65,
-  "shape_points": 110518,
+  "stop_times": 2796,
+  "shapes": 73,
+  "shape_points": 116768,
   "validation": "passed",
-  "size_bytes": 1758853
+  "size_bytes": 1852050
 }
