@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T16:07:20.215Z",
+  "generated_at": "2026-08-11T16:32:13.311Z",
   "publication_status": "independent_open_project",
   "sources": [
     {
@@ -55,9 +55,9 @@
       "id": "timetable",
       "status": "official_published",
       "calendar_strategy": "explicit_service_dates",
-      "source_count": 44,
-      "trip_count": 3882,
-      "stop_time_count": 66628,
+      "source_count": 45,
+      "trip_count": 4537,
+      "stop_time_count": 84550,
       "valid_from": "2026-08-08",
       "valid_until": "2026-08-25"
     },
@@ -66,7 +66,7 @@
       "status": "generated",
       "input": "data/input/transfers.csv",
       "node_count": 559,
-      "ride_edge_count": 2785,
+      "ride_edge_count": 2992,
       "transfer_edge_count": 0
     }
   ]
