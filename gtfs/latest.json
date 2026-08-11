@@ -1,6 +1,6 @@
 {
   "filename": "tr_railways_20260811.zip",
-  "generated_at": "2026-08-11T15:25:48.384Z",
+  "generated_at": "2026-08-11T16:07:15.903Z",
   "generation_date": "20260811",
   "feed_start_date": "20260811",
   "feed_end_date": "20260825",
@@ -11,7 +11,7 @@
   "services": 16,
   "stop_times": 19912,
   "shapes": 129,
-  "shape_points": 131351,
+  "shape_points": 136393,
   "validation": "passed",
-  "size_bytes": 2204748
+  "size_bytes": 2263104
 }
