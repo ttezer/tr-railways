@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T20:51:00.075Z",
+  "generated_at": "2026-08-11T14:30:34.950Z",
   "status": "ready",
   "nodes": [
     {
@@ -7,12 +7,13 @@
       "name": "Ankara Gar",
       "route_ids": [
         "route-yht-ankara-istanbul",
-        "route-yht-konya",
+        "route-yht-ankara-konya-karaman",
         "route-dogu-ekspresi",
         "route-izmir-mavi",
         "route-vangolu-ekspresi",
         "route-guney-kurtalan-ekspresi",
-        "route-yht-sivas",
+        "route-yht-ankara-sivas",
+        "route-yht-istanbul-sivas",
         "route-turistik-dogu-ekspresi",
         "route-ankara-ekspresi",
         "route-4-eylul-mavi",
@@ -24,7 +25,7 @@
       "name": "Eryaman YHT",
       "route_ids": [
         "route-yht-ankara-istanbul",
-        "route-yht-konya"
+        "route-yht-ankara-konya-karaman"
       ]
     },
     {
@@ -32,7 +33,7 @@
       "name": "Polatlı YHT",
       "route_ids": [
         "route-yht-ankara-istanbul",
-        "route-yht-konya"
+        "route-yht-ankara-konya-karaman"
       ]
     },
     {
@@ -40,10 +41,10 @@
       "name": "Eskişehir",
       "route_ids": [
         "route-yht-ankara-istanbul",
-        "route-yht-konya",
+        "route-yht-istanbul-konya-karaman",
         "route-izmir-mavi",
         "route-pamukkale-ekspresi",
-        "route-yht-sivas",
+        "route-yht-istanbul-sivas",
         "route-ankara-ekspresi",
         "route-ege-ekspresi",
         "route-afyon-eskisehir-bolgesel",
@@ -56,7 +57,7 @@
       "name": "Bozüyük YHT",
       "route_ids": [
         "route-yht-ankara-istanbul",
-        "route-yht-konya"
+        "route-yht-istanbul-konya-karaman"
       ]
     },
     {
@@ -64,7 +65,7 @@
       "name": "Bilecik YHT",
       "route_ids": [
         "route-yht-ankara-istanbul",
-        "route-yht-konya"
+        "route-yht-istanbul-konya-karaman"
       ]
     },
     {
@@ -72,7 +73,7 @@
       "name": "Pamukova YHT",
       "route_ids": [
         "route-yht-ankara-istanbul",
-        "route-yht-konya"
+        "route-yht-istanbul-konya-karaman"
       ]
     },
     {
@@ -80,8 +81,8 @@
       "name": "Arifiye",
       "route_ids": [
         "route-yht-ankara-istanbul",
-        "route-yht-konya",
-        "route-yht-sivas",
+        "route-yht-istanbul-konya-karaman",
+        "route-yht-istanbul-sivas",
         "route-ankara-ekspresi",
         "route-adapazari-gebze-bolgesel"
       ]
@@ -91,8 +92,8 @@
       "name": "İzmit YHT",
       "route_ids": [
         "route-yht-ankara-istanbul",
-        "route-yht-konya",
-        "route-yht-sivas",
+        "route-yht-istanbul-konya-karaman",
+        "route-yht-istanbul-sivas",
         "route-ankara-ekspresi",
         "route-adapazari-gebze-bolgesel"
       ]
@@ -102,7 +103,7 @@
       "name": "Gebze",
       "route_ids": [
         "route-yht-ankara-istanbul",
-        "route-yht-konya",
+        "route-yht-istanbul-konya-karaman",
         "route-ankara-ekspresi",
         "route-adapazari-gebze-bolgesel"
       ]
@@ -112,8 +113,8 @@
       "name": "İstanbul (Pendik)",
       "route_ids": [
         "route-yht-ankara-istanbul",
-        "route-yht-konya",
-        "route-yht-sivas",
+        "route-yht-istanbul-konya-karaman",
+        "route-yht-istanbul-sivas",
         "route-ankara-ekspresi"
       ]
     },
@@ -122,7 +123,7 @@
       "name": "İstanbul (Bostancı)",
       "route_ids": [
         "route-yht-ankara-istanbul",
-        "route-yht-konya",
+        "route-yht-istanbul-konya-karaman",
         "route-ankara-ekspresi"
       ]
     },
@@ -131,8 +132,8 @@
       "name": "İstanbul (Söğütlüçeşme)",
       "route_ids": [
         "route-yht-ankara-istanbul",
-        "route-yht-konya",
-        "route-yht-sivas",
+        "route-yht-istanbul-konya-karaman",
+        "route-yht-istanbul-sivas",
         "route-ankara-ekspresi"
       ]
     },
@@ -141,7 +142,7 @@
       "name": "İstanbul (Bakırköy)",
       "route_ids": [
         "route-yht-ankara-istanbul",
-        "route-yht-konya",
+        "route-yht-istanbul-konya-karaman",
         "route-ankara-ekspresi"
       ]
     },
@@ -150,7 +151,7 @@
       "name": "İstanbul (Halkalı)",
       "route_ids": [
         "route-yht-ankara-istanbul",
-        "route-yht-konya",
+        "route-yht-istanbul-konya-karaman",
         "route-ankara-ekspresi",
         "route-halkali-edirne-bolgesel",
         "route-halkali-uzunkopru-bolgesel"
@@ -160,14 +161,16 @@
       "station_id": "st-selcuklu-yht",
       "name": "Selçuklu YHT (Konya)",
       "route_ids": [
-        "route-yht-konya"
+        "route-yht-ankara-konya-karaman",
+        "route-yht-istanbul-konya-karaman"
       ]
     },
     {
       "station_id": "st-konya",
       "name": "Konya",
       "route_ids": [
-        "route-yht-konya",
+        "route-yht-ankara-konya-karaman",
+        "route-yht-istanbul-konya-karaman",
         "route-konya-mavi",
         "route-konya-karaman-bolgesel"
       ]
@@ -176,7 +179,8 @@
       "station_id": "st-cumra",
       "name": "Çumra",
       "route_ids": [
-        "route-yht-konya",
+        "route-yht-ankara-konya-karaman",
+        "route-yht-istanbul-konya-karaman",
         "route-konya-karaman-bolgesel"
       ]
     },
@@ -184,7 +188,8 @@
       "station_id": "st-karaman",
       "name": "Karaman",
       "route_ids": [
-        "route-yht-konya",
+        "route-yht-ankara-konya-karaman",
+        "route-yht-istanbul-konya-karaman",
         "route-konya-karaman-bolgesel"
       ]
     },
@@ -352,7 +357,8 @@
         "route-dogu-ekspresi",
         "route-vangolu-ekspresi",
         "route-guney-kurtalan-ekspresi",
-        "route-yht-sivas",
+        "route-yht-ankara-sivas",
+        "route-yht-istanbul-sivas",
         "route-turistik-dogu-ekspresi",
         "route-4-eylul-mavi",
         "route-sivas-samsun-bolgesel",
@@ -1578,49 +1584,52 @@
       "station_id": "st-elmadag-yht",
       "name": "Elmadağ YHT",
       "route_ids": [
-        "route-yht-sivas"
+        "route-yht-ankara-sivas"
       ]
     },
     {
       "station_id": "st-kirikkale-yht",
       "name": "Kırıkkale YHT",
       "route_ids": [
-        "route-yht-sivas"
+        "route-yht-ankara-sivas",
+        "route-yht-istanbul-sivas"
       ]
     },
     {
       "station_id": "st-yerkoy-yht",
       "name": "Yerköy YHT",
       "route_ids": [
-        "route-yht-sivas"
+        "route-yht-ankara-sivas"
       ]
     },
     {
       "station_id": "st-yozgat-yht",
       "name": "Yozgat YHT",
       "route_ids": [
-        "route-yht-sivas"
+        "route-yht-ankara-sivas",
+        "route-yht-istanbul-sivas"
       ]
     },
     {
       "station_id": "st-sorgun-yht",
       "name": "Sorgun YHT",
       "route_ids": [
-        "route-yht-sivas"
+        "route-yht-ankara-sivas"
       ]
     },
     {
       "station_id": "st-akdagmadeni-yht",
       "name": "Akdağmadeni YHT",
       "route_ids": [
-        "route-yht-sivas"
+        "route-yht-ankara-sivas"
       ]
     },
     {
       "station_id": "st-yildizeli-yht",
       "name": "Yıldızeli YHT",
       "route_ids": [
-        "route-yht-sivas"
+        "route-yht-ankara-sivas",
+        "route-yht-istanbul-sivas"
       ]
     },
     {
@@ -4151,7 +4160,7 @@
       "id": "pattern-yht-ankara-karaman:1",
       "from_station_id": "st-ankara-gar",
       "to_station_id": "st-eryaman-yht",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-ankara-konya-karaman",
       "pattern_id": "pattern-yht-ankara-karaman",
       "direction": "forward",
       "sequence": 1
@@ -4160,7 +4169,7 @@
       "id": "pattern-yht-ankara-karaman:2",
       "from_station_id": "st-eryaman-yht",
       "to_station_id": "st-polatli-yht",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-ankara-konya-karaman",
       "pattern_id": "pattern-yht-ankara-karaman",
       "direction": "forward",
       "sequence": 2
@@ -4169,7 +4178,7 @@
       "id": "pattern-yht-ankara-karaman:3",
       "from_station_id": "st-polatli-yht",
       "to_station_id": "st-selcuklu-yht",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-ankara-konya-karaman",
       "pattern_id": "pattern-yht-ankara-karaman",
       "direction": "forward",
       "sequence": 3
@@ -4178,7 +4187,7 @@
       "id": "pattern-yht-ankara-karaman:4",
       "from_station_id": "st-selcuklu-yht",
       "to_station_id": "st-konya",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-ankara-konya-karaman",
       "pattern_id": "pattern-yht-ankara-karaman",
       "direction": "forward",
       "sequence": 4
@@ -4187,7 +4196,7 @@
       "id": "pattern-yht-ankara-karaman:5",
       "from_station_id": "st-konya",
       "to_station_id": "st-cumra",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-ankara-konya-karaman",
       "pattern_id": "pattern-yht-ankara-karaman",
       "direction": "forward",
       "sequence": 5
@@ -4196,7 +4205,7 @@
       "id": "pattern-yht-ankara-karaman:6",
       "from_station_id": "st-cumra",
       "to_station_id": "st-karaman",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-ankara-konya-karaman",
       "pattern_id": "pattern-yht-ankara-karaman",
       "direction": "forward",
       "sequence": 6
@@ -4205,7 +4214,7 @@
       "id": "pattern-yht-karaman-ankara:1",
       "from_station_id": "st-karaman",
       "to_station_id": "st-cumra",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-ankara-konya-karaman",
       "pattern_id": "pattern-yht-karaman-ankara",
       "direction": "reverse",
       "sequence": 1
@@ -4214,7 +4223,7 @@
       "id": "pattern-yht-karaman-ankara:2",
       "from_station_id": "st-cumra",
       "to_station_id": "st-konya",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-ankara-konya-karaman",
       "pattern_id": "pattern-yht-karaman-ankara",
       "direction": "reverse",
       "sequence": 2
@@ -4223,7 +4232,7 @@
       "id": "pattern-yht-karaman-ankara:3",
       "from_station_id": "st-konya",
       "to_station_id": "st-selcuklu-yht",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-ankara-konya-karaman",
       "pattern_id": "pattern-yht-karaman-ankara",
       "direction": "reverse",
       "sequence": 3
@@ -4232,7 +4241,7 @@
       "id": "pattern-yht-karaman-ankara:4",
       "from_station_id": "st-selcuklu-yht",
       "to_station_id": "st-polatli-yht",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-ankara-konya-karaman",
       "pattern_id": "pattern-yht-karaman-ankara",
       "direction": "reverse",
       "sequence": 4
@@ -4241,7 +4250,7 @@
       "id": "pattern-yht-karaman-ankara:5",
       "from_station_id": "st-polatli-yht",
       "to_station_id": "st-eryaman-yht",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-ankara-konya-karaman",
       "pattern_id": "pattern-yht-karaman-ankara",
       "direction": "reverse",
       "sequence": 5
@@ -4250,7 +4259,7 @@
       "id": "pattern-yht-karaman-ankara:6",
       "from_station_id": "st-eryaman-yht",
       "to_station_id": "st-ankara-gar",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-ankara-konya-karaman",
       "pattern_id": "pattern-yht-karaman-ankara",
       "direction": "reverse",
       "sequence": 6
@@ -4259,7 +4268,7 @@
       "id": "pattern-yht-halkali-karaman:1",
       "from_station_id": "st-istanbul-halkali",
       "to_station_id": "st-istanbul-bakirkoy",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-istanbul-konya-karaman",
       "pattern_id": "pattern-yht-halkali-karaman",
       "direction": "forward",
       "sequence": 1
@@ -4268,7 +4277,7 @@
       "id": "pattern-yht-halkali-karaman:2",
       "from_station_id": "st-istanbul-bakirkoy",
       "to_station_id": "st-istanbul-sogutlucesme",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-istanbul-konya-karaman",
       "pattern_id": "pattern-yht-halkali-karaman",
       "direction": "forward",
       "sequence": 2
@@ -4277,7 +4286,7 @@
       "id": "pattern-yht-halkali-karaman:3",
       "from_station_id": "st-istanbul-sogutlucesme",
       "to_station_id": "st-istanbul-bostanci",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-istanbul-konya-karaman",
       "pattern_id": "pattern-yht-halkali-karaman",
       "direction": "forward",
       "sequence": 3
@@ -4286,7 +4295,7 @@
       "id": "pattern-yht-halkali-karaman:4",
       "from_station_id": "st-istanbul-bostanci",
       "to_station_id": "st-istanbul-pendik",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-istanbul-konya-karaman",
       "pattern_id": "pattern-yht-halkali-karaman",
       "direction": "forward",
       "sequence": 4
@@ -4295,7 +4304,7 @@
       "id": "pattern-yht-halkali-karaman:5",
       "from_station_id": "st-istanbul-pendik",
       "to_station_id": "st-gebze",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-istanbul-konya-karaman",
       "pattern_id": "pattern-yht-halkali-karaman",
       "direction": "forward",
       "sequence": 5
@@ -4304,7 +4313,7 @@
       "id": "pattern-yht-halkali-karaman:6",
       "from_station_id": "st-gebze",
       "to_station_id": "st-izmit-yht",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-istanbul-konya-karaman",
       "pattern_id": "pattern-yht-halkali-karaman",
       "direction": "forward",
       "sequence": 6
@@ -4313,7 +4322,7 @@
       "id": "pattern-yht-halkali-karaman:7",
       "from_station_id": "st-izmit-yht",
       "to_station_id": "st-arifiye",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-istanbul-konya-karaman",
       "pattern_id": "pattern-yht-halkali-karaman",
       "direction": "forward",
       "sequence": 7
@@ -4322,7 +4331,7 @@
       "id": "pattern-yht-halkali-karaman:8",
       "from_station_id": "st-arifiye",
       "to_station_id": "st-bilecik-yht",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-istanbul-konya-karaman",
       "pattern_id": "pattern-yht-halkali-karaman",
       "direction": "forward",
       "sequence": 8
@@ -4331,7 +4340,7 @@
       "id": "pattern-yht-halkali-karaman:9",
       "from_station_id": "st-bilecik-yht",
       "to_station_id": "st-bozuyuk-yht",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-istanbul-konya-karaman",
       "pattern_id": "pattern-yht-halkali-karaman",
       "direction": "forward",
       "sequence": 9
@@ -4340,7 +4349,7 @@
       "id": "pattern-yht-halkali-karaman:10",
       "from_station_id": "st-bozuyuk-yht",
       "to_station_id": "st-eskisehir",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-istanbul-konya-karaman",
       "pattern_id": "pattern-yht-halkali-karaman",
       "direction": "forward",
       "sequence": 10
@@ -4349,7 +4358,7 @@
       "id": "pattern-yht-halkali-karaman:11",
       "from_station_id": "st-eskisehir",
       "to_station_id": "st-selcuklu-yht",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-istanbul-konya-karaman",
       "pattern_id": "pattern-yht-halkali-karaman",
       "direction": "forward",
       "sequence": 11
@@ -4358,7 +4367,7 @@
       "id": "pattern-yht-halkali-karaman:12",
       "from_station_id": "st-selcuklu-yht",
       "to_station_id": "st-konya",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-istanbul-konya-karaman",
       "pattern_id": "pattern-yht-halkali-karaman",
       "direction": "forward",
       "sequence": 12
@@ -4367,7 +4376,7 @@
       "id": "pattern-yht-halkali-karaman:13",
       "from_station_id": "st-konya",
       "to_station_id": "st-cumra",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-istanbul-konya-karaman",
       "pattern_id": "pattern-yht-halkali-karaman",
       "direction": "forward",
       "sequence": 13
@@ -4376,7 +4385,7 @@
       "id": "pattern-yht-halkali-karaman:14",
       "from_station_id": "st-cumra",
       "to_station_id": "st-karaman",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-istanbul-konya-karaman",
       "pattern_id": "pattern-yht-halkali-karaman",
       "direction": "forward",
       "sequence": 14
@@ -4385,7 +4394,7 @@
       "id": "pattern-yht-karaman-halkali:1",
       "from_station_id": "st-karaman",
       "to_station_id": "st-cumra",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-istanbul-konya-karaman",
       "pattern_id": "pattern-yht-karaman-halkali",
       "direction": "reverse",
       "sequence": 1
@@ -4394,7 +4403,7 @@
       "id": "pattern-yht-karaman-halkali:2",
       "from_station_id": "st-cumra",
       "to_station_id": "st-konya",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-istanbul-konya-karaman",
       "pattern_id": "pattern-yht-karaman-halkali",
       "direction": "reverse",
       "sequence": 2
@@ -4403,7 +4412,7 @@
       "id": "pattern-yht-karaman-halkali:3",
       "from_station_id": "st-konya",
       "to_station_id": "st-selcuklu-yht",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-istanbul-konya-karaman",
       "pattern_id": "pattern-yht-karaman-halkali",
       "direction": "reverse",
       "sequence": 3
@@ -4412,7 +4421,7 @@
       "id": "pattern-yht-karaman-halkali:4",
       "from_station_id": "st-selcuklu-yht",
       "to_station_id": "st-eskisehir",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-istanbul-konya-karaman",
       "pattern_id": "pattern-yht-karaman-halkali",
       "direction": "reverse",
       "sequence": 4
@@ -4421,7 +4430,7 @@
       "id": "pattern-yht-karaman-halkali:5",
       "from_station_id": "st-eskisehir",
       "to_station_id": "st-bozuyuk-yht",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-istanbul-konya-karaman",
       "pattern_id": "pattern-yht-karaman-halkali",
       "direction": "reverse",
       "sequence": 5
@@ -4430,7 +4439,7 @@
       "id": "pattern-yht-karaman-halkali:6",
       "from_station_id": "st-bozuyuk-yht",
       "to_station_id": "st-bilecik-yht",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-istanbul-konya-karaman",
       "pattern_id": "pattern-yht-karaman-halkali",
       "direction": "reverse",
       "sequence": 6
@@ -4439,7 +4448,7 @@
       "id": "pattern-yht-karaman-halkali:7",
       "from_station_id": "st-bilecik-yht",
       "to_station_id": "st-arifiye",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-istanbul-konya-karaman",
       "pattern_id": "pattern-yht-karaman-halkali",
       "direction": "reverse",
       "sequence": 7
@@ -4448,7 +4457,7 @@
       "id": "pattern-yht-karaman-halkali:8",
       "from_station_id": "st-arifiye",
       "to_station_id": "st-izmit-yht",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-istanbul-konya-karaman",
       "pattern_id": "pattern-yht-karaman-halkali",
       "direction": "reverse",
       "sequence": 8
@@ -4457,7 +4466,7 @@
       "id": "pattern-yht-karaman-halkali:9",
       "from_station_id": "st-izmit-yht",
       "to_station_id": "st-gebze",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-istanbul-konya-karaman",
       "pattern_id": "pattern-yht-karaman-halkali",
       "direction": "reverse",
       "sequence": 9
@@ -4466,7 +4475,7 @@
       "id": "pattern-yht-karaman-halkali:10",
       "from_station_id": "st-gebze",
       "to_station_id": "st-istanbul-pendik",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-istanbul-konya-karaman",
       "pattern_id": "pattern-yht-karaman-halkali",
       "direction": "reverse",
       "sequence": 10
@@ -4475,7 +4484,7 @@
       "id": "pattern-yht-karaman-halkali:11",
       "from_station_id": "st-istanbul-pendik",
       "to_station_id": "st-istanbul-bostanci",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-istanbul-konya-karaman",
       "pattern_id": "pattern-yht-karaman-halkali",
       "direction": "reverse",
       "sequence": 11
@@ -4484,7 +4493,7 @@
       "id": "pattern-yht-karaman-halkali:12",
       "from_station_id": "st-istanbul-bostanci",
       "to_station_id": "st-istanbul-sogutlucesme",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-istanbul-konya-karaman",
       "pattern_id": "pattern-yht-karaman-halkali",
       "direction": "reverse",
       "sequence": 12
@@ -4493,7 +4502,7 @@
       "id": "pattern-yht-karaman-halkali:13",
       "from_station_id": "st-istanbul-sogutlucesme",
       "to_station_id": "st-istanbul-bakirkoy",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-istanbul-konya-karaman",
       "pattern_id": "pattern-yht-karaman-halkali",
       "direction": "reverse",
       "sequence": 13
@@ -4502,7 +4511,7 @@
       "id": "pattern-yht-karaman-halkali:14",
       "from_station_id": "st-istanbul-bakirkoy",
       "to_station_id": "st-istanbul-halkali",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-istanbul-konya-karaman",
       "pattern_id": "pattern-yht-karaman-halkali",
       "direction": "reverse",
       "sequence": 14
@@ -4511,7 +4520,7 @@
       "id": "pattern-yht-sogutlucesme-konya:1",
       "from_station_id": "st-istanbul-sogutlucesme",
       "to_station_id": "st-istanbul-bostanci",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-istanbul-konya-karaman",
       "pattern_id": "pattern-yht-sogutlucesme-konya",
       "direction": "forward",
       "sequence": 1
@@ -4520,7 +4529,7 @@
       "id": "pattern-yht-sogutlucesme-konya:2",
       "from_station_id": "st-istanbul-bostanci",
       "to_station_id": "st-istanbul-pendik",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-istanbul-konya-karaman",
       "pattern_id": "pattern-yht-sogutlucesme-konya",
       "direction": "forward",
       "sequence": 2
@@ -4529,7 +4538,7 @@
       "id": "pattern-yht-sogutlucesme-konya:3",
       "from_station_id": "st-istanbul-pendik",
       "to_station_id": "st-gebze",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-istanbul-konya-karaman",
       "pattern_id": "pattern-yht-sogutlucesme-konya",
       "direction": "forward",
       "sequence": 3
@@ -4538,7 +4547,7 @@
       "id": "pattern-yht-sogutlucesme-konya:4",
       "from_station_id": "st-gebze",
       "to_station_id": "st-izmit-yht",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-istanbul-konya-karaman",
       "pattern_id": "pattern-yht-sogutlucesme-konya",
       "direction": "forward",
       "sequence": 4
@@ -4547,7 +4556,7 @@
       "id": "pattern-yht-sogutlucesme-konya:5",
       "from_station_id": "st-izmit-yht",
       "to_station_id": "st-arifiye",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-istanbul-konya-karaman",
       "pattern_id": "pattern-yht-sogutlucesme-konya",
       "direction": "forward",
       "sequence": 5
@@ -4556,7 +4565,7 @@
       "id": "pattern-yht-sogutlucesme-konya:6",
       "from_station_id": "st-arifiye",
       "to_station_id": "st-pamukova-yht",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-istanbul-konya-karaman",
       "pattern_id": "pattern-yht-sogutlucesme-konya",
       "direction": "forward",
       "sequence": 6
@@ -4565,7 +4574,7 @@
       "id": "pattern-yht-sogutlucesme-konya:7",
       "from_station_id": "st-pamukova-yht",
       "to_station_id": "st-bilecik-yht",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-istanbul-konya-karaman",
       "pattern_id": "pattern-yht-sogutlucesme-konya",
       "direction": "forward",
       "sequence": 7
@@ -4574,7 +4583,7 @@
       "id": "pattern-yht-sogutlucesme-konya:8",
       "from_station_id": "st-bilecik-yht",
       "to_station_id": "st-bozuyuk-yht",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-istanbul-konya-karaman",
       "pattern_id": "pattern-yht-sogutlucesme-konya",
       "direction": "forward",
       "sequence": 8
@@ -4583,7 +4592,7 @@
       "id": "pattern-yht-sogutlucesme-konya:9",
       "from_station_id": "st-bozuyuk-yht",
       "to_station_id": "st-eskisehir",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-istanbul-konya-karaman",
       "pattern_id": "pattern-yht-sogutlucesme-konya",
       "direction": "forward",
       "sequence": 9
@@ -4592,7 +4601,7 @@
       "id": "pattern-yht-sogutlucesme-konya:10",
       "from_station_id": "st-eskisehir",
       "to_station_id": "st-selcuklu-yht",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-istanbul-konya-karaman",
       "pattern_id": "pattern-yht-sogutlucesme-konya",
       "direction": "forward",
       "sequence": 10
@@ -4601,7 +4610,7 @@
       "id": "pattern-yht-sogutlucesme-konya:11",
       "from_station_id": "st-selcuklu-yht",
       "to_station_id": "st-konya",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-istanbul-konya-karaman",
       "pattern_id": "pattern-yht-sogutlucesme-konya",
       "direction": "forward",
       "sequence": 11
@@ -4610,7 +4619,7 @@
       "id": "pattern-yht-konya-sogutlucesme:1",
       "from_station_id": "st-konya",
       "to_station_id": "st-selcuklu-yht",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-istanbul-konya-karaman",
       "pattern_id": "pattern-yht-konya-sogutlucesme",
       "direction": "reverse",
       "sequence": 1
@@ -4619,7 +4628,7 @@
       "id": "pattern-yht-konya-sogutlucesme:2",
       "from_station_id": "st-selcuklu-yht",
       "to_station_id": "st-eskisehir",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-istanbul-konya-karaman",
       "pattern_id": "pattern-yht-konya-sogutlucesme",
       "direction": "reverse",
       "sequence": 2
@@ -4628,7 +4637,7 @@
       "id": "pattern-yht-konya-sogutlucesme:3",
       "from_station_id": "st-eskisehir",
       "to_station_id": "st-bozuyuk-yht",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-istanbul-konya-karaman",
       "pattern_id": "pattern-yht-konya-sogutlucesme",
       "direction": "reverse",
       "sequence": 3
@@ -4637,7 +4646,7 @@
       "id": "pattern-yht-konya-sogutlucesme:4",
       "from_station_id": "st-bozuyuk-yht",
       "to_station_id": "st-bilecik-yht",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-istanbul-konya-karaman",
       "pattern_id": "pattern-yht-konya-sogutlucesme",
       "direction": "reverse",
       "sequence": 4
@@ -4646,7 +4655,7 @@
       "id": "pattern-yht-konya-sogutlucesme:5",
       "from_station_id": "st-bilecik-yht",
       "to_station_id": "st-pamukova-yht",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-istanbul-konya-karaman",
       "pattern_id": "pattern-yht-konya-sogutlucesme",
       "direction": "reverse",
       "sequence": 5
@@ -4655,7 +4664,7 @@
       "id": "pattern-yht-konya-sogutlucesme:6",
       "from_station_id": "st-pamukova-yht",
       "to_station_id": "st-arifiye",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-istanbul-konya-karaman",
       "pattern_id": "pattern-yht-konya-sogutlucesme",
       "direction": "reverse",
       "sequence": 6
@@ -4664,7 +4673,7 @@
       "id": "pattern-yht-konya-sogutlucesme:7",
       "from_station_id": "st-arifiye",
       "to_station_id": "st-izmit-yht",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-istanbul-konya-karaman",
       "pattern_id": "pattern-yht-konya-sogutlucesme",
       "direction": "reverse",
       "sequence": 7
@@ -4673,7 +4682,7 @@
       "id": "pattern-yht-konya-sogutlucesme:8",
       "from_station_id": "st-izmit-yht",
       "to_station_id": "st-gebze",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-istanbul-konya-karaman",
       "pattern_id": "pattern-yht-konya-sogutlucesme",
       "direction": "reverse",
       "sequence": 8
@@ -4682,7 +4691,7 @@
       "id": "pattern-yht-konya-sogutlucesme:9",
       "from_station_id": "st-gebze",
       "to_station_id": "st-istanbul-pendik",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-istanbul-konya-karaman",
       "pattern_id": "pattern-yht-konya-sogutlucesme",
       "direction": "reverse",
       "sequence": 9
@@ -4691,7 +4700,7 @@
       "id": "pattern-yht-konya-sogutlucesme:10",
       "from_station_id": "st-istanbul-pendik",
       "to_station_id": "st-istanbul-bostanci",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-istanbul-konya-karaman",
       "pattern_id": "pattern-yht-konya-sogutlucesme",
       "direction": "reverse",
       "sequence": 10
@@ -4700,7 +4709,7 @@
       "id": "pattern-yht-konya-sogutlucesme:11",
       "from_station_id": "st-istanbul-bostanci",
       "to_station_id": "st-istanbul-sogutlucesme",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-istanbul-konya-karaman",
       "pattern_id": "pattern-yht-konya-sogutlucesme",
       "direction": "reverse",
       "sequence": 11
@@ -5618,7 +5627,7 @@
       "id": "pattern-yht-ankara-konya:1",
       "from_station_id": "st-ankara-gar",
       "to_station_id": "st-eryaman-yht",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-ankara-konya-karaman",
       "pattern_id": "pattern-yht-ankara-konya",
       "direction": "forward",
       "sequence": 1
@@ -5627,7 +5636,7 @@
       "id": "pattern-yht-ankara-konya:2",
       "from_station_id": "st-eryaman-yht",
       "to_station_id": "st-polatli-yht",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-ankara-konya-karaman",
       "pattern_id": "pattern-yht-ankara-konya",
       "direction": "forward",
       "sequence": 2
@@ -5636,7 +5645,7 @@
       "id": "pattern-yht-ankara-konya:3",
       "from_station_id": "st-polatli-yht",
       "to_station_id": "st-selcuklu-yht",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-ankara-konya-karaman",
       "pattern_id": "pattern-yht-ankara-konya",
       "direction": "forward",
       "sequence": 3
@@ -5645,7 +5654,7 @@
       "id": "pattern-yht-ankara-konya:4",
       "from_station_id": "st-selcuklu-yht",
       "to_station_id": "st-konya",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-ankara-konya-karaman",
       "pattern_id": "pattern-yht-ankara-konya",
       "direction": "forward",
       "sequence": 4
@@ -5654,7 +5663,7 @@
       "id": "pattern-yht-konya-ankara:1",
       "from_station_id": "st-konya",
       "to_station_id": "st-selcuklu-yht",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-ankara-konya-karaman",
       "pattern_id": "pattern-yht-konya-ankara",
       "direction": "reverse",
       "sequence": 1
@@ -5663,7 +5672,7 @@
       "id": "pattern-yht-konya-ankara:2",
       "from_station_id": "st-selcuklu-yht",
       "to_station_id": "st-polatli-yht",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-ankara-konya-karaman",
       "pattern_id": "pattern-yht-konya-ankara",
       "direction": "reverse",
       "sequence": 2
@@ -5672,7 +5681,7 @@
       "id": "pattern-yht-konya-ankara:3",
       "from_station_id": "st-polatli-yht",
       "to_station_id": "st-eryaman-yht",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-ankara-konya-karaman",
       "pattern_id": "pattern-yht-konya-ankara",
       "direction": "reverse",
       "sequence": 3
@@ -5681,7 +5690,7 @@
       "id": "pattern-yht-konya-ankara:4",
       "from_station_id": "st-eryaman-yht",
       "to_station_id": "st-ankara-gar",
-      "route_id": "route-yht-konya",
+      "route_id": "route-yht-ankara-konya-karaman",
       "pattern_id": "pattern-yht-konya-ankara",
       "direction": "reverse",
       "sequence": 4
@@ -7724,7 +7733,7 @@
       "id": "pattern-yht-ankara-sivas:1",
       "from_station_id": "st-ankara-gar",
       "to_station_id": "st-elmadag-yht",
-      "route_id": "route-yht-sivas",
+      "route_id": "route-yht-ankara-sivas",
       "pattern_id": "pattern-yht-ankara-sivas",
       "direction": "forward",
       "sequence": 1
@@ -7733,7 +7742,7 @@
       "id": "pattern-yht-ankara-sivas:2",
       "from_station_id": "st-elmadag-yht",
       "to_station_id": "st-kirikkale-yht",
-      "route_id": "route-yht-sivas",
+      "route_id": "route-yht-ankara-sivas",
       "pattern_id": "pattern-yht-ankara-sivas",
       "direction": "forward",
       "sequence": 2
@@ -7742,7 +7751,7 @@
       "id": "pattern-yht-ankara-sivas:3",
       "from_station_id": "st-kirikkale-yht",
       "to_station_id": "st-yerkoy-yht",
-      "route_id": "route-yht-sivas",
+      "route_id": "route-yht-ankara-sivas",
       "pattern_id": "pattern-yht-ankara-sivas",
       "direction": "forward",
       "sequence": 3
@@ -7751,7 +7760,7 @@
       "id": "pattern-yht-ankara-sivas:4",
       "from_station_id": "st-yerkoy-yht",
       "to_station_id": "st-yozgat-yht",
-      "route_id": "route-yht-sivas",
+      "route_id": "route-yht-ankara-sivas",
       "pattern_id": "pattern-yht-ankara-sivas",
       "direction": "forward",
       "sequence": 4
@@ -7760,7 +7769,7 @@
       "id": "pattern-yht-ankara-sivas:5",
       "from_station_id": "st-yozgat-yht",
       "to_station_id": "st-sorgun-yht",
-      "route_id": "route-yht-sivas",
+      "route_id": "route-yht-ankara-sivas",
       "pattern_id": "pattern-yht-ankara-sivas",
       "direction": "forward",
       "sequence": 5
@@ -7769,7 +7778,7 @@
       "id": "pattern-yht-ankara-sivas:6",
       "from_station_id": "st-sorgun-yht",
       "to_station_id": "st-akdagmadeni-yht",
-      "route_id": "route-yht-sivas",
+      "route_id": "route-yht-ankara-sivas",
       "pattern_id": "pattern-yht-ankara-sivas",
       "direction": "forward",
       "sequence": 6
@@ -7778,7 +7787,7 @@
       "id": "pattern-yht-ankara-sivas:7",
       "from_station_id": "st-akdagmadeni-yht",
       "to_station_id": "st-yildizeli-yht",
-      "route_id": "route-yht-sivas",
+      "route_id": "route-yht-ankara-sivas",
       "pattern_id": "pattern-yht-ankara-sivas",
       "direction": "forward",
       "sequence": 7
@@ -7787,7 +7796,7 @@
       "id": "pattern-yht-ankara-sivas:8",
       "from_station_id": "st-yildizeli-yht",
       "to_station_id": "st-sivas",
-      "route_id": "route-yht-sivas",
+      "route_id": "route-yht-ankara-sivas",
       "pattern_id": "pattern-yht-ankara-sivas",
       "direction": "forward",
       "sequence": 8
@@ -7796,7 +7805,7 @@
       "id": "pattern-yht-sivas-ankara:1",
       "from_station_id": "st-sivas",
       "to_station_id": "st-yildizeli-yht",
-      "route_id": "route-yht-sivas",
+      "route_id": "route-yht-ankara-sivas",
       "pattern_id": "pattern-yht-sivas-ankara",
       "direction": "reverse",
       "sequence": 1
@@ -7805,7 +7814,7 @@
       "id": "pattern-yht-sivas-ankara:2",
       "from_station_id": "st-yildizeli-yht",
       "to_station_id": "st-akdagmadeni-yht",
-      "route_id": "route-yht-sivas",
+      "route_id": "route-yht-ankara-sivas",
       "pattern_id": "pattern-yht-sivas-ankara",
       "direction": "reverse",
       "sequence": 2
@@ -7814,7 +7823,7 @@
       "id": "pattern-yht-sivas-ankara:3",
       "from_station_id": "st-akdagmadeni-yht",
       "to_station_id": "st-sorgun-yht",
-      "route_id": "route-yht-sivas",
+      "route_id": "route-yht-ankara-sivas",
       "pattern_id": "pattern-yht-sivas-ankara",
       "direction": "reverse",
       "sequence": 3
@@ -7823,7 +7832,7 @@
       "id": "pattern-yht-sivas-ankara:4",
       "from_station_id": "st-sorgun-yht",
       "to_station_id": "st-yozgat-yht",
-      "route_id": "route-yht-sivas",
+      "route_id": "route-yht-ankara-sivas",
       "pattern_id": "pattern-yht-sivas-ankara",
       "direction": "reverse",
       "sequence": 4
@@ -7832,7 +7841,7 @@
       "id": "pattern-yht-sivas-ankara:5",
       "from_station_id": "st-yozgat-yht",
       "to_station_id": "st-yerkoy-yht",
-      "route_id": "route-yht-sivas",
+      "route_id": "route-yht-ankara-sivas",
       "pattern_id": "pattern-yht-sivas-ankara",
       "direction": "reverse",
       "sequence": 5
@@ -7841,7 +7850,7 @@
       "id": "pattern-yht-sivas-ankara:6",
       "from_station_id": "st-yerkoy-yht",
       "to_station_id": "st-kirikkale-yht",
-      "route_id": "route-yht-sivas",
+      "route_id": "route-yht-ankara-sivas",
       "pattern_id": "pattern-yht-sivas-ankara",
       "direction": "reverse",
       "sequence": 6
@@ -7850,7 +7859,7 @@
       "id": "pattern-yht-sivas-ankara:7",
       "from_station_id": "st-kirikkale-yht",
       "to_station_id": "st-elmadag-yht",
-      "route_id": "route-yht-sivas",
+      "route_id": "route-yht-ankara-sivas",
       "pattern_id": "pattern-yht-sivas-ankara",
       "direction": "reverse",
       "sequence": 7
@@ -7859,7 +7868,7 @@
       "id": "pattern-yht-sivas-ankara:8",
       "from_station_id": "st-elmadag-yht",
       "to_station_id": "st-ankara-gar",
-      "route_id": "route-yht-sivas",
+      "route_id": "route-yht-ankara-sivas",
       "pattern_id": "pattern-yht-sivas-ankara",
       "direction": "reverse",
       "sequence": 8
@@ -7868,7 +7877,7 @@
       "id": "pattern-yht-sogutlucesme-sivas:1",
       "from_station_id": "st-istanbul-sogutlucesme",
       "to_station_id": "st-istanbul-pendik",
-      "route_id": "route-yht-sivas",
+      "route_id": "route-yht-istanbul-sivas",
       "pattern_id": "pattern-yht-sogutlucesme-sivas",
       "direction": "forward",
       "sequence": 1
@@ -7877,7 +7886,7 @@
       "id": "pattern-yht-sogutlucesme-sivas:2",
       "from_station_id": "st-istanbul-pendik",
       "to_station_id": "st-izmit-yht",
-      "route_id": "route-yht-sivas",
+      "route_id": "route-yht-istanbul-sivas",
       "pattern_id": "pattern-yht-sogutlucesme-sivas",
       "direction": "forward",
       "sequence": 2
@@ -7886,7 +7895,7 @@
       "id": "pattern-yht-sogutlucesme-sivas:3",
       "from_station_id": "st-izmit-yht",
       "to_station_id": "st-arifiye",
-      "route_id": "route-yht-sivas",
+      "route_id": "route-yht-istanbul-sivas",
       "pattern_id": "pattern-yht-sogutlucesme-sivas",
       "direction": "forward",
       "sequence": 3
@@ -7895,7 +7904,7 @@
       "id": "pattern-yht-sogutlucesme-sivas:4",
       "from_station_id": "st-arifiye",
       "to_station_id": "st-eskisehir",
-      "route_id": "route-yht-sivas",
+      "route_id": "route-yht-istanbul-sivas",
       "pattern_id": "pattern-yht-sogutlucesme-sivas",
       "direction": "forward",
       "sequence": 4
@@ -7904,7 +7913,7 @@
       "id": "pattern-yht-sogutlucesme-sivas:5",
       "from_station_id": "st-eskisehir",
       "to_station_id": "st-ankara-gar",
-      "route_id": "route-yht-sivas",
+      "route_id": "route-yht-istanbul-sivas",
       "pattern_id": "pattern-yht-sogutlucesme-sivas",
       "direction": "forward",
       "sequence": 5
@@ -7913,7 +7922,7 @@
       "id": "pattern-yht-sogutlucesme-sivas:6",
       "from_station_id": "st-ankara-gar",
       "to_station_id": "st-kirikkale-yht",
-      "route_id": "route-yht-sivas",
+      "route_id": "route-yht-istanbul-sivas",
       "pattern_id": "pattern-yht-sogutlucesme-sivas",
       "direction": "forward",
       "sequence": 6
@@ -7922,7 +7931,7 @@
       "id": "pattern-yht-sogutlucesme-sivas:7",
       "from_station_id": "st-kirikkale-yht",
       "to_station_id": "st-yozgat-yht",
-      "route_id": "route-yht-sivas",
+      "route_id": "route-yht-istanbul-sivas",
       "pattern_id": "pattern-yht-sogutlucesme-sivas",
       "direction": "forward",
       "sequence": 7
@@ -7931,7 +7940,7 @@
       "id": "pattern-yht-sogutlucesme-sivas:8",
       "from_station_id": "st-yozgat-yht",
       "to_station_id": "st-yildizeli-yht",
-      "route_id": "route-yht-sivas",
+      "route_id": "route-yht-istanbul-sivas",
       "pattern_id": "pattern-yht-sogutlucesme-sivas",
       "direction": "forward",
       "sequence": 8
@@ -7940,7 +7949,7 @@
       "id": "pattern-yht-sogutlucesme-sivas:9",
       "from_station_id": "st-yildizeli-yht",
       "to_station_id": "st-sivas",
-      "route_id": "route-yht-sivas",
+      "route_id": "route-yht-istanbul-sivas",
       "pattern_id": "pattern-yht-sogutlucesme-sivas",
       "direction": "forward",
       "sequence": 9
@@ -7949,7 +7958,7 @@
       "id": "pattern-yht-sivas-sogutlucesme:1",
       "from_station_id": "st-sivas",
       "to_station_id": "st-yildizeli-yht",
-      "route_id": "route-yht-sivas",
+      "route_id": "route-yht-istanbul-sivas",
       "pattern_id": "pattern-yht-sivas-sogutlucesme",
       "direction": "reverse",
       "sequence": 1
@@ -7958,7 +7967,7 @@
       "id": "pattern-yht-sivas-sogutlucesme:2",
       "from_station_id": "st-yildizeli-yht",
       "to_station_id": "st-yozgat-yht",
-      "route_id": "route-yht-sivas",
+      "route_id": "route-yht-istanbul-sivas",
       "pattern_id": "pattern-yht-sivas-sogutlucesme",
       "direction": "reverse",
       "sequence": 2
@@ -7967,7 +7976,7 @@
       "id": "pattern-yht-sivas-sogutlucesme:3",
       "from_station_id": "st-yozgat-yht",
       "to_station_id": "st-kirikkale-yht",
-      "route_id": "route-yht-sivas",
+      "route_id": "route-yht-istanbul-sivas",
       "pattern_id": "pattern-yht-sivas-sogutlucesme",
       "direction": "reverse",
       "sequence": 3
@@ -7976,7 +7985,7 @@
       "id": "pattern-yht-sivas-sogutlucesme:4",
       "from_station_id": "st-kirikkale-yht",
       "to_station_id": "st-ankara-gar",
-      "route_id": "route-yht-sivas",
+      "route_id": "route-yht-istanbul-sivas",
       "pattern_id": "pattern-yht-sivas-sogutlucesme",
       "direction": "reverse",
       "sequence": 4
@@ -7985,7 +7994,7 @@
       "id": "pattern-yht-sivas-sogutlucesme:5",
       "from_station_id": "st-ankara-gar",
       "to_station_id": "st-eskisehir",
-      "route_id": "route-yht-sivas",
+      "route_id": "route-yht-istanbul-sivas",
       "pattern_id": "pattern-yht-sivas-sogutlucesme",
       "direction": "reverse",
       "sequence": 5
@@ -7994,7 +8003,7 @@
       "id": "pattern-yht-sivas-sogutlucesme:6",
       "from_station_id": "st-eskisehir",
       "to_station_id": "st-arifiye",
-      "route_id": "route-yht-sivas",
+      "route_id": "route-yht-istanbul-sivas",
       "pattern_id": "pattern-yht-sivas-sogutlucesme",
       "direction": "reverse",
       "sequence": 6
@@ -8003,7 +8012,7 @@
       "id": "pattern-yht-sivas-sogutlucesme:7",
       "from_station_id": "st-arifiye",
       "to_station_id": "st-izmit-yht",
-      "route_id": "route-yht-sivas",
+      "route_id": "route-yht-istanbul-sivas",
       "pattern_id": "pattern-yht-sivas-sogutlucesme",
       "direction": "reverse",
       "sequence": 7
@@ -8012,7 +8021,7 @@
       "id": "pattern-yht-sivas-sogutlucesme:8",
       "from_station_id": "st-izmit-yht",
       "to_station_id": "st-istanbul-pendik",
-      "route_id": "route-yht-sivas",
+      "route_id": "route-yht-istanbul-sivas",
       "pattern_id": "pattern-yht-sivas-sogutlucesme",
       "direction": "reverse",
       "sequence": 8
@@ -8021,7 +8030,7 @@
       "id": "pattern-yht-sivas-sogutlucesme:9",
       "from_station_id": "st-istanbul-pendik",
       "to_station_id": "st-istanbul-sogutlucesme",
-      "route_id": "route-yht-sivas",
+      "route_id": "route-yht-istanbul-sivas",
       "pattern_id": "pattern-yht-sivas-sogutlucesme",
       "direction": "reverse",
       "sequence": 9
