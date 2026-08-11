@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T16:32:13.311Z",
+  "generated_at": "2026-08-11T17:03:58.864Z",
   "status": "ready",
   "nodes": [
     {
@@ -85,7 +85,8 @@
         "route-yht-istanbul-konya-karaman",
         "route-yht-istanbul-sivas",
         "route-ankara-ekspresi",
-        "route-adapazari-gebze-bolgesel"
+        "route-adapazari-gebze-bolgesel",
+        "route-adaray"
       ]
     },
     {
@@ -2059,7 +2060,8 @@
         "route-basmane-denizli-bolgesel",
         "route-basmane-nazilli-bolgesel",
         "route-denizli-soke-bolgesel",
-        "route-nazilli-soke-bolgesel"
+        "route-nazilli-soke-bolgesel",
+        "route-ayban"
       ]
     },
     {
@@ -2070,7 +2072,8 @@
         "route-basmane-denizli-bolgesel",
         "route-basmane-nazilli-bolgesel",
         "route-denizli-soke-bolgesel",
-        "route-nazilli-soke-bolgesel"
+        "route-nazilli-soke-bolgesel",
+        "route-ayban"
       ]
     },
     {
@@ -2081,7 +2084,8 @@
         "route-basmane-denizli-bolgesel",
         "route-basmane-nazilli-bolgesel",
         "route-denizli-soke-bolgesel",
-        "route-nazilli-soke-bolgesel"
+        "route-nazilli-soke-bolgesel",
+        "route-ayban"
       ]
     },
     {
@@ -3048,7 +3052,8 @@
         "route-basmane-denizli-bolgesel",
         "route-basmane-nazilli-bolgesel",
         "route-denizli-soke-bolgesel",
-        "route-nazilli-soke-bolgesel"
+        "route-nazilli-soke-bolgesel",
+        "route-ayban"
       ]
     },
     {
@@ -3583,14 +3588,16 @@
       "station_id": "st-adapazari",
       "name": "Adapazarı",
       "route_ids": [
-        "route-adapazari-gebze-bolgesel"
+        "route-adapazari-gebze-bolgesel",
+        "route-adaray"
       ]
     },
     {
       "station_id": "st-mithatpasa",
       "name": "Mithatpaşa",
       "route_ids": [
-        "route-adapazari-gebze-bolgesel"
+        "route-adapazari-gebze-bolgesel",
+        "route-adaray"
       ]
     },
     {
@@ -4438,6 +4445,69 @@
       "name": "Seyrantepe",
       "route_ids": [
         "route-gaziray"
+      ]
+    },
+    {
+      "station_id": "st-adaray-aziz-duran-parki",
+      "name": "Aziz Duran Parkı",
+      "route_ids": [
+        "route-adaray"
+      ]
+    },
+    {
+      "station_id": "st-adaray-32-evler",
+      "name": "32 Evler",
+      "route_ids": [
+        "route-adaray"
+      ]
+    },
+    {
+      "station_id": "st-adaray-terminal",
+      "name": "Terminal",
+      "route_ids": [
+        "route-adaray"
+      ]
+    },
+    {
+      "station_id": "st-adaray-bahcelievler",
+      "name": "Bahçelievler",
+      "route_ids": [
+        "route-adaray"
+      ]
+    },
+    {
+      "station_id": "st-ayban-sehir-hastanesi",
+      "name": "Şehir Hastanesi",
+      "route_ids": [
+        "route-ayban"
+      ]
+    },
+    {
+      "station_id": "st-ayban-tekstil-park",
+      "name": "Tekstil Park",
+      "route_ids": [
+        "route-ayban"
+      ]
+    },
+    {
+      "station_id": "st-ayban-astim-osb",
+      "name": "ASTİM OSB",
+      "route_ids": [
+        "route-ayban"
+      ]
+    },
+    {
+      "station_id": "st-ayban-imamkoy",
+      "name": "İmamköy",
+      "route_ids": [
+        "route-ayban"
+      ]
+    },
+    {
+      "station_id": "st-ayban-aydin-osb",
+      "name": "Aydın OSB",
+      "route_ids": [
+        "route-ayban"
       ]
     }
   ],
@@ -20587,6 +20657,258 @@
       "pattern_id": "pattern-gaziray-baspinar-taslica-reverse",
       "direction": "reverse",
       "sequence": 15
+    },
+    {
+      "id": "pattern-adaray-adapazari-arifiye-forward:1",
+      "from_station_id": "st-adapazari",
+      "to_station_id": "st-adaray-aziz-duran-parki",
+      "route_id": "route-adaray",
+      "pattern_id": "pattern-adaray-adapazari-arifiye-forward",
+      "direction": "forward",
+      "sequence": 1
+    },
+    {
+      "id": "pattern-adaray-adapazari-arifiye-forward:2",
+      "from_station_id": "st-adaray-aziz-duran-parki",
+      "to_station_id": "st-mithatpasa",
+      "route_id": "route-adaray",
+      "pattern_id": "pattern-adaray-adapazari-arifiye-forward",
+      "direction": "forward",
+      "sequence": 2
+    },
+    {
+      "id": "pattern-adaray-adapazari-arifiye-forward:3",
+      "from_station_id": "st-mithatpasa",
+      "to_station_id": "st-adaray-32-evler",
+      "route_id": "route-adaray",
+      "pattern_id": "pattern-adaray-adapazari-arifiye-forward",
+      "direction": "forward",
+      "sequence": 3
+    },
+    {
+      "id": "pattern-adaray-adapazari-arifiye-forward:4",
+      "from_station_id": "st-adaray-32-evler",
+      "to_station_id": "st-adaray-terminal",
+      "route_id": "route-adaray",
+      "pattern_id": "pattern-adaray-adapazari-arifiye-forward",
+      "direction": "forward",
+      "sequence": 4
+    },
+    {
+      "id": "pattern-adaray-adapazari-arifiye-forward:5",
+      "from_station_id": "st-adaray-terminal",
+      "to_station_id": "st-adaray-bahcelievler",
+      "route_id": "route-adaray",
+      "pattern_id": "pattern-adaray-adapazari-arifiye-forward",
+      "direction": "forward",
+      "sequence": 5
+    },
+    {
+      "id": "pattern-adaray-adapazari-arifiye-forward:6",
+      "from_station_id": "st-adaray-bahcelievler",
+      "to_station_id": "st-arifiye",
+      "route_id": "route-adaray",
+      "pattern_id": "pattern-adaray-adapazari-arifiye-forward",
+      "direction": "forward",
+      "sequence": 6
+    },
+    {
+      "id": "pattern-adaray-adapazari-arifiye-reverse:1",
+      "from_station_id": "st-arifiye",
+      "to_station_id": "st-adaray-bahcelievler",
+      "route_id": "route-adaray",
+      "pattern_id": "pattern-adaray-adapazari-arifiye-reverse",
+      "direction": "reverse",
+      "sequence": 1
+    },
+    {
+      "id": "pattern-adaray-adapazari-arifiye-reverse:2",
+      "from_station_id": "st-adaray-bahcelievler",
+      "to_station_id": "st-adaray-terminal",
+      "route_id": "route-adaray",
+      "pattern_id": "pattern-adaray-adapazari-arifiye-reverse",
+      "direction": "reverse",
+      "sequence": 2
+    },
+    {
+      "id": "pattern-adaray-adapazari-arifiye-reverse:3",
+      "from_station_id": "st-adaray-terminal",
+      "to_station_id": "st-adaray-32-evler",
+      "route_id": "route-adaray",
+      "pattern_id": "pattern-adaray-adapazari-arifiye-reverse",
+      "direction": "reverse",
+      "sequence": 3
+    },
+    {
+      "id": "pattern-adaray-adapazari-arifiye-reverse:4",
+      "from_station_id": "st-adaray-32-evler",
+      "to_station_id": "st-mithatpasa",
+      "route_id": "route-adaray",
+      "pattern_id": "pattern-adaray-adapazari-arifiye-reverse",
+      "direction": "reverse",
+      "sequence": 4
+    },
+    {
+      "id": "pattern-adaray-adapazari-arifiye-reverse:5",
+      "from_station_id": "st-mithatpasa",
+      "to_station_id": "st-adaray-aziz-duran-parki",
+      "route_id": "route-adaray",
+      "pattern_id": "pattern-adaray-adapazari-arifiye-reverse",
+      "direction": "reverse",
+      "sequence": 5
+    },
+    {
+      "id": "pattern-adaray-adapazari-arifiye-reverse:6",
+      "from_station_id": "st-adaray-aziz-duran-parki",
+      "to_station_id": "st-adapazari",
+      "route_id": "route-adaray",
+      "pattern_id": "pattern-adaray-adapazari-arifiye-reverse",
+      "direction": "reverse",
+      "sequence": 6
+    },
+    {
+      "id": "pattern-ayban-incirliova-kosk-forward:1",
+      "from_station_id": "st-incirliova",
+      "to_station_id": "st-ayban-sehir-hastanesi",
+      "route_id": "route-ayban",
+      "pattern_id": "pattern-ayban-incirliova-kosk-forward",
+      "direction": "forward",
+      "sequence": 1
+    },
+    {
+      "id": "pattern-ayban-incirliova-kosk-forward:2",
+      "from_station_id": "st-ayban-sehir-hastanesi",
+      "to_station_id": "st-aydin",
+      "route_id": "route-ayban",
+      "pattern_id": "pattern-ayban-incirliova-kosk-forward",
+      "direction": "forward",
+      "sequence": 2
+    },
+    {
+      "id": "pattern-ayban-incirliova-kosk-forward:3",
+      "from_station_id": "st-aydin",
+      "to_station_id": "st-ayban-tekstil-park",
+      "route_id": "route-ayban",
+      "pattern_id": "pattern-ayban-incirliova-kosk-forward",
+      "direction": "forward",
+      "sequence": 3
+    },
+    {
+      "id": "pattern-ayban-incirliova-kosk-forward:4",
+      "from_station_id": "st-ayban-tekstil-park",
+      "to_station_id": "st-ayban-astim-osb",
+      "route_id": "route-ayban",
+      "pattern_id": "pattern-ayban-incirliova-kosk-forward",
+      "direction": "forward",
+      "sequence": 4
+    },
+    {
+      "id": "pattern-ayban-incirliova-kosk-forward:5",
+      "from_station_id": "st-ayban-astim-osb",
+      "to_station_id": "st-ayban-imamkoy",
+      "route_id": "route-ayban",
+      "pattern_id": "pattern-ayban-incirliova-kosk-forward",
+      "direction": "forward",
+      "sequence": 5
+    },
+    {
+      "id": "pattern-ayban-incirliova-kosk-forward:6",
+      "from_station_id": "st-ayban-imamkoy",
+      "to_station_id": "st-umurlu",
+      "route_id": "route-ayban",
+      "pattern_id": "pattern-ayban-incirliova-kosk-forward",
+      "direction": "forward",
+      "sequence": 6
+    },
+    {
+      "id": "pattern-ayban-incirliova-kosk-forward:7",
+      "from_station_id": "st-umurlu",
+      "to_station_id": "st-ayban-aydin-osb",
+      "route_id": "route-ayban",
+      "pattern_id": "pattern-ayban-incirliova-kosk-forward",
+      "direction": "forward",
+      "sequence": 7
+    },
+    {
+      "id": "pattern-ayban-incirliova-kosk-forward:8",
+      "from_station_id": "st-ayban-aydin-osb",
+      "to_station_id": "st-kosk",
+      "route_id": "route-ayban",
+      "pattern_id": "pattern-ayban-incirliova-kosk-forward",
+      "direction": "forward",
+      "sequence": 8
+    },
+    {
+      "id": "pattern-ayban-incirliova-kosk-reverse:1",
+      "from_station_id": "st-kosk",
+      "to_station_id": "st-ayban-aydin-osb",
+      "route_id": "route-ayban",
+      "pattern_id": "pattern-ayban-incirliova-kosk-reverse",
+      "direction": "reverse",
+      "sequence": 1
+    },
+    {
+      "id": "pattern-ayban-incirliova-kosk-reverse:2",
+      "from_station_id": "st-ayban-aydin-osb",
+      "to_station_id": "st-umurlu",
+      "route_id": "route-ayban",
+      "pattern_id": "pattern-ayban-incirliova-kosk-reverse",
+      "direction": "reverse",
+      "sequence": 2
+    },
+    {
+      "id": "pattern-ayban-incirliova-kosk-reverse:3",
+      "from_station_id": "st-umurlu",
+      "to_station_id": "st-ayban-imamkoy",
+      "route_id": "route-ayban",
+      "pattern_id": "pattern-ayban-incirliova-kosk-reverse",
+      "direction": "reverse",
+      "sequence": 3
+    },
+    {
+      "id": "pattern-ayban-incirliova-kosk-reverse:4",
+      "from_station_id": "st-ayban-imamkoy",
+      "to_station_id": "st-ayban-astim-osb",
+      "route_id": "route-ayban",
+      "pattern_id": "pattern-ayban-incirliova-kosk-reverse",
+      "direction": "reverse",
+      "sequence": 4
+    },
+    {
+      "id": "pattern-ayban-incirliova-kosk-reverse:5",
+      "from_station_id": "st-ayban-astim-osb",
+      "to_station_id": "st-ayban-tekstil-park",
+      "route_id": "route-ayban",
+      "pattern_id": "pattern-ayban-incirliova-kosk-reverse",
+      "direction": "reverse",
+      "sequence": 5
+    },
+    {
+      "id": "pattern-ayban-incirliova-kosk-reverse:6",
+      "from_station_id": "st-ayban-tekstil-park",
+      "to_station_id": "st-aydin",
+      "route_id": "route-ayban",
+      "pattern_id": "pattern-ayban-incirliova-kosk-reverse",
+      "direction": "reverse",
+      "sequence": 6
+    },
+    {
+      "id": "pattern-ayban-incirliova-kosk-reverse:7",
+      "from_station_id": "st-aydin",
+      "to_station_id": "st-ayban-sehir-hastanesi",
+      "route_id": "route-ayban",
+      "pattern_id": "pattern-ayban-incirliova-kosk-reverse",
+      "direction": "reverse",
+      "sequence": 7
+    },
+    {
+      "id": "pattern-ayban-incirliova-kosk-reverse:8",
+      "from_station_id": "st-ayban-sehir-hastanesi",
+      "to_station_id": "st-incirliova",
+      "route_id": "route-ayban",
+      "pattern_id": "pattern-ayban-incirliova-kosk-reverse",
+      "direction": "reverse",
+      "sequence": 8
     },
     {
       "id": "pattern-marmaray-gebze-halkali-d1d3e2:1",
