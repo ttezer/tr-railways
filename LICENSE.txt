@@ -1,0 +1,25 @@
+Ray Atlası Proprietary License Notice
+
+Copyright (c) 2026 Tacettin Tezer. All rights reserved.
+
+Bu web uygulamasına ait özgün uygulama kodu, kullanıcı arayüzünün özgün
+ifadesi, metinler, görsel unsurlar ve proje belgeleri önceden alınmış açık ve
+yazılı izin olmaksızın ticari veya ticari olmayan amaçlarla kopyalanamaz,
+değiştirilemez, yayımlanamaz, dağıtılamaz, satılamaz ya da başka bir hizmete
+dâhil edilemez. Siteye ve indirilebilir dosyalara erişim kullanım izni vermez.
+
+Bu bildirim üçüncü taraf verilerine yeni bir lisans uygulamaz:
+
+- OpenStreetMap kaynaklı ve türetilmiş veriler ODbL 1.0 kapsamındadır:
+  © OpenStreetMap contributors
+  https://opendatacommons.org/licenses/odbl/1-0/
+- TCDD Taşımacılık, TCDD, belediyeler ve diğer resmî kaynaklardan gelen veriler
+  ilgili kaynakların hak ve kullanım koşullarını korur. Ray Atlası bu veriler
+  adına ticari kullanım veya yeniden dağıtım izni vermez.
+
+Kaynak ve lisans ayrıntıları:
+https://ttezer.github.io/tr-railways/DATA_LICENSE.txt
+
+Ray Atlası adı, proje kimliği ve logoları için ortaklık, sponsorluk veya onay
+izni verilmemektedir. Uygulama ve çıktılar hiçbir doğruluk, güncellik veya
+belirli bir amaca uygunluk garantisi olmaksızın "olduğu gibi" sunulur.

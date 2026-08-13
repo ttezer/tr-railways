@@ -1,0 +1,44 @@
+Ray Atlası — Veri Lisansı ve Kullanım Durumu
+
+Ray Atlası'nın yayımladığı GTFS, GeoJSON, KML ve web veri çıktıları farklı
+kaynaklardan gelen bileşenler içerir. Ray Atlası bu çıktıların tamamı için
+toplu veya koşulsuz bir ticari kullanım lisansı vermez.
+
+1. OpenStreetMap kaynaklı veriler
+
+OpenStreetMap kaynaklı ve ondan türetilmiş ray, güzergâh ve istasyon verileri
+Open Database License 1.0 (ODbL 1.0) kapsamındadır.
+
+Gerekli atıf: © OpenStreetMap contributors
+Lisans: https://opendatacommons.org/licenses/odbl/1-0/
+Atıf rehberi:
+https://osmfoundation.org/wiki/Licence/Attribution_Guidelines
+
+Ray Atlası'nın özel lisans bildirimi ODbL'nin verdiği hakları daraltmaz.
+
+2. Resmî kurum ve işletmeci yayınları
+
+Planlı sefer saatleri, durak dizileri ve hizmet bilgileri TCDD Taşımacılık,
+TCDD, belediyeler ve diğer resmî kurum veya işletmecilerin kamuya açık
+yayınlarından kaynak, erişim ve geçerlilik bilgileri korunarak derlenir.
+
+Ray Atlası bu üçüncü taraflar adına ticari kullanım, yeniden dağıtım veya alt
+lisanslama izni vermez. Kaynağın ayrıca açık bir yeniden kullanım lisansı
+yayımlamadığı durumda yalnızca atıf yapılması diğer kullanım koşullarının
+yerine geçmez. Kullanıcı, amaçladığı kullanım için ilgili kaynak koşullarını
+ve gerekiyorsa izin gereksinimini kendisi değerlendirmekle sorumludur.
+
+GTFS içindeki agency.txt ve attributions.txt kayıtları ile veri dosyalarındaki
+kaynak kurum adları ve URL'leri kaldırılmamalıdır.
+
+3. Ray Atlası'na ait materyaller
+
+Ray Atlası'na ait kaynak kodu, derlenmiş uygulama kodu, kullanıcı arayüzünün
+özgün ifadesi, metinler, görsel unsurlar, veri üretim ve doğrulama araçları ile
+proje belgeleri tüm hakları saklı materyallerdir. Önceden alınmış açık ve
+yazılı izin olmadan ticari veya ticari olmayan amaçlarla kullanılamaz,
+kopyalanamaz, değiştirilemez ya da dağıtılamaz.
+
+Bir dosyanın internet üzerinden indirilebilir olması kullanım izni verildiği
+anlamına gelmez. Ayrıntılı bildirim:
+https://ttezer.github.io/tr-railways/LICENSE.txt
