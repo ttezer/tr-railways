@@ -1,8 +1,8 @@
 Ray Atlası — Veri Lisansı ve Kullanım Durumu
 
 Ray Atlası'nın yayımladığı GTFS, GeoJSON, KML ve web veri çıktıları farklı
-kaynaklardan gelen bileşenler içerir. Ray Atlası bu çıktıların tamamı için
-toplu veya koşulsuz bir ticari kullanım lisansı vermez.
+kaynaklardan gelen bileşenler içerir. Bu çıktıların tamamına uygulanan tek bir
+Ray Atlası lisansı yoktur; her bileşen kendi kaynak koşullarını korur.
 
 1. OpenStreetMap kaynaklı veriler
 
@@ -31,6 +31,13 @@ ve gerekiyorsa izin gereksinimini kendisi değerlendirmekle sorumludur.
 GTFS içindeki agency.txt ve attributions.txt kayıtları ile veri dosyalarındaki
 kaynak kurum adları ve URL'leri kaldırılmamalıdır.
 
+GTFS ZIP dosyasının içindeki LICENSE.txt bu ayrımı paketle birlikte taşır.
+OSM kaynaklı durak ve shape bileşenlerine ODbL uygulanır. Ray Atlası bu
+bileşenlere ticari kullanım yasağı veya başka ek kısıt koymaz. GTFS veya bir
+bölümü OSM'nin türev veri tabanı sayıldığı ölçüde ODbL o türev veri tabanına
+uygulanır. Resmî tarife bileşenleri için kurum ve URL bildirimi yalnızca
+provenanstır ve izin yerine geçmez.
+
 3. Ray Atlası'na ait materyaller
 
 Ray Atlası'na ait kaynak kodu, derlenmiş uygulama kodu, kullanıcı arayüzünün
@@ -39,6 +46,8 @@ proje belgeleri tüm hakları saklı materyallerdir. Önceden alınmış açık 
 yazılı izin olmadan ticari veya ticari olmayan amaçlarla kullanılamaz,
 kopyalanamaz, değiştirilemez ya da dağıtılamaz.
 
-Bir dosyanın internet üzerinden indirilebilir olması kullanım izni verildiği
-anlamına gelmez. Ayrıntılı bildirim:
+Bir dosyanın internet üzerinden indirilebilir olması Ray Atlası'na ait
+korunabilir unsurlar için kullanım izni verildiği anlamına gelmez. Üçüncü taraf
+lisanslarının ve yürürlükteki hukukun verdiği haklar saklıdır. Ayrıntılı
+bildirim:
 https://ttezer.github.io/tr-railways/LICENSE.txt

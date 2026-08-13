@@ -6,7 +6,8 @@ Bu web uygulamasına ait özgün uygulama kodu, kullanıcı arayüzünün özgü
 ifadesi, metinler, görsel unsurlar ve proje belgeleri önceden alınmış açık ve
 yazılı izin olmaksızın ticari veya ticari olmayan amaçlarla kopyalanamaz,
 değiştirilemez, yayımlanamaz, dağıtılamaz, satılamaz ya da başka bir hizmete
-dâhil edilemez. Siteye ve indirilebilir dosyalara erişim kullanım izni vermez.
+dâhil edilemez. Siteye ve Ray Atlası Materyallerine erişim kullanım izni
+vermez.
 
 Bu bildirim üçüncü taraf verilerine yeni bir lisans uygulamaz:
 
