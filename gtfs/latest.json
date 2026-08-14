@@ -1,6 +1,6 @@
 {
   "filename": "tr_railways_20260815.zip",
-  "generated_at": "2026-08-14T23:01:18.634Z",
+  "generated_at": "2026-08-14T23:14:54.859Z",
   "generation_date": "20260815",
   "feed_start_date": "20260815",
   "feed_end_date": "20260829",
@@ -15,6 +15,7 @@
   "validation": "passed",
   "analyzer_version": "v0.8.0",
   "analyzer_score": 97.9,
+  "publication_score": 100,
   "overall_score": 97.9,
   "license_status": "source_specific",
   "license_notice": "../DATA_LICENSE.txt",

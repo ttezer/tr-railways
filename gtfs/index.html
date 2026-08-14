@@ -15,46 +15,124 @@
     <meta property="og:image" content="https://ttezer.github.io/tr-railways/og.png" />
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"Türkiye Demiryolları GTFS Static","alternateName":["TCDD GTFS","TCDD Taşımacılık GTFS"],"description":"TCDD ve TCDD Taşımacılık seferlerinden derlenen bağımsız Türkiye demiryolları GTFS Static paketi; duraklar, hatlar, seferler, çalışma tarihleri ve shape geometrileri içerir.","url":"https://ttezer.github.io/tr-railways/gtfs/","inLanguage":"tr","temporalCoverage":"20260815/20260829","dateModified":"2026-08-15","creator":{"@type":"Person","name":"Tacettin Tezer"},"publisher":{"@type":"Organization","name":"Ray Atlası","url":"https://ttezer.github.io/tr-railways/"},"isBasedOn":"https://www.tcddtasimacilik.gov.tr/","license":"https://ttezer.github.io/tr-railways/DATA_LICENSE.txt","distribution":{"@type":"DataDownload","encodingFormat":"application/zip","contentUrl":"https://ttezer.github.io/tr-railways/gtfs/tr_railways_20260815.zip","name":"tr_railways_20260815.zip"}}</script>
     <style>
-      :root { color-scheme: light; font-family: Inter, ui-sans-serif, system-ui, -apple-system, sans-serif; }
+      :root {
+        color-scheme: light dark;
+        font-family: "Google Sans", "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+        --page: #f6f8fc;
+        --on-page: #17202a;
+        --surface: #ffffff;
+        --surface-variant: #eef2f7;
+        --outline: #c8d1dc;
+        --primary: #2f5ea8;
+        --primary-hover: #234a88;
+        --warning-container: #fff0bd;
+        --on-warning-container: #3c2d00;
+        --warning-outline: #c58a00;
+        --error-container: #ffdad6;
+        --on-error-container: #410002;
+        --error-outline: #ba1a1a;
+        --muted: #536273;
+        --summary-1-bg: #e3f6f2;
+        --summary-1-on: #07433c;
+        --summary-1-accent: #1a8175;
+        --summary-2-bg: #e6efff;
+        --summary-2-on: #183a72;
+        --summary-2-accent: #4f79bf;
+        --summary-3-bg: #fff2d4;
+        --summary-3-on: #563900;
+        --summary-3-accent: #c47b00;
+        --summary-4-bg: #f1e9ff;
+        --summary-4-on: #45216b;
+        --summary-4-accent: #8057b7;
+        --publication-bg: #e1f4e8;
+        --publication-on: #0e4a2a;
+        --publication-accent: #27804d;
+        --overall-bg: #e7edff;
+        --overall-on: #1b326d;
+        --overall-accent: #4f6ec7;
+        --status-bg: #f1e8fb;
+        --status-on: #46266b;
+        --status-accent: #8a5bc1;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --page: #0e141b;
+          --on-page: #e6ebf2;
+          --surface: #161d26;
+          --surface-variant: #202a35;
+          --outline: #3b4a5b;
+          --primary: #b3c9ff;
+          --primary-hover: #c7d7ff;
+          --warning-container: #4c3b05;
+          --on-warning-container: #fff7d6;
+          --warning-outline: #e9b93f;
+          --error-container: #5a1c17;
+          --on-error-container: #ffd9d4;
+          --error-outline: #ffb4ab;
+          --muted: #b8c3d2;
+          --summary-1-bg: #103b36;
+          --summary-1-on: #b0f0e4;
+          --summary-1-accent: #75d3c4;
+          --summary-2-bg: #172d55;
+          --summary-2-on: #d5e2ff;
+          --summary-2-accent: #9bbcff;
+          --summary-3-bg: #49380a;
+          --summary-3-on: #ffe9a8;
+          --summary-3-accent: #f4c45a;
+          --summary-4-bg: #35214f;
+          --summary-4-on: #efd9ff;
+          --summary-4-accent: #c9a1ef;
+          --publication-bg: #123d2a;
+          --publication-on: #c8f5d5;
+          --publication-accent: #8ddd9e;
+          --overall-bg: #172d59;
+          --overall-on: #d9e4ff;
+          --overall-accent: #a9c2ff;
+          --status-bg: #34214b;
+          --status-on: #f0dcff;
+          --status-accent: #d1a9f4;
+        }
+      }
       * { box-sizing: border-box; }
-      body { margin: 0; background: radial-gradient(circle at 8% 0%, #fff7df 0, #f4f1e8 38%, #e6f0ef 100%); color: #123b3b; }
+      body { margin: 0; background: radial-gradient(circle at 8% 0%, var(--surface-variant) 0, var(--page) 42%, var(--page) 100%); color: var(--on-page); }
       main { max-width: 980px; min-height: 100vh; margin: auto; padding: 32px 22px 64px; }
-      .back-link { display: inline-flex; align-items: center; gap: 7px; margin-bottom: 18px; color: #075c69; font-weight: 750; text-decoration: none; }
-      .hero { overflow: hidden; position: relative; padding: clamp(28px, 6vw, 58px); border-radius: 30px; background: linear-gradient(135deg, #073f43, #0a7772 58%, #1a9a86); color: #f4fffb; box-shadow: 0 20px 55px #0d55542b; }
-      .hero::after { content: ""; position: absolute; width: 280px; height: 280px; right: -90px; bottom: -130px; border: 34px solid #ffffff20; border-radius: 50%; }
+      .back-link { display: inline-flex; align-items: center; gap: 7px; margin-bottom: 18px; color: var(--primary); font-weight: 750; text-decoration: none; }
+      .hero { overflow: hidden; position: relative; padding: clamp(28px, 6vw, 58px); border-radius: 30px; background: linear-gradient(135deg, #073f43, #0a7772 58%, #1a9a86); color: #f4fffb; box-shadow: 0 20px 55px rgb(13 85 84 / 17%); }
+      .hero::after { content: ""; position: absolute; width: 280px; height: 280px; right: -90px; bottom: -130px; border: 34px solid rgb(255 255 255 / 12%); border-radius: 50%; }
       .eyebrow { position: relative; z-index: 1; margin: 0 0 13px; color: #ffd36e; font-size: .78rem; font-weight: 850; letter-spacing: .14em; text-transform: uppercase; }
       h1 { position: relative; z-index: 1; max-width: 760px; margin: 0 0 18px; font-size: clamp(2.25rem, 7vw, 4.6rem); line-height: .98; letter-spacing: -.055em; }
       .hero p { position: relative; z-index: 1; max-width: 690px; margin: 0; color: #d8f1eb; font-size: 1.08rem; line-height: 1.7; }
-      .validity { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 14px; margin: 18px 0; padding: 17px 20px; border: 1px solid #d2951d; border-radius: 18px; background: linear-gradient(100deg, #fff4c7, #ffe4a1); color: #5c3b08; box-shadow: 0 8px 25px #b77c1c20; }
+      .validity { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 14px; margin: 18px 0; padding: 17px 20px; border: 1px solid var(--warning-outline); border-radius: 18px; background: var(--warning-container); color: var(--on-warning-container); box-shadow: 0 8px 25px rgb(128 88 0 / 12%); }
       .validity strong { display: block; font-size: 1.35rem; }
-      .validity small { color: #805d1a; font-weight: 650; }
-      .notice { margin: 18px 0; padding: 16px 19px; border: 1px solid #e69d8d; border-left: 6px solid #d9533f; border-radius: 16px; background: #fff1ed; color: #6b2e26; line-height: 1.6; }
+      .validity small { color: inherit; font-weight: 650; opacity: .84; }
+      .notice { margin: 18px 0; padding: 16px 19px; border: 1px solid var(--error-outline); border-left: 6px solid var(--error-outline); border-radius: 16px; background: var(--error-container); color: var(--on-error-container); line-height: 1.6; }
       .action-row { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin: 22px 0 30px; }
-      .download { display: inline-flex; align-items: center; gap: 9px; padding: 14px 20px; border: 1px solid #075c69; border-radius: 13px; background: #075c69; color: #fff; font-weight: 800; text-decoration: none; box-shadow: 0 8px 18px #075c6933; }
-      .download:hover, .download:focus-visible { background: #063f48; }
-      .secondary { color: #075c69; font-weight: 750; }
-      .section { margin-top: 28px; padding: 24px; border: 1px solid #d7e0dd; border-radius: 22px; background: #ffffffc9; box-shadow: 0 10px 30px #0d555412; }
-      h2 { margin: 0 0 13px; color: #0a5557; font-size: 1.45rem; }
+      .download { display: inline-flex; align-items: center; gap: 9px; padding: 14px 20px; border: 1px solid var(--primary); border-radius: 13px; background: var(--primary); color: #fff; font-weight: 800; text-decoration: none; box-shadow: 0 8px 18px rgb(47 94 168 / 20%); }
+      .download:hover, .download:focus-visible { background: var(--primary-hover); }
+      .secondary { color: var(--primary); font-weight: 750; }
+      .section { margin-top: 28px; padding: 24px; border: 1px solid var(--outline); border-radius: 22px; background: color-mix(in srgb, var(--surface) 92%, transparent); box-shadow: 0 10px 30px rgb(15 23 42 / 8%); }
+      .section-title-row { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; }
+      h2 { margin: 0 0 13px; color: var(--primary); font-size: 1.45rem; }
       p, li { font-size: 1rem; line-height: 1.7; }
       .meta, .score-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 18px 0 0; padding: 0; list-style: none; }
-      .meta li, .score-card { min-height: 106px; padding: 16px; border: 1px solid #d7e0dd; border-top: 5px solid #0b7772; border-radius: 15px; background: #eff9f5; }
-      .meta li:nth-child(2) { border-top-color: #4e8cc4; background: #eff5fc; }
-      .meta li:nth-child(3) { border-top-color: #d99220; background: #fff8e4; }
-      .meta li:nth-child(4) { border-top-color: #8b6ac7; background: #f4effc; }
-      .meta strong { display: block; margin-bottom: 3px; color: #123b3b; font-size: 1.7rem; }
-      .meta span { color: #58706f; font-size: .88rem; font-weight: 750; }
+      .meta li, .score-card { min-height: 106px; padding: 16px; border: 1px solid var(--outline); border-top: 5px solid var(--summary-1-accent); border-radius: 15px; background: var(--summary-1-bg); color: var(--summary-1-on); }
+      .meta li:nth-child(2) { border-top-color: var(--summary-2-accent); background: var(--summary-2-bg); color: var(--summary-2-on); }
+      .meta li:nth-child(3) { border-top-color: var(--summary-3-accent); background: var(--summary-3-bg); color: var(--summary-3-on); }
+      .meta li:nth-child(4) { border-top-color: var(--summary-4-accent); background: var(--summary-4-bg); color: var(--summary-4-on); }
+      .meta strong { display: block; margin-bottom: 3px; color: inherit; font-size: 1.7rem; }
+      .meta span { color: inherit; font-size: .88rem; font-weight: 750; opacity: .78; }
       .score-card { display: flex; flex-direction: column; justify-content: space-between; }
-      .score-card.analyzer { border-top-color: #287f82; background: #e9f7f3; }
-      .score-card.overall { border-top-color: #d99220; background: #fff5d1; }
-      .score-card.status { border-top-color: #6f79bb; background: #eef0ff; }
-      .score-card span { color: #58706f; font-size: .82rem; font-weight: 800; letter-spacing: .03em; text-transform: uppercase; }
-      .score-card strong { color: #123b3b; font-size: 1.8rem; }
-      .score-card small { color: #58706f; font-weight: 650; }
-      .source-card { border-color: #cdd5e3; background: #f1f4fa; }
-      code { padding: 2px 5px; border-radius: 5px; background: #dce9e6; color: #174f4f; }
-      a { color: #075c69; }
+      .score-card.publication { border-top-color: var(--publication-accent); background: var(--publication-bg); color: var(--publication-on); }
+      .score-card.overall { border-top-color: var(--overall-accent); background: var(--overall-bg); color: var(--overall-on); }
+      .score-card.status { border-top-color: var(--status-accent); background: var(--status-bg); color: var(--status-on); }
+      .score-card span { color: inherit; font-size: .82rem; font-weight: 800; letter-spacing: .03em; text-transform: uppercase; opacity: .8; }
+      .score-card strong { color: inherit; font-size: 1.8rem; }
+      .score-card small { color: inherit; font-weight: 650; opacity: .78; }
+      .version-badge { display: inline-flex; align-items: center; min-height: 32px; padding: 6px 11px; border-radius: 999px; background: var(--surface-variant); color: var(--muted); font-size: .78rem; font-weight: 800; }
+      .source-card { border-color: var(--outline); background: var(--surface-variant); }
+      code { padding: 2px 5px; border-radius: 5px; background: var(--surface-variant); color: var(--primary); }
+      a { color: var(--primary); }
       @media (max-width: 620px) { main { padding: 20px 14px 40px; } .hero { border-radius: 22px; padding: 30px 24px; } .section { padding: 19px; } .validity strong { font-size: 1.15rem; } }
-      @media (prefers-color-scheme: dark) { :root { color-scheme: dark; } body { background: #071d20; color: #e7f2ef; } .back-link, a, .secondary { color: #8de0d7; } .validity { background: linear-gradient(100deg, #4f3b0e, #5a4013); color: #ffe6a4; } .validity small { color: #f2cb78; } .notice { background: #401f1c; color: #ffd2c9; border-color: #a44f42; } .section { border-color: #2b4b4e; background: #0c2629e8; } h2, .meta strong, .score-card strong { color: #e7f2ef; } .meta li, .score-card, .score-card.analyzer, .score-card.overall, .score-card.status, .source-card { border-color: #2b4b4e; } .meta li { background: #102d30; } .score-card.analyzer { background: #103737; } .score-card.overall { background: #443512; } .score-card.status { background: #252945; } .score-card span, .score-card small, .meta span { color: #a6c2bf; } code { background: #173f42; color: #c5ebe5; } }
     </style>
   </head>
   <body>
@@ -67,7 +145,7 @@
       </section>
       <div class="validity" aria-label="GTFS geçerlilik bilgisi">
         <div><small>GTFS geçerlilik dönemi</small><strong>15.08.2026–29.08.2026</strong></div>
-        <small>Son üretim: 15 Ağu 2026 02:01 · 15 işletim günü</small>
+        <small>Son üretim: 15 Ağu 2026 02:14 · 15 işletim günü</small>
       </div>
       <p class="notice"><strong>Resmî TCDD yayını değildir.</strong> Ray Atlası bağımsız bir kişisel projedir. Seyahat ve biletleme kararlarında TCDD Taşımacılık'ın güncel resmî duyurularını kontrol edin.</p>
       <div class="action-row">
@@ -84,11 +162,14 @@
         </ul>
       </section>
       <section class="section">
-        <h2>Doğrulama ve kalite</h2>
+        <div class="section-title-row">
+          <h2>Doğrulama ve kalite</h2>
+          <span class="version-badge">GTFS Analyzer v0.8.0</span>
+        </div>
         <p>Paket Ray Atlası doğrulayıcısı ve <a href="https://github.com/ttezer/gtfs-analyzer">GTFS Analyzer</a> ile denetlenir.</p>
         <div class="score-grid" aria-label="GTFS kalite skorları">
-          <article class="score-card analyzer"><span>GTFS Analyzer</span><strong>v0.8.0</strong><small>kullanılan analiz sürümü</small></article>
-          <article class="score-card overall"><span>Genel skor</span><strong>97,9/100</strong><small>GTFS Analyzer overall score</small></article>
+          <article class="score-card publication"><span>Yayın skoru</span><strong>100,0/100</strong><small>GTFS Analyzer · R5 publication score</small></article>
+          <article class="score-card overall"><span>Genel skor</span><strong>97,9/100</strong><small>GTFS Analyzer · overall score</small></article>
           <article class="score-card status"><span>Doğrulama durumu</span><strong>Başarılı</strong><small>yüksek önem dereceli hata yok</small></article>
         </div>
       </section>
