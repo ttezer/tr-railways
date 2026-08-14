@@ -25,6 +25,9 @@
         --outline: #c8d1dc;
         --primary: #2f5ea8;
         --primary-hover: #234a88;
+        --download-bg: #dbe4ff;
+        --download-on: #111827;
+        --download-hover: #c8d5f6;
         --warning-container: #fff0bd;
         --on-warning-container: #3c2d00;
         --warning-outline: #c58a00;
@@ -63,6 +66,9 @@
           --outline: #3b4a5b;
           --primary: #b3c9ff;
           --primary-hover: #c7d7ff;
+          --download-bg: #cbd8ff;
+          --download-on: #111827;
+          --download-hover: #dce5ff;
           --warning-container: #4c3b05;
           --on-warning-container: #fff7d6;
           --warning-outline: #e9b93f;
@@ -107,8 +113,8 @@
       .validity small { color: inherit; font-weight: 650; opacity: .84; }
       .notice { margin: 18px 0; padding: 16px 19px; border: 1px solid var(--error-outline); border-left: 6px solid var(--error-outline); border-radius: 16px; background: var(--error-container); color: var(--on-error-container); line-height: 1.6; }
       .action-row { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin: 22px 0 30px; }
-      .download { display: inline-flex; align-items: center; gap: 9px; padding: 14px 20px; border: 1px solid var(--primary); border-radius: 13px; background: var(--primary); color: #fff; font-weight: 800; text-decoration: none; box-shadow: 0 8px 18px rgb(47 94 168 / 20%); }
-      .download:hover, .download:focus-visible { background: var(--primary-hover); }
+      .download { display: inline-flex; align-items: center; gap: 9px; padding: 14px 20px; border: 1px solid var(--primary); border-radius: 13px; background: var(--download-bg); color: var(--download-on); font-weight: 800; text-decoration: none; box-shadow: 0 8px 18px rgb(47 94 168 / 14%); }
+      .download:hover, .download:focus-visible { background: var(--download-hover); color: var(--download-on); }
       .secondary { color: var(--primary); font-weight: 750; }
       .section { margin-top: 28px; padding: 24px; border: 1px solid var(--outline); border-radius: 22px; background: color-mix(in srgb, var(--surface) 92%, transparent); box-shadow: 0 10px 30px rgb(15 23 42 / 8%); }
       .section-title-row { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; }
@@ -145,7 +151,7 @@
       </section>
       <div class="validity" aria-label="GTFS geçerlilik bilgisi">
         <div><small>GTFS geçerlilik dönemi</small><strong>15.08.2026–29.08.2026</strong></div>
-        <small>Son üretim: 15 Ağu 2026 02:14 · 15 işletim günü</small>
+        <small>Son üretim: 15 Ağu 2026 02:25 · 15 işletim günü</small>
       </div>
       <p class="notice"><strong>Resmî TCDD yayını değildir.</strong> Ray Atlası bağımsız bir kişisel projedir. Seyahat ve biletleme kararlarında TCDD Taşımacılık'ın güncel resmî duyurularını kontrol edin.</p>
       <div class="action-row">
