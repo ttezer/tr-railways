@@ -1,14 +1,14 @@
 {
-  "filename": "tr_railways_20260824.zip",
-  "generated_at": "2026-08-23T22:49:54.486Z",
-  "generation_date": "20260824",
-  "feed_start_date": "20260824",
-  "feed_end_date": "20260831",
-  "available_days": 8,
+  "filename": "tr_railways_20260901.zip",
+  "generated_at": "2026-09-01T10:50:03.185Z",
+  "generation_date": "20260901",
+  "feed_start_date": "20260901",
+  "feed_end_date": "20260914",
+  "available_days": 14,
   "routes": 51,
   "stops": 567,
   "trips": 1135,
-  "services": 15,
+  "services": 16,
   "stop_times": 26412,
   "shapes": 157,
   "shape_points": 138787,
@@ -19,11 +19,11 @@
   "overall_score": 97.5,
   "license_status": "source_specific",
   "license_notice": "../DATA_LICENSE.txt",
-  "size_bytes": 2341836,
+  "size_bytes": 2341966,
   "provenance": {
     "marker": "ray-atlasi-provenance-v1",
-    "source_commit": "3bbdef433e3cbc9b0de6d87b76c926a84e4302b5",
-    "build_id": "ray-atlasi-3bbdef433e3c-20260823224947",
-    "fingerprint": "sha256:caf27206d81ab4a9be8215f8bf04af866e28fbe3e9aeca3be80eccf74fa7d519"
+    "source_commit": "e455ddd83b032fe518dbeac958df58ed4eb69bbf",
+    "build_id": "ray-atlasi-e455ddd83b03-20260901104949",
+    "fingerprint": "sha256:94d7e9373c65a51c2a4a4a86ef3e1ee90074e84afe967c553cda89aab90edcd3"
   }
 }
