@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T11:41:40.974Z",
+  "generated_at": "2026-09-03T10:31:27.743Z",
   "publication_status": "independent_personal_project",
   "sources": [
     {
@@ -13,16 +13,19 @@
       "input": "ray_shape.geojson",
       "output": "public/data/rail-infrastructure.geojson",
       "compressed_output": "public/data/rail-infrastructure.geojson.gz",
-      "feature_count": 7957,
+      "feature_count": 7958,
       "operational_feature_count": 7780,
-      "construction_feature_count": 45,
+      "construction_feature_count": 46,
       "inactive_feature_count": 131,
       "train_ferry_feature_count": 1,
-      "source_point_count": 90286,
-      "point_count": 54775,
-      "length_km": 11434.6,
+      "source_point_count": 90289,
+      "point_count": 54778,
+      "length_km": 11475.8,
       "ferry_length_km": 89.8,
       "supplemental_input": "data/source-snapshots/osm/official-network-gaps-20260803.json",
+      "project_corridor_input": "data/source-snapshots/project/karaman-ulukisla-20260903.geojson",
+      "project_corridor_source": "https://www.uab.gov.tr/haberler/karaman-ulukisla-hatti-tuerkiye-nin-kalkinma-yolu-ndaki-roluenue-gueclendirecek/",
+      "project_corridor_geometry_method": "Ereğli-Çakmak-Ulukışla istasyonlarına sabitlenmiş yaklaşık proje koridoru; kesin uygulama güzergâhı değildir",
       "supplemental_osm_timestamp": "2026-08-03T13:52:01Z",
       "official_crosscheck": "https://static.tcdd.gov.tr/webfiles/userfiles/files/sebekebildirimi/2024/32182.pdf",
       "timetable_scope": "independent"
@@ -34,8 +37,8 @@
       "output": "public/data/rail-stations.geojson",
       "osm_timestamp": "2026-08-03T09:10:01Z",
       "catalog_station_count": 594,
-      "additional_station_count": 512,
-      "total_map_station_count": 1106,
+      "additional_station_count": 513,
+      "total_map_station_count": 1107,
       "timetable_scope": "independent"
     },
     {
