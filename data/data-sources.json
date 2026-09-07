@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T10:31:27.743Z",
+  "generated_at": "2026-09-07T18:54:28.844Z",
   "publication_status": "independent_personal_project",
   "sources": [
     {
@@ -59,10 +59,10 @@
       "status": "official_published",
       "calendar_strategy": "explicit_service_dates",
       "source_count": 49,
-      "trip_count": 4667,
-      "stop_time_count": 86040,
+      "trip_count": 4603,
+      "stop_time_count": 84943,
       "valid_from": "2026-08-31",
-      "valid_until": "2026-09-14"
+      "valid_until": "2026-09-21"
     },
     {
       "id": "transfer-graph",
