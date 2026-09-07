@@ -1,6 +1,6 @@
 {
   "filename": "tr_railways_20260907.zip",
-  "generated_at": "2026-09-07T19:16:15.660Z",
+  "generated_at": "2026-09-07T19:26:54.344Z",
   "generation_date": "20260907",
   "feed_start_date": "20260907",
   "feed_end_date": "20260921",
@@ -22,8 +22,8 @@
   "size_bytes": 2341741,
   "provenance": {
     "marker": "ray-atlasi-provenance-v1",
-    "source_commit": "6bce94ae2dae5bb1d3b56ee23d230681256d8f2b",
-    "build_id": "ray-atlasi-6bce94ae2dae-20260907191553",
-    "fingerprint": "sha256:5f1a85d2600fcca3c2f02d8f052ebcd385ccbec609320ec53b0a920f1a2b9909"
+    "source_commit": "4cf621bdfea23c42d3da5a9d9d6c529b05ad601d",
+    "build_id": "ray-atlasi-4cf621bdfea2-20260907192632",
+    "fingerprint": "sha256:8cdad6afe1270107cd3ed36bf4a019bb05e1a5876c606c459a22b1f87b32cdca"
   }
 }
