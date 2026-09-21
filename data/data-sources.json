@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T15:41:21.306Z",
+  "generated_at": "2026-09-21T16:10:10.575Z",
   "publication_status": "independent_personal_project",
   "sources": [
     {
@@ -69,7 +69,7 @@
       "status": "generated",
       "input": "data/input/transfers.csv",
       "node_count": 595,
-      "ride_edge_count": 3114,
+      "ride_edge_count": 3115,
       "transfer_edge_count": 0
     }
   ]

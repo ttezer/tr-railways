@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T15:41:21.306Z",
+  "generated_at": "2026-09-21T16:10:10.575Z",
   "status": "ready",
   "nodes": [
     {
@@ -1212,7 +1212,9 @@
     {
       "station_id": "st-gokce",
       "name": "Gökçe",
-      "route_ids": []
+      "route_ids": [
+        "route-guney-kurtalan-ekspresi"
+      ]
     },
     {
       "station_id": "st-sefkat",
@@ -8152,7 +8154,7 @@
     {
       "id": "pattern-guney-kurtalan-kurtalan-ankara:20",
       "from_station_id": "st-uluova",
-      "to_station_id": "st-yolcati",
+      "to_station_id": "st-gokce",
       "route_id": "route-guney-kurtalan-ekspresi",
       "pattern_id": "pattern-guney-kurtalan-kurtalan-ankara",
       "direction": "reverse",
@@ -8160,8 +8162,8 @@
     },
     {
       "id": "pattern-guney-kurtalan-kurtalan-ankara:21",
-      "from_station_id": "st-yolcati",
-      "to_station_id": "st-sefkat",
+      "from_station_id": "st-gokce",
+      "to_station_id": "st-yolcati",
       "route_id": "route-guney-kurtalan-ekspresi",
       "pattern_id": "pattern-guney-kurtalan-kurtalan-ankara",
       "direction": "reverse",
@@ -8169,8 +8171,8 @@
     },
     {
       "id": "pattern-guney-kurtalan-kurtalan-ankara:22",
-      "from_station_id": "st-sefkat",
-      "to_station_id": "st-baskil",
+      "from_station_id": "st-yolcati",
+      "to_station_id": "st-sefkat",
       "route_id": "route-guney-kurtalan-ekspresi",
       "pattern_id": "pattern-guney-kurtalan-kurtalan-ankara",
       "direction": "reverse",
@@ -8178,8 +8180,8 @@
     },
     {
       "id": "pattern-guney-kurtalan-kurtalan-ankara:23",
-      "from_station_id": "st-baskil",
-      "to_station_id": "st-pinarli",
+      "from_station_id": "st-sefkat",
+      "to_station_id": "st-baskil",
       "route_id": "route-guney-kurtalan-ekspresi",
       "pattern_id": "pattern-guney-kurtalan-kurtalan-ankara",
       "direction": "reverse",
@@ -8187,8 +8189,8 @@
     },
     {
       "id": "pattern-guney-kurtalan-kurtalan-ankara:24",
-      "from_station_id": "st-pinarli",
-      "to_station_id": "st-kussarayi",
+      "from_station_id": "st-baskil",
+      "to_station_id": "st-pinarli",
       "route_id": "route-guney-kurtalan-ekspresi",
       "pattern_id": "pattern-guney-kurtalan-kurtalan-ankara",
       "direction": "reverse",
@@ -8196,8 +8198,8 @@
     },
     {
       "id": "pattern-guney-kurtalan-kurtalan-ankara:25",
-      "from_station_id": "st-kussarayi",
-      "to_station_id": "st-gemici",
+      "from_station_id": "st-pinarli",
+      "to_station_id": "st-kussarayi",
       "route_id": "route-guney-kurtalan-ekspresi",
       "pattern_id": "pattern-guney-kurtalan-kurtalan-ankara",
       "direction": "reverse",
@@ -8205,8 +8207,8 @@
     },
     {
       "id": "pattern-guney-kurtalan-kurtalan-ankara:26",
-      "from_station_id": "st-gemici",
-      "to_station_id": "st-firat",
+      "from_station_id": "st-kussarayi",
+      "to_station_id": "st-gemici",
       "route_id": "route-guney-kurtalan-ekspresi",
       "pattern_id": "pattern-guney-kurtalan-kurtalan-ankara",
       "direction": "reverse",
@@ -8214,8 +8216,8 @@
     },
     {
       "id": "pattern-guney-kurtalan-kurtalan-ankara:27",
-      "from_station_id": "st-firat",
-      "to_station_id": "st-battalgazi",
+      "from_station_id": "st-gemici",
+      "to_station_id": "st-firat",
       "route_id": "route-guney-kurtalan-ekspresi",
       "pattern_id": "pattern-guney-kurtalan-kurtalan-ankara",
       "direction": "reverse",
@@ -8223,8 +8225,8 @@
     },
     {
       "id": "pattern-guney-kurtalan-kurtalan-ankara:28",
-      "from_station_id": "st-battalgazi",
-      "to_station_id": "st-malatya",
+      "from_station_id": "st-firat",
+      "to_station_id": "st-battalgazi",
       "route_id": "route-guney-kurtalan-ekspresi",
       "pattern_id": "pattern-guney-kurtalan-kurtalan-ankara",
       "direction": "reverse",
@@ -8232,8 +8234,8 @@
     },
     {
       "id": "pattern-guney-kurtalan-kurtalan-ankara:29",
-      "from_station_id": "st-malatya",
-      "to_station_id": "st-yazihan",
+      "from_station_id": "st-battalgazi",
+      "to_station_id": "st-malatya",
       "route_id": "route-guney-kurtalan-ekspresi",
       "pattern_id": "pattern-guney-kurtalan-kurtalan-ankara",
       "direction": "reverse",
@@ -8241,8 +8243,8 @@
     },
     {
       "id": "pattern-guney-kurtalan-kurtalan-ankara:30",
-      "from_station_id": "st-yazihan",
-      "to_station_id": "st-hekimhan",
+      "from_station_id": "st-malatya",
+      "to_station_id": "st-yazihan",
       "route_id": "route-guney-kurtalan-ekspresi",
       "pattern_id": "pattern-guney-kurtalan-kurtalan-ankara",
       "direction": "reverse",
@@ -8250,8 +8252,8 @@
     },
     {
       "id": "pattern-guney-kurtalan-kurtalan-ankara:31",
-      "from_station_id": "st-hekimhan",
-      "to_station_id": "st-akgedik",
+      "from_station_id": "st-yazihan",
+      "to_station_id": "st-hekimhan",
       "route_id": "route-guney-kurtalan-ekspresi",
       "pattern_id": "pattern-guney-kurtalan-kurtalan-ankara",
       "direction": "reverse",
@@ -8259,8 +8261,8 @@
     },
     {
       "id": "pattern-guney-kurtalan-kurtalan-ankara:32",
-      "from_station_id": "st-akgedik",
-      "to_station_id": "st-akcamagara",
+      "from_station_id": "st-hekimhan",
+      "to_station_id": "st-akgedik",
       "route_id": "route-guney-kurtalan-ekspresi",
       "pattern_id": "pattern-guney-kurtalan-kurtalan-ankara",
       "direction": "reverse",
@@ -8268,8 +8270,8 @@
     },
     {
       "id": "pattern-guney-kurtalan-kurtalan-ankara:33",
-      "from_station_id": "st-akcamagara",
-      "to_station_id": "st-demiriz",
+      "from_station_id": "st-akgedik",
+      "to_station_id": "st-akcamagara",
       "route_id": "route-guney-kurtalan-ekspresi",
       "pattern_id": "pattern-guney-kurtalan-kurtalan-ankara",
       "direction": "reverse",
@@ -8277,8 +8279,8 @@
     },
     {
       "id": "pattern-guney-kurtalan-kurtalan-ankara:34",
-      "from_station_id": "st-demiriz",
-      "to_station_id": "st-cetinkaya",
+      "from_station_id": "st-akcamagara",
+      "to_station_id": "st-demiriz",
       "route_id": "route-guney-kurtalan-ekspresi",
       "pattern_id": "pattern-guney-kurtalan-kurtalan-ankara",
       "direction": "reverse",
@@ -8286,8 +8288,8 @@
     },
     {
       "id": "pattern-guney-kurtalan-kurtalan-ankara:35",
-      "from_station_id": "st-cetinkaya",
-      "to_station_id": "st-yenikangal",
+      "from_station_id": "st-demiriz",
+      "to_station_id": "st-cetinkaya",
       "route_id": "route-guney-kurtalan-ekspresi",
       "pattern_id": "pattern-guney-kurtalan-kurtalan-ankara",
       "direction": "reverse",
@@ -8295,8 +8297,8 @@
     },
     {
       "id": "pattern-guney-kurtalan-kurtalan-ankara:36",
-      "from_station_id": "st-yenikangal",
-      "to_station_id": "st-bostankaya",
+      "from_station_id": "st-cetinkaya",
+      "to_station_id": "st-yenikangal",
       "route_id": "route-guney-kurtalan-ekspresi",
       "pattern_id": "pattern-guney-kurtalan-kurtalan-ankara",
       "direction": "reverse",
@@ -8304,8 +8306,8 @@
     },
     {
       "id": "pattern-guney-kurtalan-kurtalan-ankara:37",
-      "from_station_id": "st-bostankaya",
-      "to_station_id": "st-sivas",
+      "from_station_id": "st-yenikangal",
+      "to_station_id": "st-bostankaya",
       "route_id": "route-guney-kurtalan-ekspresi",
       "pattern_id": "pattern-guney-kurtalan-kurtalan-ankara",
       "direction": "reverse",
@@ -8313,8 +8315,8 @@
     },
     {
       "id": "pattern-guney-kurtalan-kurtalan-ankara:38",
-      "from_station_id": "st-sivas",
-      "to_station_id": "st-kalin",
+      "from_station_id": "st-bostankaya",
+      "to_station_id": "st-sivas",
       "route_id": "route-guney-kurtalan-ekspresi",
       "pattern_id": "pattern-guney-kurtalan-kurtalan-ankara",
       "direction": "reverse",
@@ -8322,8 +8324,8 @@
     },
     {
       "id": "pattern-guney-kurtalan-kurtalan-ankara:39",
-      "from_station_id": "st-kalin",
-      "to_station_id": "st-bedirli",
+      "from_station_id": "st-sivas",
+      "to_station_id": "st-kalin",
       "route_id": "route-guney-kurtalan-ekspresi",
       "pattern_id": "pattern-guney-kurtalan-kurtalan-ankara",
       "direction": "reverse",
@@ -8331,8 +8333,8 @@
     },
     {
       "id": "pattern-guney-kurtalan-kurtalan-ankara:40",
-      "from_station_id": "st-bedirli",
-      "to_station_id": "st-hanli",
+      "from_station_id": "st-kalin",
+      "to_station_id": "st-bedirli",
       "route_id": "route-guney-kurtalan-ekspresi",
       "pattern_id": "pattern-guney-kurtalan-kurtalan-ankara",
       "direction": "reverse",
@@ -8340,8 +8342,8 @@
     },
     {
       "id": "pattern-guney-kurtalan-kurtalan-ankara:41",
-      "from_station_id": "st-hanli",
-      "to_station_id": "st-sarkisla",
+      "from_station_id": "st-bedirli",
+      "to_station_id": "st-hanli",
       "route_id": "route-guney-kurtalan-ekspresi",
       "pattern_id": "pattern-guney-kurtalan-kurtalan-ankara",
       "direction": "reverse",
@@ -8349,12 +8351,21 @@
     },
     {
       "id": "pattern-guney-kurtalan-kurtalan-ankara:42",
+      "from_station_id": "st-hanli",
+      "to_station_id": "st-sarkisla",
+      "route_id": "route-guney-kurtalan-ekspresi",
+      "pattern_id": "pattern-guney-kurtalan-kurtalan-ankara",
+      "direction": "reverse",
+      "sequence": 42
+    },
+    {
+      "id": "pattern-guney-kurtalan-kurtalan-ankara:43",
       "from_station_id": "st-sarkisla",
       "to_station_id": "st-ankara-gar",
       "route_id": "route-guney-kurtalan-ekspresi",
       "pattern_id": "pattern-guney-kurtalan-kurtalan-ankara",
       "direction": "reverse",
-      "sequence": 42
+      "sequence": 43
     },
     {
       "id": "pattern-pamukkale-eskisehir-denizli:1",
