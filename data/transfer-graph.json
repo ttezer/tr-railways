@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T15:27:33.182Z",
+  "generated_at": "2026-09-21T15:41:21.306Z",
   "status": "ready",
   "nodes": [
     {
@@ -1208,6 +1208,11 @@
         "route-vangolu-ekspresi",
         "route-guney-kurtalan-ekspresi"
       ]
+    },
+    {
+      "station_id": "st-gokce",
+      "name": "Gökçe",
+      "route_ids": []
     },
     {
       "station_id": "st-sefkat",
