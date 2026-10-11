@@ -2,7 +2,7 @@
   "filename": "tr_railways_20261011.zip",
   "latest_filename": "latest.zip",
   "download_url": "https://ttezer.github.io/tr-railways/gtfs/latest.zip",
-  "generated_at": "2026-10-11T12:16:41.815Z",
+  "generated_at": "2026-10-11T12:42:36.361Z",
   "generation_date": "20261011",
   "feed_start_date": "20261011",
   "feed_end_date": "20261025",
@@ -24,8 +24,8 @@
   "size_bytes": 2186354,
   "provenance": {
     "marker": "ray-atlasi-provenance-v1",
-    "source_commit": "6b523f60443034952773514f7746d4fab1e00e57",
-    "build_id": "ray-atlasi-6b523f604430-20261011121620",
-    "fingerprint": "sha256:77df8ca9b9c0c1bbcf60ff669461eef3712542a0866f80f350b7c3aabd3d4511"
+    "source_commit": "48b8c474cc900bee053203e0bcd43014cda59dcc",
+    "build_id": "ray-atlasi-48b8c474cc90-20261011124212",
+    "fingerprint": "sha256:6c43269438d112c65e3aa3d0b2e6309b26464cc6cfa14db49fa2e88f5908f889"
   }
 }

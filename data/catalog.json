@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T12:16:57.219Z",
+  "generated_at": "2026-10-11T12:42:52.669Z",
   "publication_status": "independent_personal_project",
   "service_notices": [
     {
@@ -847,7 +847,7 @@
       "agency": "TCDD Taşımacılık AŞ",
       "status": "active",
       "schedule_status": "official_dates_available",
-      "length_km": 132,
+      "length_km": 135,
       "shape_ids": [
         "shape-cerkezkoy-edirne-hizli"
       ],
@@ -32871,9 +32871,9 @@
           "derived": false
         },
         "shape-cerkezkoy-edirne-hizli": {
-          "index": 60,
-          "offset_m": 1686,
-          "distance_km": 59.702,
+          "index": 62,
+          "offset_m": 0,
+          "distance_km": 60.028,
           "derived": false
         }
       },
@@ -33235,9 +33235,9 @@
           "derived": false
         },
         "shape-cerkezkoy-edirne-hizli": {
-          "index": 136,
+          "index": 142,
           "offset_m": 241,
-          "distance_km": 132.031,
+          "distance_km": 134.953,
           "derived": false
         }
       },
@@ -57284,14 +57284,14 @@
       "latitude": 41.3108462,
       "longitude": 27.5654719,
       "coordinate_status": "verified",
-      "shape_index": 37,
-      "shape_offset_m": 29,
-      "shape_distance_km": 37.723,
+      "shape_index": 38,
+      "shape_offset_m": 0,
+      "shape_distance_km": 37.752,
       "shape_positions": {
         "shape-cerkezkoy-edirne-hizli": {
-          "index": 37,
-          "offset_m": 29,
-          "distance_km": 37.723,
+          "index": 38,
+          "offset_m": 0,
+          "distance_km": 37.752,
           "derived": false
         }
       },
@@ -57328,14 +57328,14 @@
       "latitude": 41.3985975,
       "longitude": 27.1039463,
       "coordinate_status": "verified",
-      "shape_index": 85,
-      "shape_offset_m": 250,
-      "shape_distance_km": 78.352,
+      "shape_index": 91,
+      "shape_offset_m": 0,
+      "shape_distance_km": 81.514,
       "shape_positions": {
         "shape-cerkezkoy-edirne-hizli": {
-          "index": 85,
-          "offset_m": 250,
-          "distance_km": 78.352,
+          "index": 91,
+          "offset_m": 0,
+          "distance_km": 81.514,
           "derived": false
         }
       },
@@ -1026864,7 +1026864,7 @@
         "id": "official-marmaray-current",
         "name": "Resmî Marmaray banliyö tarifesi",
         "url": "https://www.tcddtasimacilik.gov.tr/marmaray/tr/neredennereye",
-        "retrieved_at": "2026-10-11T12:12:19.671Z",
+        "retrieved_at": "2026-10-11T12:37:29.018Z",
         "valid_from": "2026-10-11",
         "valid_until": "2026-10-25",
         "license": "Resmî yayın; yeniden kullanım koşulları ayrıca belirtilmemiştir",
@@ -1026874,7 +1026874,7 @@
         "id": "official-baskentray-current",
         "name": "Resmî Başkentray banliyö tarifesi",
         "url": "https://www.tcddtasimacilik.gov.tr/baskentray/tr/neredennereye",
-        "retrieved_at": "2026-10-11T12:12:19.671Z",
+        "retrieved_at": "2026-10-11T12:37:29.018Z",
         "valid_from": "2026-10-11",
         "valid_until": "2026-10-25",
         "license": "Resmî yayın; yeniden kullanım koşulları ayrıca belirtilmemiştir",
@@ -1026884,7 +1026884,7 @@
         "id": "official-izban-current",
         "name": "Resmî İZBAN istasyonlar-arası sefer tarifesi",
         "url": "https://www.izban.com.tr/sayfalar/SeferSaatleri.aspx?MenuId=22",
-        "retrieved_at": "2026-10-11T12:12:19.671Z",
+        "retrieved_at": "2026-10-11T12:37:29.018Z",
         "valid_from": "2026-10-11",
         "valid_until": "2026-10-25",
         "license": "Resmî yayın; yeniden kullanım koşulları ayrıca belirtilmemiştir",
@@ -1026894,7 +1026894,7 @@
         "id": "official-gaziray-current",
         "name": "Resmî Gaziray sefer tarifesi",
         "url": "https://gaziulas.com.tr/hizmetler/gaziray/gaziray-hat-detaylari-0/GR01",
-        "retrieved_at": "2026-10-11T12:12:19.671Z",
+        "retrieved_at": "2026-10-11T12:37:29.018Z",
         "valid_from": "2026-10-11",
         "valid_until": "2026-10-25",
         "license": "Gaziantep Açık Veri Lisansı ve Gaziulaş resmî yayını",
@@ -1026904,7 +1026904,7 @@
         "id": "official-adaray-current",
         "name": "Sakarya Büyükşehir Belediyesi ADARAY zaman tablosu",
         "url": "https://ulasim.sakarya.bel.tr/ulasim/adaray/a1-adaray-51",
-        "retrieved_at": "2026-10-11T12:12:19.671Z",
+        "retrieved_at": "2026-10-11T12:37:29.018Z",
         "valid_from": "2026-10-11",
         "valid_until": "2026-10-25",
         "license": "Resmî yayın; yeniden kullanım koşulları ayrıca belirtilmemiştir",
@@ -1026914,7 +1026914,7 @@
         "id": "published-ayban-current",
         "name": "AYBAN yayımlanmış sefer saatleri",
         "url": "https://ajansaydin.com/service/amp/ayban-sefer-saatleri-belli-oldu-32417h.htm",
-        "retrieved_at": "2026-10-11T12:12:19.671Z",
+        "retrieved_at": "2026-10-11T12:37:29.018Z",
         "valid_from": "2026-10-11",
         "valid_until": "2026-10-25",
         "license": "Kamuya açık yayın; yeniden kullanım koşulları ayrıca belirtilmemiştir",
@@ -1026984,7 +1026984,7 @@
         "id": "official-international-istanbul-sofia-bucharest-20261011-20261025",
         "name": "Resmî İstanbul–Sofya/Bükreş tren saatleri",
         "url": "https://adminapi.tcddtasimacilik.gov.tr/files/public/609b7631-0d45-41b8-86f5-646a74cec1e5-%C4%B0stanbul%20Sofya%20B%C3%BCkre%C5%9F%20Tren%20Saatleri%20N%C4%B0SAN%202026%20S%C4%B0TE.pdf",
-        "retrieved_at": "2026-10-11T12:15:51.602Z",
+        "retrieved_at": "2026-10-11T12:41:40.819Z",
         "valid_from": "2026-10-11",
         "valid_until": "2026-10-25",
         "license": "Resmî yayın; yeniden kullanım koşulları ayrıca belirtilmemiştir",
@@ -1026994,7 +1026994,7 @@
         "id": "official-international-van-tahran-20261011-20261025",
         "name": "Resmî Tahran–Van treni hareket saatleri",
         "url": "https://adminapi.tcddtasimacilik.gov.tr/files/public/dd7985b6-0b42-4b4d-b8b6-e7f2d5881b73-TAHRAN-VAN%20TREN%C4%B0%20HAREKET%20SAATLER%C4%B0.pdf",
-        "retrieved_at": "2026-10-11T12:15:51.602Z",
+        "retrieved_at": "2026-10-11T12:41:40.819Z",
         "valid_from": "2026-10-11",
         "valid_until": "2026-10-25",
         "license": "Resmî yayın; yeniden kullanım koşulları ayrıca belirtilmemiştir",
