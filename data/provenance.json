@@ -2,9 +2,9 @@
   "marker": "ray-atlasi-provenance-v1",
   "project": "Ray Atlası",
   "repository": "https://github.com/ttezer/turkiye-railways",
-  "source_commit": "d7de46648a3bd3496a248e6ede66175e20efef27",
-  "build_id": "ray-atlasi-d7de46648a3b-20261005095442",
-  "fingerprint": "sha256:333aaccdc1db009f3501f797871616a96a855bf17ed5af5b84310ce3f31a25e4",
-  "generated_at": "2026-10-05T09:54:42.233Z",
+  "source_commit": "32aee651215e5927d192bc6afea867634c228df6",
+  "build_id": "ray-atlasi-32aee651215e-20261011120302",
+  "fingerprint": "sha256:5d7f0da09b0f1ece58d3b4260779dd0ed0aea3d7ace0bbe8e4afdf07aa730f77",
+  "generated_at": "2026-10-11T12:03:02.103Z",
   "notice": "Bu çıktı Ray Atlası özgün yazılım ve yayın provenance işaretini taşır."
 }

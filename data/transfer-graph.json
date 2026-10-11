@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T09:55:21.022Z",
+  "generated_at": "2026-10-11T12:03:33.365Z",
   "status": "ready",
   "nodes": [
     {
@@ -2520,7 +2520,8 @@
         "route-halkali-edirne-bolgesel",
         "route-halkali-uzunkopru-bolgesel",
         "route-istanbul-sofia-bucharest",
-        "route-halkali-kapikule-bolgesel"
+        "route-halkali-kapikule-bolgesel",
+        "route-cerkezkoy-edirne-hizli"
       ]
     },
     {
@@ -2563,7 +2564,8 @@
       "route_ids": [
         "route-halkali-edirne-bolgesel",
         "route-halkali-uzunkopru-bolgesel",
-        "route-halkali-kapikule-bolgesel"
+        "route-halkali-kapikule-bolgesel",
+        "route-cerkezkoy-edirne-hizli"
       ]
     },
     {
@@ -2597,7 +2599,8 @@
       "route_ids": [
         "route-halkali-edirne-bolgesel",
         "route-istanbul-sofia-bucharest",
-        "route-halkali-kapikule-bolgesel"
+        "route-halkali-kapikule-bolgesel",
+        "route-cerkezkoy-edirne-hizli"
       ]
     },
     {
@@ -4718,6 +4721,20 @@
       "name": "İskenderun",
       "route_ids": [
         "route-adana-iskenderun-bolgesel"
+      ]
+    },
+    {
+      "station_id": "st-buyukkaristiran",
+      "name": "Büyükkarıştıran",
+      "route_ids": [
+        "route-cerkezkoy-edirne-hizli"
+      ]
+    },
+    {
+      "station_id": "st-babaeski",
+      "name": "Babaeski",
+      "route_ids": [
+        "route-cerkezkoy-edirne-hizli"
       ]
     }
   ],
@@ -21974,6 +21991,78 @@
       "pattern_id": "pattern-halkali-kapikule-reverse",
       "direction": "reverse",
       "sequence": 10
+    },
+    {
+      "id": "pattern-cerkezkoy-edirne-hizli-forward:1",
+      "from_station_id": "st-cerkezkoy",
+      "to_station_id": "st-buyukkaristiran",
+      "route_id": "route-cerkezkoy-edirne-hizli",
+      "pattern_id": "pattern-cerkezkoy-edirne-hizli-forward",
+      "direction": "forward",
+      "sequence": 1
+    },
+    {
+      "id": "pattern-cerkezkoy-edirne-hizli-forward:2",
+      "from_station_id": "st-buyukkaristiran",
+      "to_station_id": "st-luleburgaz",
+      "route_id": "route-cerkezkoy-edirne-hizli",
+      "pattern_id": "pattern-cerkezkoy-edirne-hizli-forward",
+      "direction": "forward",
+      "sequence": 2
+    },
+    {
+      "id": "pattern-cerkezkoy-edirne-hizli-forward:3",
+      "from_station_id": "st-luleburgaz",
+      "to_station_id": "st-babaeski",
+      "route_id": "route-cerkezkoy-edirne-hizli",
+      "pattern_id": "pattern-cerkezkoy-edirne-hizli-forward",
+      "direction": "forward",
+      "sequence": 3
+    },
+    {
+      "id": "pattern-cerkezkoy-edirne-hizli-forward:4",
+      "from_station_id": "st-babaeski",
+      "to_station_id": "st-edirne",
+      "route_id": "route-cerkezkoy-edirne-hizli",
+      "pattern_id": "pattern-cerkezkoy-edirne-hizli-forward",
+      "direction": "forward",
+      "sequence": 4
+    },
+    {
+      "id": "pattern-cerkezkoy-edirne-hizli-reverse:1",
+      "from_station_id": "st-edirne",
+      "to_station_id": "st-babaeski",
+      "route_id": "route-cerkezkoy-edirne-hizli",
+      "pattern_id": "pattern-cerkezkoy-edirne-hizli-reverse",
+      "direction": "reverse",
+      "sequence": 1
+    },
+    {
+      "id": "pattern-cerkezkoy-edirne-hizli-reverse:2",
+      "from_station_id": "st-babaeski",
+      "to_station_id": "st-luleburgaz",
+      "route_id": "route-cerkezkoy-edirne-hizli",
+      "pattern_id": "pattern-cerkezkoy-edirne-hizli-reverse",
+      "direction": "reverse",
+      "sequence": 2
+    },
+    {
+      "id": "pattern-cerkezkoy-edirne-hizli-reverse:3",
+      "from_station_id": "st-luleburgaz",
+      "to_station_id": "st-buyukkaristiran",
+      "route_id": "route-cerkezkoy-edirne-hizli",
+      "pattern_id": "pattern-cerkezkoy-edirne-hizli-reverse",
+      "direction": "reverse",
+      "sequence": 3
+    },
+    {
+      "id": "pattern-cerkezkoy-edirne-hizli-reverse:4",
+      "from_station_id": "st-buyukkaristiran",
+      "to_station_id": "st-cerkezkoy",
+      "route_id": "route-cerkezkoy-edirne-hizli",
+      "pattern_id": "pattern-cerkezkoy-edirne-hizli-reverse",
+      "direction": "reverse",
+      "sequence": 4
     },
     {
       "id": "pattern-marmaray-gebze-halkali-d1d3e2:1",
