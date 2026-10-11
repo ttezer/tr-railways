@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T12:42:52.669Z",
+  "generated_at": "2026-10-11T13:35:17.731Z",
   "status": "ready",
   "nodes": [
     {
@@ -2564,8 +2564,7 @@
       "route_ids": [
         "route-halkali-edirne-bolgesel",
         "route-halkali-uzunkopru-bolgesel",
-        "route-halkali-kapikule-bolgesel",
-        "route-cerkezkoy-edirne-hizli"
+        "route-halkali-kapikule-bolgesel"
       ]
     },
     {
@@ -4733,6 +4732,13 @@
     {
       "station_id": "st-babaeski",
       "name": "Babaeski",
+      "route_ids": [
+        "route-cerkezkoy-edirne-hizli"
+      ]
+    },
+    {
+      "station_id": "st-luleburgaz-yht",
+      "name": "Lüleburgaz",
       "route_ids": [
         "route-cerkezkoy-edirne-hizli"
       ]
@@ -22004,7 +22010,7 @@
     {
       "id": "pattern-cerkezkoy-edirne-hizli-forward:2",
       "from_station_id": "st-buyukkaristiran",
-      "to_station_id": "st-luleburgaz",
+      "to_station_id": "st-luleburgaz-yht",
       "route_id": "route-cerkezkoy-edirne-hizli",
       "pattern_id": "pattern-cerkezkoy-edirne-hizli-forward",
       "direction": "forward",
@@ -22012,7 +22018,7 @@
     },
     {
       "id": "pattern-cerkezkoy-edirne-hizli-forward:3",
-      "from_station_id": "st-luleburgaz",
+      "from_station_id": "st-luleburgaz-yht",
       "to_station_id": "st-babaeski",
       "route_id": "route-cerkezkoy-edirne-hizli",
       "pattern_id": "pattern-cerkezkoy-edirne-hizli-forward",
@@ -22040,7 +22046,7 @@
     {
       "id": "pattern-cerkezkoy-edirne-hizli-reverse:2",
       "from_station_id": "st-babaeski",
-      "to_station_id": "st-luleburgaz",
+      "to_station_id": "st-luleburgaz-yht",
       "route_id": "route-cerkezkoy-edirne-hizli",
       "pattern_id": "pattern-cerkezkoy-edirne-hizli-reverse",
       "direction": "reverse",
@@ -22048,7 +22054,7 @@
     },
     {
       "id": "pattern-cerkezkoy-edirne-hizli-reverse:3",
-      "from_station_id": "st-luleburgaz",
+      "from_station_id": "st-luleburgaz-yht",
       "to_station_id": "st-buyukkaristiran",
       "route_id": "route-cerkezkoy-edirne-hizli",
       "pattern_id": "pattern-cerkezkoy-edirne-hizli-reverse",
