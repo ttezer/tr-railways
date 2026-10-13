@@ -1,11 +1,11 @@
 {
-  "filename": "tr_railways_20261012.zip",
+  "filename": "tr_railways_20261013.zip",
   "latest_filename": "latest.zip",
   "download_url": "https://ttezer.github.io/tr-railways/gtfs/latest.zip",
-  "generated_at": "2026-10-12T10:04:57.582Z",
-  "generation_date": "20261012",
-  "feed_start_date": "20261012",
-  "feed_end_date": "20261026",
+  "generated_at": "2026-10-13T18:37:46.922Z",
+  "generation_date": "20261013",
+  "feed_start_date": "20261013",
+  "feed_end_date": "20261027",
   "available_days": 15,
   "routes": 48,
   "stops": 544,
@@ -21,11 +21,11 @@
   "overall_score": 98.3,
   "license_status": "source_specific",
   "license_notice": "../DATA_LICENSE.txt",
-  "size_bytes": 2183848,
+  "size_bytes": 2183816,
   "provenance": {
     "marker": "ray-atlasi-provenance-v1",
-    "source_commit": "8f3b8de477984db446147c58dc8f96774d293218",
-    "build_id": "ray-atlasi-8f3b8de47798-20261012100436",
-    "fingerprint": "sha256:889d2d1b2927134ba02baf45f60742e88f991cbc1023338afb245514e6b00b21"
+    "source_commit": "9d55338e118bcfc6966a13e8111dcb46acec6755",
+    "build_id": "ray-atlasi-9d55338e118b-20261013183729",
+    "fingerprint": "sha256:870ed578562a00719db20bcb525e084fb0079546a3ccf7ad764ccb3bca56246e"
   }
 }
