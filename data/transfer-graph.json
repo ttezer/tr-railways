@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T18:38:00.333Z",
+  "generated_at": "2026-10-20T09:21:30.539Z",
   "status": "ready",
   "nodes": [
     {
@@ -3589,6 +3589,7 @@
       "station_id": "st-kepceli",
       "name": "Kepçeli",
       "route_ids": [
+        "route-vangolu-ekspresi",
         "route-elazig-tatvan-bolgesel"
       ]
     },
@@ -7385,7 +7386,7 @@
     {
       "id": "pattern-vangolu-tatvan-ankara:9",
       "from_station_id": "st-uyanik",
-      "to_station_id": "st-genc",
+      "to_station_id": "st-kepceli",
       "route_id": "route-vangolu-ekspresi",
       "pattern_id": "pattern-vangolu-tatvan-ankara",
       "direction": "reverse",
@@ -7393,8 +7394,8 @@
     },
     {
       "id": "pattern-vangolu-tatvan-ankara:10",
-      "from_station_id": "st-genc",
-      "to_station_id": "st-suveren",
+      "from_station_id": "st-kepceli",
+      "to_station_id": "st-genc",
       "route_id": "route-vangolu-ekspresi",
       "pattern_id": "pattern-vangolu-tatvan-ankara",
       "direction": "reverse",
@@ -7402,8 +7403,8 @@
     },
     {
       "id": "pattern-vangolu-tatvan-ankara:11",
-      "from_station_id": "st-suveren",
-      "to_station_id": "st-akbulut",
+      "from_station_id": "st-genc",
+      "to_station_id": "st-suveren",
       "route_id": "route-vangolu-ekspresi",
       "pattern_id": "pattern-vangolu-tatvan-ankara",
       "direction": "reverse",
@@ -7411,8 +7412,8 @@
     },
     {
       "id": "pattern-vangolu-tatvan-ankara:12",
-      "from_station_id": "st-akbulut",
-      "to_station_id": "st-ekerek",
+      "from_station_id": "st-suveren",
+      "to_station_id": "st-akbulut",
       "route_id": "route-vangolu-ekspresi",
       "pattern_id": "pattern-vangolu-tatvan-ankara",
       "direction": "reverse",
@@ -7420,8 +7421,8 @@
     },
     {
       "id": "pattern-vangolu-tatvan-ankara:13",
-      "from_station_id": "st-ekerek",
-      "to_station_id": "st-arindik",
+      "from_station_id": "st-akbulut",
+      "to_station_id": "st-ekerek",
       "route_id": "route-vangolu-ekspresi",
       "pattern_id": "pattern-vangolu-tatvan-ankara",
       "direction": "reverse",
@@ -7429,8 +7430,8 @@
     },
     {
       "id": "pattern-vangolu-tatvan-ankara:14",
-      "from_station_id": "st-arindik",
-      "to_station_id": "st-beyhan",
+      "from_station_id": "st-ekerek",
+      "to_station_id": "st-arindik",
       "route_id": "route-vangolu-ekspresi",
       "pattern_id": "pattern-vangolu-tatvan-ankara",
       "direction": "reverse",
@@ -7438,8 +7439,8 @@
     },
     {
       "id": "pattern-vangolu-tatvan-ankara:15",
-      "from_station_id": "st-beyhan",
-      "to_station_id": "st-palu",
+      "from_station_id": "st-arindik",
+      "to_station_id": "st-beyhan",
       "route_id": "route-vangolu-ekspresi",
       "pattern_id": "pattern-vangolu-tatvan-ankara",
       "direction": "reverse",
@@ -7447,8 +7448,8 @@
     },
     {
       "id": "pattern-vangolu-tatvan-ankara:16",
-      "from_station_id": "st-palu",
-      "to_station_id": "st-muratbagi",
+      "from_station_id": "st-beyhan",
+      "to_station_id": "st-palu",
       "route_id": "route-vangolu-ekspresi",
       "pattern_id": "pattern-vangolu-tatvan-ankara",
       "direction": "reverse",
@@ -7456,8 +7457,8 @@
     },
     {
       "id": "pattern-vangolu-tatvan-ankara:17",
-      "from_station_id": "st-muratbagi",
-      "to_station_id": "st-caglar",
+      "from_station_id": "st-palu",
+      "to_station_id": "st-muratbagi",
       "route_id": "route-vangolu-ekspresi",
       "pattern_id": "pattern-vangolu-tatvan-ankara",
       "direction": "reverse",
@@ -7465,8 +7466,8 @@
     },
     {
       "id": "pattern-vangolu-tatvan-ankara:18",
-      "from_station_id": "st-caglar",
-      "to_station_id": "st-yurt",
+      "from_station_id": "st-muratbagi",
+      "to_station_id": "st-caglar",
       "route_id": "route-vangolu-ekspresi",
       "pattern_id": "pattern-vangolu-tatvan-ankara",
       "direction": "reverse",
@@ -7474,8 +7475,8 @@
     },
     {
       "id": "pattern-vangolu-tatvan-ankara:19",
-      "from_station_id": "st-yurt",
-      "to_station_id": "st-elazig",
+      "from_station_id": "st-caglar",
+      "to_station_id": "st-yurt",
       "route_id": "route-vangolu-ekspresi",
       "pattern_id": "pattern-vangolu-tatvan-ankara",
       "direction": "reverse",
@@ -7483,8 +7484,8 @@
     },
     {
       "id": "pattern-vangolu-tatvan-ankara:20",
-      "from_station_id": "st-elazig",
-      "to_station_id": "st-yolcati",
+      "from_station_id": "st-yurt",
+      "to_station_id": "st-elazig",
       "route_id": "route-vangolu-ekspresi",
       "pattern_id": "pattern-vangolu-tatvan-ankara",
       "direction": "reverse",
@@ -7492,8 +7493,8 @@
     },
     {
       "id": "pattern-vangolu-tatvan-ankara:21",
-      "from_station_id": "st-yolcati",
-      "to_station_id": "st-sefkat",
+      "from_station_id": "st-elazig",
+      "to_station_id": "st-yolcati",
       "route_id": "route-vangolu-ekspresi",
       "pattern_id": "pattern-vangolu-tatvan-ankara",
       "direction": "reverse",
@@ -7501,8 +7502,8 @@
     },
     {
       "id": "pattern-vangolu-tatvan-ankara:22",
-      "from_station_id": "st-sefkat",
-      "to_station_id": "st-baskil",
+      "from_station_id": "st-yolcati",
+      "to_station_id": "st-sefkat",
       "route_id": "route-vangolu-ekspresi",
       "pattern_id": "pattern-vangolu-tatvan-ankara",
       "direction": "reverse",
@@ -7510,8 +7511,8 @@
     },
     {
       "id": "pattern-vangolu-tatvan-ankara:23",
-      "from_station_id": "st-baskil",
-      "to_station_id": "st-pinarli",
+      "from_station_id": "st-sefkat",
+      "to_station_id": "st-baskil",
       "route_id": "route-vangolu-ekspresi",
       "pattern_id": "pattern-vangolu-tatvan-ankara",
       "direction": "reverse",
@@ -7519,8 +7520,8 @@
     },
     {
       "id": "pattern-vangolu-tatvan-ankara:24",
-      "from_station_id": "st-pinarli",
-      "to_station_id": "st-kussarayi",
+      "from_station_id": "st-baskil",
+      "to_station_id": "st-pinarli",
       "route_id": "route-vangolu-ekspresi",
       "pattern_id": "pattern-vangolu-tatvan-ankara",
       "direction": "reverse",
@@ -7528,8 +7529,8 @@
     },
     {
       "id": "pattern-vangolu-tatvan-ankara:25",
-      "from_station_id": "st-kussarayi",
-      "to_station_id": "st-gemici",
+      "from_station_id": "st-pinarli",
+      "to_station_id": "st-kussarayi",
       "route_id": "route-vangolu-ekspresi",
       "pattern_id": "pattern-vangolu-tatvan-ankara",
       "direction": "reverse",
@@ -7537,8 +7538,8 @@
     },
     {
       "id": "pattern-vangolu-tatvan-ankara:26",
-      "from_station_id": "st-gemici",
-      "to_station_id": "st-firat",
+      "from_station_id": "st-kussarayi",
+      "to_station_id": "st-gemici",
       "route_id": "route-vangolu-ekspresi",
       "pattern_id": "pattern-vangolu-tatvan-ankara",
       "direction": "reverse",
@@ -7546,8 +7547,8 @@
     },
     {
       "id": "pattern-vangolu-tatvan-ankara:27",
-      "from_station_id": "st-firat",
-      "to_station_id": "st-battalgazi",
+      "from_station_id": "st-gemici",
+      "to_station_id": "st-firat",
       "route_id": "route-vangolu-ekspresi",
       "pattern_id": "pattern-vangolu-tatvan-ankara",
       "direction": "reverse",
@@ -7555,8 +7556,8 @@
     },
     {
       "id": "pattern-vangolu-tatvan-ankara:28",
-      "from_station_id": "st-battalgazi",
-      "to_station_id": "st-malatya",
+      "from_station_id": "st-firat",
+      "to_station_id": "st-battalgazi",
       "route_id": "route-vangolu-ekspresi",
       "pattern_id": "pattern-vangolu-tatvan-ankara",
       "direction": "reverse",
@@ -7564,8 +7565,8 @@
     },
     {
       "id": "pattern-vangolu-tatvan-ankara:29",
-      "from_station_id": "st-malatya",
-      "to_station_id": "st-yazihan",
+      "from_station_id": "st-battalgazi",
+      "to_station_id": "st-malatya",
       "route_id": "route-vangolu-ekspresi",
       "pattern_id": "pattern-vangolu-tatvan-ankara",
       "direction": "reverse",
@@ -7573,8 +7574,8 @@
     },
     {
       "id": "pattern-vangolu-tatvan-ankara:30",
-      "from_station_id": "st-yazihan",
-      "to_station_id": "st-hekimhan",
+      "from_station_id": "st-malatya",
+      "to_station_id": "st-yazihan",
       "route_id": "route-vangolu-ekspresi",
       "pattern_id": "pattern-vangolu-tatvan-ankara",
       "direction": "reverse",
@@ -7582,8 +7583,8 @@
     },
     {
       "id": "pattern-vangolu-tatvan-ankara:31",
-      "from_station_id": "st-hekimhan",
-      "to_station_id": "st-akgedik",
+      "from_station_id": "st-yazihan",
+      "to_station_id": "st-hekimhan",
       "route_id": "route-vangolu-ekspresi",
       "pattern_id": "pattern-vangolu-tatvan-ankara",
       "direction": "reverse",
@@ -7591,8 +7592,8 @@
     },
     {
       "id": "pattern-vangolu-tatvan-ankara:32",
-      "from_station_id": "st-akgedik",
-      "to_station_id": "st-akcamagara",
+      "from_station_id": "st-hekimhan",
+      "to_station_id": "st-akgedik",
       "route_id": "route-vangolu-ekspresi",
       "pattern_id": "pattern-vangolu-tatvan-ankara",
       "direction": "reverse",
@@ -7600,8 +7601,8 @@
     },
     {
       "id": "pattern-vangolu-tatvan-ankara:33",
-      "from_station_id": "st-akcamagara",
-      "to_station_id": "st-demiriz",
+      "from_station_id": "st-akgedik",
+      "to_station_id": "st-akcamagara",
       "route_id": "route-vangolu-ekspresi",
       "pattern_id": "pattern-vangolu-tatvan-ankara",
       "direction": "reverse",
@@ -7609,8 +7610,8 @@
     },
     {
       "id": "pattern-vangolu-tatvan-ankara:34",
-      "from_station_id": "st-demiriz",
-      "to_station_id": "st-cetinkaya",
+      "from_station_id": "st-akcamagara",
+      "to_station_id": "st-demiriz",
       "route_id": "route-vangolu-ekspresi",
       "pattern_id": "pattern-vangolu-tatvan-ankara",
       "direction": "reverse",
@@ -7618,8 +7619,8 @@
     },
     {
       "id": "pattern-vangolu-tatvan-ankara:35",
-      "from_station_id": "st-cetinkaya",
-      "to_station_id": "st-yenikangal",
+      "from_station_id": "st-demiriz",
+      "to_station_id": "st-cetinkaya",
       "route_id": "route-vangolu-ekspresi",
       "pattern_id": "pattern-vangolu-tatvan-ankara",
       "direction": "reverse",
@@ -7627,8 +7628,8 @@
     },
     {
       "id": "pattern-vangolu-tatvan-ankara:36",
-      "from_station_id": "st-yenikangal",
-      "to_station_id": "st-bostankaya",
+      "from_station_id": "st-cetinkaya",
+      "to_station_id": "st-yenikangal",
       "route_id": "route-vangolu-ekspresi",
       "pattern_id": "pattern-vangolu-tatvan-ankara",
       "direction": "reverse",
@@ -7636,8 +7637,8 @@
     },
     {
       "id": "pattern-vangolu-tatvan-ankara:37",
-      "from_station_id": "st-bostankaya",
-      "to_station_id": "st-sivas",
+      "from_station_id": "st-yenikangal",
+      "to_station_id": "st-bostankaya",
       "route_id": "route-vangolu-ekspresi",
       "pattern_id": "pattern-vangolu-tatvan-ankara",
       "direction": "reverse",
@@ -7645,8 +7646,8 @@
     },
     {
       "id": "pattern-vangolu-tatvan-ankara:38",
-      "from_station_id": "st-sivas",
-      "to_station_id": "st-kalin",
+      "from_station_id": "st-bostankaya",
+      "to_station_id": "st-sivas",
       "route_id": "route-vangolu-ekspresi",
       "pattern_id": "pattern-vangolu-tatvan-ankara",
       "direction": "reverse",
@@ -7654,8 +7655,8 @@
     },
     {
       "id": "pattern-vangolu-tatvan-ankara:39",
-      "from_station_id": "st-kalin",
-      "to_station_id": "st-bedirli",
+      "from_station_id": "st-sivas",
+      "to_station_id": "st-kalin",
       "route_id": "route-vangolu-ekspresi",
       "pattern_id": "pattern-vangolu-tatvan-ankara",
       "direction": "reverse",
@@ -7663,8 +7664,8 @@
     },
     {
       "id": "pattern-vangolu-tatvan-ankara:40",
-      "from_station_id": "st-bedirli",
-      "to_station_id": "st-hanli",
+      "from_station_id": "st-kalin",
+      "to_station_id": "st-bedirli",
       "route_id": "route-vangolu-ekspresi",
       "pattern_id": "pattern-vangolu-tatvan-ankara",
       "direction": "reverse",
@@ -7672,8 +7673,8 @@
     },
     {
       "id": "pattern-vangolu-tatvan-ankara:41",
-      "from_station_id": "st-hanli",
-      "to_station_id": "st-sarkisla",
+      "from_station_id": "st-bedirli",
+      "to_station_id": "st-hanli",
       "route_id": "route-vangolu-ekspresi",
       "pattern_id": "pattern-vangolu-tatvan-ankara",
       "direction": "reverse",
@@ -7681,12 +7682,21 @@
     },
     {
       "id": "pattern-vangolu-tatvan-ankara:42",
+      "from_station_id": "st-hanli",
+      "to_station_id": "st-sarkisla",
+      "route_id": "route-vangolu-ekspresi",
+      "pattern_id": "pattern-vangolu-tatvan-ankara",
+      "direction": "reverse",
+      "sequence": 42
+    },
+    {
+      "id": "pattern-vangolu-tatvan-ankara:43",
       "from_station_id": "st-sarkisla",
       "to_station_id": "st-ankara-gar",
       "route_id": "route-vangolu-ekspresi",
       "pattern_id": "pattern-vangolu-tatvan-ankara",
       "direction": "reverse",
-      "sequence": 42
+      "sequence": 43
     },
     {
       "id": "pattern-guney-kurtalan-ankara-kurtalan:1",
