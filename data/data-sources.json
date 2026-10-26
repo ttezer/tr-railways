@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T09:59:30.678Z",
+  "generated_at": "2026-10-26T08:42:15.557Z",
   "publication_status": "independent_personal_project",
   "sources": [
     {
@@ -58,11 +58,11 @@
       "id": "timetable",
       "status": "official_published",
       "calendar_strategy": "explicit_service_dates",
-      "source_count": 168,
-      "trip_count": 6452,
-      "stop_time_count": 117862,
+      "source_count": 200,
+      "trip_count": 7084,
+      "stop_time_count": 129090,
       "valid_from": "2026-08-31",
-      "valid_until": "2026-11-03"
+      "valid_until": "2026-11-09"
     },
     {
       "id": "service-notices",
